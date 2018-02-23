@@ -32,7 +32,7 @@ For this to work, your device must be able to connect to your PC over the networ
 1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
   + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
   + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incomming connections to any of these ports
+1. Ensure your firewall does not block incoming connections to any of these ports
 
 #### Section II - Running PegaSwitch
 
