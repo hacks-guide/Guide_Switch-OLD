@@ -6,13 +6,13 @@ title: "Homebrew Launcher"
 
 ### Wichtig
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Der Homebrew Launcher wird über einen Browserexploit auf deinem Gerät "installiert". 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Sobald diese Installation abgeschlossen wurde, wirst du in der Lage sein den Homebrew Launcher durch die Album Applikation zu starten *bis dein Gerät neugestartet wird*.
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Nach einem Neustart, musst du den Exploit erneut durchführen um den Homebrew Launcher erneut starten zu können. Wenn du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
 ### Was du benötigst
