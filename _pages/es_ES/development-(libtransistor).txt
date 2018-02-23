@@ -1,23 +1,23 @@
 ---
-title: "Development (libtransistor)"
+title: "Desarrollo (libtransistor)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-### What You Need
+### Qué necesitas
 
-* A supported operating system
-  + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
+* Un sistema operativo compatible
+  + MacOS y la mayoría de las distribuciones de Linux son compatibles; se proveerán los comandos para Arch Linux, Ubuntu y Debian
   + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* Basic development tools
+* Herramientas básicas de desarrollo
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
 ### Instrucciones
 
-#### Section I - Installing Dependencies
+#### Sección I - Instalar dependencias
 
 The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
 
