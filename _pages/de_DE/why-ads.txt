@@ -5,11 +5,11 @@ layout: single-no-ads
 
 Dieses Projekt hat Hunderte von Stunden durchgehender Arbeit in Anspruch genommen.
 
-Wir halten diese Anleitung immer auf dem neuesten Stand und das kostenlos. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Wir halten diese Anleitung immer auf dem neuesten Stand und das kostenlos. Durch diesen Aufwand denken wir, dass es fair ist einige Einnahmen durch unsere Arbeit zu bekommen.
 
-This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Diese Seite kostet dich nichts und die Werbung, die wir geschaltet haben, ist unaufdringlich. Solltest du dennoch ein Problem damit haben, steht es dir frei, die Werbung zu blockieren.
 
-If you do block ads, we would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Wenn du die Werbung blockierst, möchten wir dich hiermit noch einmal an die [Spendenseite](donations) erinnern, aber auch Spenden sind optional.
 
-Thanks,<br>
+Vielen Dank,<br>
 Plailect
