@@ -22,17 +22,6 @@ Currently, there are two major libraries used for developing Switch homebrew.
 
 ___
 
-#### Development (libtransistor)
-
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
-
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
-
-Continue to [Development (libtransistor)](development-(libtransistor))
-{: .notice--primary}
-
-___
-
 #### Development (libnx)
 
 The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
@@ -40,4 +29,15 @@ The libnx library is developed by SwitchBrew and built on the devkitA64 toolchai
 Binaries can be run on your device using the Homebrew Launcher.
 
 Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+{: .notice--primary}
+
+___
+
+#### Development (libtransistor)
+
+The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+
+Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+
+Continue to [Development (libtransistor)](development-(libtransistor))
 {: .notice--primary}

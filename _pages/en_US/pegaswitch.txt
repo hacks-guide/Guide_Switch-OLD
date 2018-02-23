@@ -19,7 +19,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
   + MacOS and most linux distributions are supported
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime
+* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
 
 ### Instructions
 
