@@ -6,24 +6,24 @@ title: "PegaSwitch"
 
 ### Wichtig
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch ist ein entwicklerfokusiertes Toolkit für die Switch Entwicklung von ReSwitched. Es ist kompatibel mit den Firmware Versionen 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Das Toolkit nutzt eine Kombination von Sicherheitslücken um den Webkit-basierten Browser zu übernehmen, um dem Nutzer eine Kommandozeile bereitzustellen, welche genutzt werden kann um Arbeitsspeicher zu lesen/schreiben, native Methoden aufzurufen oder anderstweitig die Funktionalität der Switch zu ergründen.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
+Beachte das der derzeitige Homebrewexploit die Nebenwirkung hat, das die Mii Datenbank deines Gerätes fehlerhaft wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
 {: .notice--warning}
 
 ### Was du brauchst
 
 * Ein unterstütztes Betriebssystem
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
+  + MacOS und die meisten Linux Distributionen werden unterstützt
+  + Windows wird am besten mit einer [Windows Subsystem für Linux](https://docs.microsoft.com/de-de/windows/wsl/install-win10) Distribution unterstützt
+* Das [git](https://git-scm.com/) Versionskontrollsystem
 * The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
 
 ### Anleitung
 
-#### Section I - Network Configuration
+#### Section I - Netzwerk Konfiguration
 
 PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
 
@@ -34,7 +34,7 @@ For this to work, your device must be able to connect to your PC over the networ
   + Linux / MacOS: view the output of `sudo netstat -tulpn`
 1. Ensure your firewall does not block incoming connections to any of these ports
 
-#### Section II - Running PegaSwitch
+#### Abschnitt II - PegaSwitch starten
 
 ~~~ bash
 # Klone das Repository
@@ -44,28 +44,28 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
+# starte PegaSwitch
 # Windows users: omit the 'sudo'
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### Abschnitt III - DNS Konfiguration
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
+1. Finde die IP Adresse deines PCs mit `ifconfig` (oder `ipconfig` auf Windows)
+1. Starte die System Einstellungen auf deinem Gerät
 1. Navigiere zu "Internet" -> "Interneteinstellungen"
 1. Wähle dein aktuelles Netzwerk
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"
 1. Setze "DNS-Einstellungen" auf "Manuell"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+1. Setze "Primärer DNS" und "Sekundärer DNS" zu der IP Adresse deines PCs
 1. Speichere die Einstellungen
-1. Return to `Internet Settings`
+1. Gehe zurück zu `Internet Einstellungen`
 
-#### Section IV - Initial Connection
+#### Abschnitt IV - Erste Verbindung
 
 1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
@@ -73,7 +73,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
 1. Wähle "Weiter"
 1. Die PegaSwitch Website wird laden
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Wenn der Exploit erfolgreich war, wirst du nun eine PegaSwitch Shell mit deiner Konsole verbunden haben
 
 #### Abschnitt V - Alternative Browser Applets (optional)
 
@@ -111,5 +111,5 @@ You can now easily connect to your device using the PegaSwitch environment.
 For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Zurück zu [Homebrew Entwicklung](homebrew-development)
 {: .notice--primary}
