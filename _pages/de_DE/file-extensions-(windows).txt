@@ -1,18 +1,18 @@
 ---
-title: "File Extensions (Windows)"
+title: "Dateierweiterungen (Windows)"
 ---
 
 {% include toc title="Inhalt" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
+Dies ist ein Add-on-Abschnitt für das Deaktivieren des Windows Standard-Verhalten, Dateierweiterungen zu verstecken.
 
-This will make it easier for you to find the referenced files in the rest of this guide.
+Dies wird es einfacher machen die benötigten Dateien im Rest der Anleitung zu finden.
 
 ### Anleitung
 
 #### Windows 10 / 8.1 / 8
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
+1. Starte den Datei-Explorer, indem sie irgendein Verzeichnis öffnen, wie zum Beispiel dein SD-Karte-Verzeichnis
 1. Click the "View" option on the ribbon menu 
 1. Check the box labeled "File name extensions"
 
