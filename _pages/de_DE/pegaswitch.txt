@@ -83,12 +83,12 @@ While we used the connection test browser applet to initially trigger the exploi
 
 Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
 
-##### eShop Sign In Prompt
+##### eShop Einloggen-Fenster
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Um diese Methode zu nutzen, erstelle einen zweiten Account auf deinem Gerät. Verbinde ihn nicht mit einen Nintendo Account.
 
-1. Launch Nintendo eShop
-1. Select the second account
+1. Starte den Nintendo eShop
+1. Wähle den zweiten Account
 1. Select "Sign In and link"
 1. The browser applet will launch
 
