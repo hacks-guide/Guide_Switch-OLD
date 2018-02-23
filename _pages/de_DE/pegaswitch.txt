@@ -89,19 +89,19 @@ Um diese Methode zu nutzen, erstelle einen zweiten Account auf deinem Gerät. Ve
 
 1. Starte den Nintendo eShop
 1. Wähle den zweiten Account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Wähle "Einloggen und verbinden"
+1. Die Browserapplet wird starten
 
-##### Game Update Prompt
+##### Spielupdate Fenster
 
-To use this method, you must have at least one game on your home screen.
+Um diese Methode zu nutzen, musst du mindestens ein Spiel auf deinem Homescreen haben.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Beachte, dass wenn du nicht mit den korrekten DNS Servern verbunden bist, diese Methode dein Gerät updaten *wird*. Das ist gefährlich!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Drücke (+) mit irgendeinem Spiel ausgewählt
+1. Im "Softwareupdate" Reiter, wähle "Über das Internet"
+1. Die Browserapplet wird starten
 
 ___
 
