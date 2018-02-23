@@ -13,22 +13,22 @@ Dies wird es einfacher machen die benötigten Dateien im Rest der Anleitung zu f
 #### Windows 10 / 8.1 / 8
 
 1. Starte den Datei-Explorer, indem sie irgendein Verzeichnis öffnen, wie zum Beispiel dein SD-Karte-Verzeichnis
-1. Click the "View" option on the ribbon menu 
-1. Check the box labeled "File name extensions"
+1. Klicke auf dem Ribbon-Menü die Option "Ansicht" 
+1. Aktiviere das Kontrollkästchen mit der Bezeichnung "Datei Dateinamenerweiterungen"
 
     ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
 #### Windows 7
 
-1. Open the start menu by clicking on it or using the Windows key
-1. Search for "Folder Options" and select the corresponding result
+1. Öffne das Startmenü, indem du darauf klickst oder die Windows-Taste betätigst
+1. Suche nach "Ordneroptionen" und wähle das entsprechende Ergebnis aus
 
     ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
     {: .notice--info}
 
-1. Click the "View" option at the top of the Folder Options menu
-1. Uncheck the box labeled "Hide extensions for known file types"
+1. Klicke oben im Menü "Ordner-Optionen" die Option "Ansicht"
+1. Deaktiviere das Kontrollkästchen "Erweiterungen bei bekannten Dateitypen ausblenden"
 
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
