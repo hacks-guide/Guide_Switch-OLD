@@ -1,33 +1,33 @@
 ---
-title: "Game Card Update"
+title: "Software-Karten-Update"
 ---
 
 {% include toc title="Inhalt" %}
 
 ### Wichtig
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Alle Spielmodule erhalten eine Kopie der System-Firmware, die die Software benötigt, um abgespielt zu werden. Dies ermöglicht jedem Spieler mit einem Gerät einer niedrigeren Firmware, der das betreffende Spiel benutzt, auf die vorinstallierte Betriebssoftware zu aktualisieren (sogar ohne Internetverbindung).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Das hat den Vorteil, dass wir ein bestimmtes Spiel nutzen können um eine neuere Firmwareversion (3.0.0) zu installieren, ohne bis zur neusten Version zu updaten. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Bevor wir mit einem Cardupdate beginnen, blockieren wir alle online Updates indem wir den Flugzeugmodus anschalten und im Recovery Menü alle Update Daten löschen, die eventuell schon heruntergeladen wurden.
 
-### What you need
+### Was du benötigst
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Eine original Spielkarte von [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Originale Versionen von dieser Spielkarte haben 3.0.0; sie haben eine grüne Leiterplatte und eine Seriennummer die mit **000** endet (siehe Bild unten)
+  + Neuere Versionen von dieser Spielkarte haben 3.0.1; sie haben eine schwarze Leiterplatte und eine Seriennummer die mit **001** endet (*benutze diese nicht zum updaten!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### Anleitung
 
-#### Section I - Enable Airplane Mode
+#### Abschnitt I - Flugzeugmodus aktivieren
 
 1. Starte die Systemeinstellungen
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
+1. Gehe zu `Flugzeug Modus`
+1. Schalte den Flugzeug Modus an
 1. Verlasse die Systemeinstellungen
 
 #### Abschnitt II - Löschen der Updaten-Daten
@@ -37,20 +37,20 @@ Before performing the game card update, we block online updates by using airplan
 1. Alle heruntergeladenen Update-Daten wurden vom System gelöscht
 1. Drücke (Power) um das Gerät auszuschalten
 
-#### Section III - Game Card Update
+#### Abschnitt III - Spielkarten Update
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Stecke deine Pokkén Tournament DX Spielkarte in dein Gerät
+1. Versuche, das Spiel zu starten
+1. Aktualisiere, wenn du dazu aufgefordert wirst
 
-#### Section IV - Disable Airplane Mode
+#### Abschnitt IV - Flugzeugmodus deaktivieren
 
 1. Starte die Systemeinstellungen
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
+1. Gehe zu `Flugzeug Modus`
+1. Schalte den Flugzeug Modus aus
 1. Verlasse die Systemeinstellungen
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Weiter zu [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
