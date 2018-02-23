@@ -53,7 +53,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Wähle "Verbindung zu diesem Netzwerk"
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
 1. Wähle "Weiter"
-1. The Homebrew Launcher webpage will load
+1. Die Homebrew Launcher Website wird laden
 1. Wähle "Install"
 1. Die PegaSwitch Website wird laden
 1. Wenn der Exploit erfolgreich war, wirst du den Fehler `2000-1337` sehen
