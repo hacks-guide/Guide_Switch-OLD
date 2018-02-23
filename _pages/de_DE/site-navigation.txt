@@ -1,0 +1,37 @@
+---
+title: "Seitennavigation" #
+layout: single-no-ads
+sitemap: false
+---
+
+{% capture notice-1 %}
+**Beliebt**
+
++ [Homebrew Launcher](homebrew-launcher)
++ [Blockiere Updates](blocking-updates)
++ [Software-Karten-Update](game-card-update)
+{% endcapture %}
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-2 %}
+**Alles**
+
++ [Blockiere Updates](blocking-updates)
++ [Danksagungen](credits)
++ Entwicklung (libtransistor)](development-(libtransistor))
++ [Spenden](donations)
++ [F3 (Linux)](f3-(linux))
++ [F3X (Mac)](f3x-(mac))
++ [FAQ](faq)
++ [Datei-Erweiterungen (Windows)](file-extensions-(windows))
++ [Software-Karten-Update](game-card-update)
++ [Los geht's](get-started)
++ [H2testw (Windows)](h2testw-(windows))
++ [Startseite](/)
++ [Haxchi](haxchi)
++ [Homebrew Entwicklung](homebrew-development)
++ [Homebrew Launcher](homebrew-launcher)
++ [PegaSwitch](pegaswitch)
++ [Warum Werbung?](why-ads)
+{% endcapture %}
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
