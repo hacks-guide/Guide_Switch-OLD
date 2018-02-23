@@ -29,9 +29,9 @@ Wenn dein Gerät auf Firmware Version 3.0.0 ist, kannst du komplett kostenlos Ho
 
 ## Was ist Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Sobald veröffentlicht, ermöglicht **Custom Firmware** ("CFW") dir fortgeschrittene Hacks, welche Userland-Homebrew nicht ohne weiteres erlaubt. Es ist aktuell in Entwicklung und wird gemäß des Veröffentlichungsplans veröffentlich sobald alle Komponenten fertiggestellt wurden.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen sortiert, aufgeteilt in folgende Stufen: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -41,9 +41,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Nahe Zukunft</th>
+      <th style="text-align: center; font-weight: bold;">Ferne Zukunft</th>
+      <th style="text-align: center; font-weight: bold;">Sehr ferne Zukunft™</th>
     </tr>
   </thead>
   <tbody>
@@ -55,27 +55,27 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Wenn dein Gerät auf Firmware Version 1.0.0 ist und du interessiert an CFW bist, dann ist deine beste Option dieser Anleitung [Updates blockieren](blocking-updates) zu folgen. Kaufe eine japanische Version von [Puyo Puyo Tetris](http://amzn.to/2BMJa26) (welche benötigt wird für Custom Firmware auf Version 1.0.0) und warte auf die Veröffentlichung einer Custom Firmware.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Wenn dein Gerät auf Firmware Version >=3.0.1 ist, ist deine beste Option auf 4.1.0 upzudaten (da diese Versionen zur gleichen Zeit CFW erhalten werden). Folge der [Updates blockieren](blocking-updates) Anleitung, kaufe dir Spiele solange du kannst (da der eShop nur auf der aktuellsten Version funktioniert) und warte auf die Veröffentlichung einer Custom Firmware.
 {: .notice--info}
 
-## What does this guide install?
+## Was installiert diese Anleitung?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Diese Anleitung ermöglicht den Zugang zum Homebrew Launcher mit einem Browser Exploit, auch wenn "installieren" keine wirklich akurate Beschreibung ist. Dies liegt daran, dass der Exploit nach jedem Neustart wieder neu geladen werden muss um den Zugang zum Homebrew Launcher zu ermöglichen.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
 
-## What do I need to know before starting?
+## Was muss ich wissen, bevor ich anfange?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
++ Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
 + The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Du benötigst eine Micro SD-Karte für dein Gerät. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
++ Falls du eine SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 32K setzen.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Fahre fort mit [Los geht's](get-started)
 {: .notice--primary}
