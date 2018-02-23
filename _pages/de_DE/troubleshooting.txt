@@ -1,34 +1,34 @@
 ---
-title: "Troubleshooting"
+title: "Problembehandlung"
 ---
 
 {% include toc title="Inhalt" %}
 
 ### Wichtig
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+Wenn Probleme auftreten, suche bitte den Abschnitt der passt und folge seinen Anweisungen.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Solltest du dein Problem immer noch nicht lösen können und du brauchst Hilfe, bitte bereite eine detailierte Beschreibung deines Problems vor.
 
-## Error 2347-0003
+## Fehler 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Dieser Fehler tritt auf, wenn die nx-hbmenu `.nro` nicht auf der SD Karte gefunden wurde.
 
 ### Was du brauchst
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Die neuste Version von [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Anleitung
 
 1. Schalte das Gerät aus
 1. Stecke deine SD Karte in den Computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Kopiere `hbmenu.nro` aus der nx-hbmenu `.zip` auf das Stammverzeichnis deiner SD-Karte
+1. Stecke deine SD-Karte wieder in die Gerät
+1. Schalte dein Gerät an
 
-## Enable Extra Error Info
+## Aktiviere Extra Fehler Informationen
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+Dieses Script wird zusätzliche Informationen anzeigen wenn ein Fehler auftritt. Es könnte für Debugging nützlich sein.
 
 ### Was du benötigst
 
@@ -37,6 +37,6 @@ This script will enable the displaying of extra error info when a fatal error is
 
 ### Anleitung
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. Kopiere `extraerrorinfo.js` in den `/usefulscripts/` Ordner in PegaSwitch
+1. Verbinde dich mit deinem Gerät mit PegaSwitch
+1. Führe `evalfile usefulscripts/extraerrorinfo.js` aus
