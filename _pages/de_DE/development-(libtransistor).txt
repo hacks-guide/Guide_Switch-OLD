@@ -1,0 +1,126 @@
+---
+title: "Entwicklung (libtransistor)"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+### Was du brauchst
+
+* Ein unterstütztes Betriebssystem
+  + MacOS und die meisten Linux Distributionen werden unterstützt. Befehle werden für Arch Linux, Ubuntu und Debian angegeben
+  + Windows wird *nur* mit einer [Windows Subsystem für Linux](https://docs.microsoft.com/de-de/windows/wsl/install-win10) Distribution unterstützt
+* Grundlegende Entwicklungstools
+  + Linux / WSL: Installiere das richtige Entwicklungspacket für deine Distribution (Wie z. B. `base-devel` unter Arch oder `build-essentials` unter Ubuntu/Debian)
+  + MacOS: Installiere die Xcode Kommandozeilentools und den [Homebrew](https://brew.sh/) Packetmanager
+
+### Anleitung
+
+#### Abschnitt I - Abhängigkeiten installieren
+
+Die libtransistor Bibliothek ist von mehreren Programmen, unter anderem LLVM / Clang, Python 3 und cmake, abhängig.
+
+Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle aus.
+
++ MacOS: 
+
+  ~~~ bash
+  # Installiere die Abhängigkeiten
+  brew install python3 cmake llvm
+
+  # Füge llvm manuell zum $PATH hinzu
+  echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.bash_profile
+  ~~~
+
++ Arch Linux: 
+
+  ~~~ bash
+  # Installiere die Abhängigkeiten
+  sudo pacman -Syu python python-pip cmake clang lld nmap
+  ~~~
+
++ Ubuntu / Debian: 
+  
+  Füge die [LLVM Repository](https://apt.llvm.org/) welche deinem Betriebssystem entspricht zu `/etc/apt/sources.list` hinzu bevor du diese Befehle ausführst.
+
+  ~~~ bash
+  # Füge den LLVM Signaturschlüssel hinzu
+  # Fingerabdruck: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+
+  # Installiere die Abhängigkeiten
+  sudo apt-get update
+  sudo apt-get install build-essential automake autoconf python3-setuptools squashfs-tools python3 python3-dev python3-pip cmake clang-5.0 lld-5.0 nmap
+  ~~~
+
+#### Abschnitt II - libtransistor compilieren
+
++ MacOS: 
+
+  ~~~ bash
+  # Klone das Repository
+  git clone --recursive https://github.com/reswitched/libtransistor
+  cd libtransistor
+
+  # Installieren der Python Abhängigkeiten
+  pip3 install -r requirements.txt
+
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
+  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+
+  # Kompiliere libtransistor
+  make
+  ~~~
+
++ Arch Linux: 
+
+  ~~~ bash
+  # Klone das Repository
+  git clone --recursive https://github.com/reswitched/libtransistor
+  cd libtransistor
+
+  # Installieren der Python Abhängigkeiten
+  pip install -r requirements.txt
+
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
+  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+
+  # Kompiliere libtransistor
+  make
+  ~~~
+
++ Ubuntu / Debian: 
+
+  ~~~ bash
+  # Klone das Repository
+  git clone --recursive https://github.com/reswitched/libtransistor
+  cd libtransistor
+
+  # Installieren der Python Abhängigkeiten
+  pip3 install -r requirements.txt
+
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
+  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+
+  # Kompiliere libtransistor
+  make LLVM_POSTFIX=-5.0
+  ~~~
+
+### Abschnitt III - ACE Loader
+
+Für Informationen zur Nutzung von ACE Loader, schau dir die [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) auf GitHub an.
+{: .notice--info}
+
+#### Abschnitt IV - Mephisto
+
+Für Informationen zur Nutzung von Mephisto, schau dir die [repository](https://github.com/reswitched/Mephisto) auf GitHub an.
+{: .notice--info}
+
+___
+
+Du hast nun eine voll funktionsfähige libtranistor Entwicklungsumgebung.
+{: .notice--success}
+
+Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
+{: .notice--success}
