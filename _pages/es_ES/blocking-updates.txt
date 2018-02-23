@@ -39,5 +39,5 @@ Additionally, we enter Recovery / Maintenance Mode and delete any update data wh
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Las actualizaciones ahora están bloqueadas en tu consola para la red configurada.
 {: .notice--success}
