@@ -1,0 +1,71 @@
+---
+title: "Los geht's"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+Verschiedene Geräteversionen werden verschiedene Schritte benötigen um das Endziel von Homebrew zu erreichen. Diese Seite wird dich durch alle benötigten Schritte passend zu deiner Konsole leiten.
+
+Bevor du beginnst, solltest du als Windows-Benutzer die Option zum Anzeigen der Datei-Erweiterungen aktivieren mit [Datei-Erweiterungen (Windows)](file-extensions-(windows))!
+{: .notice--info}
+
+Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
+{: .notice--warning}
+
+Wähle die entsprechende Seite für deine Version aus der unten folgenden Tabelle. Beachte, dass die "Von" und "Bis"-Felder inklusive sind. Das heißt, dass zum Beispiel die Spalte "von 1.0.0 bis 2.3.0" 1.0.0, 2.3.0 und alle Versionen dazwischen beinhaltet.
+
+Deine Geräteversion kann im Systeminformationen Menü im System-Tab in den Systemeinstellungen eingesehen werden.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+{% capture notice %}
+
+Beachte, dass das Geräte die Systemversion eventuell nicht anzeigt, wenn ein schon Update heruntergeladen wurde.
+
+Wenn das der Fall ist, kannst du deine Systemversion im Recoverymenü einsehen, indem du dein Gerät einschaltest, während du (Power) + (Lautstärke hoch) + (Lautstärke runter) gedrückt hältst.
+
+{% endcapture %}
+
+<div class="notice--warning">{{ notice | markdownify }}</div>
+
+### Versionstabelle
+
+<table>
+  <colgroup>
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 80%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Von</th>
+      <th style="text-align: center; font-weight: bold;">Bis</th>
+      <th style="text-align: center; font-weight: bold;"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">Warte auf CFW -- <a href="blocking-updates">Updates Blockieren</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.3.0</td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Gamecard Update</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.1</td>
+      <td style="text-align: center; font-weight: bold;">4.1.0</td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Updates Blockieren</a></td>
+    </tr>
+  </tbody>
+</table>
