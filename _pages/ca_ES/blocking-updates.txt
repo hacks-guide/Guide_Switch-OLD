@@ -1,0 +1,43 @@
+---
+title: "Blocking Updates"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+
+In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+
+Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+
+### Instructions
+
+#### Section I - DNS Configuration
+
+Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+{: .notice--warning}
+
+1. Launch System Settings
+1. Navigate to `Internet` -> `Internet Settings`
+1. Select your current network
+  + This is signified by a green check mark next to the network
+1. Select "Change Settings"
+1. Set "DNS Settings" to "Manual"
+1. Set "Primary DNS" to `173.255.238.217`
+1. Set "Secondary DNS" to `173.255.238.217`
+1. Save the network settings
+1. Exit System Settings
+
+#### Section II - Deleting Update Data
+
+1. Power off your device
+1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. Any downloaded update data has been deleted from your system
+1. Press (Power) to power off your device
+
+___
+
+Updates are now blocked on your device for the configured network.
+{: .notice--success}
