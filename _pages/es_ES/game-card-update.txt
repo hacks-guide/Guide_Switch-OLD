@@ -30,9 +30,9 @@ Before performing the game card update, we block online updates by using airplan
 1. Enable Airplane Mode
 1. Exit System Settings
 
-#### Section II - Deleting Update Data
+#### Sección II - Borrar datos de actualización
 
-1. Power off your device
+1. Apaga tu consola
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. Any downloaded update data has been deleted from your system
 1. Press (Power) to power off your device
