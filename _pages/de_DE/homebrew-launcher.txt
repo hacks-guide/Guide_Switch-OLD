@@ -115,14 +115,14 @@ Um Homebrew Applikationen zu installieren, kopiere einfach die Homebrew `.nro` D
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Du kannst nun den Homebrew Launcher über die Album Applikation von deinem Home-Menü aus starten (bis zum nächsten Neustart).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Du musst nach jedem Neustart die "Run" Schritte dieses Exploits neu durchführen (mit einer der Browserapplets) um den Homebrew Launcher wieder zu öffnen.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Für normale Homebrew- und Entwicklungs Fortschritte, checke den [ReSwitched Weekly](https://reswitchedweekly.github.io/) Blog ab und zu.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Für Informationen zum Beitragen zur Homebrew Entwicklung als Entwickler, schau dir die [Homebrew Entwicklung](homebrew-development) Seite an.
 {: .notice--primary}
