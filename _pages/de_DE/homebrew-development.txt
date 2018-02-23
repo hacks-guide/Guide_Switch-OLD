@@ -1,43 +1,43 @@
 ---
-title: "Homebrew Development"
+title: "Homebrew Entwicklung"
 ---
 
 {% include toc title="Inhalt" %}
 
 ### Wichtig
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+Zur Zeit ist das am meisten genutzte öffentliche Exploitationtoolkit für die Switch PegaSwitch, entwickelt von ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
 {: .notice--success}
 
-While the Homebrew Launcher alone is sufficient for running compiled homebrew, any more serious development work will likely require a local PegaSwitch environment. 
+Obwohl der Homebrew Launcher alleine ausreicht, um kompiliertes Hombrew zu starten, für ernsteres Entwikeln brauchst du wahrscheinlich eine lokale PegaSwitch Umgebung. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Für Informationen über das aufsetzen einer PegaSwitch Umgebung, besuche die [PegaSwitch](pegaswitch) Seite.
 {: .notice--primary}
 
-### Libraries
+### Bibliotheken
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Gerade gibt es zwei große Bibliotheken die für das Entwickeln von Switchhomebrew benutzt werden.
 
 ___
 
-#### Development (libtransistor)
+#### Entwicklung (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+Die libtransistor Bibliothek ist von ReSwitched entwickelt und auf dem LLVM / Clang stack aufgebaut. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Ausführbare Dateien können auf deinem PC mit dem Mephisto Emulator getestet werden, oder auf deinem Device mit entweder dem Homebrew Launcher oder dem ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Weiter zu [Development (libtransistor)](development-(libtransistor))
 {: .notice--primary}
 
 ___
 
-#### Development (libnx)
+#### Entwicklung (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+Die libnx Bibliothek ist von SwitchBrew entwickelt und baut auf der devkitA64 toolchain auf.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Ausführbare Dateien können auf deinem Gerät mit dem Homebrew Launcher geöffnet werden.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Weiter zu [Aufsetzen einer Entwicklungsumgebung](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) auf SwitchBrew
 {: .notice--primary}
