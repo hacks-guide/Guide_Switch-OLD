@@ -41,17 +41,17 @@ sidebar_pages:
     title: Accueil
     url: /
   - 
-    title: Get Started
+    title: Pour commencer
     url: get-started
   - 
-    title: Blocking Updates
+    title: Bloquer les mises à jour
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Mise à jour via cartouche
     url: game-card-update
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Options multiples
     url: multiple-options
