@@ -12,27 +12,27 @@ Sobald diese Installation abgeschlossen wurde, wirst du in der Lage sein den Hom
 
 Nach einem Neustart, musst du den Exploit erneut durchführen um den Homebrew Launcher erneut starten zu können. Wenn du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
 
-Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. While this effect is harmless, it will result in the loss of any user-created Miis.
+Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
 {: .notice--warning}
 
 ### Was du benötigst
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Die neuste Version von [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Anleitung
 
-#### Section I - Prep Work
+#### Abschnitt I - Vorbereitungen
 
 1. Schalte das Gerät aus
 1. Stecke deine SD Karte in den Computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Kopiere `hbmenu.nro` von dem nx-hbmenu `.zip` auf das Stammverzeichnis deiner SD-Karte
+1. Erstelle einen Ordner namens `switch` im Stammverzeichnis deiner SD-Karte falls er noch nicht existiert
+1. Setze die SD-Karte wieder in die Konsole ein
+1. Schalte dein Gerät an
 
-#### Section II - DNS Configuration
+### Abschnitt II - DNS-Konfiguration
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf denen du dich verbindest um in der Lage zu sein den Exploit auszuführen.
 {: .notice--info}
 
 1. Starte die Systemeinstellungen
@@ -41,19 +41,19 @@ Note that these DNS servers will need to be set on each network you connect your
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"
 1. Setze "DNS-Einstellungen" auf "Manuell"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. Setze "Primärer DNS" zu `104.236.106.125`
+1. Setze "Sekundärer DNS" zu `62.210.147.20`
 1. Speichere die Einstellungen
 1. Verlasse die Systemeinstellungen
 
-#### Section III - Initial Installation
+#### Abschnitt III - Erstinstallation
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
-1. Select "Connect to this Network"
+1. Wähle "Verbindung zu diesem Netzwerk"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
-1. The Homebrew Launcher webpage
+1. The Homebrew Launcher webpage will load
 1. Select "Install"
 1. The PegaSwitch webpage will load
 1. If the exploit was successful, you will see the error `2000-1337`
@@ -64,9 +64,9 @@ Note that these DNS servers will need to be set on each network you connect your
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
-1. Select "Connect to this Network"
+1. Wähle "Verbindung zu diesem Netzwerk"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The Homebrew Launcher webpage
