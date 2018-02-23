@@ -19,20 +19,20 @@ Beachte das der derzeitige Homebrewexploit die Nebenwirkung hat, das die Mii Dat
   + MacOS und die meisten Linux Distributionen werden unterstützt
   + Windows wird am besten mit einer [Windows Subsystem für Linux](https://docs.microsoft.com/de-de/windows/wsl/install-win10) Distribution unterstützt
 * Das [git](https://git-scm.com/) Versionskontrollsystem
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* Die [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (aktueller Release)
 
 ### Anleitung
 
 #### Section I - Netzwerk Konfiguration
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch funktioniert indem ein sogenanntes [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) gehostet wird.
 
-For this to work, your device must be able to connect to your PC over the network.
+Damit dies funktioniert, muss dein Gerät sich mit deinem PC über das Netzwerk verbinden können.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Stelle sicher, dass keine anderen Anwendungen auf UDP Port 53 und TCP Ports 80 und 8100 laufen
+  + WSL: Schaue auf die "Listening Ports" Sektion im "Netzwerk" Tab in `resmon.exe`
+  + Linux / MacOS: Schaue dir die Ausgabe von `sudo netstat -tulpn` an
+1. Stelle sicher, dass deine Firewall keine eingehenden Verbindungen auf einem dieser Ports blockiert
 
 #### Abschnitt II - PegaSwitch starten
 
@@ -45,13 +45,13 @@ cd pegaswitch
 npm install
 
 # starte PegaSwitch
-# Windows users: omit the 'sudo'
+# Windowsnutzer: 'sudo' weglassen
 sudo node start.js
 ~~~
 
 #### Abschnitt III - DNS Konfiguration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf denen du dich verbindest um in der Lage zu sein den Exploit auszuführen.
 {: .notice--info}
 
 1. Finde die IP Adresse deines PCs mit `ifconfig` (oder `ipconfig` auf Windows)
@@ -77,11 +77,11 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Abschnitt V - Alternative Browser Applets (optional)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Es gibt [mehrere](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) Browserapplets auf der Switch, und alle können genutzt werden um den Browserexploit zu starten.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Obwohl wir anfangs das Verbindungstest Browserapplet genutzt haben um den Exploit auszulösen, könnte es in der Zukunft handlicher sein, ein anderes Browserapplet zu nutzen.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Beide Arten den Browser Exploit auszulösen führen zum gleichen Ergebnis, wie das Auslösen des Exploits durch die Verbindungstest Methode, die wir vorher verwendet haben.
 
 ##### eShop Einloggen-Fenster
 
@@ -105,10 +105,10 @@ Beachte, dass wenn du nicht mit den korrekten DNS Servern verbunden bist, diese 
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Du kannst dich nun leicht durch die PegaSwitch-Umgebung mit deinem Gerät verbinden.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+Zu Debugging-Zwecken solltest du möglicherweise [zusätzliche Fehlerinformationen aktivieren](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
 ### Zurück zu [Homebrew Entwicklung](homebrew-development)
