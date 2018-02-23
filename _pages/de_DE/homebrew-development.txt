@@ -2,9 +2,9 @@
 title: "Homebrew Development"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
-### Required Reading
+### Wichtig
 
 Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
 
