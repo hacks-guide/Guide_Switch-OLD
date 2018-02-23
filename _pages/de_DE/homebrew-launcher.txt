@@ -57,12 +57,12 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Wähle "Install"
 1. Die PegaSwitch Website wird laden
 1. Wenn der Exploit erfolgreich war, wirst du den Fehler `2000-1337` sehen
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+  + Wenn du auf der PegaSwitch Seite fest hängst ohne einen Fehler zu bekommen, starte dein Gerät neu und versuche den Verbindungstest erneut
+1. Starte dein Gerät neu
 
-#### Section IV - Running the Homebrew Launcher
+#### Abschnitt IV - Starten des Homebrew Launchers
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
 
 1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
@@ -70,13 +70,13 @@ Note that you will have to re-run this section of the exploit after each reboot 
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
 1. Wähle "Weiter"
 1. Die Homebrew Launcher Website
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Wähle "Run"
+1. Wenn der Exploit erfolgreich war, wirst du eine Mitteilung erhalten die dich zum Schließen auffordert
+1. Kehre zum Home Menü zurück
+1. Starte die Album Applikation
+1. Wenn der Exploit erfolgreich war, wird der Homebrew-Launcher starten
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Abschnitt V - Alternative Browser Applets (optional)
 
 As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
 
