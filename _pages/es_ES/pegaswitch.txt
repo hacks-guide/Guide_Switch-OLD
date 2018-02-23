@@ -62,7 +62,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
+1. Guarda la configuración de red
 1. Return to `Internet Settings`
 
 #### Section IV - Initial Connection
