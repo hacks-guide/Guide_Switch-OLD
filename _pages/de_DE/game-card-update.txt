@@ -34,7 +34,8 @@ Bevor wir mit einem Cardupdate beginnen, blockieren wir alle online Updates inde
 
 1. Schalte das Gerät aus
 1. Schalte das Gerät ein und halte währendessen (Power) + (Lautstärke +) + (Lautstärke -)
-1. Alle heruntergeladenen Update-Daten wurden vom System gelöscht
+1. Do not select any of the options
+1. Any downloaded update data has been deleted from your system just by entering this menu
 1. Drücke (Power) um das Gerät auszuschalten
 
 #### Abschnitt III - Spielkarten Update
