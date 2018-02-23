@@ -1,0 +1,56 @@
+---
+title: "Game Card Update"
+---
+
+{% include toc title="Tabla de contenidos" %}
+
+### Lectura requerida
+
+All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+
+We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+
+Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+
+### What you need
+
+* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
+  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+
+![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
+{: .notice--info}
+
+### Instrucciones
+
+#### Section I - Enable Airplane Mode
+
+1. Launch System Settings
+1. Navigate to `Airplane Mode`
+1. Enable Airplane Mode
+1. Exit System Settings
+
+#### Sección II - Borrar datos de actualización
+
+1. Apaga tu consola
+1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. Any downloaded update data has been deleted from your system
+1. Press (Power) to power off your device
+
+#### Section III - Game Card Update
+
+1. Insert your Pokkén Tournament DX game card into your device
+1. Attempt to launch the game
+1. Update when prompted
+
+#### Section IV - Disable Airplane Mode
+
+1. Launch System Settings
+1. Navigate to `Airplane Mode`
+1. Disable Airplane Mode
+1. Exit System Settings
+
+___
+
+### Continue to [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
