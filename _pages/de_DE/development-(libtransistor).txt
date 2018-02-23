@@ -114,7 +114,7 @@ For information on using ACE Loader, see the [repository](https://github.com/res
 
 #### Section IV - Mephisto
 
-For information on using Mephisto, see the [repository](https://github.com/reswitched/Mephisto) on GitHub.
+Für Informationen zur Nutzung von Mephisto, schau dir die [repository](https://github.com/reswitched/Mephisto) auf GitHub an.
 {: .notice--info}
 
 ___
