@@ -69,10 +69,10 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 
 ## Was muss ich wissen, bevor ich anfange?
 
-+ Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ Du benötigst eine Micro SD-Karte für dein Gerät. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
++ Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
++ Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
++ Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
++ Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
 + Falls du eine SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 32K setzen.
 
 ___
