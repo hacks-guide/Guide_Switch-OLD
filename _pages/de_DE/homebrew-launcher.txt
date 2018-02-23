@@ -78,18 +78,18 @@ Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten muss
 
 #### Abschnitt V - Alternative Browser Applets (optional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Weil du den "Run" Abschnitt des Exploits nach jedem Neustart neustarten musst, wäre es ideal wenn es einen besseren Weg gebe den Browser zu starten, als den Verbindungstest.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsers applets on the Switch, and any of them can be used to trigger the browser exploit.
+Zum Glück gibt es [mehrere](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) Browserapplets auf der Switch, und alle können genutzt werden um den Browserexploit zu starten.
 
-Two convenient methods for launching a browser are listed below:
+Zwei praktische Methoden um den Browser zu starten sind unten aufgelistet:
 
-##### eShop Sign In Prompt
+##### eShop Einloggen-Fenster
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Um diese Methode zu nutzen, erstelle einen zweiten Account auf deinem Gerät. Verbinde ihn nicht mit einen Nintendo Account.
 
-1. Launch Nintendo eShop
-1. Select the second account
+1. Starte den Nintendo eShop
+1. Wähle den zweiten Account
 1. Select "Sign In and link"
 1. The browser applet will launch
 
