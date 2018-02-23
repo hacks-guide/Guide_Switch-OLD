@@ -71,7 +71,7 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 
 + Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
 + Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
-+ Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
++ Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
 + Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
 + Falls du eine SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 32K setzen.
 
