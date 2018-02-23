@@ -10,7 +10,7 @@ PegaSwitch is a developer-focused exploitation toolkit for the Switch developed 
 
 The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
 {: .notice--warning}
 
 ### Was du brauchst
@@ -67,9 +67,9 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Section IV - Initial Connection
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
-1. Select "Connect to this Network"
+1. Wähle "Verbindung zu diesem Netzwerk"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The PegaSwitch webpage will load
