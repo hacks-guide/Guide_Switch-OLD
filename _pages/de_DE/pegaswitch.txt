@@ -37,7 +37,7 @@ For this to work, your device must be able to connect to your PC over the networ
 #### Section II - Running PegaSwitch
 
 ~~~ bash
-# clone the repository
+# Klone das Repository
 git clone https://github.com/reswitched/pegaswitch
 
 # Installiere die Abhängigkeiten
