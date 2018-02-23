@@ -1,37 +1,37 @@
 ---
-title: "Site Navigation" #
+title: "Seitennavigation" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Beliebt**
 
 + [Homebrew Launcher](homebrew-launcher)
-+ [Blocking Updates](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [Blockiere Updates](blocking-updates)
++ [Software-Karten-Update](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Alles**
 
-+ [Blocking Updates](blocking-updates)
-+ [Credits](credits)
-+ [Development (libtransistor)](development-(libtransistor))
-+ [Donations](donations)
++ [Blockiere Updates](blocking-updates)
++ [Danksagungen](credits)
++ Entwicklung (libtransistor)](development-(libtransistor))
++ [Spenden](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
-+ [Get Started](get-started)
++ [Datei-Erweiterungen (Windows)](file-extensions-(windows))
++ [Software-Karten-Update](game-card-update)
++ [Los geht's](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Startseite](/)
 + [Haxchi](haxchi)
-+ [Homebrew Development](homebrew-development)
++ [Homebrew Entwicklung](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Why Ads?](why-ads)
++ [Warum Werbung?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
