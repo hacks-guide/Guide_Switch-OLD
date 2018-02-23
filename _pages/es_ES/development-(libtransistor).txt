@@ -2,9 +2,9 @@
 title: "Development (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 ### What You Need
 
@@ -15,7 +15,7 @@ title: "Development (libtransistor)"
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
-### Instructions
+### Instrucciones
 
 #### Section I - Installing Dependencies
 
