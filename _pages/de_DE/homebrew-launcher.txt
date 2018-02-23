@@ -51,12 +51,12 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
 1. Wähle "Verbindung zu diesem Netzwerk"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
+1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
+1. Wähle "Weiter"
 1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
+1. Wähle "Install"
+1. Die PegaSwitch Website wird laden
+1. Wenn der Exploit erfolgreich war, wirst du den Fehler `2000-1337` sehen
   + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
 1. Reboot your device
 
@@ -67,9 +67,9 @@ Note that you will have to re-run this section of the exploit after each reboot 
 1. Navigiere zu `Internet` -> `Verbindung testen`
 1. Wähle dein aktuelles Netzwerk
 1. Wähle "Verbindung zu diesem Netzwerk"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage
+1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
+1. Wähle "Weiter"
+1. Die Homebrew Launcher Website
 1. Select "Run"
 1. If the exploit was successful, you will receive a popup asking you to exit
 1. Return to the home menu
