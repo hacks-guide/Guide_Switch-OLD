@@ -59,51 +59,51 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
 + MacOS: 
 
   ~~~ bash
-  # clone the repository
+  # Klone das Repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # Installieren der Python Abhängigkeiten
   pip3 install -r requirements.txt
 
-  # set libtransistor environment variable to current directory
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # Kompiliere libtransistor
   make
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # clone the repository
+  # Klone das Repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # Installieren der Python Abhängigkeiten
   pip install -r requirements.txt
 
-  # set libtransistor environment variable to current directory
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # Kompiliere libtransistor
   make
   ~~~
 
 + Ubuntu / Debian: 
 
   ~~~ bash
-  # clone the repository
+  # Klone das Repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # Installieren der Python Abhängigkeiten
   pip3 install -r requirements.txt
 
-  # set libtransistor environment variable to current directory
+  # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # Kompiliere libtransistor
   make LLVM_POSTFIX=-5.0
   ~~~
 
@@ -119,8 +119,8 @@ Für Informationen zur Nutzung von Mephisto, schau dir die [repository](https://
 
 ___
 
-You now have a fully functional libtransistor development environment.
+Du hast nun eine voll funktionsfähige libtranistor Entwicklungsumgebung.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
 {: .notice--success}
