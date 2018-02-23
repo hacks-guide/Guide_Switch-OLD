@@ -1,20 +1,20 @@
 ---
-title: "Blocking Updates"
+title: "Bloquer les mises à jour"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+Pour le moment, les homebrew ne sont disponibles que pour la version 3.0.0 du firmware, mais un futur support des homebrew et CFW est prévu pour toutes les versions jusqu'à 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Afin d'y garantir un accès futur, nous allons repointer les serveurs DNS de votre réseau actuel vers un serveur (hébergé par ReSwitched) qui bloque les requêtes vers le serveur de mise à jour Nintendo Switch.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+De plus, nous allons activer le Mode Recovery / Maintenance et supprimer toute donnée de mise à jour qui aurait pu avoir été précédemment installée.
 
 ### Instructions
 
-#### Section I - DNS Configuration
+#### Section I - Configuration du DNS
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
