@@ -7,27 +7,27 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Eine vollständige Anleitung für Switch Homebrew <br /> und die Homebrew-Entwicklung.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du fortfährst.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Diese Anleitung ist in verschiedenen Sprachen verfügbar!    
+Um die Sprache zu ändern klick auf das <i class="fa fa-language" aria-hidden="true"></i> Symbol oben rechts in der Ecke.    
+Klicke alternativ auf [hier] (https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Was ist Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://de.wikipedia.org/wiki/Homebrew) bezeichnet für gewöhnlich Software, die nicht von Nintendo autorisiert wurde. Dazu gehören Homebrew-Tools, Anwendungen, Spiele und Emulatoren.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+Wenn dein Gerät auf Firmware Version 3.0.0 ist, kannst du komplett kostenlos Homebrew über den Systembrowser nutzen. Niedrigere Firmware Versionen können mit Hilfe von Spielekarten auf 3.0.0 geupdated werden. Höhere Firmware Versionen können zukünftige Updates blockieren um den Zugang zu zukünftigen Exploits zu sichern.
 
-## What is Custom Firmware?
+## Was ist Custom Firmware?
 
 When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
 
