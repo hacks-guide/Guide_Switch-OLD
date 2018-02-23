@@ -34,8 +34,8 @@ Beachte, dass diese DNS-Server für jedes deiner Netzwerke einzeln gesetzt werde
 
 1. Schalte das Gerät aus
 1. Schalte das Gerät ein und halte währendessen (Power) + (Lautstärke +) + (Lautstärke -)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
+1. Wähle keine von den Optionen aus
+1. Alle heruntergeladenen Updatedaten wurden von deinem System gelöscht als du das Menü betreten hast
 1. Drücke (Power) um das Gerät auszuschalten
 
 ___
