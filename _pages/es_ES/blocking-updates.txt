@@ -27,12 +27,12 @@ Additionally, we enter Recovery / Maintenance Mode and delete any update data wh
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `173.255.238.217`
 1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
+1. Guarda la configuración de red
 1. Exit System Settings
 
-#### Section II - Deleting Update Data
+#### Sección II - Borrar datos de actualización
 
-1. Power off your device
+1. Apaga tu consola
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. Any downloaded update data has been deleted from your system
 1. Press (Power) to power off your device
