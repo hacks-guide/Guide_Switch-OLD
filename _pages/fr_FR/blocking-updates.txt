@@ -23,11 +23,11 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
   + Ceci est indiqué par une coche verte à côté du réseau
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
+1. Sélectionnez "Modifier les paramètres"
+1. Mettez "Paramétrage du DNS" sur "Manuel"
 1. Set "Primary DNS" to `173.255.238.217`
 1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
+1. Sauvegardez les paramètres du réseau
 1. Exit System Settings
 
 #### Section II - Deleting Update Data
