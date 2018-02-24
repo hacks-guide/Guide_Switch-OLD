@@ -16,7 +16,7 @@ title: "新手入門"
 
 請於下表中選擇與您系統版本相符的頁面。 請注意，在『從』和『到』區域中的任何版本將包括在內。 比方說，『從 1.0 到 2.3.0』，包括著1.0.0版、2.3.0版、以及任何中間的版本。
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+您的系統版本可以在設定、系統中的系統更新中找到。
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
