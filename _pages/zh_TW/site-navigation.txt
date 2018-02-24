@@ -31,7 +31,7 @@ sitemap: false
 + [自製軟體開發](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Troubleshooting](troubleshooting)
++ [疑難排解](troubleshooting)
 + [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
