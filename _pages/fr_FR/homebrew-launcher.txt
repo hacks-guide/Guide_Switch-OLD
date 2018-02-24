@@ -56,27 +56,27 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. La page de l'Homebrew Launcher va s'afficher
 1. Sélectionnez "Install"
 1. La page Web de PegaSwitch va s'afficher
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+1. Si l'exploit a été correctement exécuté, vous verrez l'erreur "2000-1337"
+  + Si vous êtes bloqué sur la page de PegaSwitch sans voir l'erreur, redémarrez la console et refaites le test de connexion
+1. Redémarrez la console
 
-#### Section IV - Running the Homebrew Launcher
+#### Section IV - Lancer l'Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
+1. Allez dans `Internet` -> `Tester la connexion`
+1. Sélectionnez votre réseau actuel
+1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
 1. Sélectionnez "Suivant"
-1. The Homebrew Launcher webpage
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. La page de l'Homebrew Launcher chargera
+1. Sélectionnez "Run"
+1. Si l'exploit s'est bien exécuté, une fenêtre s'ouvrira vous demandant de quitter la page
+1. Retournez au menu d'accueil
+1. Ouvrez l'application Album
+1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Section V - Autres applets navigateur (Optionnel)
 
 As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
 
