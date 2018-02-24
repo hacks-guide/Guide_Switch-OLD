@@ -28,23 +28,23 @@ bottom:
     title: Si aprecias esta guía, acepto <a href="donations">donaciones</a>.
 footer:
   - 
-    title: Source
+    title: Código fuente
   - 
     title: Navegación del sitio
   - 
-    title: Why Ads?
+    title: '¿Por qué anuncios?'
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progreso total
 sidebar_pages:
   - 
     title: Inicio
     url: /
   - 
-    title: Get Started
+    title: Comencemos
     url: get-started
   - 
-    title: Blocking Updates
+    title: Bloqueo de actualizaciones
     url: blocking-updates
   - 
     title: Game Card Update
@@ -53,5 +53,5 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Múltiples opciones
     url: multiple-options
