@@ -6,6 +6,11 @@ title: "Desarrollo (libtransistor)"
 
 ### Lectura requerida
 
+Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+
+For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+{: .notice--primary}
+
 ### Qué necesitas
 
 * Un sistema operativo compatible
