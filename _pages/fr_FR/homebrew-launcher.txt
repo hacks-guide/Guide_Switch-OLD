@@ -78,15 +78,15 @@ Notez que vous devrez répéter ces étapes après chaque redémarrage de la con
 
 #### Section V - Autres applets navigateur (Optionnel)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Puisque vous devez refaire à chaque redémarrage la Section IV du guide, il serait idéal d'avoir une méthode plus pratique pour lancer le navigateur autrement qu'avec le test de connexion.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsers applets on the Switch, and any of them can be used to trigger the browser exploit.
+Heureusement, il y a en réalité [plusieurs](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets navigateur sur la Switch, et n'importe lequel peut être utilisé pour lancer l'exploit.
 
-Two convenient methods for launching a browser are listed below:
+Voici deux méthodes pratiques pour lancer le navigateur :
 
 ##### Connexion à l'eShop
 
-To use this method, create a second account on your device. Ne vous connectez pas avec un compte Nintendo.
+Pour utiliser cette méthode, créez un nouveau compte d'utilisateur sur votre console. Ne vous connectez pas avec un compte Nintendo.
 
 1. Lancez l'eShop
 1. Sélectionnez votre nouveau compte
@@ -100,29 +100,29 @@ Pour utiliser cette méthode, vous devez avoir au moins un jeu sur votre écran 
 Notez que si vous n'êtes pas connecté avec les bons serveurs DNS, cette méthode pourrait mettre à jour votre console. Faites attention!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Appuyez sur (+) sur n'importe quelle icône de jeu
+1. Dans l'onglet "Mettre à jour", sélectionnez "Via Internet"
+1. L'applet se lancera
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Notez que le développement d'Homebrews n'en est qu'à ses débuts, peu d'applications ont donc été développées.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Vous trouverez les applications disponibles sur [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks sur reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew sur GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Pour installer un Homebrew, copiez le fichier `.nro` dans le dossier `switch` de votre carte SD.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Vous pouvez maintenant lancer l'Homebrew Launcher en lançant l'application Album depuis le menu principal (jusqu'au prochain redémarrage).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Vous devrez répéter la Section IV (en utilisant n'importe quel applet navigateur) après chaque redémarrage pour avoir de nouveau accès à l'Homebrew Launcher.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Pour des résumés réguliers sur les Homebrews et le développement, consultez régulièrement le blog [ReSwitched Weekly](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Pour des informations sur la contribution au développement d'Homebrew en tant que développeur, consultez la page [Homebrew Development](homebrew-development).
 {: .notice--primary}
