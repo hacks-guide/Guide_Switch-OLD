@@ -109,7 +109,7 @@ ___
 
 請注意，目前自製軟件開發仍處於非常早的狀態，已開發的應用程式數量非常有限。
 
-你可以在 [SwitchBrew](http://switchbrew.org/index.php?title=Homebrew_Applications)，[reddit 上的 /r/SwitchHacks](https://www.reddit.com/r/SwitchHacks/)或 [GBAtemp 上的自製軟體論壇](https://gbatemp.net/forums/285/)上找到可用的應用程式。
+你可以在 [SwitchBrew](http://switchbrew.org/index.php?title=Homebrew_Applications)、[reddit 上的 /r/SwitchHacks](https://www.reddit.com/r/SwitchHacks/)、或 [GBAtemp 上的自製軟體論壇](https://gbatemp.net/forums/285/)上找到可用的應用程式。
 
 若要安裝自製軟體，您只需將軟體的 `.nro` 檔案複製到 SD 卡上的 `/switch/` 資料夾中。
 

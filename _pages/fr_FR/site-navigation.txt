@@ -23,15 +23,15 @@ sitemap: false
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
++ [Extensions de fichiers (Windows)](file-extensions-(windows))
 + [Mise à jour par cartouche](game-card-update)
 + [Pour commencer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Accueil](/)
-+ [Haxchi](haxchi)
 + [Homebrew Development](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Why Ads?](why-ads)
++ [Troubleshooting](troubleshooting)
++ [Pourquoi des pubs ?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

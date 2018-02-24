@@ -28,10 +28,10 @@ sitemap: false
 + [新手入門](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [首頁](/zh_TW/)
-+ [Haxchi](haxchi)
 + [自製軟體開發](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
++ [疑難排解](troubleshooting)
 + [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
