@@ -11,7 +11,10 @@ Currently, the major public exploitation toolkit used for the Switch is PegaSwit
 If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-While the Homebrew Launcher alone is sufficient for running compiled homebrew, any more serious development work will likely require a local PegaSwitch environment. 
+If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+{: .notice--success}
+
+While the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
 
 For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
 {: .notice--primary}
