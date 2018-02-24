@@ -6,9 +6,9 @@ title: "Homebrew Launcher"
 
 ### Lecture requise
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+L'Homebrew Launcher est maintenant "installé" sur votre appareil à travers une faille du navigateur. 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Une fois que cette installation a été effectuée, vous serez en mesure d'accéder à l'Homebrew Launcher à partir de l'application Album *jusqu'au prochain redémarrage de la console*.
 
 After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
