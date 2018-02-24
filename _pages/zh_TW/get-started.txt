@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+title: "新手入門"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+不同系統版本將需要不同的步驟來啟動任何自製軟體。 下面一系列的頁面將會幫助您針對您的主機找到適合的開始方案。
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+在開始前，Windows 使用者應該先透過[顯示副檔名 (Windows)](file-extensions-(windows))教學將副檔名顯示！
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+請於下表中選擇與您系統版本相符的頁面。 請注意，在『從』和『到』區域中的任何版本將包括在內。 比方說，『從 1.0 到 2.3.0』，包括著1.0.0版、2.3.0版、以及任何中間的版本。
 
-Your device version can be found under the System Information menu in the System tab of the Settings application.
+您的系統版本可以在設定、系統選項中的系統資訊中找到。
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+請注意，如果已下載的更新正在等待安裝，則該主機可能不會顯示系統版本。
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+如果您的主機屬於這種情況，您可以透過啟動主機時按住『電源紐』+『音量+』+『音量-』以進入還原 / 維護模式並查看系統版本。
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### 版本列表
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">從</th>
+      <th style="text-align: center; font-weight: bold;">到</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -50,12 +50,12 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">等待自製系統 -- <a href="blocking-updates">阻擋更新</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">遊戲卡帶更新</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -65,7 +65,7 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">4.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">阻擋更新</a></td>
     </tr>
   </tbody>
 </table>
