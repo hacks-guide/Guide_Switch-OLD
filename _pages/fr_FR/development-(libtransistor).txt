@@ -11,9 +11,9 @@ Note that, while the Homebrew Launcher alone is sufficient for running compiled 
 For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
 {: .notice--primary}
 
-### What You Need
+## Ce dont vous avez besoin
 
-* A supported operating system
+* Un système d'exploitation compatible
   + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
   + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * Basic development tools
