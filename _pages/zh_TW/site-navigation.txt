@@ -1,37 +1,37 @@
 ---
-title: "Site Navigation" #
+title: "網站導覽" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**熱門**
 
 + [Homebrew Launcher](homebrew-launcher)
-+ [Blocking Updates](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [阻擋更新](blocking-updates)
++ [遊戲卡帶更新](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**所有**
 
-+ [Blocking Updates](blocking-updates)
-+ [Credits](credits)
-+ [Development (libtransistor)](development-(libtransistor))
-+ [Donations](donations)
++ [阻擋更新](blocking-updates)
++ [製作群](credits)
++ [自製軟體開發 (libtransistor)](development-(libtransistor))
++ [贊助](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
-+ [Get Started](get-started)
++ [常見問題 FAQ](faq)
++ [檔案副檔名 (Windows)](file-extensions-(windows))
++ [遊戲卡帶更新](game-card-update)
++ [新手入門](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [首頁](/zh_TW/)
 + [Haxchi](haxchi)
-+ [Homebrew Development](homebrew-development)
++ [自製軟體開發](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Why Ads?](why-ads)
++ [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

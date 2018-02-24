@@ -16,29 +16,29 @@ De plus, nous allons activer le Mode Recovery / Maintenance et supprimer toute d
 
 #### Section I - Configuration du DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous connecterez votre console pour qu'elle bloque les mises à jour !
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Ouvrez les Paramètres de la console
+1. Allez dans `Internet` -> `Paramètres Internet`
+1. Sélectionnez votre réseau actuel
+  + Ceci est indiqué par une coche verte à côté du réseau
+1. Sélectionnez "Modifier les paramètres"
+1. Mettez "Paramétrage du DNS" sur "Manuel"
+1. Mettez "DNS primaire" à `173.255.238.217`
+1. Mettez "DNS secondaire" à `173.255.238.217`
+1. Sauvegardez les paramètres du réseau
+1. Sortez des Paramètres de la console
 
-#### Section II - Deleting Update Data
+#### Section II - Suppression des données de mise à jour
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Éteignez votre console
+1. Allumez votre console en maintenant les boutons (Power) + (Volume +) + (Volume -)
+1. Ne sélectionnez aucune des options
+1. Toute donnée de mise à jour téléchargée a été supprimée de votre système simplement en entrant dans ce menu
+1. Appuyez sur (Power) pour éteindre votre console
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Les mises à jour sont désormais bloquées sur votre console pour le réseau configuré.
 {: .notice--success}

@@ -1,44 +1,44 @@
 ---
-title: "Blocking Updates"
+title: "阻擋更新"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+目前自製軟體僅適用於系統版本 3.0.0，但未來對適用於系統版本 4.1.0 (含) 以下的自製軟體及自製韌體支援已在規劃中。
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+為了能確保您未來能順利使用它們，我們將把您 Switch 的 DNS 伺服器設定為 ReSwitched 的 DNS 伺服器以確保能阻擋您任天堂 Switch 的系統更新。
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+此外，我們將進入還原 / 維修模式中並將任何可能已下載的更新刪除。
 
-### Instructions
+### 操作說明
 
-#### Section I - DNS Configuration
+#### 第一節 — DNS 設置
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+請注意，您需要在每個網路設定中設定這些 DNS 伺服器以阻止更新！
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. 進入系統設定 (System Settings)
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色勾勾
+1. 選擇『更改設置 (Change Settings)』
+1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
+1. 將『主要 DNS (Primary DNS)』改為 `173.255.238.217`
+1. 將『次要 DNS (Secondary DNS)』改為 `173.255.238.217`
+1. 儲存網路設定
+1. 退出系統設定
 
-#### Section II - Deleting Update Data
+#### 第一節 — 刪除更新資料
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. 關閉您的主機
+1. 開機時按住 『開機紐』+『音量+』+『音量-』
+1. 不要選擇任何選項
+1. 只需進入此選單，任何已下載的更新數據都已從您的系統中刪除
+1. 按『電源紐』關機
 
 ___
 
-Updates are now blocked on your device for the configured network.
+從現在起，任何未來的更新將於您所設定的網路中被阻擋。
 {: .notice--success}

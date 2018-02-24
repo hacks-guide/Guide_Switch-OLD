@@ -2,114 +2,115 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch 是由 ReSwitched 開發且傾向於開發人員的漏洞開發工具包。 它與系統版本 1.0.0 ~ 3.0.0兼容。
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+該工具包使用多個漏洞的組合來接管基於 WebKit 的瀏覽器，使開發者能自由的讀/寫記憶體，使用 native functions
+ 以及探索 Switch 功能的 shell。
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+請注意，目前的漏洞具有損壞主機中的 Mii 資料庫的副作用。 雖然這種副作用是相對無害的，但它將會導致任何所有已創建的 Mii 的丟失。
 {: .notice--warning}
 
-### What You Need
+### 必備項目
 
-* A supported operating system
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* 任一支援的作業系統
+  + MacOS 和大多數的 Linux 發行版本都支援
+  + Windows 的使用者建議啟用[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 為佳
+* [git](https://git-scm.com/) 版本控制系統
+* [Node.JS](https://nodejs.org/en/download/package-manager/) (最新版本)
 
-### Instructions
+### 操作說明
 
-#### Section I - Network Configuration
+#### 第一節 — 網路設置
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch 為透過 DNS 重新導向並使用強制網路門戶驗證而運作的。
 
-For this to work, your device must be able to connect to your PC over the network.
+因此，您的主機必須能夠通過網絡連線到您的電腦。
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. 確保沒有其他應用程式綁定到 UDP 53 或 TCP 80 和 8100
+  + WSL: 請見 `resmon.exe` 中『網路』的『Listening Ports』
+  + Linux / MacOS: 查看 `sudo netstat -tulpn` 的輸出
+1. 確保您的防火牆不會阻止傳入任何這些埠的連接
 
-#### Section II - Running PegaSwitch
+#### 第二節 — 運行 PegaSwitch
 
 ~~~ bash
-# clone the repository
+# 複製當前 repository
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# 安裝附屬套件
 cd pegaswitch
 npm install
 
-# start PegaSwitch
-# Windows users: omit the 'sudo'
+# 啟動 PegaSwitch
+# Windows 使用者: 去掉 'sudo' 的部分
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### 第三節 — DNS 設置
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+請注意，您需要在每個網路設定中設定這些 DNS 伺服器以使用此漏洞！
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
-1. Return to `Internet Settings`
+1. 透過 ifconfig 取得您電腦的 IP 位址 (或 Windows 上的 `ipconfig`)
+1. 於您主機上啟動系統設定 (System Settings)
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色勾勾
+1. 選擇『更改設置 (Change Settings)』
+1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
+1. 將『主要 DNS (Primary DNS)』及『次要 DNS (Secondary DNS)』設定為您電腦的 IP 位址
+1. 儲存網路設定
+1. 回到 `網路設定 (Internet Settings)`
 
-#### Section IV - Initial Connection
+#### 第四節 － 初次連結
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. 移動至 `網路 (Internet)` -> `測試連線 (Test Connection)`
+1. 選擇您目前所連結的網路
+1. 選擇『連線至此網路 (Connect to this Network)』
+1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
+1. 選擇『繼續 (Next)』
+1. PegaSwitch 網頁將開始加載
+1. 如果漏洞成功執行，您現在已成功與您主機建立 PegaSwitch shell 的連結
 
-#### Section V - Alternative Browser Applets (Optional)
+#### 第四節 — 其他瀏覽器程序 (選用)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+在Switch上實際上有[許多其他的](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets)小瀏覽器程序，其中任何一個都可以用來觸發瀏覽器漏洞。
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+雖然當初我們是使用連接測試的瀏覽器觸發漏洞，但未來時，使用其他瀏覽器可能會更方便。
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+不論透過下列哪個方法觸發瀏覽器漏洞攻擊的效果與通過我們之前使用的連接測試方法觸發攻擊的效果相同。
 
-##### eShop Sign In Prompt
+##### eShop 登錄提示
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+要使用此方法，請在您的主機上創建另一個帳號。 不要將它連接到任天堂帳戶 (Nintendo Account) 中。
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. 啟動 Nintendo eShop
+1. 選擇第二個帳戶
+1. 選擇『登入並鏈接』
+1. 這將啟動瀏覽器
 
-##### Game Update Prompt
+##### 遊戲更新提示
 
-To use this method, you must have at least one game on your home screen.
+要使用此方法，您的 HOME 選單中必須至少有一個遊戲。
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+請注意，如果您未連接到正確的 DNS 伺服器，那麼此方法會*更新*您的主機。 這是很危險的！
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. 於任一選取的遊戲上按下『+』
+1. 在『軟體更新 (Software Update)』選項中，選擇『透過網際網路 (Via the Internet)』
+1. 這將啟動瀏覽器
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+您現在可以輕鬆地連接您的主機至 PegaSwitch 開發環境中。
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+出於調試目的，您可能需要[啟用額外的錯誤信息](troubleshooting#enable-extra-error-info)。
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### 回到[自製軟體開發](homebrew-development)
 {: .notice--primary}

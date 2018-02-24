@@ -1,42 +1,42 @@
 ---
-title: "Troubleshooting"
+title: "疑難排解"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+如果您遇到了任何問題，請在這裡尋找可能的相關章節並照著步驟走。
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+如果您仍然無法解決您的問題並需要尋求幫助，請前來尋求幫助，並詳細描述您的問題以及您所嘗試的內容。
 
-## Error 2347-0003
+## 錯誤代碼 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+當您 SD 卡上找不到 nx-hbmenu `.nro` 時將會發生此錯誤。
 
-### What You Need
+### 必備項目
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### 操作說明
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. 關閉您的主機
+1. 將 SD 卡插入電腦
+1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
+1. 將 SD 卡插回裝置中
+1. 啟動您的主機
 
-## Enable Extra Error Info
+## 啟用額外錯誤訊息
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+當遇到致命錯誤時，該腳本將啟用顯示額外的錯誤信息。 這對於調試目的可能很有用。
 
-### What You Need
+### 必備項目
 
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
-### Instructions
+### 操作說明
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. 將 `extraerrorinfo.js` 複製到 PegaSwitch 中的 `/usefulscripts/` 資料夾中
+1. 使用 PegaSwitch 連接到您的主機
+1. 運行 `evalfile usefulscripts/extraerrorinfo.js`
