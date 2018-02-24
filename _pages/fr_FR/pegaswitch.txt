@@ -75,7 +75,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. La page Web de PegaSwitch va s'afficher
 1. Si l'exploit a réussi, vous aurez un shell PegaSwitch connecté à votre console
 
-#### Section V - Autres applets navigateur (Optionnelles)
+#### Section V - Autres applets navigateur (Optionnel)
 
 Il y a en réalité [plusieurs](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets navigateur sur la Switch, et n'importe lequel peut être utilisé pour lancer l'exploit.
 
