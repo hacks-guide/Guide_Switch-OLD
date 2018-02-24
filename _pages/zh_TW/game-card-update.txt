@@ -1,57 +1,57 @@
 ---
-title: "Game Card Update"
+title: "遊戲卡帶更新"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+所有的卡帶都有附上玩那遊戲所需要的系統更新，讓擁有比較舊的系統版本的玩家可以在離線的狀態下更新系統。
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+我們可以透過這點使用包含特定版本的遊戲以安裝較新的系統版本 (3.0.0)，而無需直接升級到最新版本。 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+在執行遊戲卡帶更新之前，我們使用飛航模式阻止在線更新，並進入還原 / 維護模式以刪除任何可能已經下載的更新檔案。
 
-### What you need
+### 必備項目
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* 原版的 [神寶拳 (寶可拳)](https://amzn.to/2F9nsF3)
+  + 原版的遊戲卡帶包含系統版本 3.0.0；它們的電路板為綠色且序號是以**000**結尾的 (見下圖)
+  + 較新版的遊戲卡帶包含系統版本 3.0.1；它們的電路板為黑色且序號是以**001**結尾的 (*請盡量不要透過這版本更新！*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### 操作說明
 
-#### Section I - Enable Airplane Mode
+#### 第一節 — 啟用飛航模式
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. 進入系統設定 (System Settings)
+1. 移動至 `飛航模式 (Airplane Mode)`
+1. 啟用飛航模式
+1. 退出系統設定
 
-#### Section II - Deleting Update Data
+#### 第二節 — 刪除更新資料
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. 關閉您的主機
+1. 開機時按住 『開機紐』+『音量+』+『音量-』
+1. 不要選擇任何選項
+1. 只需進入此選單，任何已下載的更新數據都已從您的系統中刪除
+1. 按『電源紐』關機
 
-#### Section III - Game Card Update
+#### 第三節 — 透過遊戲卡帶進行更新
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. 將神寶拳 (寶可拳) 插入至您的主機中
+1. 試圖啟動遊戲
+1. 當提示時，選擇進行更新
 
-#### Section IV - Disable Airplane Mode
+#### 第四節 — 關閉飛航模式
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. 進入系統設定 (System Settings)
+1. 移動至 `飛航模式 (Airplane Mode)`
+1. 關閉飛航模式
+1. 退出系統設定
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### 繼續至 [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
