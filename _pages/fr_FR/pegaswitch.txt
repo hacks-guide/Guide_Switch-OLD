@@ -13,25 +13,25 @@ Ce toolkit utilise une combinaison de vulnérabilités pour prendre le contrôle
 NB : l'exploit actuel pour homebrew a l'effet secondaire de corrompre la base de données de Miis de votre console. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
 {: .notice--warning}
 
-### What You Need
+## Ce dont vous avez besoin
 
-* A supported operating system
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* Un système d'exploitation compatible
+  + MacOS et la plupart des distributions Linux sont prises en charge
+  + Windows est mieux supporté avec une distribution du [Windows Subsystem for Linux](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)
+* Le système de versionnage [git](https://git-scm.com/)
+* L'environnement runtime JavaScript [Node.JS](https://nodejs.org/en/download/package-manager/) (version courante)
 
 ### Instructions
 
-#### Section I - Network Configuration
+#### Section I - Configuration du réseau
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch fonctionne en hébergeant un [portail captif](https://fr.wikipedia.org/wiki/Portail_captif) via une redirection DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Pour que ceci fonctionne, votre console doit pouvoir se connecter à votre PC via le réseau.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
+1. Vérifiez qu'aucune autre application n'est liée au port UDP 53 ou aux ports TCP 80 et 8100
+  + WSL : reportez-vous à la section "Ports d'écoute" de l'onglet "Réseau" dans `resmon.exe`
+  + Linux / MacOS : consultez la sortie de `sudo netstat -tulpn`
 1. Ensure your firewall does not block incoming connections to any of these ports
 
 #### Section II - Running PegaSwitch
@@ -56,9 +56,9 @@ Note that these DNS servers will need to be set on each network you connect your
 
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Allez dans `Internet` -> `Paramètres Internet`
+1. Sélectionnez votre réseau actuel
+  + Ceci est indiqué par une coche verte à côté du réseau
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
@@ -68,7 +68,7 @@ Note that these DNS servers will need to be set on each network you connect your
 #### Section IV - Initial Connection
 
 1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
+1. Sélectionnez votre réseau actuel
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
