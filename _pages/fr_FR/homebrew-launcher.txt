@@ -10,7 +10,7 @@ L'Homebrew Launcher est maintenant "installé" sur votre appareil à travers une
 
 Une fois que cette installation a été effectuée, vous serez en mesure d'accéder à l'Homebrew Launcher à partir de l'application Album *jusqu'au prochain redémarrage de la console*.
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Après un redémarrage, vous devrez ré-exécuter l'exploit pour réactiver l'accès à l'Homebrew Launcher. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
