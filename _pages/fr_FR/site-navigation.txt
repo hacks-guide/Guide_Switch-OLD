@@ -32,6 +32,6 @@ sitemap: false
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
 + [Troubleshooting](troubleshooting)
-+ [Why Ads?](why-ads)
++ [Pourquoi des pubs ?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
