@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Plailect"
   avatar           : "bio-photo.png"
-  bio              : "Wii U Hacker"
+  bio              : "Hacker"
   location         : "Nullsec"
   email            : "Plailect@gmail.com"
   uri              :
@@ -143,7 +143,7 @@ exclude: [
   _pages/ca_ES,
   _pages/cs_CZ,
   _pages/da_DK,
-  _pages/de_DE,
+  # _pages/de_DE,
   _pages/el_GR,
   _pages/en_PT,
   # _pages/en_US,
