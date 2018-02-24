@@ -14,7 +14,7 @@ sitemap: false
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Tout**
 
 + [Bloquer les mises à jour](blocking-updates)
 + [Remerciements](credits)
