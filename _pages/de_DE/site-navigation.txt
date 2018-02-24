@@ -28,10 +28,10 @@ sitemap: false
 + [Los geht's](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Startseite](/)
-+ [Haxchi](haxchi)
 + [Homebrew Entwicklung](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
++ [Troubleshooting](troubleshooting)
 + [Warum Werbung?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
