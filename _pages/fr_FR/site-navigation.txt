@@ -1,11 +1,11 @@
 ---
-title: "Site Navigation" #
+title: "Index"#
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Populaire**
 
 + [Homebrew Launcher](homebrew-launcher)
 + [Blocking Updates](blocking-updates)
