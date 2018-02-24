@@ -14,13 +14,13 @@ Zusätzlich starten wir in den Wiederherstellungs- / Wartungsmodus und löschen 
 
 ### Anleitung
 
-### Abschnitt I - DNS-Konfiguration
+#### Abschnitt I - DNS-Konfiguration
 
 Beachte, dass diese DNS-Server für jedes deiner Netzwerke einzeln gesetzt werden müssen, um Updates zu blockieren!
 {: .notice--warning}
 
 1. Starte die Systemeinstellungen
-1. Navigiere zu "Internet" -> "Interneteinstellungen"
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
 1. Wähle dein aktuelles Netzwerk
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"

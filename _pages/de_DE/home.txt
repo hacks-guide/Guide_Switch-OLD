@@ -16,7 +16,7 @@ Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du 
 {% capture notice-1 %}
 Diese Anleitung ist in verschiedenen Sprachen verfügbar!    
 Um die Sprache zu ändern klick auf das <i class="fa fa-language" aria-hidden="true"></i> Symbol oben rechts in der Ecke.    
-Klicke alternativ auf [hier] (https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
+Klicke alternativ auf [hier](https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
@@ -65,7 +65,7 @@ Wenn dein Gerät auf Firmware Version >=3.0.1 ist, ist deine beste Option auf 4.
 
 Diese Anleitung ermöglicht den Zugang zum Homebrew Launcher mit einem Browser Exploit, auch wenn "installieren" keine wirklich akurate Beschreibung ist. Dies liegt daran, dass der Exploit nach jedem Neustart wieder neu geladen werden muss um den Zugang zum Homebrew Launcher zu ermöglichen.
 
-Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
+Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "semi-untethered jailbreak" bezeichnen.
 
 ## Was muss ich wissen, bevor ich anfange?
 

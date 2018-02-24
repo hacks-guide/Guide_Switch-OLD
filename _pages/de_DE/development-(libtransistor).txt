@@ -107,7 +107,7 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
   make LLVM_POSTFIX=-5.0
   ~~~
 
-### Abschnitt III - ACE Loader
+#### Abschnitt III - ACE Loader
 
 Für Informationen zur Nutzung von ACE Loader, schau dir die [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) auf GitHub an.
 {: .notice--info}
