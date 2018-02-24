@@ -28,15 +28,15 @@ Before performing the game card update, we block online updates by using airplan
 1. Ouvrez les Paramètres de la console
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Sortez des Paramètres de la console
 
 #### Section II - Deleting Update Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Éteignez votre console
+1. Allumez votre console en maintenant les boutons (Power) + (Volume +) + (Volume -)
+1. Ne sélectionnez aucune des options
+1. Toute donnée de mise à jour téléchargée a été supprimée de votre système simplement en entrant dans ce menu
+1. Appuyez sur (Power) pour éteindre votre console
 
 #### Section III - Game Card Update
 
@@ -49,7 +49,7 @@ Before performing the game card update, we block online updates by using airplan
 1. Ouvrez les Paramètres de la console
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Sortez des Paramètres de la console
 
 ___
 
