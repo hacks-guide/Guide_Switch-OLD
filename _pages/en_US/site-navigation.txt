@@ -28,7 +28,6 @@ sitemap: false
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
-+ [Haxchi](haxchi)
 + [Homebrew Development](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
