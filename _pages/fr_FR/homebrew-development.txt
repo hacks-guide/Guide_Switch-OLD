@@ -11,22 +11,22 @@ Actuellement, le toolkit d'exploitation public principalement utilisé pour la S
 Si vous avez envie de collaborer avec les membres de ReSwitched au le développement de homebrews, passez voir [ReSwitched sur Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Si vous avez envie de collaborer avec les membres de SwitchBrew au développement de homebrews, passez voir #switchdev sur EFNet.
 {: .notice--success}
 
-### Libraries
+### Bibliothèques
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Actuellement, il y a deux bibliothèques majeures utilisées pour développer des Homebrew sur Switch.
 
 ___
 
-#### Development (libnx)
+#### Développement (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+La bibliothèque libnx est développée par SwitchBrew et est construite sur le toolchain devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Les exécutables peuvent se lancer sur votre console en utilisant le Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Continuer vers [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) sur SwitchBrew
 {: .notice--primary}
 
 ___
