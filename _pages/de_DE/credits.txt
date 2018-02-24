@@ -1,0 +1,55 @@
+---
+title: "Danksagung"
+---
+
+**Vielen Dank an alle [Übersetzer](https://crowdin.com/project/switch-guide)! Ihr seid großartig!**
+{: .notice--primary}
+
+Sollte ich vergessen haben, dich hier aufzuführen, dann kontaktiere mich und ich füge deinen Namen hinzu.
+
+{% capture notice-1 %}
+
+    + andoma
+    + andeor
+    + Aurora Wright
+    + bunnei
+    + Daeken
+    + derrek
+    + f916253
+    + fincs
+    + hedgeberg
+    + hexkyz
+    + hthh
+    + ihaveahax
+    + junko
+    + kgsws
+    + ktemkin
+    + Maschell
+    + misson20000
+    + motezazer
+    + mtheall
+    + naehrwert
+    + nedwill
+    + neobrain
+    + Nicolás
+    + Normmatt
+    + ogniK
+    + q3k
+    + racerxdl
+    + s1w
+    + SciresM
+    + shinyquag
+    + shufol3
+    + sirocyl
+    + smea
+    + st4rk
+    + Stary
+    + stuckpixel
+    + thexyz
+    + TuxSH
+    + Überflüp
+    + WntrMute
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>

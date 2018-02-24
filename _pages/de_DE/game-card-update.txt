@@ -1,0 +1,57 @@
+---
+title: "Software-Karten-Update"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+Alle Spielmodule erhalten eine Kopie der System-Firmware, die die Software benötigt, um abgespielt zu werden. Dies ermöglicht jedem Spieler mit einem Gerät einer niedrigeren Firmware, der das betreffende Spiel benutzt, auf die vorinstallierte Betriebssoftware zu aktualisieren (sogar ohne Internetverbindung).
+
+Das hat den Vorteil, dass wir ein bestimmtes Spiel nutzen können um eine neuere Firmwareversion (3.0.0) zu installieren, ohne bis zur neusten Version zu updaten. 
+
+Bevor wir mit einem Cardupdate beginnen, blockieren wir alle online Updates indem wir den Flugzeugmodus anschalten und im Recovery Menü alle Update Daten löschen, die eventuell schon heruntergeladen wurden.
+
+### Was du benötigst
+
+* Eine original Spielkarte von [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Originale Versionen von dieser Spielkarte haben 3.0.0; sie haben eine grüne Leiterplatte und eine Seriennummer die mit **000** endet (siehe Bild unten)
+  + Neuere Versionen von dieser Spielkarte haben 3.0.1; sie haben eine schwarze Leiterplatte und eine Seriennummer die mit **001** endet (*benutze diese nicht zum updaten!*)
+
+![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
+{: .notice--info}
+
+### Anleitung
+
+#### Abschnitt I - Flugzeugmodus aktivieren
+
+1. Starte die Systemeinstellungen
+1. Gehe zu `Flugzeug Modus`
+1. Schalte den Flugzeug Modus an
+1. Verlasse die Systemeinstellungen
+
+#### Abschnitt II - Löschen der Updaten-Daten
+
+1. Schalte das Gerät aus
+1. Schalte das Gerät ein und halte währendessen (Power) + (Lautstärke +) + (Lautstärke -)
+1. Do not select any of the options
+1. Any downloaded update data has been deleted from your system just by entering this menu
+1. Drücke (Power) um das Gerät auszuschalten
+
+#### Abschnitt III - Spielkarten Update
+
+1. Stecke deine Pokkén Tournament DX Spielkarte in dein Gerät
+1. Versuche, das Spiel zu starten
+1. Aktualisiere, wenn du dazu aufgefordert wirst
+
+#### Abschnitt IV - Flugzeugmodus deaktivieren
+
+1. Starte die Systemeinstellungen
+1. Gehe zu `Flugzeug Modus`
+1. Schalte den Flugzeug Modus aus
+1. Verlasse die Systemeinstellungen
+
+___
+
+### Weiter zu [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}

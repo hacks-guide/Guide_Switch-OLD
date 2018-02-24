@@ -1,0 +1,81 @@
+---
+layout: splash
+title: "Switch Hacks Anleitung" #
+header:
+  overlay_color: "#5e616c" #
+  overlay_image: images/home-page-feature.jpg
+  overlay_filter: 0.5
+  caption:
+
+excerpt: "Eine vollständige Anleitung für Switch Homebrew <br /> und die Homebrew-Entwicklung.<br />"
+---
+
+Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du fortfährst.
+{: .notice--warning}
+
+{% capture notice-1 %}
+Diese Anleitung ist in verschiedenen Sprachen verfügbar!    
+Um die Sprache zu ändern klick auf das <i class="fa fa-language" aria-hidden="true"></i> Symbol oben rechts in der Ecke.    
+Klicke alternativ auf [hier] (https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
+{% endcapture %}
+
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
+
+## Was ist Homebrew?
+
+[**Homebrew**](https://de.wikipedia.org/wiki/Homebrew) bezeichnet für gewöhnlich Software, die nicht von Nintendo autorisiert wurde. Dazu gehören Homebrew-Tools, Anwendungen, Spiele und Emulatoren.
+
+Wenn dein Gerät auf Firmware Version 3.0.0 ist, kannst du komplett kostenlos Homebrew über den Systembrowser nutzen. Niedrigere Firmware Versionen können mit Hilfe von Spielekarten auf 3.0.0 geupdated werden. Höhere Firmware Versionen können zukünftige Updates blockieren um den Zugang zu zukünftigen Exploits zu sichern.
+
+## Was ist Custom Firmware?
+
+Sobald veröffentlicht, ermöglicht **Custom Firmware** ("CFW") dir fortgeschrittene Hacks, welche Userland-Homebrew nicht ohne weiteres erlaubt. Es ist aktuell in Entwicklung und wird gemäß des Veröffentlichungsplans veröffentlich sobald alle Komponenten fertiggestellt wurden.
+
+Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen sortiert, aufgeteilt in folgende Stufen: 
+
+<table style="max-width:420px;">
+  <colgroup>
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Nahe Zukunft</th>
+      <th style="text-align: center; font-weight: bold;">Ferne Zukunft</th>
+      <th style="text-align: center; font-weight: bold;">Sehr ferne Zukunft™</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+    </tr>
+  </tbody>
+</table>
+
+Wenn dein Gerät auf Firmware Version 1.0.0 ist und du interessiert an CFW bist, dann ist deine beste Option dieser Anleitung [Updates blockieren](blocking-updates) zu folgen. Kaufe eine japanische Version von [Puyo Puyo Tetris](http://amzn.to/2BMJa26) (welche benötigt wird für Custom Firmware auf Version 1.0.0) und warte auf die Veröffentlichung einer Custom Firmware.
+{: .notice--info}
+
+Wenn dein Gerät auf Firmware Version >=3.0.1 ist, ist deine beste Option auf 4.1.0 upzudaten (da diese Versionen zur gleichen Zeit CFW erhalten werden). Folge der [Updates blockieren](blocking-updates) Anleitung, kaufe dir Spiele solange du kannst (da der eShop nur auf der aktuellsten Version funktioniert) und warte auf die Veröffentlichung einer Custom Firmware.
+{: .notice--info}
+
+## Was installiert diese Anleitung?
+
+Diese Anleitung ermöglicht den Zugang zum Homebrew Launcher mit einem Browser Exploit, auch wenn "installieren" keine wirklich akurate Beschreibung ist. Dies liegt daran, dass der Exploit nach jedem Neustart wieder neu geladen werden muss um den Zugang zum Homebrew Launcher zu ermöglichen.
+
+Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
+
+## Was muss ich wissen, bevor ich anfange?
+
++ Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
++ Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
++ Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
++ Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
++ Falls du eine SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 32K setzen.
+
+___
+
+### Fahre fort mit [Los geht's](get-started)
+{: .notice--primary}

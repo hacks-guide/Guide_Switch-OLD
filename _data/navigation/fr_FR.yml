@@ -1,0 +1,57 @@
+---
+main:
+  - 
+    title: Accueil
+    url: /
+  - 
+    title: FAQ
+    url: faq
+  - 
+    title: Dons
+    url: donations
+  - 
+    title: Remerciements
+    url: credits
+  - 
+    title: Problèmes et Dépannage
+    url: troubleshooting
+  - 
+    title: Développement de homebrew
+    url: homebrew-development
+  - 
+    title: Index du site
+    url: site-navigation
+bottom:
+  - 
+    title: Pour un support en Anglais, demander de l'aide sur le <a href="https://discord.gg/ZdqEhed">Discord de ReSwitched</a>.
+  - 
+    title: Si vous appréciez ce guide, j'accepte les <a href="donations">Donations</a>.
+footer:
+  - 
+    title: Source
+  - 
+    title: Index du site
+  - 
+    title: Pourquoi des pubs ?
+sidebar_title:
+  - 
+    title: Progression globale
+sidebar_pages:
+  - 
+    title: Accueil
+    url: /
+  - 
+    title: Pour commencer
+    url: get-started
+  - 
+    title: Bloquer les mises à jour
+    url: blocking-updates
+  - 
+    title: Mise à jour via cartouche
+    url: game-card-update
+  - 
+    title: Homebrew Launcher
+    url: homebrew-launcher
+  - 
+    title: Options multiples
+    url: multiple-options

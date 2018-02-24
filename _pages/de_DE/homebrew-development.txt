@@ -1,0 +1,43 @@
+---
+title: "Homebrew Entwicklung"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+Zur Zeit ist das am meisten genutzte öffentliche Exploitationtoolkit für die Switch PegaSwitch, entwickelt von ReSwitched.
+
+Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
+{: .notice--success}
+
+Obwohl der Homebrew Launcher alleine ausreicht, um kompiliertes Hombrew zu starten, für ernsteres Entwikeln brauchst du wahrscheinlich eine lokale PegaSwitch Umgebung. 
+
+Für Informationen über das aufsetzen einer PegaSwitch Umgebung, besuche die [PegaSwitch](pegaswitch) Seite.
+{: .notice--primary}
+
+### Bibliotheken
+
+Gerade gibt es zwei große Bibliotheken die für das Entwickeln von Switchhomebrew benutzt werden.
+
+___
+
+#### Entwicklung (libnx)
+
+Die libnx Bibliothek ist von SwitchBrew entwickelt und baut auf der devkitA64 toolchain auf.
+
+Ausführbare Dateien können auf deinem Gerät mit dem Homebrew Launcher geöffnet werden.
+
+Weiter zu [Aufsetzen einer Entwicklungsumgebung](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) auf SwitchBrew
+{: .notice--primary}
+
+___
+
+#### Entwicklung (libtransistor)
+
+Die libtransistor Bibliothek ist von ReSwitched entwickelt und auf dem LLVM / Clang stack aufgebaut. 
+
+Ausführbare Dateien können auf deinem PC mit dem Mephisto Emulator getestet werden, oder auf deinem Device mit entweder dem Homebrew Launcher oder dem ACE Loader.
+
+Weiter zu [Development (libtransistor)](development-(libtransistor))
+{: .notice--primary}
