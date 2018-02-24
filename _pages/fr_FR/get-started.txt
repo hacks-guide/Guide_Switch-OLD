@@ -16,7 +16,7 @@ Avant de commencer, vous devriez vérifier si votre carte SD ne contient pas d'e
 
 Sélectionnez la page appropriée à votre version dans le tableau ci-dessous. Notez que les champs "de" et "à" sont inclusifs. Cela veut dire que, par exemple, la colonne "de 1.0.0 à 2.3.0" inclut 1.0.0, 2.3.0, et toutes les versions entre.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+La version de votre console peut être trouvée en-dessous du menu Mise à jour de la console, dans l'onglet Console de l'application Paramètres de la console.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
