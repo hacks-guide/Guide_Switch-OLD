@@ -6,35 +6,35 @@ title: "H2testw (Windows)"
 
 ### Lecture requise
 
-This is an add-on section for checking your SD card for errors using h2testw.
+Ceci est une section additionnelle qui sert à vérifier si votre carte SD ne contient pas d'erreurs à l'aide de h2testw.
 
 Selon la taille de votre carte SD et la vitesse de votre ordinateur, ce processus peut prendre jusqu'à plusieurs heures !
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+Cette page est pour les utilisateurs de Windows uniquement. Si vous n’êtes pas sous Windows, consultez [F3 (linux)](f3-(linux)) ou [F3X (mac)](f3x-(mac)).
 
-### What You Need
+## Ce dont vous avez besoin
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* La dernière version de [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
 ### Instructions
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
+1. Copiez 'h2testw.exe' depuis le fichier '.zip' de h2testw sur votre bureau
 1. Insérez votre carte SD dans votre ordinateur
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. Exécutez `h2testw.exe`
+1. Sélectionnez "English"
+1. Cliquez sur "Select target"
+1. Sélectionnez votre carte SD
+1. Assurez-vous que "all available space" soit sélectionné
+1. Cliquez sur "Write + Verify"
+1. Attendez que le processus soit terminé
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
+Si le test affiche le résultat `Test finished without errors`, votre carte SD est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte SD
 {: .notice--success}
 
 Si le test montre un autre résultat, votre carte SD est peut-être corrompue ou endommagée et vous devriez peut-être la remplacer !
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}
