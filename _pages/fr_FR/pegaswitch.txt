@@ -94,22 +94,22 @@ Pour utiliser cette méthode, créez un nouveau compte d'utilisateur sur votre c
 
 ##### Mise à jour d'un jeu
 
-To use this method, you must have at least one game on your home screen.
+Pour utiliser cette méthode, vous devez avoir au moins un jeu sur votre écran d'accueil.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Notez que si vous n'êtes pas connecté avec les bons serveurs DNS, cette méthode pourrait mettre à jour votre console. Faites attention!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
+1. Appuyez sur (+) sur n'importe quelle icône de jeu
+1. Dans l'onglet "Mettre à jour", sélectionnez "Via Internet"
 1. L'applet se lancera
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Vous pouvez maintenant facilement connecter votre console en utilisant l'environnement PegaSwitch.
 {: .notice--success}
 
 For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Retourner à [Développement des Homebrew](homebrew-development)
 {: .notice--primary}
