@@ -65,7 +65,7 @@ If your device is on a firmware version >=3.0.1, your best current option is to 
 
 This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 ## What do I need to know before starting?
 

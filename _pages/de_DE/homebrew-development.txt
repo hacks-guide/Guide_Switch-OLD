@@ -11,7 +11,10 @@ Zur Zeit ist das am meisten genutzte öffentliche Exploitationtoolkit für die S
 Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
 {: .notice--success}
 
-Obwohl der Homebrew Launcher alleine ausreicht, um kompiliertes Hombrew zu starten, für ernsteres Entwikeln brauchst du wahrscheinlich eine lokale PegaSwitch Umgebung. 
+Wenn du Interesse hast, mit den SwitchBrew Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch bei #switchdev auf EFnet vorbei.
+{: .notice--success}
+
+While the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
 
 Für Informationen über das aufsetzen einer PegaSwitch Umgebung, besuche die [PegaSwitch](pegaswitch) Seite.
 {: .notice--primary}
