@@ -12,7 +12,7 @@ We can take advantage of this by using a game containing a specific version in o
 
 Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
 
-### What you need
+### Qué necesitas
 
 * An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
