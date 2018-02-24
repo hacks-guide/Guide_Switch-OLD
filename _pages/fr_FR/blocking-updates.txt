@@ -25,20 +25,20 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
   + Ceci est indiqué par une coche verte à côté du réseau
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
+1. Mettez "DNS primaire" à `173.255.238.217`
+1. Mettez "DNS secondaire" à `173.255.238.217`
 1. Sauvegardez les paramètres du réseau
-1. Exit System Settings
+1. Sortez des Paramètres de la console
 
-#### Section II - Deleting Update Data
+#### Section II - Suppression des données de mise à jour
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Éteignez votre console
+1. Allumez votre console en maintenant les boutons (Power) + (Volume +) + (Volume -)
+1. Ne sélectionnez aucune des options
+1. Toute donnée de mise à jour téléchargée a été supprimée de votre système simplement en entrant dans ce menu
+1. Appuyez sur (Power) pour éteindre votre console
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Les mises à jour sont désormais bloquées sur votre console pour le réseau configuré.
 {: .notice--success}
