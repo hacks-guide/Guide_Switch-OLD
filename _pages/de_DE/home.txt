@@ -65,7 +65,7 @@ Wenn dein Gerät auf Firmware Version >=3.0.1 ist, ist deine beste Option auf 4.
 
 Diese Anleitung ermöglicht den Zugang zum Homebrew Launcher mit einem Browser Exploit, auch wenn "installieren" keine wirklich akurate Beschreibung ist. Dies liegt daran, dass der Exploit nach jedem Neustart wieder neu geladen werden muss um den Zugang zum Homebrew Launcher zu ermöglichen.
 
-Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 ## Was muss ich wissen, bevor ich anfange?
 
