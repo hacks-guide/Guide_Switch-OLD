@@ -16,7 +16,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 Wähle die entsprechende Seite für deine Version aus der unten folgenden Tabelle. Beachte, dass die "Von" und "Bis"-Felder inklusive sind. Das heißt, dass zum Beispiel die Spalte "von 1.0.0 bis 2.3.0" 1.0.0, 2.3.0 und alle Versionen dazwischen beinhaltet.
 
-Deine Geräteversion kann im Systeminformationen Menü im System-Tab in den Systemeinstellungen eingesehen werden.
+Your device version can be found under the System Update menu in the System tab of the Settings application.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
