@@ -1,20 +1,20 @@
 ---
-title: "Get Started"
+title: "Pour Commencer"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Selon la version du firmware, les consoles vont devoir effectuer différentes étapes pour achever le but final actuel : le Homebrew. Cette page vous aidera à trouver où commencer pour votre console.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Avant de commencer, les utilisateurs Windows devraient activer l'option pour voir les extensions de fichiers avec [File Extensions (Windows)](file-extensions-(windows)) !
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, vous devriez vérifier si votre carte SD ne contient pas d'erreurs en utilisant [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac)) !
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Sélectionnez la page appropriée à votre version dans le tableau ci-dessous. Notez que les champs "de" et "à" sont inclusifs. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
 
 Your device version can be found under the System Information menu in the System tab of the Settings application.
 
