@@ -10,7 +10,7 @@ Der Homebrew Launcher wird über einen Browserexploit auf deinem Gerät "install
 
 Sobald diese Installation abgeschlossen wurde, wirst du in der Lage sein den Homebrew Launcher durch die Album Applikation zu starten *bis dein Gerät neugestartet wird*.
 
-Nach einem Neustart, musst du den Exploit erneut durchführen um den Homebrew Launcher erneut starten zu können. Wenn du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "tethered jailbreak" bezeichnen.
+Nach einem Neustart, musst du den Exploit erneut durchführen um den Homebrew Launcher erneut starten zu können. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
 {: .notice--warning}
