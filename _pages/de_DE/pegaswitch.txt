@@ -23,7 +23,7 @@ Beachte das der derzeitige Homebrewexploit die Nebenwirkung hat, das die Mii Dat
 
 ### Anleitung
 
-#### Section I - Netzwerk Konfiguration
+#### Abschnitt I - Netzwerk Konfiguration
 
 PegaSwitch funktioniert indem ein sogenanntes [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) gehostet wird.
 
@@ -56,7 +56,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 
 1. Finde die IP Adresse deines PCs mit `ifconfig` (oder `ipconfig` auf Windows)
 1. Starte die System Einstellungen auf deinem Gerät
-1. Navigiere zu "Internet" -> "Interneteinstellungen"
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
 1. Wähle dein aktuelles Netzwerk
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"
