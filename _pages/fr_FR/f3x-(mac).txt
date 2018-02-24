@@ -8,7 +8,7 @@ title: "F3X (Mac)"
 
 This is an add-on section for checking your SD card for errors using F3X.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Selon la taille de votre carte SD et la vitesse de votre ordinateur, ce processus peut prendre jusqu'à plusieurs heures !
 
 This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 
@@ -23,14 +23,14 @@ This page is for Mac users only. If you are not on Mac, check out the [H2testw (
 1. Run the F3X app
 1. Select your SD card
 1. Press "Start Test"
-1. Wait until the process is complete.
+1. Attendez la fin de l'opération.
 
 ___
 
 If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Si le test montre un autre résultat, votre carte SD est peut-être corrompue ou endommagée et vous devriez peut-être la remplacer !
 {: .notice--danger}
 
 ### Return to [Get Started](get-started)
