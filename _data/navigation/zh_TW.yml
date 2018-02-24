@@ -1,57 +1,57 @@
 ---
 main:
   - 
-    title: Home
+    title: 首頁
     url: /
   - 
-    title: FAQ
+    title: 常見問題 FAQ
     url: faq
   - 
-    title: Donations
+    title: 贊助
     url: donations
   - 
-    title: Credits
+    title: 製作群
     url: credits
   - 
-    title: Troubleshooting
+    title: 疑難排解
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: 開發自製軟體
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: 網站導覽
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: 若需英語支援，請於 <a href="https://discord.gg/ZdqEhed">Discord 上的 ReSwitched 伺服器</a>發問。
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: 如果你喜歡本教學，我很樂意接受<a href="donations">捐贈</a>。
 footer:
   - 
-    title: Source
+    title: 本站原始碼
   - 
-    title: Site Navigation
+    title: 網站導覽
   - 
-    title: Why Ads?
+    title: 為什麼會有廣告?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 整體進度
 sidebar_pages:
   - 
-    title: Home
+    title: 首頁
     url: /
   - 
-    title: Get Started
+    title: 新手入門
     url: get-started
   - 
-    title: Blocking Updates
+    title: 阻擋更新
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: 透過遊戲卡帶更新
     url: game-card-update
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: 多項選擇
     url: multiple-options
