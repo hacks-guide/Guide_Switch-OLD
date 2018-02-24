@@ -1,0 +1,115 @@
+---
+title: "PegaSwitch"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+PegaSwitch ist ein entwicklerfokusiertes Toolkit für die Switch Entwicklung von ReSwitched. Es ist kompatibel mit den Firmware Versionen 1.0.0 - 3.0.0.
+
+Das Toolkit nutzt eine Kombination von Sicherheitslücken um den Webkit-basierten Browser zu übernehmen, um dem Nutzer eine Kommandozeile bereitzustellen, welche genutzt werden kann um Arbeitsspeicher zu lesen/schreiben, native Methoden aufzurufen oder anderstweitig die Funktionalität der Switch zu ergründen.
+
+Beachte das der derzeitige Homebrewexploit die Nebenwirkung hat, das die Mii Datenbank deines Gerätes fehlerhaft wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
+{: .notice--warning}
+
+### Was du brauchst
+
+* Ein unterstütztes Betriebssystem
+  + MacOS und die meisten Linux Distributionen werden unterstützt
+  + Windows wird am besten mit einer [Windows Subsystem für Linux](https://docs.microsoft.com/de-de/windows/wsl/install-win10) Distribution unterstützt
+* Das [git](https://git-scm.com/) Versionskontrollsystem
+* Die [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (aktueller Release)
+
+### Anleitung
+
+#### Section I - Netzwerk Konfiguration
+
+PegaSwitch funktioniert indem ein sogenanntes [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) gehostet wird.
+
+Damit dies funktioniert, muss dein Gerät sich mit deinem PC über das Netzwerk verbinden können.
+
+1. Stelle sicher, dass keine anderen Anwendungen auf UDP Port 53 und TCP Ports 80 und 8100 laufen
+  + WSL: Schaue auf die "Listening Ports" Sektion im "Netzwerk" Tab in `resmon.exe`
+  + Linux / MacOS: Schaue dir die Ausgabe von `sudo netstat -tulpn` an
+1. Stelle sicher, dass deine Firewall keine eingehenden Verbindungen auf einem dieser Ports blockiert
+
+#### Abschnitt II - PegaSwitch starten
+
+~~~ bash
+# Klone das Repository
+git clone https://github.com/reswitched/pegaswitch
+
+# Installiere die Abhängigkeiten
+cd pegaswitch
+npm install
+
+# starte PegaSwitch
+# Windowsnutzer: 'sudo' weglassen
+sudo node start.js
+~~~
+
+#### Abschnitt III - DNS Konfiguration
+
+Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf denen du dich verbindest um in der Lage zu sein den Exploit auszuführen.
+{: .notice--info}
+
+1. Finde die IP Adresse deines PCs mit `ifconfig` (oder `ipconfig` auf Windows)
+1. Starte die System Einstellungen auf deinem Gerät
+1. Navigiere zu "Internet" -> "Interneteinstellungen"
+1. Wähle dein aktuelles Netzwerk
+  + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
+1. Wähle "Einstellungen ändern"
+1. Setze "DNS-Einstellungen" auf "Manuell"
+1. Setze "Primärer DNS" und "Sekundärer DNS" zu der IP Adresse deines PCs
+1. Speichere die Einstellungen
+1. Gehe zurück zu `Internet Einstellungen`
+
+#### Abschnitt IV - Erste Verbindung
+
+1. Navigiere zu `Internet` -> `Verbindung testen`
+1. Wähle dein aktuelles Netzwerk
+1. Wähle "Verbindung zu diesem Netzwerk"
+1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
+1. Wähle "Weiter"
+1. Die PegaSwitch Website wird laden
+1. Wenn der Exploit erfolgreich war, wirst du nun eine PegaSwitch Shell mit deiner Konsole verbunden haben
+
+#### Abschnitt V - Alternative Browser Applets (optional)
+
+Es gibt [mehrere](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) Browserapplets auf der Switch, und alle können genutzt werden um den Browserexploit zu starten.
+
+Obwohl wir anfangs das Verbindungstest Browserapplet genutzt haben um den Exploit auszulösen, könnte es in der Zukunft handlicher sein, ein anderes Browserapplet zu nutzen.
+
+Beide Arten den Browser Exploit auszulösen führen zum gleichen Ergebnis, wie das Auslösen des Exploits durch die Verbindungstest Methode, die wir vorher verwendet haben.
+
+##### eShop Einloggen-Fenster
+
+Um diese Methode zu nutzen, erstelle einen zweiten Account auf deinem Gerät. Verbinde ihn nicht mit einen Nintendo Account.
+
+1. Starte den Nintendo eShop
+1. Wähle den zweiten Account
+1. Wähle "Einloggen und verbinden"
+1. Die Browserapplet wird starten
+
+##### Spielupdate Fenster
+
+Um diese Methode zu nutzen, musst du mindestens ein Spiel auf deinem Homescreen haben.
+
+Beachte, dass wenn du nicht mit den korrekten DNS Servern verbunden bist, diese Methode dein Gerät updaten *wird*. Das ist gefährlich!
+{: .notice--danger}
+
+1. Drücke (+) mit irgendeinem Spiel ausgewählt
+1. Im "Softwareupdate" Reiter, wähle "Über das Internet"
+1. Die Browserapplet wird starten
+
+___
+
+Du kannst dich nun leicht durch die PegaSwitch-Umgebung mit deinem Gerät verbinden.
+{: .notice--success}
+
+Zu Debugging-Zwecken solltest du möglicherweise [zusätzliche Fehlerinformationen aktivieren](troubleshooting#enable-extra-error-info).
+{: .notice--info}
+
+### Zurück zu [Homebrew Entwicklung](homebrew-development)
+{: .notice--primary}

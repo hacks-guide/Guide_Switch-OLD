@@ -1,0 +1,37 @@
+---
+title: "Dateierweiterungen (Windows)"
+---
+
+{% include toc title="Inhalt" %}
+
+Dies ist ein Add-on-Abschnitt für das Deaktivieren des Windows Standard-Verhalten, Dateierweiterungen zu verstecken.
+
+Dies wird es einfacher machen die benötigten Dateien im Rest der Anleitung zu finden.
+
+### Anleitung
+
+#### Windows 10 / 8.1 / 8
+
+1. Starte den Datei-Explorer, indem sie irgendein Verzeichnis öffnen, wie zum Beispiel dein SD-Karte-Verzeichnis
+1. Klicke auf dem Ribbon-Menü die Option "Ansicht" 
+1. Aktiviere das Kontrollkästchen mit der Bezeichnung "Datei Dateinamenerweiterungen"
+
+    ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
+    {: .notice--info}
+
+#### Windows 7
+
+1. Öffne das Startmenü, indem du darauf klickst oder die Windows-Taste betätigst
+1. Suche nach "Ordneroptionen" und wähle das entsprechende Ergebnis aus
+
+    ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
+    {: .notice--info}
+
+1. Klicke oben im Menü "Ordner-Optionen" die Option "Ansicht"
+1. Deaktiviere das Kontrollkästchen "Erweiterungen bei bekannten Dateitypen ausblenden"
+
+    ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
+    {: .notice--info}
+
+### Zurück zu [Los geht's](get-started)
+{: .notice--primary}
