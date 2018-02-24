@@ -1,41 +1,41 @@
 ---
-title: "Homebrew Development"
+title: "開發自製軟體"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+目前，用於Switch的主要漏洞開發工具包是由 ReSwitched 開發的 PegaSwitch。
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+如果您想與 ReSwitched 成員一同開發自製軟體，請見 Discord 上的 [ReSwitched 伺服器](https://discord.gg/ZdqEhed)。
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+如果您想要與 SwitchBrew 的成員一同開發自製程式，請見 EFnet 上的 #switchdev 頻道。
 {: .notice--success}
 
-### Libraries
+### 函式庫 (Libraries)
 
-Currently, there are two major libraries used for developing Switch homebrew.
+目前，有兩個主要的函式庫可用於開發 Switch 自製軟體。
 
 ___
 
-#### Development (libnx)
+#### 自製軟體開發 (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+libnx 函式庫是由 SwitchBrew 開發且建構於 devkitA64 工具鏈上。
 
-Binaries can be run on your device using the Homebrew Launcher.
+編譯檔案可以透過您主機上的 Homebrew Launcher 運行。
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+繼續至 SwitchBrew 上的[設置開發環境](http://switchbrew.org/index.php?title=Setting_up_Development_Environment)
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### 自製軟體開發 (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+libtransistor 函式庫是由 ReSwitched 開發且構建於 LLVM / Clang 上。 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+已編譯檔案可以透過 Mephisto 模擬器在您的PC上運行，或者使用 Homebrew Launcher 或 ACE Loader 在您的主機上運行。
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+繼續至[自製軟體開發 (libtransistor)](development-(libtransistor))
 {: .notice--primary}
