@@ -1,21 +1,21 @@
 ---
-title: "Game Card Update"
+title: "Mise à jour par cartouche"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Toutes les cartes de jeu contiennent une copie de la version du firmware requise pour y jouer, permettant à quiconque ayant une ancienne version de se mettre à jour vers ladite version et de jouer au jeu (même sans connexion Internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+On peut utiliser ceci à notre avantage en utilisant un jeu avec une version spécifique pour pouvoir installer un firmware plus récent (3.0.0) sans avoir à mettre à jour jusqu'à la toute dernière version disponible. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Avant de faire la mise à jour à partir de la carte de jeu, on bloque les mises à jour en ligne en activant le mode avion et en entrant dans le mode Recovery / Maintenance pour supprimer toutes les données qui auraient déjà pu être téléchargées.
 
-### What you need
+### Ce que vous avez besoin
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
+* Une révision originale de la cartouche de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Les révisions originales de cette carte de jeu contiennent la mise à jour 3.0.0; elles ont un circuit imprimé vert et un numéro de série finissant en **000** (Voir l'image ci-dessous)
   + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
