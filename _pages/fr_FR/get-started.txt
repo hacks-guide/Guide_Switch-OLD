@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+title: "Pour Commencer"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Selon la version du firmware, les consoles vont devoir effectuer différentes étapes pour achever le but final actuel : le Homebrew. Cette page vous aidera à trouver où commencer pour votre console.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Avant de commencer, les utilisateurs Windows devraient activer l'option pour voir les extensions de fichiers avec [File Extensions (Windows)](file-extensions-(windows)) !
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, vous devriez vérifier si votre carte SD ne contient pas d'erreurs en utilisant [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac)) !
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Sélectionnez la page appropriée à votre version dans le tableau ci-dessous. Notez que les champs "de" et "à" sont inclusifs. Cela veut dire que, par exemple, la colonne "de 1.0.0 à 2.3.0" inclut 1.0.0, 2.3.0, et toutes les versions entre.
 
-Your device version can be found under the System Information menu in the System tab of the Settings application.
+La version de votre console peut être trouvée sous le menu Mise à jour de la console, dans l'onglet Console de l'application Paramètres de la console.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+Notez que votre console peut ne pas montrer sa version si une mise à jour téléchargée est en attente d'installation.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Si c'est le cas de votre console, vous pouvez voir votre version depuis le mode Recovery / Maintenance en allumant votre console tout en restant appuyé sur (Power) + (Volume Haut) + (Volume Bas).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### Tableau des versions
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">De</th>
+      <th style="text-align: center; font-weight: bold;">à</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -50,12 +50,12 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">Attendez un CFW --<a href="blocking-updates">Bloquer les mises à jour</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Mise à jour par cartouche</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -65,7 +65,7 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">4.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Bloquer les mises à jour</a></td>
     </tr>
   </tbody>
 </table>

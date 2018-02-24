@@ -14,11 +14,6 @@ Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwi
 Wenn du Interesse hast, mit den SwitchBrew Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch bei #switchdev auf EFnet vorbei.
 {: .notice--success}
 
-While the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
-
-Für Informationen über das aufsetzen einer PegaSwitch Umgebung, besuche die [PegaSwitch](pegaswitch) Seite.
-{: .notice--primary}
-
 ### Bibliotheken
 
 Gerade gibt es zwei große Bibliotheken die für das Entwickeln von Switchhomebrew benutzt werden.

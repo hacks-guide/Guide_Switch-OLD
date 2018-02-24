@@ -15,7 +15,7 @@ After a reboot, you will have to re-run the exploit in order to re-enable Homebr
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
-### What you need
+### Qué necesitas
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
@@ -24,7 +24,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 #### Section I - Prep Work
 
 1. Apaga tu consola
-1. Insert your SD card into your computer
+1. Inserta tu tarjeta SD en tu computadora
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
 1. Reinsert your SD card into your device

@@ -6,6 +6,11 @@ title: "Entwicklung (libtransistor)"
 
 ### Wichtig
 
+Obwohl der Homebrew Launcher alleine ausreicht, um kompiliertes Homebrew zu starten, für ernsteres Entwickeln brauchst du wahrscheinlich eine lokale PegaSwitch Umgebung. 
+
+Für Informationen über das aufsetzen einer PegaSwitch Umgebung, besuche die [PegaSwitch](pegaswitch) Seite.
+{: .notice--primary}
+
 ### Was du brauchst
 
 * Ein unterstütztes Betriebssystem

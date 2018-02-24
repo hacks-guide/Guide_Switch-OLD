@@ -1,50 +1,50 @@
 ---
 main:
   - 
-    title: Home
+    title: Inicio
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Donaciones
     url: donations
   - 
-    title: Credits
+    title: Créditos
     url: credits
   - 
-    title: Troubleshooting
+    title: Solución de problemas
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Desarrollo de Homebrew
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Navegación del sitio
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/ZdqEhed">Discord de ReSwitched</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Si aprecias esta guía, acepto <a href="donations">donaciones</a>.
 footer:
   - 
-    title: Source
+    title: Código fuente
   - 
-    title: Site Navigation
+    title: Navegación del sitio
   - 
-    title: Why Ads?
+    title: '¿Por qué anuncios?'
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progreso total
 sidebar_pages:
   - 
-    title: Home
+    title: Inicio
     url: /
   - 
-    title: Get Started
+    title: Comencemos
     url: get-started
   - 
-    title: Blocking Updates
+    title: Bloqueo de actualizaciones
     url: blocking-updates
   - 
     title: Game Card Update
@@ -53,5 +53,5 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Múltiples opciones
     url: multiple-options

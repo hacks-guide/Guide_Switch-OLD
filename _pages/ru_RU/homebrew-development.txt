@@ -14,11 +14,6 @@ If you are interested in collaborating with ReSwitched members on Homebrew Devel
 If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
 {: .notice--success}
 
-While the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
-
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
-{: .notice--primary}
-
 ### Libraries
 
 Currently, there are two major libraries used for developing Switch homebrew.
