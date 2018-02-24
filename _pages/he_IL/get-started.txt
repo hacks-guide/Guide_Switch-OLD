@@ -16,7 +16,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
 
-Your device version can be found under the System Information menu in the System tab of the Settings application.
+Your device version can be found under the System Update menu in the System tab of the Settings application.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}

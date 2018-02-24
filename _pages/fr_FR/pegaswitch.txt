@@ -67,7 +67,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 
 #### Section IV - Connexion initiale
 
-1. Allez dans `Internet` -> `Test de connexion`
+1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
 1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
@@ -108,7 +108,7 @@ ___
 Vous pouvez maintenant facilement connecter votre console en utilisant l'environnement PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+À des fins de débogage, vous pourriez vouloir [activer des informations d'erreur supplémentaires](troubleshooting#activer-des-informations-derreur-supplementaires).
 {: .notice--info}
 
 ### Retourner à [Développement des Homebrew](homebrew-development)

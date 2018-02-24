@@ -6,7 +6,7 @@ title: "開發自製軟體"
 
 ### 必讀事項
 
-目前，用於Switch的主要漏洞開發工具包是由 ReSwitched 開發的 PegaSwitch。
+目前，用於 Switch 的主要漏洞開發工具包是由 ReSwitched 開發的 PegaSwitch。
 
 如果您想與 ReSwitched 成員一同開發自製軟體，請見 Discord 上的 [ReSwitched 伺服器](https://discord.gg/ZdqEhed)。
 {: .notice--success}
