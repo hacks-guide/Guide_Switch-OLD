@@ -18,16 +18,16 @@ Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las pág
 
 ### Instrucciones
 
-1. Unzip the F3X `.zip` file
+1. Descomprime el archivo `.zip` de F3X
 1. Inserta tu tarjeta SD en tu computadora
-1. Run the F3X app
+1. Ejecuta la aplicación F3X
 1. Select your SD card
-1. Press "Start Test"
+1. Haz clic en "Start Test"
 1. Espera hasta que se complete el proceso.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
+Si la comprobación muestra el resultado `Success! Your card is ok!` tu tarjeta SD se encuentra en buen estado y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
 {: .notice--success}
 
 Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
