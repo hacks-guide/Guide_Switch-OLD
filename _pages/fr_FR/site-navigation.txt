@@ -28,7 +28,7 @@ sitemap: false
 + [Pour commencer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Accueil](/)
-+ [Homebrew Development](homebrew-development)
++ [Développement de Homebrews](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
 + [Troubleshooting](troubleshooting)
