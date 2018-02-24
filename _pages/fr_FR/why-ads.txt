@@ -1,9 +1,9 @@
 ---
-title: "Why Ads?" #
+title: "Pourquoi des pubs ?" #
 layout: single-no-ads
 ---
 
-This project is the culmination of thousands of hours of constant work.
+Ce projet est le fruit de centaines d’heures de travail constant.
 
 I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work.
 
