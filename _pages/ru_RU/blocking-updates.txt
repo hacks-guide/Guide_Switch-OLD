@@ -1,12 +1,12 @@
 ---
-title: "Blocking Updates"
+title: "Блокировка обновлений"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+На данный момент хоумбрю доступно только для версии прошивки 3.0.0, но в дальнейшем планируется поддержка хоумбрю и CFW для всех версий вплоть до 4.1.0.
 
 In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
 
