@@ -55,19 +55,19 @@ excerpt: "Полное руководство по хоумбрю на Switch <b
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Если версия прошивки вашего устройства равна 1.0.0 и вы заинтересованы в кастомной прошивке, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), приобрести японскую копию игры [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (которая понадобится для кастомной прошивки 1.0.0), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Если версия прошивки вашего устройства >=3.0.1, то ваши лучшие действия на настоящий момент это: обновиться до версии 4.1.0 (поскольку она получит кастомную прошивку в это же время), следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), покупать игры, пока есть возможность (eShop работает только на самой свежей версии прошивки), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
-## What does this guide install?
+## Что устанавливается в этом руководстве?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Это руководство позволяет получить доступ к Homebrew Launcher с помощью эксплойта в интернет-браузере, однако термин "установленный" не служит хорошим описанием. Это объясняется необходимостью перезапуска эксплойта после каждой перезагрузки консоли для восстановления доступа к Homebrew Launcher.
 
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
-## What do I need to know before starting?
+## Что нужно знать перед тем, как начать?
 
 + While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
 + The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
