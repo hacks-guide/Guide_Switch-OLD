@@ -6,7 +6,7 @@ title: "PegaSwitch"
 
 ### Lectura requerida
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch es un set de herramientas de explotación para la Switch enfocado a desarrolladores, desarrollado por ReSwitched. Es compatible con las versiones 1.0.0 a 3.0.0 de firmware.
 
 The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
 
