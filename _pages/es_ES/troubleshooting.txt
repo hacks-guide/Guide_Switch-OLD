@@ -16,15 +16,15 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
 ### What You Need
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* La última versión de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instrucciones
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copia el archivo `hbmenu.nro` desde el `.zip` de nx-hbmenu a la raíz de tu tarjeta SD
+1. Reinserta la tarjeta SD en tu consola
+1. Enciende tu consola
 
 ## Enable Extra Error Info
 
