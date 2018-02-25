@@ -6,16 +6,16 @@ title: "Homebrew Launcher"
 
 ### Обязательно к прочтению
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+На данный момент Homebrew Launcher "устанавливается" на вашу консоль через эксплойт интернет-браузера. 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+По итогам установки вы сможете заходить в Homebrew Launcher через приложение Альбом *до тех пор, пока ваша консоль не будет перезагружена*.
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
+После перезагрузки эксплойт необходимо перезапустить, чтобы восстановить доступ к Homebrew Launcher на вашей консоли. Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается на момент первой установки. Хоть это и безвредно для самого устройства, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
 
-### What you need
+### Что понадобится
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
