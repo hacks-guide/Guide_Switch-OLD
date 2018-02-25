@@ -85,23 +85,23 @@ Triggering the browser exploit using either of these methods will have the same 
 
 ##### Форма входа в eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Для этого метода требуется вторая учётная запись на устройстве. Не соединяйте её с Nintendo Account.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Запустите Nintendo eShop
+1. Выберите вторую учётную запись
+1. Выберите "Войти и присоединить"
+1. Запустится браузер-апплет
 
 ##### Форма обновления игры
 
-To use this method, you must have at least one game on your home screen.
+Для этого метода на главном экране должна присутствовать хотя бы одна игра.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Обратите внимание: если вы не подключены к корректным DNS серверам, этот метод *обновит* вашу консоль. Это опасно!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Нажмите (+) на любой выделенной в меню игре
+1. Во вкладке "Обновление программы" выберите "Через Интернет"
+1. Запустится браузер-апплет
 
 ___
 
