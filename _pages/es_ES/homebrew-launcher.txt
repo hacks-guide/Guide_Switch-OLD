@@ -35,11 +35,11 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
+1. Entra a la Configuración de la consola
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
+  + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
+1. Selecciona "Modificar los ajustes"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
