@@ -109,20 +109,20 @@ ___
 
 Обратите внимание, что на данный момент хоумбрю находится в ранней стадии с очень малым количеством программ.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Вы можете найти доступные приложения на [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks на reddit](https://www.reddit.com/r/SwitchHacks/), или [Switch Homebrew на GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Для установки приложений хоумбрю просто скопируйте файл `.nro` в папку `/switch/` на SD-карте.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Теперь Homebrew Launcher доступен для запуска через приложение Альбом в меню HOME (до перезагрузки).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+После перезагрузки необходимо проделать часть с запуском (используя любой браузер-апплет), чтобы восстановить доступ к Homebrew Launcher на вашей консоли.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Для получения информации по прогрессу в разработке хоумбрю регулярно проверяйте еженедельный блог [ReSwitched Weekly](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Для получения информации о внесении своего вклада в хоумбрю в качестве разработчика, перейдите на страницу [Homebrew Development](homebrew-development).
 {: .notice--primary}
