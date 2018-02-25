@@ -10,6 +10,10 @@ Pour le moment, les homebrew ne sont disponibles que pour la version 3.0.0 du fi
 
 Afin d'y garantir un accès futur, nous allons repointer les serveurs DNS de votre réseau actuel vers un serveur (hébergé par ReSwitched) qui bloque les requêtes vers le serveur de mise à jour Nintendo Switch.
 
+If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+
+Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+
 De plus, nous allons activer le Mode Recovery / Maintenance et supprimer toute donnée de mise à jour qui aurait pu avoir été précédemment installée.
 
 ### Instructions
