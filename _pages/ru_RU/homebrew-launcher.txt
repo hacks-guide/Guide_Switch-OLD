@@ -32,31 +32,31 @@ title: "Homebrew Launcher"
 
 #### Часть II - Конфигурация DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы эксплойт сработал.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Откройте Системные настройки
+1. Перейдите в `Интернет` -> `Интернет-настройки`
+1. Выберите вашу текущую сеть
+  + Она обозначена зелёной галочкой рядом с сетью
 1. Выберите "Изменить настройки"
 1. Измените "Настройки DNS" на "Вручную"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Измените "Первичный DNS" на `104.236.106.125`
+1. Измените "Вторичный DNS" на `62.210.147.20`
+1. Сохраните настройки сети
+1. Закройте Системные настройки
 
-#### Section III - Initial Installation
+#### Часть III - Первая установка
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
+1. Перейдите в `Интернет` -> `Тест подключения`
+1. Выберите вашу текущую сеть
+1. Выберите "Подключиться к этой сети"
+1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
+1. Выберите "Далее"
+1. Будет загружена веб-страница Homebrew Launcher
+1. Выберите "Install"
+1. Будет загружена веб-страница PegaSwitch
+1. Если эксплойт сработал, вы увидите ошибку `2000-1337`
   + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
 1. Reboot your device
 
@@ -69,7 +69,7 @@ Note that you will have to re-run this section of the exploit after each reboot 
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
-1. The Homebrew Launcher webpage will load
+1. Будет загружена веб-страница Homebrew Launcher
 1. Select "Run"
 1. If the exploit was successful, you will receive a popup asking you to exit
 1. Return to the home menu
