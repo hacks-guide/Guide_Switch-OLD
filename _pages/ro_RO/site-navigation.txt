@@ -14,24 +14,24 @@ sitemap: false
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Toate**
 
 + [Blocarea actualizărilor](blocking-updates)
-+ [Credits](credits)
-+ [Development (libtransistor)](development-(libtransistor))
-+ [Donations](donations)
++ [Contribuții](credits)
++ [Dezvoltare (libtransistor)](development-(libtransistor))
++ [Donaţii](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
++ [Întrebări frecvente](faq)
++ [Extensii de fișier (Windows)](file-extensions-(windows))
 + [Actualizare cu card de joc](game-card-update)
-+ [Get Started](get-started)
++ [Începeți](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
-+ [Homebrew Development](homebrew-development)
++ [Acasă](/)
++ [Dezvoltarea homebrew-ului](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Troubleshooting](troubleshooting)
-+ [Why Ads?](why-ads)
++ [Depanare](troubleshooting)
++ [De ce sunt reclame?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
