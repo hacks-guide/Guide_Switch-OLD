@@ -21,7 +21,7 @@ Before performing the game card update, we block online updates by using airplan
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Инструкция
 
 #### Section I - Enable Airplane Mode
 
