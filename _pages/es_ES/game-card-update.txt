@@ -25,7 +25,7 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. Entra a la Configuración de la consola
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
 1. Exit System Settings
@@ -46,7 +46,7 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Entra a la Configuración de la consola
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
 1. Exit System Settings
