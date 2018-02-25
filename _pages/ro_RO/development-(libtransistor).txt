@@ -1,5 +1,5 @@
 ---
-title: "Development (libtransistor)"
+title: "Dezvoltare (libtransistor)"
 ---
 
 {% include toc title="Table of Contents" %}
