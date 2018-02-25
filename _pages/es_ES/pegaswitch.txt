@@ -30,11 +30,11 @@ PegaSwitch funciona mediante la creación de un [portal cautivo](https://en.wiki
 Para que esto funcione, tu consola debe ser capaz de conectarse a tu PC a través de la red.
 
 1. Asegúrate de que no hay otras aplicaciones que estén utilizando el puerto UDP 53 o los puertos TCP 80 u 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+  + WSL: mira la sección "Puertos de escucha" de la pestaña "Red" en `resmon.exe`
+  + Linux/MacOS: observa el contenido de salida de `sudo netstat -tulpn`
+1. Asegúrate de que tu firewall no bloquea conexiones entrantes en ninguno de estos puertos
 
-#### Section II - Running PegaSwitch
+#### Sección II - Ejecutar PegaSwitch
 
 ~~~ bash
 # clonar el repositorio
@@ -44,28 +44,28 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
-# Windows users: omit the 'sudo'
+# iniciar PegaSwitch
+# usuarios de Windows: omitir 'sudo'
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### Sección III - Configuración de DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la que te conectes para que sea posible ejecutar el exploit.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
+1. Consigue la dirección IP de tu PC con `ifconfig` (o `ipconfig` en windows)
+1. Entra a Configuración de la consola
 1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
   + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
 1. Selecciona "Modificar los ajustes"
 1. Establece la "Configuración del DNS" en "Modo manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+1. Establece el "DNS primario" y el "DNS secundario" como la dirección IP de tu PC
 1. Guarda la configuración de red
-1. Return to `Internet Settings`
+1. Regresa a `Configuración de internet`
 
-#### Section IV - Initial Connection
+#### Sección IV - Conexión inicial
 
 1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
@@ -73,11 +73,11 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
 1. Selecciona "Siguiente"
 1. Se cargará el sitio web de PegaSwitch
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Si el exploit fue exitoso, ahora tendrás una terminal de PegaSwitch conectada a tu consola
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Sección V - Applets alternativos de navegador (Opcional)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Realmente existen [múltiples](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) navegadores de internet en la Switch y cualquiera de ellos se puede usar para activar el exploit de navegador.
 
 While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
 
