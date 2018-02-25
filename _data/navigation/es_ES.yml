@@ -30,7 +30,7 @@ footer:
   - 
     title: Código fuente
   - 
-    title: Navegación del sitio
+    title: Site Navigation
   - 
     title: '¿Por qué anuncios?'
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Progreso total
 sidebar_pages:
   - 
-    title: Inicio
+    title: Home
     url: /
   - 
     title: Comencemos

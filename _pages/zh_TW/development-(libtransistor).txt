@@ -16,7 +16,7 @@ title: "自製軟體開發 (libtransistor)"
 
 * 任一支援的作業系統
   + MacOS 以及大部分的 Linux 套件皆支援；我們將提供 Arch Linux、Ubuntu、Debian 的指令
-  + Windows *只能*透過有啟用[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 的版本才支援
+  + Windows *只能*透過有啟用 [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 的版本才支援
 * 基本的開發工具
   + Linux / WSL: 安裝適用於您套件的相關開發包 (例如 Arch 上的 `base-devel`，或 Ubuntu / Debian 上的 `build-essential`)
   + MacOS: 安裝 Xcode 命令列工具及 [Homebrew](https://brew.sh/) 套件管理員
@@ -43,7 +43,7 @@ libtransistor 仰賴於各項附屬套件，包括 LLVM / Clang、Python 3、以
 
   ~~~ bash
   # 安裝附屬套件
-  sudo pacman -Syu python python-pip cmake clang lld nmap
+  sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 

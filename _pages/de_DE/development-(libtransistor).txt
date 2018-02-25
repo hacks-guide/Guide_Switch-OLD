@@ -42,7 +42,7 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
 
   ~~~ bash
   # Installiere die Abhängigkeiten
-  sudo pacman -Syu python python-pip cmake clang lld nmap
+  sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 
