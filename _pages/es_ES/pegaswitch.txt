@@ -79,37 +79,37 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 Realmente existen [múltiples](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) navegadores de internet en la Switch y cualquiera de ellos se puede usar para activar el exploit de navegador.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+A pesar de que para activar el exploit inicialmente usamos el applet de navegador de la prueba de conexión, puede ser más conveniente usar otro applet de navegador en el futuro.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Activar el exploit de navegador utilizando cualquiera de los siguientes métodos tendrá el mismo efecto que hacerlo a través del método de la prueba de conexión que usamos anteriormente.
 
-##### eShop Sign In Prompt
+##### Pantalla de ingreso de la eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Para utilizar este método, crea una segunda cuenta en tu consola. No la conectes a una cuenta Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Inicia Nintendo eShop
+1. Selecciona la segunda cuenta
+1. Selecciona "Ingresar y vincular"
+1. El applet de navegador se iniciará
 
-##### Game Update Prompt
+##### Pantalla de actualización de juego
 
-To use this method, you must have at least one game on your home screen.
+Para utilizar este método, necesitas tener al menos un juego en tu pantalla principal.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Ten en cuenta que, si no estuvieras conectado al servidor DNS correcto, este método *actualizaría* tu consola. ¡Es peligroso!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Presiona (+) teniendo cualquier juego seleccionado
+1. En la pestaña de "Actualizar", selecciona "Internet"
+1. El applet de navegador se iniciará
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Ahora puedes conectar tu consola con facilidad utilizando el entorno de trabajo de PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+Con fines de depuración, puedes [habilitar la información adicional de errores](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Regresa a [Homebrew Development](homebrew-development)
 {: .notice--primary}
