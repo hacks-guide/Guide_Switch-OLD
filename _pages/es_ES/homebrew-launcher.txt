@@ -6,33 +6,33 @@ title: "Homebrew Launcher"
 
 ### Lectura requerida
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+El Homebrew Launcher actualmente se "instala" en tu consola a través de un exploit de navegador. 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Una vez que esta instalación se realiza, serás capaz de acceder al Homebrew Launcher a través de la aplicación Álbum *hasta que la consola sea reiniciada*.
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
+Luego de un reinicio, tendrás que volver a ejecutar el exploit para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Ten en cuenta que el actual exploit de homebrew tiene el efecto secundario de corromper la base de datos de Miis de tu consola luego de la instalación inicial. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
 {: .notice--warning}
 
 ### Qué necesitas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* La última versión de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copia el archivo `hbmenu.nro` desde el `.zip` de nx-hbmenu a la raíz de tu tarjeta SD
+1. Crea una carpeta llamada `switch` en la raíz de tu tarjeta SD si aún no existe
+1. Reinserta la tarjeta SD en tu consola
+1. Enciende tu consola
 
-#### Section II - DNS Configuration
+#### Sección II - Configuración de DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la que te conectes para que sea posible ejecutar el exploit.
 {: .notice--info}
 
 1. Entra a la Configuración de la consola
@@ -41,35 +41,35 @@ Note that these DNS servers will need to be set on each network you connect your
   + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
 1. Selecciona "Modificar los ajustes"
 1. Establece la "Configuración del DNS" en "Modo manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. Establece el "DNS primario" como `104.236.106.125`
+1. Establece el "DNS secundario" como `62.210.147.20`
 1. Guarda la configuración de red
 1. Sal de la Configuración de la consola
 
-#### Section III - Initial Installation
+#### Sección III - Instalación inicial
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Ve a `Internet` -> `Prueba de conexión`
 1. Selecciona tu red actual
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+1. Selecciona "Conectarse a esta red"
+1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
+1. Selecciona "Siguiente"
+1. La página web de The Homebrew Launcher será cargada
+1. Selecciona "Install"
+1. Se cargará el sitio web de PegaSwitch
+1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
+  + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
+1. Reinicia tu consola
 
-#### Section IV - Running the Homebrew Launcher
+#### Sección IV - Ejecutar el Homebrew Launcher
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Ve a `Internet` -> `Prueba de conexión`
 1. Selecciona tu red actual
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
+1. Selecciona "Conectarse a esta red"
+1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
+1. Selecciona "Siguiente"
+1. La página web de The Homebrew Launcher será cargada
 1. Select "Run"
 1. If the exploit was successful, you will receive a popup asking you to exit
 1. Return to the home menu
