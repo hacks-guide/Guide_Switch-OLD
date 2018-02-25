@@ -62,7 +62,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
 
 1. Ve a `Internet` -> `Prueba de conexión`
 1. Selecciona tu red actual
@@ -70,8 +70,8 @@ Note that you will have to re-run this section of the exploit after each reboot 
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
 1. Selecciona "Siguiente"
 1. La página web de The Homebrew Launcher será cargada
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
+1. Selecciona "Run"
+1. Si el exploit fue exitoso, aparecerá un mensaje preguntando para salir
 1. Return to the home menu
 1. Launch the Album application
 1. If the exploit was successful, the Homebrew Launcher will launch
