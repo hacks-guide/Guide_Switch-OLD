@@ -60,7 +60,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Selecciona tu red actual
   + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
 1. Selecciona "Modificar los ajustes"
-1. Set "DNS Settings" to "Manual"
+1. Establece la "Configuración del DNS" en "Modo manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
 1. Guarda la configuración de red
 1. Return to `Internet Settings`
