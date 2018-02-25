@@ -18,7 +18,7 @@ PegaSwitch 是由 ReSwitched 開發且傾向於開發人員的漏洞開發工具
 
 * 任一支援的作業系統
   + MacOS 和大多數的 Linux 發行版本都支援
-  + Windows 的使用者建議啟用[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 為佳
+  + Windows 的使用者建議啟用 [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 為佳
 * [git](https://git-scm.com/) 版本控制系統
 * [Node.JS](https://nodejs.org/en/download/package-manager/) (最新版本)
 

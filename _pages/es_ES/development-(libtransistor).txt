@@ -42,7 +42,7 @@ Para instalarlas, ejecuta los comandos correspondientes a tu sistema operativo.
 
   ~~~ bash
   # instalar dependencias
-  sudo pacman -Syu python python-pip cmake clang lld nmap
+  sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 
