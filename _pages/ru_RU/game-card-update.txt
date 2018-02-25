@@ -46,7 +46,7 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Откройте Системные настройки
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
 1. Exit System Settings
