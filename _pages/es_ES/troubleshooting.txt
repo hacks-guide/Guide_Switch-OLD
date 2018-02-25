@@ -28,15 +28,15 @@ Este error ocurre cuando el archivo nx-hbmenu `.nro` no se encuentra en tu tarje
 
 ## Habilitar información adicional de errores
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+Este programa habilitará la muestra de información adicional sobre errores cuando ocurran errores fatales. Puede ser útil a la hora de realizar depuraciones.
 
-### What You Need
+### Qué necesitas
 
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
 ### Instrucciones
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. Copia el archivo `extraerrorinfo.js` a la carpeta `/usefulscripts/` en PegaSwitch
+1. Conecta tu consola utilizando PegaSwitch
+1. Ejecuta `evalfile usefulscripts/extraerrorinfo.js`
