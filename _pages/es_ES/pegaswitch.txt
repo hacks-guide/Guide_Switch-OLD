@@ -8,28 +8,28 @@ title: "PegaSwitch"
 
 PegaSwitch es un set de herramientas de explotación para la Switch enfocado a desarrolladores, desarrollado por ReSwitched. Es compatible con las versiones 1.0.0 a 3.0.0 de firmware.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+El set de herramientas usa una combinación de vulnerabilidades para tomar control del navegador basado en WebKit, dándole al usuario una consola de comandos que puede usar para leer y escribir memoria, llamar funciones nativas y además explorar la funcionalidad de la Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
+Ten en cuenta que el exploit de homebrew actual tiene el efecto secundario de corromper la base de datos de Miis de tu consola. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
 {: .notice--warning}
 
 ### Qué necesitas
 
 * Un sistema operativo compatible
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+  + MacOS y la mayoría de las distribuciones de Linux son compatibles
+  + Windows tiene mejor soporte si se usa una distribución del [Subsistema de Windows para Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* El sistema de control de versiones [git](https://git-scm.com/)
+* El runtime de JavaScript [Node.JS](https://nodejs.org/en/download/package-manager/) (release actual)
 
 ### Instrucciones
 
-#### Section I - Network Configuration
+#### Sección I - Configuración de red
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch funciona mediante la creación de un [portal cautivo](https://en.wikipedia.org/wiki/Captive_portal) usando redirección de DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Para que esto funcione, tu consola debe ser capaz de conectarse a tu PC a través de la red.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
+1. Asegúrate de que no hay otras aplicaciones que estén utilizando el puerto UDP 53 o los puertos TCP 80 u 8100
   + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
   + Linux / MacOS: view the output of `sudo netstat -tulpn`
 1. Ensure your firewall does not block incoming connections to any of these ports
