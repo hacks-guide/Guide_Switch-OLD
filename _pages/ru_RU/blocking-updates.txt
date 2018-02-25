@@ -8,13 +8,13 @@ title: "Блокировка обновлений"
 
 На данный момент хоумбрю доступно только для версии прошивки 3.0.0, но в дальнейшем планируется поддержка хоумбрю и CFW для всех версий вплоть до 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Для обеспечения гарантированного доступа в будущем, необходимо задать для вашей текущей сети адрес DNS сервера (принадлежащего ReSwitched), который блокирует запросы к серверу обновлений Nintendo Switch.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+В дополнение к этому необходимо войти в режим Восстановления / Сервисного обслуживания и удалить все данные обновлений, которые уже могли быть загружены.
 
-### Instructions
+### Инструкция
 
-#### Section I - DNS Configuration
+#### Часть I - Конфигурация DNS
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
