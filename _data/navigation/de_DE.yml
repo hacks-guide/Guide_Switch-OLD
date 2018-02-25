@@ -30,7 +30,7 @@ footer:
   - 
     title: Quellcode
   - 
-    title: Seitennavigation
+    title: Site Navigation
   - 
     title: Warum Werbung?
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Gesamtfortschritt
 sidebar_pages:
   - 
-    title: Startseite
+    title: Home
     url: /
   - 
     title: Erste Schritte
