@@ -57,34 +57,34 @@ title: "Homebrew Launcher"
 1. Выберите "Install"
 1. Будет загружена веб-страница PegaSwitch
 1. Если эксплойт сработал, вы увидите ошибку `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+  + Если страница PegaSwitch застряла без видимых ошибок, перезагрузите консоль и снова проведите тест подключения
+1. Перезагрузите консоль
 
-#### Section IV - Running the Homebrew Launcher
+#### Часть IV - Запуск Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Обратите внимание, что эту часть придется выполнять после каждой перезагрузки, чтобы восстановить доступ к Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
+1. Перейдите в `Интернет` -> `Тест подключения`
+1. Выберите вашу текущую сеть
+1. Выберите "Подключиться к этой сети"
+1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
+1. Выберите "Далее"
 1. Будет загружена веб-страница Homebrew Launcher
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Выберите "Run"
+1. Если эксплойт сработал, появится всплывающее окно, предлагающее выйти
+1. Вернитесь в меню HOME
+1. Запустите приложение Альбом
+1. Если эксплойт сработал, запустится Homebrew Launcher
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Часть V - Альтернативные браузер-апплеты (необязательно)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Поскольку после каждой перезагрузки необходимо проделывать часть с запуском, идеальным было бы наличие более удобной возможности запуска браузера, чем тест подключения.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsers applets on the Switch, and any of them can be used to trigger the browser exploit.
+К счастью, существуют [несколько](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) браузер-апплетов на Switch, и все они могут быть использованы для запуска эксплойта браузера.
 
-Two convenient methods for launching a browser are listed below:
+Два удобных метода запуска браузера указаны ниже:
 
-##### eShop Sign In Prompt
+##### Форма входа в eShop
 
 To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
 
@@ -93,7 +93,7 @@ To use this method, create a second account on your device. Do not connect it to
 1. Select "Sign In and link"
 1. The browser applet will launch
 
-##### Game Update Prompt
+##### Форма обновления игры
 
 To use this method, you must have at least one game on your home screen.
 
