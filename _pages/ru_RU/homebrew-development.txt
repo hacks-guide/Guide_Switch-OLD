@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Development"
+title: "Разработка хоумбрю"
 ---
 
 {% include toc title="Table of Contents" %}
