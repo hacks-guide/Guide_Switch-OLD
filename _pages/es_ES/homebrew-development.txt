@@ -16,26 +16,26 @@ Si estás interesado en colaborar con el equipo de SwitchBrew en el desarrollo d
 
 ### Bibliotecas
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Actualmente, existen dos reconocidas bibliotecas para desarrollar homebrew para la Switch.
 
 ___
 
-#### Development (libnx)
+#### Desarrollo (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+La biblioteca libnx es desarrollada por SwitchBrew y compilada con el toolchain devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Los binarios pueden ser ejecutados en tu consola usando el Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Continúa en [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) en SwitchBrew (*en inglés*)
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### Desarrollo (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+La biblioteca libtransistor es desarrollada por ReSwitched y compilada con el stack LLVM / Clang. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Los binarios pueden ser ejecutados en tu PC mediante el emulador Mephisto, o en tu consola a través del Homebrew Launcher o ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Continúa a [Desarrollo (libtransistor)](development-(libtransistor))
 {: .notice--primary}
