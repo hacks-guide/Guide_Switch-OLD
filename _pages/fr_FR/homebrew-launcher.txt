@@ -69,7 +69,7 @@ Notez que vous devrez répéter ces étapes après chaque redémarrage de la con
 1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
 1. Sélectionnez "Suivant"
-1. La page de l'Homebrew Launcher chargera
+1. La page de l'Homebrew Launcher va s'afficher
 1. Sélectionnez "Run"
 1. Si l'exploit s'est bien exécuté, une fenêtre s'ouvrira vous demandant de quitter la page
 1. Retournez au menu d'accueil
