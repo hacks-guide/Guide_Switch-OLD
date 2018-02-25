@@ -2,9 +2,9 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
 PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
 
