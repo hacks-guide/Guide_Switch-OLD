@@ -23,15 +23,15 @@ excerpt: "Полное руководство по хоумбрю на Switch <b
 
 ## Что такое Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+Под словом [**Homebrew (хоумбрю)**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) (англ.) обычно подразумевают программное обеспечение, не авторизованное Nintendo. Это включает хоумбрю утилиты, приложения, игры и эмуляторы.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+Если версия прошивки вашей консоли равна 3.0.0, запуск хоумбрю на вашей консоли на 100% бесплатен с использованием лишь системного интернет-браузера. Консоли с более ранней версией прошивки могут быть обновлены до 3.0.0 с помощью игрового картриджа. Для консолей с более поздней версией прошивки можно заблокировать будущие обновления, чтобы обеспечить возможность использовать будущие эксплойты.
 
-## What is Custom Firmware?
+## Что такое кастомная прошивка (CFW)?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. В настоящее время она находится в разработке и будет выпущена согласно плану, когда все необходимые компоненты будут завершены.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Текущий план по выпуску CFW в порядке возрастания версий прошивок разделён на следующие части: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -41,9 +41,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">В ближайшем будущем</th>
+      <th style="text-align: center; font-weight: bold;">В менее ближайшем будущем</th>
+      <th style="text-align: center; font-weight: bold;">В далёком будущем</th>
     </tr>
   </thead>
   <tbody>
