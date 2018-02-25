@@ -34,8 +34,8 @@ Before performing the game card update, we block online updates by using airplan
 
 1. Power off your device
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
+1. Не выбирайте никаких опций
+1. Все загруженные данные обновлений были удалены с консоли при входе в это меню
 1. Press (Power) to power off your device
 
 #### Section III - Game Card Update
