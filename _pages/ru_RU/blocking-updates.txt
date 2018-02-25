@@ -33,12 +33,12 @@ title: "Блокировка обновлений"
 #### Часть II - Удаление данных обновления
 
 1. Выключите консоль
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Включите консоль, зажав кнопку питания + кнопку увеличения громкости + кнопку уменьшения громкости
+1. Не выбирайте никаких опций
+1. Все загруженные данные обновлений были удалены с консоли при входе в это меню
+1. Нажмите кнопку питания для выключения консоли
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Теперь обновления для вашей консоли заблокированы в данной конфигурации сети.
 {: .notice--success}
