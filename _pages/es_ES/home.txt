@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+title: "Guía de hackeo para Switch" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
