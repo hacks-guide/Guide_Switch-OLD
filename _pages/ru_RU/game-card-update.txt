@@ -14,44 +14,44 @@ title: "Обновление картриджем"
 
 ### Что понадобится
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Оригинальная ревизия картриджа с игрой [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Оригинальная ревизия картриджа с этой игрой содержит обновление до 3.0.0; внутри картриджа находится печатная плата зелёного цвета и серийный номер на корпусе заканчивается на **000** (см. изображение ниже)
+  + Поздние ревизии картриджа содержат 3.0.1; внутри картриджа находится печатная плата чёрного цвета и серийный номер на корпусе заканчивается на **001** (*не используйте такие для обновления!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### Инструкция
 
-#### Section I - Enable Airplane Mode
-
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
-
-#### Section II - Deleting Update Data
-
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Не выбирайте никаких опций
-1. Все загруженные данные обновлений были удалены с консоли при входе в это меню
-1. Press (Power) to power off your device
-
-#### Section III - Game Card Update
-
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
-
-#### Section IV - Disable Airplane Mode
+#### Часть I - Включение режима полёта
 
 1. Откройте Системные настройки
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. Перейдите в `Режим полёта`
+1. Включите режим полёта
+1. Закройте Системные настройки
+
+#### Часть II - Удаление данных обновления
+
+1. Выключите консоль
+1. Включите консоль, зажав кнопку питания + кнопку увеличения громкости + кнопку уменьшения громкости
+1. Не выбирайте никаких опций
+1. Все загруженные данные обновлений были удалены с консоли при входе в это меню
+1. Нажмите кнопку питания для выключения консоли
+
+#### Часть III - Обновление картриджем
+
+1. Вставьте картридж с Pokkén Tournament DX в консоль
+1. Попробуйте запустить игру
+1. Согласитесь с обновлением при запуске игры
+
+#### Часть IV - Выключение режима полёта
+
+1. Откройте Системные настройки
+1. Перейдите в `Режим полёта`
+1. Отключите режим полёта
+1. Закройте Системные настройки
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Следующий шаг: [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
