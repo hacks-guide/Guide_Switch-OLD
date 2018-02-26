@@ -124,8 +124,8 @@ title: "Разработка (libtransistor)"
 
 ___
 
-You now have a fully functional libtransistor development environment.
+Теперь у вас есть полностью настроенная среда разработки с libtransistor.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Если вы заинтересованы в совместной разработке хоумбрю с участниками команды ReSwitched, посетите [сервер ReSwitched в Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
