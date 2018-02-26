@@ -37,10 +37,10 @@ For this to work, your device must be able to connect to your PC over the networ
 #### Section II - Running PegaSwitch
 
 ~~~ bash
-# clone the repository
+# клонируем репозиторий
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# установка зависимостей
 cd pegaswitch
 npm install
 
