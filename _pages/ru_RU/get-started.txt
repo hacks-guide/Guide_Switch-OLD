@@ -1,22 +1,22 @@
 ---
-title: "Get Started"
+title: "Начало"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Разные версии прошивок требуют различных действий для достижения текущей цели - хоумбрю. Эта страница поможет вам понять, откуда именно следует начать.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Перед началом, пользователям Windows необходимо включить отображение расширений файлов, следуя [Расширения файлов (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Выберите подходящую для вашей версии страницу из таблицы ниже. Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 1.0.0 по 2.3.0" включает в себя 1.0.0, 2.3.0 и все версии между ними.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+Версия прошивки вашего устройства отображается во вкладке Система в приложении Системные настройки.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
