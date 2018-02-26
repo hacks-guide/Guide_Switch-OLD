@@ -2,28 +2,28 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch - это программный комплекс для взаимодействия со Switch, ориентированный на разработчиков и разрабатываемый командой ReSwitched. Он совместим с версиями прошивки 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Комплекс использует комбинацию уязвимостей браузера на базе WebKit, предоставляя пользователю оболочку, которой можно воспользоваться для чтения / записи памяти, вызова нативных функций и в целом пользоваться функционалом Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Хоть это и безвредно для самого устройства, все Mii, созданные пользователем, будут потеряны.
+Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается. Хоть это и безвредно для самого устройства, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
 
 ### Что понадобится
 
 * Поддерживаемая операционная система
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+  + MacOS и большинство дистрибутивов Linux поддерживаются
+  + Windows лучше поддерживается с использованием [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (англ.)
+* Система контроля версий [git](https://git-scm.com/)
+* [Node.JS](https://nodejs.org/en/download/package-manager/) (текущая версия)
 
-### Instructions
+### Инструкция
 
-#### Section I - Network Configuration
+#### Часть I - Настройка сети
 
 PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
 
