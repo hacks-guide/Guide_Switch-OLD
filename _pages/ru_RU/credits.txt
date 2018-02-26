@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Благодарности"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Отдельное спасибо всем [переводчикам](https://crowdin.com/project/switch-guide) за их работу!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Если я кого-то забыл, свяжитесь со мной, и я добавлю ваше имя.
 
 {% capture notice-1 %}
 

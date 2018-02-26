@@ -10,7 +10,11 @@ Actualmente, el uso de homebrew solo es posible en firmware versión 3.0.0, pero
 
 Para garantizar el acceso a homebrew en el futuro, establecemos los DNS de la configuración de internet de la consola a un servidor (mantenido por ReSwitched) que bloquea las peticiones al servidor de actualizaciones de Nintendo para la Switch.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Si estás en la versión 4.1.0 de firmware, te permitirá continuar utilizando servicios en línea (sin preocuparte de actualizar) mientras la versión 4.1.0 sea la más nueva.
+
+Ten en cuenta que, para poder acceder a servicios en línea en 4.1.0, tendrás que haberte conectado a servicios en línea al menos una vez antes de seguir estas instrucciones.
+
+Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos cualquier dato de actualización que pudiere haberse descargado con anterioridad.
 
 ### Instrucciones
 
@@ -19,24 +23,24 @@ Additionally, we enter Recovery / Maintenance Mode and delete any update data wh
 ¡Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la que te conectes para bloquear las actualizaciones!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
+1. Entra a la Configuración de la consola
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
+  + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
+1. Selecciona "Modificar los ajustes"
+1. Establece la "Configuración del DNS" en "Modo manual"
+1. Establece el "DNS primario" como `173.255.238.217`
+1. Establece el "DNS secundario" como `173.255.238.217`
 1. Guarda la configuración de red
-1. Exit System Settings
+1. Sal de la Configuración de la consola
 
 #### Sección II - Borrar datos de actualización
 
 1. Apaga tu consola
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. Enciende tu consola manteniendo presionado (Power) + (Volume Up) + (Volume Down)
 1. No selecciones ninguna de las opciones
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Cualquier actualización descargada ha sido eliminada tan solo por entrar a este menú
+1. Presiona (Power) para apagar tu consola
 
 ___
 

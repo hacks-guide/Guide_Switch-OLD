@@ -1,41 +1,41 @@
 ---
-title: "Homebrew Development"
+title: "Разработка хоумбрю"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+На настоящий момент публично доступный набор инструментов для Switch - PegaSwitch, разрабатываемый командой ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Если вы заинтересованы в совместной разработке хоумбрю с участниками команды ReSwitched, посетите [сервер ReSwitched в Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Если вы заинтересованы в совместной разработке хоумбрю с участниками команды SwitchBrew, посетите канал #switchdev на EFnet.
 {: .notice--success}
 
-### Libraries
+### Библиотеки
 
-Currently, there are two major libraries used for developing Switch homebrew.
+В настоящий момент для разработки хоумбрю на Switch используются две главных библиотеки.
 
 ___
 
-#### Development (libnx)
+#### Разработка (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+Библиотека libnx разрабатывается командой SwitchBrew и собрана на тулчейне devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Бинарники могут быть запущены на вашей консоли при помощи Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Следующий шаг: [Установка среды разработки](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) на SwitchBrew (англ.)
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### Разработка (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+Библиотека libtransistor разрабатывается командой ReSwitched и собрана на стэке LLVM / Clang. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Бинарники могут быть запущены на вашем компьютере с помощью эмулятора Mephisto, или на вашей консоли при помощи Homebrew Launcher или ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Следующий шаг: [Разработка (libtransistor)](development-(libtransistor))
 {: .notice--primary}

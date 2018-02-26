@@ -30,7 +30,7 @@ footer:
   - 
     title: Código fuente
   - 
-    title: Site Navigation
+    title: Navegación del sitio
   - 
     title: '¿Por qué anuncios?'
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Progreso total
 sidebar_pages:
   - 
-    title: Home
+    title: Inicio
     url: /
   - 
     title: Comencemos
@@ -47,7 +47,7 @@ sidebar_pages:
     title: Bloqueo de actualizaciones
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Actualización con cartucho
     url: game-card-update
   - 
     title: Homebrew Launcher

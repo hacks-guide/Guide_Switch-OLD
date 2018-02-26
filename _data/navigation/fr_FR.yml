@@ -30,7 +30,7 @@ footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: Index du site
   - 
     title: Pourquoi des pubs ?
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Progression globale
 sidebar_pages:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
     title: Pour commencer

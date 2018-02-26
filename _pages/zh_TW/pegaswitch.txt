@@ -76,7 +76,7 @@ sudo node start.js
 1. PegaSwitch 網頁將開始加載
 1. 如果漏洞成功執行，您現在已成功與您主機建立 PegaSwitch shell 的連結
 
-#### 第四節 — 其他瀏覽器程序 (選用)
+#### 第五節 — 其他瀏覽器程序 (選用)
 
 在Switch上實際上有[許多其他的](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets)小瀏覽器程序，其中任何一個都可以用來觸發瀏覽器漏洞。
 

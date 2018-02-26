@@ -1,8 +1,8 @@
 ---
-title: "Development (libtransistor)"
+title: "Dezvoltare (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Required Reading
 
@@ -69,7 +69,7 @@ To install them, run the commands corresponding to your operating system.
   cd libtransistor
 
   # install python dependencies
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -86,7 +86,7 @@ To install them, run the commands corresponding to your operating system.
   cd libtransistor
 
   # install python dependencies
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -103,7 +103,7 @@ To install them, run the commands corresponding to your operating system.
   cd libtransistor
 
   # install python dependencies
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc

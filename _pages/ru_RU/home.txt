@@ -7,31 +7,31 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Полное руководство по хоумбрю на Switch <br /> и его разработке.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Внимательно прочтите все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Это руководство доступно на других языках!    
+Нажмите на значок <i class="fa fa-language" aria-hidden="true"></i> в правом верхнем углу страницы, чтобы изменить язык.    
+Или же нажмите [сюда](https://crowdin.com/project/switch-guide), чтобы помочь поддерживать перевод в актуальном состоянии.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Что такое Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+Под словом [**Homebrew (хоумбрю)**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) (англ.) обычно подразумевают программное обеспечение, не авторизованное Nintendo. Это включает хоумбрю утилиты, приложения, игры и эмуляторы.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+Если версия прошивки вашей консоли равна 3.0.0, запуск хоумбрю на вашей консоли на 100% бесплатен с использованием лишь системного интернет-браузера. Консоли с более ранней версией прошивки могут быть обновлены до 3.0.0 с помощью игрового картриджа. Для консолей с более поздней версией прошивки можно заблокировать будущие обновления, чтобы обеспечить возможность использовать будущие эксплойты.
 
-## What is Custom Firmware?
+## Что такое кастомная прошивка (CFW)?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. В настоящее время она находится в разработке и будет выпущена согласно плану, когда все необходимые компоненты будут завершены.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Текущий план по выпуску CFW в порядке возрастания версий прошивок разделён на следующие части: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -41,9 +41,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">В ближайшем будущем</th>
+      <th style="text-align: center; font-weight: bold;">В менее ближайшем будущем</th>
+      <th style="text-align: center; font-weight: bold;">В далёком будущем</th>
     </tr>
   </thead>
   <tbody>
@@ -55,27 +55,27 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Если версия прошивки вашей консоли равна 1.0.0 и вы заинтересованы в кастомной прошивке, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), приобрести японскую копию игры [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (которая понадобится для кастомной прошивки 1.0.0), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Если версия прошивки вашей консоли >=3.0.1, то ваши лучшие действия на настоящий момент это: обновиться до версии 4.1.0 (поскольку она получит кастомную прошивку в это же время), следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), покупать игры, пока есть возможность (eShop работает только на самой свежей версии прошивки), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
-## What does this guide install?
+## Что устанавливается в этом руководстве?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Это руководство позволяет получить доступ к Homebrew Launcher с помощью эксплойта в интернет-браузере, однако термин "установленный" не служит хорошим описанием. Это объясняется необходимостью перезапуска эксплойта после каждой перезагрузки консоли для восстановления доступа к Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
 
-## What do I need to know before starting?
+## Что нужно знать перед тем, как начать?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Поскольку методы взлома Switch постоянно совершенствуются, они ещё не находятся в дружественном к пользователю состоянии. Поэтому в этом руководстве может понадобиться понимание технической части для разрешения всех потенциальных проблем.
++ Область изменений на устройстве ограничена для хоумбрю на текущий момент, что делает вероятность потери данных или нанесения ущерба консоли при использовании популярных хоумбрю-приложений довольно низкой.
++ Это руководство подходит для консолей Switch с версией прошивки от 1.0.0 до 3.0.0 включительно, с запланированной поддержкой всех версий до 4.1.0. Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
++ Вам понадобится micro SD-карта для вашей консоли. SD-карта должна быть отформатирована в FAT32 и использовать [MBR, а не GPT](http://www.howtogeek.com/245610/) (англ.) (большинство micro SD-карт отформатированы таким образом по умолчанию). 
++ Если вам нужно отформатировать micro SD-карту, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 32К.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Следующий шаг: [Начало](get-started)
 {: .notice--primary}

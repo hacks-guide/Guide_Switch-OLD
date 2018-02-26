@@ -70,7 +70,7 @@ libtransistor 仰賴於各項附屬套件，包括 LLVM / Clang、Python 3、以
   cd libtransistor
 
   # 安裝 python 附屬套件
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # 將 libtransistor 環境變數設置為當前目錄
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -87,7 +87,7 @@ libtransistor 仰賴於各項附屬套件，包括 LLVM / Clang、Python 3、以
   cd libtransistor
 
   # 安裝 python 附屬套件
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
 
   # 將 libtransistor 環境變數設置為當前目錄
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -104,7 +104,7 @@ libtransistor 仰賴於各項附屬套件，包括 LLVM / Clang、Python 3、以
   cd libtransistor
 
   # 安裝 python 附屬套件
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # 將 libtransistor 環境變數設置為當前目錄
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc

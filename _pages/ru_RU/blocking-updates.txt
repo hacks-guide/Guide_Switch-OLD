@@ -1,44 +1,48 @@
 ---
-title: "Blocking Updates"
+title: "Блокировка обновлений"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+На данный момент хоумбрю доступно только для версии прошивки 3.0.0, но в дальнейшем планируется поддержка хоумбрю и CFW для всех версий вплоть до 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Для обеспечения гарантированного доступа в будущем, необходимо задать для вашей текущей сети адрес DNS сервера (принадлежащего ReSwitched), который блокирует запросы к серверу обновлений Nintendo Switch.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Если версия прошивки вашей консоли равна 4.1.0, это позволит пользоваться онлайн-сервисами (не опасаясь обновлений прошивки), пока 4.1.0 является последней версией.
 
-### Instructions
+Обратите внимание, что для использования онлайн-сервисов на версии 4.1.0 необходимо хотя бы раз подключиться к этим сервисам перед выполнением инструкции.
 
-#### Section I - DNS Configuration
+В дополнение к этому необходимо войти в режим Восстановления / Сервисного обслуживания и удалить все данные обновлений, которые уже могли быть загружены.
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+### Инструкция
+
+#### Часть I - Конфигурация DNS
+
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы обновления блокировались!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Откройте Системные настройки
+1. Перейдите в `Интернет` -> `Интернет-настройки`
+1. Выберите вашу текущую сеть
+  + Она обозначена зелёной галочкой рядом с сетью
+1. Выберите "Изменить настройки"
+1. Измените "Настройки DNS" на "Вручную"
+1. Измените "Первичный DNS" на `173.255.238.217`
+1. Измените "Вторичный DNS" на `173.255.238.217`
+1. Сохраните настройки сети
+1. Закройте Системные настройки
 
-#### Section II - Deleting Update Data
+#### Часть II - Удаление данных обновления
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Выключите консоль
+1. Включите консоль, зажав кнопку питания + кнопку увеличения громкости + кнопку уменьшения громкости
+1. Не выбирайте никаких опций
+1. Все загруженные данные обновлений были удалены с консоли при входе в это меню
+1. Нажмите кнопку питания для выключения консоли
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Теперь обновления для вашей консоли заблокированы в данной конфигурации сети.
 {: .notice--success}

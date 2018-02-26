@@ -1,57 +1,57 @@
 ---
-title: "Game Card Update"
+title: "Actualizar con cartucho"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Todos los cartuchos contienen una copia de la versión del sistema necesaria para jugarlo, permitiendo a cualquiera usarlo para actualizar desde una versión inferior y jugar al juego (incluso sin conexión a internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Podemos tomar ventaja de esto utilizando un cartucho que contenga una versión específica del sistema para así poder instalar una versión más reciente (3.0.0) sin tener que actualizar directamente a la última versión disponible. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Antes de realizar la actualización con cartucho, bloqueamos las actualizaciones mediante el uso del modo avión y entrando al modo de mantenimiento/recuperación para borrar cualquier paquete de datos de actualización que pudiere haberse descargado con anterioridad.
 
 ### Qué necesitas
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Una revisión original del cartucho de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Las revisiones originales del juego son las que contienen la versión 3.0.0; poseen una placa de circuitos impresa en color verde y el número de serie termina en **000** (ver la imagen de abajo)
+  + Las nuevas versiones del juego contienen la versión 3.0.1; poseen una placa de circuitos impresa en color negro y el número de serie termina en **001** (*¡evita usar estos cartuchos para actualizar!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### Instrucciones
 
-#### Section I - Enable Airplane Mode
+#### Sección I - Activar el Modo avión
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. Entra a la Configuración de la consola
+1. Ve a `Modo avión`
+1. Activa el Modo avión
+1. Sal de la Configuración de la consola
 
 #### Sección II - Borrar datos de actualización
 
 1. Apaga tu consola
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. Enciende tu consola manteniendo presionado (Power) + (Volume Up) + (Volume Down)
 1. No selecciones ninguna de las opciones
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Cualquier actualización descargada ha sido eliminada tan solo por entrar a este menú
+1. Presiona (Power) para apagar tu consola
 
-#### Section III - Game Card Update
+#### Sección III - Actualizar con cartucho
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Inserta el cartucho de Pokkén Tournament DX en tu consola
+1. Intenta iniciar el juego
+1. Actualiza cuando se te pida
 
-#### Section IV - Disable Airplane Mode
+#### Sección IV - Desactivar el Modo avión
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. Entra a la Configuración de la consola
+1. Ve a `Modo avión`
+1. Desactiva el Modo avión
+1. Sal de la Configuración de la consola
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Continúa a [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

@@ -1,42 +1,42 @@
 ---
-title: "Troubleshooting"
+title: "Проблемы и их решения"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+При возникновении проблем, найдите соответствующий раздел и следуйте инструкциям.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Если проблема всё ещё не может быть решена и вам требуется помощь, то обращайтесь с уже подготовленным описанием проблемы и проделанных действий по её устранению.
 
-## Error 2347-0003
+## Ошибка 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Ошибка возникает в случае отсутствия `.nro` файла nx-hbmenu на SD-карте.
 
-### What You Need
+### Что понадобится
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Свежая версия [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Инструкция
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Выключите консоль
+1. Вставьте SD-карту в компьютер
+1. Скопируйте файл `hbmenu.nro` из `.zip-архива` nx-hbmenu в корень SD-карты
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
-## Enable Extra Error Info
+### Включение дополнительной информации об ошибках
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+Этот скрипт включит отображение дополнительной информации об ошибках при возникновении неустранимых ошибок. Это может пригодиться для отладки.
 
-### What You Need
+### Что понадобится
 
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
-### Instructions
+### Инструкция
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. Скопируйте `extraerrorinfo.js` в папку `/usefulscripts/` в PegaSwitch
+1. Подключитесь к вашей консоли с помощью PegaSwitch
+1. Запустите `evalfile usefulscripts/extraerrorinfo.js`

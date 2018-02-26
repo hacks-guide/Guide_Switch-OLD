@@ -69,7 +69,7 @@ Pour les installer, lancez les commandes correspondant à votre système d'explo
   cd libtransistor
 
   # installation des dépendances python
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # définition de la variable d'environnement de libtransistor au dossier courant
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -86,7 +86,7 @@ Pour les installer, lancez les commandes correspondant à votre système d'explo
   cd libtransistor
 
   # installation des dépendances python
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
 
   # définition de la variable d'environnement de libtransistor au dossier courant
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -103,7 +103,7 @@ Pour les installer, lancez les commandes correspondant à votre système d'explo
   cd libtransistor
 
   # installation des dépendances python
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # définition de la variable d'environnement de libtransistor au dossier courant
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc

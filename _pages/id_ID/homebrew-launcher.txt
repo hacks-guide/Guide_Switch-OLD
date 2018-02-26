@@ -69,7 +69,7 @@ Note that you will have to re-run this section of the exploit after each reboot 
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
-1. The Homebrew Launcher webpage
+1. The Homebrew Launcher webpage will load
 1. Select "Run"
 1. If the exploit was successful, you will receive a popup asking you to exit
 1. Return to the home menu

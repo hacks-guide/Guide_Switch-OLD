@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Contribuții"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Mulțumiri speciale tuturor [traducătorilor](https://crowdin.com/project/switch-guide) pentru că sunt minunați!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Dacă te-am uitat, contactează-mă și îți voi adaugă numele.
 
 {% capture notice-1 %}
 

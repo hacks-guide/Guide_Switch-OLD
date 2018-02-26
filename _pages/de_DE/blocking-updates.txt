@@ -10,6 +10,10 @@ Aktuell ist Homebrew nur auf Firmware Version 3.0.0 verfügbar, aber in Zukunft 
 
 Um zuķunftigen Zugang zu gewährleisten, setzen wir einen von ReSwitched gehosteten Server als DNS, der sämtliche Verbindungsversuche zu Nintendos Update-Servern blockiert.
 
+If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+
+Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+
 Zusätzlich starten wir in den Wiederherstellungs- / Wartungsmodus und löschen damit alle Update-Daten, die die Switch bereits potenziell heruntergeladen hat.
 
 ### Anleitung
