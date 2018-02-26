@@ -6,17 +6,17 @@ title: "Разработка (libtransistor)"
 
 ### Обязательно к прочтению
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Стоит отметить, что хотя доступа к Homebrew Launcher вполне достаточно для запуска скомпилированного хоумбрю, вы можете настроить среду разработки PegaSwitch для ускорения процесса. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Для получения информации о настройке среды разработки PegaSwitch, перейдите к странице [PegaSwitch](pegaswitch).
 {: .notice--primary}
 
-### What You Need
+### Что понадобится
 
-* A supported operating system
-  + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
-  + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* Basic development tools
+* Поддерживаемая операционная система
+  + MacOS и большинство дистрибутивов Linux поддерживаются; терминальные команды для Arch Linux, Ubuntu и Debian будут предоставлены
+  + Windows поддерживается *только* с использованием [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (англ.)
+* Основные инструменты разработки
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
