@@ -1,18 +1,18 @@
 ---
-title: "Game Card Update"
+title: "Обновление картриджем"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Все картриджи содержат в себе обновление прошивки до версии, необходимой для запуска игры, благодаря чему возможно выполнить обновление до этой версии (даже без доступа к интернету).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Таким образом можно воспользоваться игрой, содержащей определённую версию, чтобы установить более позднюю версию прошивки (3.0.0) без установки самой последней доступной версии. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Перед обновлением с помощью картриджа необходимо заблокировать обновления из интернета с помощью использования режима полёта и входа в режим Восстановления / Сервисного обслуживания для удаления всех данных обновлений, которые уже могли быть загружены.
 
-### What you need
+### Что понадобится
 
 * An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
