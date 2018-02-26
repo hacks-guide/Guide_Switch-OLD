@@ -13,9 +13,9 @@ The toolkit uses a combination of vulnerabilities to take over the WebKit-based 
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Хоть это и безвредно для самого устройства, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
 
-### What You Need
+### Что понадобится
 
-* A supported operating system
+* Поддерживаемая операционная система
   + MacOS and most linux distributions are supported
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * The [git](https://git-scm.com/) version control system
