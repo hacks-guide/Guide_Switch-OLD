@@ -63,9 +63,9 @@ sudo node start.js
 1. Измените "Настройки DNS" на "Вручную"
 1. Измените значения полей "Первичный DNS" и "Вторичный DNS" на IP-адрес вашего компьютера
 1. Сохраните настройки сети
-1. Return to `Internet Settings`
+1. Вернитесь в `Интернет-настройки`
 
-#### Section IV - Initial Connection
+#### Часть IV - Первая установка
 
 1. Перейдите в `Интернет` -> `Интернет-настройки`
 1. Выберите вашу текущую сеть
@@ -73,15 +73,15 @@ sudo node start.js
 1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
 1. Выберите "Далее"
 1. Будет загружена веб-страница PegaSwitch
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Если эксплойт сработал корректно, оболочка PegaSwitch будет подключена к вашей консоли
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Часть V - Альтернативные браузер-апплеты (необязательно)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Существуют [несколько](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) браузер-апплетов на Switch, и все они могут быть использованы для запуска эксплойта браузера.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Для первого запуска эксплойта использовался тест подключения; в дальнейшем гораздо удобнее будет использовать другой браузер-апплет.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Запуск эксплойта с использованием любого из этих методов будет работать так же, как и при тесте подключения, который был использован ранее.
 
 ##### Форма входа в eShop
 
@@ -105,11 +105,11 @@ Triggering the browser exploit using either of these methods will have the same 
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Теперь вы можете с лёгкостью подключаться к вашей консоли с помощью PegaSwitch.
 {: .notice--success}
 
 For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Вернитесь на страницу [Разработка хоумбрю](homebrew-development)
 {: .notice--primary}
