@@ -25,16 +25,16 @@ PegaSwitch - это программный комплекс для взаимо�
 
 #### Часть I - Настройка сети
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch работает при помощи размещения [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) (англ.), используя переадресацию DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Для успешной работы ваша консоль должна иметь доступ к вашему компьютеру через сеть.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Убедитесь, что никакие приложения не привязаны к UDP порту 53 или TCP портам 80 и 8100
+  + WSL: смотрите секцию "Порты прослушивания" на вкладке "Сеть" в Мониторе ресурсов `resmon.exe`
+  + Linux / MacOS: смотрите вывод `sudo netstat -tulpn`
+1. Убедитесь, что файервол не блокирует входящие подключения на этих портах
 
-#### Section II - Running PegaSwitch
+#### Часть II - Запуск PegaSwitch
 
 ~~~ bash
 # клонируем репозиторий
@@ -44,24 +44,24 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
-# Windows users: omit the 'sudo'
+# запускаем PegaSwitch
+# пользователям Windows: пропустите 'sudo'
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### Часть III - Конфигурация DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы эксплойт сработал.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
+1. Узнайте IP-адрес вашего компьютера с помощью `ifconfig` (или `ipconfig` на Windows)
+1. Откройте Системные настройки на вашей консоли
 1. Перейдите в `Интернет` -> `Интернет-настройки`
 1. Выберите вашу текущую сеть
   + Она обозначена зелёной галочкой рядом с сетью
 1. Выберите "Изменить настройки"
 1. Измените "Настройки DNS" на "Вручную"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+1. Измените значения полей "Первичный DNS" и "Вторичный DNS" на IP-адрес вашего компьютера
 1. Сохраните настройки сети
 1. Return to `Internet Settings`
 
