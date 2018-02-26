@@ -1,8 +1,8 @@
 ---
-title: "Development (libtransistor)"
+title: "Разработка (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
