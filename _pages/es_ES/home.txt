@@ -1,37 +1,37 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+title: "Guía de hackeo para Switch" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Una guía completa de homebrew en Switch <br /> y de desarrollo de homebrew.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Lee detenidamente todas las páginas de introducción (¡incluyendo ésta!) antes de proceder.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+¡Esta guía está disponible en otros idiomas!    
+Haz clic en el icono <i class="fa fa-language" aria-hidden="true"></i> en la parte superior derecha de la página para cambiar el idioma.    
+También puedes haz clic [aquí](https://crowdin.com/project/switch-guide) para ayudarnos a mantener estas traducciones actualizadas.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## ¿Qué es Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. Esto incluye herramientas de homebrew, aplicaciones, juegos y emuladores.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+Si tu consola se encuentra en versión del sistema 3.0.0, correr homebrew en tu consola es 100% gratis, a través del uso del navegador de internet de la consola. Consolas en versiones inferiores pueden actualizar a 3.0.0 mediante un cartucho. Consolas en versiones posteriores pueden bloquear actualizaciones futuras para asegurar el acceso a exploits futuros.
 
-## What is Custom Firmware?
+## ¿Qué es Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar hacks más avanzados que el homebrew en el espacio del usuario no puede utilizar con facilidad. Actualmente se encuentra en desarrollo y será lanzado siguiendo un cronograma cuando todos los componentes relevantes estén completados.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+El cronograma de lanzamientos actual se da en orden de versiones ascendente, dividido en las siguientes escalas: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -41,9 +41,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Futuro próximo</th>
+      <th style="text-align: center; font-weight: bold;">Futuro distante</th>
+      <th style="text-align: center; font-weight: bold;">Futuro lejano</th>
     </tr>
   </thead>
   <tbody>
@@ -55,27 +55,27 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Si tu consola se encuentra en la versión 1.0.0 y estás interesado en conseguir CFW, tu mejor opción en este momento es seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir una copia japonesa de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (la cual será necesaria para Custom Firmware en 1.0.0) y esperar pacientemente al lanzamiento de CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Si tu consola se encuentra en versión 3.0.1 o superior, tu mejor opción en este momento es actualizar a 4.1.0 (ya que recibirá CFW al mismo tiempo), seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir la mayoría de juegos que puedas (la eShop solo funciona en la última versión) y esperar pacientemente al lanzamiento de CFW.
 {: .notice--info}
 
-## What does this guide install?
+## ¿Qué se instalará con esta guía?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Esta guía actualmente permite habilitar el acceso al Homebrew Launcher a través de un exploit de navegador, a pesar de que "instalado" no es una descripción particularmente apropiada. Esto se debe a que el exploit debe ser relanzado luego de reiniciar la consola para poder rehabilitar el acceso al Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
 
-## What do I need to know before starting?
+## ¿Qué necesito saber antes de empezar?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ A pesar de que los hacks en Switch están progresando constantemente, aún no se encuentran en un estado amigable para el usuario. Por lo tanto, esta guía puede requerir de algunos conocimientos técnicos para solucionar los problemas que puedan surgir.
++ El alcance de las modificaciones en la consola es muy limitado para la mayoría de homebrew existente, lo cual significa que existen pocas posibilidades de pérdida de datos o daños a la consola por el uso de aplicaciones de homebrew populares.
++ Esta guía servirá para todas las consolas Switch en versión del sistema 1.0.0 a 3.0.0, con todas las versiones hasta 4.1.0 planeadas para soporte en el futuro. Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
++ Necesitarás una tarjeta Micro SD para tu consola. Debería estar formateada en formato FAT32 y ser [MBR, no GPT (http://www.howtogeek.com/245610/) (la mayoría de tarjetas Micro SD están formateadas así por defecto). 
++ Si necesitas formatear una tarjeta micro SD, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continúa en [Comencemos](get-started)
 {: .notice--primary}

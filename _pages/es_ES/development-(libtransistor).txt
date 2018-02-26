@@ -6,25 +6,25 @@ title: "Desarrollo (libtransistor)"
 
 ### Lectura requerida
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Ten en cuenta que, más allá de que el Homebrew Launcher sea suficiente para ejecutar homebrew compilado, es preferible que uses un entorno local de PegaSwitch para un desarrollo más rápido. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Para saber cómo preparar un entorno local de PegaSwitch, echa un vistazo al sitio web de [PegaSwitch](pegaswitch).
 {: .notice--primary}
 
 ### Qué necesitas
 
 * Un sistema operativo compatible
   + MacOS y la mayoría de las distribuciones de Linux son compatibles; se proveerán los comandos para Arch Linux, Ubuntu y Debian
-  + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
+  + Windows *solo* es compatible usando el [Subsistema de Windows para Linux](https://docs.microsoft.com/es-es/windows/wsl/install-win10)
 * Herramientas básicas de desarrollo
-  + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
+  + Linux / WSL: instala el paquete de desarrollo relevante para tu distribución de Linux (por ejemplo,`base-devel` en Arch, o `build-essential` en Ubuntu/Debian)
   + MacOS: instala Xcode Command Line Tools y el gestor de paquetes [Homebrew](https://brew.sh/)
 
 ### Instrucciones
 
 #### Sección I - Instalar dependencias
 
-The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
+La biblioteca libtransistor utiliza varias dependencias, incluyendo LLVM / Clang, Python 3 y cmake.
 
 Para instalarlas, ejecuta los comandos correspondientes a tu sistema operativo.
 
@@ -69,7 +69,7 @@ Para instalarlas, ejecuta los comandos correspondientes a tu sistema operativo.
   cd libtransistor
 
   # instalar dependencias de python
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # ajustar la variable de entorno de libtransistor al directorio actual
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -86,7 +86,7 @@ Para instalarlas, ejecuta los comandos correspondientes a tu sistema operativo.
   cd libtransistor
 
   # instalar dependencias de python
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
 
   # ajustar la variable de entorno de libtransistor al directorio actual
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -103,7 +103,7 @@ Para instalarlas, ejecuta los comandos correspondientes a tu sistema operativo.
   cd libtransistor
 
   # instalar dependencias de python
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # ajustar la variable de entorno de libtransistor al directorio actual
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -124,8 +124,8 @@ Para más información acerca del uso de Mephisto, echa un vistazo al [repositor
 
 ___
 
-You now have a fully functional libtransistor development environment.
+Ahora posees un entorno de desarrollo de libtransistor completamente funcional.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Si estás interesado en colaborar con el equipo de ReSwitched en el desarrollo de homebrew, echa un vistazo al [servidor de Discord de ReSwitched](https://discord.gg/ZdqEhed).
 {: .notice--success}

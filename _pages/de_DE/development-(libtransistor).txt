@@ -69,7 +69,7 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
   cd libtransistor
 
   # Installieren der Python Abhängigkeiten
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -86,7 +86,7 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
   cd libtransistor
 
   # Installieren der Python Abhängigkeiten
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
 
   # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
@@ -103,7 +103,7 @@ Um diese zu installieren führe die zu deinem Betriebssystem passenden Befehle a
   cd libtransistor
 
   # Installieren der Python Abhängigkeiten
-  pip3 install -r requirements.txt
+  pip3 install -r requirements.txt --user
 
   # Setze die libtransistor Umgebungsvariable auf das aktuelle Verzeichnis
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc

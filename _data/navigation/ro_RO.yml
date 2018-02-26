@@ -1,57 +1,57 @@
 ---
 main:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
-    title: FAQ
+    title: Întrebări frecvente
     url: faq
   - 
-    title: Donations
+    title: Donații
     url: donations
   - 
-    title: Credits
+    title: Contribuţii
     url: credits
   - 
-    title: Troubleshooting
+    title: Depanare
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Dezvoltarea homebrew-ului
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Navigarea pe site
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Pentru suport în engleză, cereți ajutor la <a href="https://discord.gg/ZdqEhed">ReSwitched pe Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Dacă apreciați acest ghid, accept <a href="donations">Donații</a>.
 footer:
   - 
-    title: Source
+    title: Codul sursă
   - 
-    title: Site Navigation
+    title: Navigarea pe site
   - 
-    title: Why Ads?
+    title: De ce sunt reclame?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progres total
 sidebar_pages:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
-    title: Get Started
+    title: Începeți
     url: get-started
   - 
-    title: Blocking Updates
+    title: Blocarea actualizărilor
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Actualizare cu card de joc
     url: game-card-update
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Mai multe opţiuni
     url: multiple-options

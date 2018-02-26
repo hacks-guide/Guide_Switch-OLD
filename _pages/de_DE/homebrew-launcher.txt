@@ -69,7 +69,7 @@ Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten muss
 1. Wähle "Verbindung zu diesem Netzwerk"
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
 1. Wähle "Weiter"
-1. Die Homebrew Launcher Website
+1. Die Homebrew Launcher Website wird laden
 1. Wähle "Run"
 1. Wenn der Exploit erfolgreich war, wirst du eine Mitteilung erhalten die dich zum Schließen auffordert
 1. Kehre zum Home Menü zurück

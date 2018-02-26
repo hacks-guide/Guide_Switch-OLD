@@ -2,127 +2,127 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+На данный момент Homebrew Launcher "устанавливается" на вашу консоль через эксплойт интернет-браузера. 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+По итогам установки вы сможете заходить в Homebrew Launcher через приложение Альбом *до тех пор, пока ваша консоль не будет перезагружена*.
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+После перезагрузки эксплойт необходимо перезапустить, чтобы восстановить доступ к Homebrew Launcher на вашей консоли. Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается на момент первой установки. Хоть это и безвредно для самой консоли, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
 
-### What you need
+### Что понадобится
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Свежая версия [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовка
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Выключите консоль
+1. Вставьте SD-карту в компьютер
+1. Скопируйте файл `hbmenu.nro` из `.zip-архива` nx-hbmenu в корень SD-карты
+1. Создайте папку `switch` в корне SD-карты, если таковой нет
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
-#### Section II - DNS Configuration
+#### Часть II - Конфигурация DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы эксплойт сработал.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Откройте Системные настройки
+1. Перейдите в `Интернет` -> `Интернет-настройки`
+1. Выберите вашу текущую сеть
+  + Она обозначена зелёной галочкой рядом с сетью
+1. Выберите "Изменить настройки"
+1. Измените "Настройки DNS" на "Вручную"
+1. Измените "Первичный DNS" на `104.236.106.125`
+1. Измените "Вторичный DNS" на `62.210.147.20`
+1. Сохраните настройки сети
+1. Закройте Системные настройки
 
-#### Section III - Initial Installation
+#### Часть III - Первая установка
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+1. Перейдите в `Интернет` -> `Тест подключения`
+1. Выберите вашу текущую сеть
+1. Выберите "Подключиться к этой сети"
+1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
+1. Выберите "Далее"
+1. Будет загружена веб-страница Homebrew Launcher
+1. Выберите "Install"
+1. Будет загружена веб-страница PegaSwitch
+1. Если эксплойт сработал, вы увидите ошибку `2000-1337`
+  + Если страница PegaSwitch застряла без видимых ошибок, перезагрузите консоль и снова проведите тест подключения
+1. Перезагрузите консоль
 
-#### Section IV - Running the Homebrew Launcher
+#### Часть IV - Запуск Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Обратите внимание, что эту часть придется выполнять после каждой перезагрузки, чтобы восстановить доступ к Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Перейдите в `Интернет` -> `Тест подключения`
+1. Выберите вашу текущую сеть
+1. Выберите "Подключиться к этой сети"
+1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
+1. Выберите "Далее"
+1. Будет загружена веб-страница Homebrew Launcher
+1. Выберите "Run"
+1. Если эксплойт сработал, появится всплывающее окно, предлагающее выйти
+1. Вернитесь в меню HOME
+1. Запустите приложение Альбом
+1. Если эксплойт сработал, запустится Homebrew Launcher
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Часть V - Альтернативные браузер-апплеты (необязательно)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Поскольку после каждой перезагрузки необходимо проделывать часть с запуском, идеальным было бы наличие более удобной возможности запуска браузера, чем тест подключения.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsers applets on the Switch, and any of them can be used to trigger the browser exploit.
+К счастью, существуют [несколько](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) браузер-апплетов на Switch, и все они могут быть использованы для запуска эксплойта браузера.
 
-Two convenient methods for launching a browser are listed below:
+Два удобных метода запуска браузера указаны ниже:
 
-##### eShop Sign In Prompt
+##### Форма входа в eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Для этого метода требуется создать вторую учётную запись на консоли. Не соединяйте её с Nintendo Account.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Запустите Nintendo eShop
+1. Выберите вторую учётную запись
+1. Выберите "Войти и присоединить"
+1. Запустится браузер-апплет
 
-##### Game Update Prompt
+##### Форма обновления игры
 
-To use this method, you must have at least one game on your home screen.
+Для этого метода на главном экране должна присутствовать хотя бы одна игра.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Обратите внимание: если вы не подключены к корректным DNS серверам, этот метод *обновит* вашу консоль. Это опасно!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Нажмите (+) на любой выделенной в меню игре
+1. Во вкладке "Обновление программы" выберите "Через Интернет"
+1. Запустится браузер-апплет
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Обратите внимание, что на данный момент хоумбрю находится в ранней стадии с очень малым количеством программ.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Вы можете найти доступные приложения на [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks на reddit](https://www.reddit.com/r/SwitchHacks/), или [Switch Homebrew на GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Для установки приложений хоумбрю просто скопируйте файл `.nro` в папку `/switch/` на SD-карте.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Теперь Homebrew Launcher доступен для запуска через приложение Альбом в меню HOME (до перезагрузки).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+После перезагрузки необходимо проделать часть с запуском (используя любой браузер-апплет), чтобы восстановить доступ к Homebrew Launcher на вашей консоли.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Для получения информации по прогрессу в разработке хоумбрю регулярно проверяйте еженедельный блог [ReSwitched Weekly](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Для получения информации о внесении своего вклада в хоумбрю в качестве разработчика, перейдите на страницу [Homebrew Development](homebrew-development).
 {: .notice--primary}

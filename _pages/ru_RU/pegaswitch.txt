@@ -2,114 +2,114 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch - это программный комплекс для взаимодействия со Switch, ориентированный на разработчиков и разрабатываемый командой ReSwitched. Он совместим с версиями прошивки 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Комплекс использует комбинацию уязвимостей браузера на базе WebKit, предоставляя пользователю оболочку, которой можно воспользоваться для чтения / записи памяти, вызова нативных функций и в целом пользоваться функционалом Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается. Хоть это и безвредно для самой консоли, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
 
-### What You Need
+### Что понадобится
 
-* A supported operating system
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* Поддерживаемая операционная система
+  + MacOS и большинство дистрибутивов Linux поддерживаются
+  + Windows лучше поддерживается с использованием [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (англ.)
+* Система контроля версий [git](https://git-scm.com/)
+* [Node.JS](https://nodejs.org/en/download/package-manager/) (текущая версия)
 
-### Instructions
+### Инструкция
 
-#### Section I - Network Configuration
+#### Часть I - Настройка сети
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch работает при помощи размещения [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) (англ.), используя переадресацию DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Для успешной работы ваша консоль должна иметь доступ к вашему компьютеру через сеть.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Убедитесь, что никакие приложения не привязаны к UDP порту 53 или TCP портам 80 и 8100
+  + WSL: смотрите секцию "Прослушиваемые порты" на вкладке "Сеть" в Мониторе ресурсов `resmon.exe`
+  + Linux / MacOS: смотрите вывод `sudo netstat -tulpn`
+1. Убедитесь, что файервол не блокирует входящие подключения на этих портах
 
-#### Section II - Running PegaSwitch
+#### Часть II - Запуск PegaSwitch
 
 ~~~ bash
-# clone the repository
+# клонируем репозиторий
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# установка зависимостей
 cd pegaswitch
 npm install
 
-# start PegaSwitch
-# Windows users: omit the 'sudo'
+# запускаем PegaSwitch
+# пользователям Windows: пропустите 'sudo'
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### Часть III - Конфигурация DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы эксплойт сработал.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
-1. Return to `Internet Settings`
+1. Узнайте IP-адрес вашего компьютера с помощью `ifconfig` (или `ipconfig` на Windows)
+1. Откройте Системные настройки на вашей консоли
+1. Перейдите в `Интернет` -> `Интернет-настройки`
+1. Выберите вашу текущую сеть
+  + Она обозначена зелёной галочкой рядом с сетью
+1. Выберите "Изменить настройки"
+1. Измените "Настройки DNS" на "Вручную"
+1. Измените значения полей "Первичный DNS" и "Вторичный DNS" на IP-адрес вашего компьютера
+1. Сохраните настройки сети
+1. Вернитесь в `Интернет-настройки`
 
-#### Section IV - Initial Connection
+#### Часть IV - Первая установка
 
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Перейдите в `Интернет` -> `Интернет-настройки`
+1. Выберите вашу текущую сеть
+1. Выберите "Подключиться к этой сети"
+1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
+1. Выберите "Далее"
+1. Будет загружена веб-страница PegaSwitch
+1. Если эксплойт сработал корректно, оболочка PegaSwitch будет подключена к вашей консоли
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Часть V - Альтернативные браузер-апплеты (необязательно)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Существуют [несколько](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) браузер-апплетов на Switch, и все они могут быть использованы для запуска эксплойта браузера.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Для первого запуска эксплойта использовался тест подключения; в дальнейшем гораздо удобнее будет использовать другой браузер-апплет.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Запуск эксплойта с использованием любого из этих методов будет работать так же, как и при тесте подключения, который был использован ранее.
 
-##### eShop Sign In Prompt
+##### Форма входа в eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Для этого метода требуется создать вторую учётную запись на консоли. Не соединяйте её с Nintendo Account.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Запустите Nintendo eShop
+1. Выберите вторую учётную запись
+1. Выберите "Войти и присоединить"
+1. Запустится браузер-апплет
 
-##### Game Update Prompt
+##### Форма обновления игры
 
-To use this method, you must have at least one game on your home screen.
+Для этого метода на главном экране должна присутствовать хотя бы одна игра.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Обратите внимание: если вы не подключены к корректным DNS серверам, этот метод *обновит* вашу консоль. Это опасно!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Нажмите (+) на любой выделенной в меню игре
+1. Во вкладке "Обновление программы" выберите "Через Интернет"
+1. Запустится браузер-апплет
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Теперь вы можете с лёгкостью подключаться к вашей консоли с помощью PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+В целях отладки вы можете [включить отображение дополнительной информации об ошибках](troubleshooting#включение-дополнительной-информации-об-ошибках).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Вернитесь на страницу [Разработка хоумбрю](homebrew-development)
 {: .notice--primary}
