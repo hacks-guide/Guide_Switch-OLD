@@ -108,7 +108,7 @@ ___
 Теперь вы можете с лёгкостью подключаться к вашей консоли с помощью PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+В целях отладки вы можете [включить отображение дополнительной информации об ошибках](troubleshooting#включение-дополнительной-информации-об-ошибках).
 {: .notice--info}
 
 ### Вернитесь на страницу [Разработка хоумбрю](homebrew-development)
