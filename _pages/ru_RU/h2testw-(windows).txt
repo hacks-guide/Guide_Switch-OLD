@@ -8,7 +8,7 @@ title: "H2testw (Windows)"
 
 This is an add-on section for checking your SD card for errors using h2testw.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
 This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
 
@@ -19,7 +19,7 @@ This page is for Windows users only. If you are not on windows, check out the [F
 ### Instructions
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
+1. Вставьте SD-карту в компьютер
 1. Run `h2testw.exe`
 1. Select "English"
 1. Click "Select target"
@@ -33,7 +33,7 @@ ___
 If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
 ### Return to [Get Started](get-started)
