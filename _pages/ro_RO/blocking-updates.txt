@@ -34,9 +34,9 @@ Dacă sunteţi pe versiunea de firmware 4.1.0, aceasta vă va permite să contin
 1. Salvați setările de reţea
 1. Ieșiți din System Settings
 
-#### Section II - Deleting Update Data
+#### Secţiunea II - Ștergerea actualizărilor
 
-1. Power off your device
+1. Închideți consola
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. Do not select any of the options
 1. Any downloaded update data has been deleted from your system just by entering this menu
