@@ -25,7 +25,7 @@ Your device version can be found under the System Update menu in the System tab 
 
 Note that the device may not display the system version if a downloaded update is pending installation.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance Mode pornind consola în timp ce țineți apăsat butoanele (Power) + (Volum Sus) + (Volum Jos).
 
 {% endcapture %}
 
