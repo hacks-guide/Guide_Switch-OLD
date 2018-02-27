@@ -8,31 +8,31 @@ title: "Blocarea actualizarilor"
 
 În prezent, homebrew este disponibil numai pentru versiunea 3.0.0, dar în viitor va fi suport pentru homebrew și CFW până la versiunea 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Pentru a putea garanta accesul pe viitor, vom seta DNS-ul rețelei la un server (întreținut de ReSwitched) care blochează solicitările pentru actualizare de Nintendo către Switch.
 
-If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+Dacă sunteţi pe versiunea de firmware 4.1.0, aceasta vă va permite să continuaţi să utilizaţi serviciile online (fără griji despre eventuale acualizări) atâta timp cât 4.1.0 este cea mai recentă versiune.
 
-Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+Țineți cont că, pentru a accesa serviciile online pe 4.1.0, va trebui să vă fi conectat la serviciile online cel puţin o dată înainte de a urma aceste instrucţiuni.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+În plus, vom accesa modul de recuperare / înreținere şi vom şterge orice actualizare care s-ar fi descărcat deja.
 
 ### Instrucțiuni
 
 ### Partea I - Configurare DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea bloca actualizrile!
 {: .notice--warning}
 
 1. Deschideți System Settings
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
   + This is signified by a green check mark next to the network
-1. Select "Change Settings"
+1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Setaţi "Primary DNS" la `173.255.238.217`
+1. Setaţi "Secondary DNS" la `173.255.238.217`
+1. Salvați setările de reţea
+1. Ieșiți din System Settings
 
 #### Section II - Deleting Update Data
 
