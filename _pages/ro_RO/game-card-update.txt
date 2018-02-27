@@ -10,7 +10,7 @@ All game cards contain a copy of the required firmware version to play it, allow
 
 We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Înainte de a efectua actualizarea cu card de joc, vom bloca actualizările online folosind modul avion şi intrând în Recovery / Maintenance Mode pentru a şterge orice date de actualizare care poate au fost deja descărcate.
 
 ### What you need
 
