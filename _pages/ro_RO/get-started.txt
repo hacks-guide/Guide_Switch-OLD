@@ -6,7 +6,7 @@ title: "Începeți"
 
 ### Lectură obligatorie
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Consolele cu versiuni diferite vor necesita pași diferiți pentru a ajunge la scopul final de a avea homebrew. Această pagină vă va arăta de unde să începeți pentru consola dumneavoastră.
 
 Înainte să începeți, utilizatorii de Windows ar trebui să activeze opțiunea de a arăta extensiile de fișier folosind [Extensii de fișier (Windows)](file-extensions-(windows))!
 {: .notice--info}
@@ -65,7 +65,7 @@ Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">4.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocarea Actualizărilor</a></td>
     </tr>
   </tbody>
 </table>
