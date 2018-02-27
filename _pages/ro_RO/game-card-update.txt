@@ -33,10 +33,10 @@ We can take advantage of this by using a game containing a specific version in o
 #### Section II - Deleting Update Data
 
 1. Închideți consola
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Porniți consola în timp ce ţineţi apăsat (Power) + (Volum Sus) + (Volum Jos)
+1. Nu selectați nicio opțiune
+1. Datele de actualizare care au fost descărcate au fost șterse din sistem doar intrând în acest menu
+1. Apăsaţi (Power) ca să închideți consola
 
 #### Section III - Game Card Update
 
