@@ -14,7 +14,7 @@ Dacă sunteţi pe versiunea de firmware 4.1.0, aceasta vă va permite să contin
 
 Țineți cont că, pentru a accesa serviciile online pe 4.1.0, va trebui să vă fi conectat la serviciile online cel puţin o dată înainte de a urma aceste instrucţiuni.
 
-În plus, vom accesa modul de recuperare / înreținere şi vom şterge orice actualizare care s-ar fi descărcat deja.
+În plus, vom accesa Recovery / Maintenance Mode şi vom şterge orice actualizare care s-ar fi descărcat deja.
 
 ### Instrucțiuni
 
