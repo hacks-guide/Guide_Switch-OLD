@@ -59,7 +59,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
   + This is signified by a green check mark next to the network
-1. Select "Change Settings"
+1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
 1. Save the network settings
