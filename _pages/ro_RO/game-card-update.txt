@@ -1,10 +1,10 @@
 ---
-title: "Game Card Update"
+title: "Actualizare cu card de joc"
 ---
 
 {% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
 All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
 
