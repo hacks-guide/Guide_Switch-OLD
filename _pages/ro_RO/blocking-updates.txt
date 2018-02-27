@@ -18,7 +18,7 @@ Additionally, we enter Recovery / Maintenance Mode and delete any update data wh
 
 ### Instrucțiuni
 
-#### Section I - DNS Configuration
+### Partea I - Configurare DNS
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
