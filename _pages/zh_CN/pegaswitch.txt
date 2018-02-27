@@ -60,10 +60,10 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 选择当前网络
   +  这个网络将有绿色的标记
 
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
+1. 选择 "Change Settings"
+1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
+1. 保存网络设置
 1. Return to `Internet Settings`
 
 #### Section IV - Initial Connection
