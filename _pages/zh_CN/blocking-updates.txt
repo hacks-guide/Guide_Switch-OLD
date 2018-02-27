@@ -35,13 +35,13 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 保存网络设置
 1. 退出系统设置
 
-#### Section II - Deleting Update Data
+#### 第二部分 - 删除升级数据
 
-1. Power off your device
+1. 关闭你的设备电源
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. 不要选择任何选项
+1. 只需进入此菜单，任何已下载的更新数据都已从您的系统中删除
+1. 长按电源键关机
 
 ___
 
