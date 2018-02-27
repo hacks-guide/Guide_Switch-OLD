@@ -28,7 +28,7 @@ Before performing the game card update, we block online updates by using airplan
 1. Deschideți System Settings
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Ieșiți din System Settings
 
 #### Section II - Deleting Update Data
 
@@ -49,7 +49,7 @@ Before performing the game card update, we block online updates by using airplan
 1. Deschideți System Settings
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Ieșiți din System Settings
 
 ___
 
