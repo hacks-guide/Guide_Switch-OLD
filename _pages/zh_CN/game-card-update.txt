@@ -28,7 +28,7 @@ Before performing the game card update, we block online updates by using airplan
 1. Launch System Settings
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. 退出系统设置
 
 #### Section II - Deleting Update Data
 
@@ -49,7 +49,7 @@ Before performing the game card update, we block online updates by using airplan
 1. 启动系统设置
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. 退出系统设置
 
 ___
 
