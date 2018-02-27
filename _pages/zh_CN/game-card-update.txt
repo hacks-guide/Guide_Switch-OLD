@@ -2,9 +2,9 @@
 title: "Game Card Update"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 重要事项
 
 All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
 
@@ -21,7 +21,7 @@ Before performing the game card update, we block online updates by using airplan
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### 操作步骤
 
 #### Section I - Enable Airplane Mode
 
@@ -46,7 +46,7 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. 启动系统设置
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
 1. Exit System Settings
