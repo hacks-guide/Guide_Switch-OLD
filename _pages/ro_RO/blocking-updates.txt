@@ -23,12 +23,12 @@ Additionally, we enter Recovery / Maintenance Mode and delete any update data wh
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
+1. Deschideți System Settings
+1. Navigaţi spre `Internet` -> `Internet Settings`
+1. Selectaţi-vă reţeaua Wi-Fi
   + This is signified by a green check mark next to the network
 1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
+1. Setați "DNS Settings" la "Manual"
 1. Set "Primary DNS" to `173.255.238.217`
 1. Set "Secondary DNS" to `173.255.238.217`
 1. Save the network settings
