@@ -1,18 +1,18 @@
 ---
-title: "Game Card Update"
+title: "Actualizare cu card de joc"
 ---
 
 {% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Toate cardurile cu jocuri conțin o copie cu versiunea necesară de sistem ca să o jucați permițând tuturor cu o versiune mai mică să folosească cardurile pentru a actualiza la acea versiune (chiar și fără conexiune la internet).
 
 We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Înainte de a efectua actualizarea cu card de joc, vom bloca actualizările online folosind modul avion şi intrând în Recovery / Maintenance Mode pentru a şterge orice date de actualizare care poate au fost deja descărcate.
 
-### What you need
+### Ce aveți nevoie
 
 * An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
@@ -25,18 +25,18 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. Deschideți System Settings
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Ieșiți din System Settings
 
 #### Section II - Deleting Update Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Închideți consola
+1. Porniți consola în timp ce ţineţi apăsat (Power) + (Volum Sus) + (Volum Jos)
+1. Nu selectați nicio opțiune
+1. Datele de actualizare care au fost descărcate au fost șterse din sistem doar intrând în acest menu
+1. Apăsaţi (Power) ca să închideți consola
 
 #### Section III - Game Card Update
 
@@ -46,10 +46,10 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Deschideți System Settings
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Ieșiți din System Settings
 
 ___
 

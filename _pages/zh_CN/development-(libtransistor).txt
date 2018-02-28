@@ -2,9 +2,9 @@
 title: "Development (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 重要事项
 
 Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
 
@@ -20,7 +20,7 @@ For information on setting up a local PegaSwitch environment, check out the [Peg
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
-### Instructions
+### 操作步骤
 
 #### Section I - Installing Dependencies
 

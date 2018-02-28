@@ -5,7 +5,7 @@ title: "Créditos"
 **¡Agradecimientos especiales a todos [los traductores](https://crowdin.com/project/switch-guide) por ser asombrosos!**
 {: .notice--primary}
 
-Si te olvidé, puedes contactarme para añadir tu nombre.
+Si te he olvidado, puedes contactar conmigo para añadir tu nombre.
 
 {% capture notice-1 %}
 

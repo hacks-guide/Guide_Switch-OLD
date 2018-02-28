@@ -1,10 +1,10 @@
 ---
-title: "Blocking Updates"
+title: "阻止更新"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 重要事项
 
 Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
 
@@ -16,31 +16,32 @@ Note that, to access online services on 4.1.0, you will need to have connected t
 
 Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
 
-### Instructions
+### 操作步骤
 
 #### Section I - DNS Configuration
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. 启动系统设置
+1. 进入到 `Internet` -> `Internet Settings`
+1. 选择当前网络
+  +  这个网络将有绿色的标记
 
-#### Section II - Deleting Update Data
+1. 选择 "Change Settings"
+1. 找到 "DNS Settings" 将他设置为 "Manual"
+1. 设置 "Primary DNS" 为 `173.255.238.217`
+1. 设置 "Secondary DNS" 为 `173.255.238.217`
+1. 保存网络设置
+1. 退出系统设置
 
-1. Power off your device
+#### 第二部分 - 删除升级数据
+
+1. 关闭你的设备电源
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. 不要选择任何选项
+1. 只需进入此菜单，任何已下载的更新数据都已从您的系统中删除
+1. 长按电源键关机
 
 ___
 

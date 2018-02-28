@@ -70,7 +70,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
 1. Sélectionnez "Se connecter à ce réseau"
-1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
+1. Si la connexion aux serveurs DNS a réussi, vous verrez le message "Une inscription est requise pour utiliser ce réseau"
 1. Sélectionnez "Suivant"
 1. La page Web de PegaSwitch va s'afficher
 1. Si l'exploit a réussi, vous aurez un shell PegaSwitch connecté à votre console
