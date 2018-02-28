@@ -2,9 +2,9 @@
 title: "Troubleshooting"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 重要事项
 
 If you encounter issues, please look for the section relevant to you and follow the instructions.
 
@@ -18,9 +18,9 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### 操作步骤
 
-1. Power off your device
+1. 关闭你的设备电源
 1. Insert your SD card into your computer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
@@ -35,7 +35,7 @@ This script will enable the displaying of extra error info when a fatal error is
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
-### Instructions
+### 操作步骤
 
 1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
 1. Connect to your device using PegaSwitch

@@ -2,9 +2,9 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 重要事项
 
 The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
 
@@ -19,11 +19,11 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### 操作步骤
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. 关闭你的设备电源
 1. Insert your SD card into your computer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
@@ -35,21 +35,22 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
+1. 启动系统设置
+1. 进入到 `Internet` -> `Internet Settings`
+1. 选择当前网络
+  +  这个网络将有绿色的标记
+
+1. 选择 "Change Settings"
+1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. 保存网络设置
+1. 退出系统设置
 
 #### Section III - Initial Installation
 
 1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
+1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
@@ -65,7 +66,7 @@ Note that these DNS servers will need to be set on each network you connect your
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
 1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
+1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"

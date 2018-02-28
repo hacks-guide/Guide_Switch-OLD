@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+title: "Începeți"
 ---
 
 {% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Consolele cu versiuni diferite vor necesita pași diferiți pentru a ajunge la scopul final de a avea homebrew. Această pagină vă va arăta de unde să începeți pentru consola dumneavoastră.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Înainte să începeți, utilizatorii de Windows ar trebui să activeze opțiunea de a arăta extensiile de fișier folosind [Extensii de fișier (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Înainte să începeți, este de dorit să vă verificați cardul SD pentru erori folosind [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), sau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Alegeți pagina corespunzătore versiunii dumneavoastră din tabelul de mai jos. Țineți cont cum câmpurile "de la" și "până la" sunt inclusiv. Asta înseamnă că, de exemplu, rândul "de la 1.0.0 până la 2.3.0" cuprinde 1.0.0, 2.3.0, și toate versiunile intermediare.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+Versiunea consolei dumneavoastră poate fi găsit sub meniul System Update, în fila System al aplicației Settings.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+Țineți cont că, consola nu va afişa versiunea de sistem în cazul în care o actualizare descărcată este în curs de instalare.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance Mode pornind consola în timp ce țineți apăsat butoanele (Power) + (Volum Sus) + (Volum Jos).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### Tabel de versiuni
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">De la</th>
+      <th style="text-align: center; font-weight: bold;">Până la</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -50,12 +50,12 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">Așteptați pentru CFW --<a href="blocking-updates">Blocarea Actualizărilor</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Actualizare cu card de joc</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -65,7 +65,7 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">4.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocarea Actualizărilor</a></td>
     </tr>
   </tbody>
 </table>
