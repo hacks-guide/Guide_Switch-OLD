@@ -8,7 +8,7 @@ title: "Actualizare cu card de joc"
 
 Toate cardurile cu jocuri conțin o copie cu versiunea necesară de sistem ca să o jucați permițând tuturor cu o versiune mai mică să folosească cardurile pentru a actualiza la acea versiune (chiar și fără conexiune la internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Putem profita de acest lucru folosind un joc care conţine o anumită versiune pentru a instala o versiune mai recentă de firmware (3.0.0) fără a actualiza până la cea mai recentă versiune disponibilă. 
 
 Înainte de a efectua actualizarea cu card de joc, vom bloca actualizările online folosind modul avion şi intrând în Recovery / Maintenance Mode pentru a şterge orice date de actualizare care poate au fost deja descărcate.
 
