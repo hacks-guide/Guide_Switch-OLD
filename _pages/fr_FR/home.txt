@@ -10,11 +10,16 @@ header:
 excerpt: "Un guide complet pour les homebrew Switch <br /> et le développement de homebrew.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.
 {: .notice--warning}
 
 {% capture notice-1 %}
-Ce guide est disponible dans d’autres langues !    
+Ce guide est disponible dans d’autres langues !    d
 Cliquez sur l'icône <i class="fa fa-language" aria-hidden="true"></i> en haut à droite de cette page pour changer de langue.    
 Ou sinon, cliquez [ici](https://crowdin.com/project/switch-guide) pour aider à maintenir ces traductions à jour.
 {% endcapture %}
