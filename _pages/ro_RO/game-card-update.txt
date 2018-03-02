@@ -14,7 +14,7 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 
 ### Ce aveți nevoie
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+* Un card de joc cu revizia originală de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
   + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
 
