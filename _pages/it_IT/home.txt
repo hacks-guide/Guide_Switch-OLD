@@ -71,7 +71,7 @@ Se la tua console ha come versione del firmware 3.0.1 o maggiore, faresti meglio
 
 Questa guida ti dà accesso all'Homebrew Launcher attraverso un exploit del browser, anche se quest'ultimo non viene propriamente "installato". L'exploit deve essere riavviato dopo ogni riavvio della console per poter accedere all'Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe essere considerata analoga al "jailbreak semi-untethered".
 
 ## Cosa mi serve sapere prima di cominciare?
 
