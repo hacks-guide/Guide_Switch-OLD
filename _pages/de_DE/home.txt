@@ -19,7 +19,7 @@ Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du 
 {: .notice--warning}
 
 {% capture notice-1 %}
-Diese Anleitung ist in verschiedenen Sprachen verfügbar!    d
+Diese Anleitung ist in verschiedenen Sprachen verfügbar!
 Um die Sprache zu ändern klick auf das <i class="fa fa-language" aria-hidden="true"></i> Symbol oben rechts in der Ecke.    
 Klicke alternativ auf [hier](https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
 {% endcapture %}
