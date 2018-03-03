@@ -21,16 +21,16 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Enable Airplane Mode
+#### Secțiunea I - Activarea Modului Avion
 
 1. Deschideți System Settings
-1. Navigate to `Airplane Mode`
+1. Navigaţi la `Modul Avion`
 1. Enable Airplane Mode
 1. Ieșiți din System Settings
 
-#### Section II - Deleting Update Data
+#### Secţiunea II - Ștergerea actualizarilor
 
 1. Închideți consola
 1. Porniți consola în timp ce ţineţi apăsat (Power) + (Volum Sus) + (Volum Jos)
@@ -47,7 +47,7 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 #### Section IV - Disable Airplane Mode
 
 1. Deschideți System Settings
-1. Navigate to `Airplane Mode`
+1. Navigaţi la `Modul Avion`
 1. Disable Airplane Mode
 1. Ieșiți din System Settings
 
