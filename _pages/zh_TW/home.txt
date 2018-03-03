@@ -19,7 +19,7 @@ ___
 {: .notice--warning}
 
 {% capture notice-1 %}
-本手冊支持其他語言！    d
+本手冊支持其他語言！
 按下右上角的 <i class="fa fa-language" aria-hidden="true"></i> 圖案以切換語言。    
 或者，按一下[這裡](https://crowdin.com/project/switch-guide)來貢獻您的翻譯以確保其為最新版本。
 {% endcapture %}
