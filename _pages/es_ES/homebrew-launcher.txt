@@ -61,7 +61,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
   + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
 1. Reinicia tu consola
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. Cuando se alerte sobre corrupción en la base de datos de Mii, selecciona "OK" para reiniciar tu consola nuevamente
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
