@@ -16,7 +16,7 @@ If you are interested in collaborating with SwitchBrew members on Homebrew Devel
 
 ### Libraries
 
-Currently, there are two major libraries used for developing Switch homebrew.
+În prezent, există două mari biblioteci folosite pentru dezvoltarea de homebrew pentru Switch.
 
 ___
 
