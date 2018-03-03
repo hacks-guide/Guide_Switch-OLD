@@ -1,48 +1,48 @@
 ---
-title: "Blocking Updates"
+title: "Bloccare gli aggiornamenti"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+Al momento, homebrew è disponibile solo per la versione del firmware 3.0.0, ma è previsto in futuro il supporto ad homebrew e CFW per tutte le versioni, fino alla 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Per garantire l'accesso futuro, seguendo questa guida imposterai i DNS della tua rete internet su un server (mantenuto da ReSwitched) il quale bloccherà le richieste di aggiornamento ai server Nintendo.
 
-If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+Se sei su un firmware 4.1.0, questo ti permetterà di continuare a utilizzare i servizi online (senza preoccuparti di aggiornamenti) fintanto che 4.1.0 sia la versione più recente.
 
-Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+Nota che, per accedere ai servizi online su 4.1.0, sarà necessario che tu ti sia collegato ai servizi online almeno una volta prima di seguire queste istruzioni.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Inoltre, entrerai nella modalità di Recupero / Manutenzione della console e cancellerai i dati di aggiornamento che potrebbero essere stati scaricati sulla tua console.
 
-### Instructions
+### Istruzioni
 
-#### Section I - DNS Configuration
+#### Sezione I - Configurazione dei DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Per poter bloccare gli aggiornamenti, questi server DNS devono essere impostati su tutte le reti internet alle quali è connessa la tua console!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Avvia le Impostazioni di sistema
+1. Seleziona `Internet` -> `Impostazioni Internet`
+1. Seleziona la rete internet alla quale sei connesso
+  + Ciò è indicato da una spunta verde accanto alla rete
+1. Seleziona "Cambia le impostazioni"
+1. Imposta le "Impostazioni DNS" su "Manuali"
+1. Imposta il "DNS Primario" su `173.255.238.217`
+1. Imposta il "DNS Secondario" su `173.255.238.217`
+1. Salva le impostazioni
+1. Esci dalle Impostazioni di sistema
 
-#### Section II - Deleting Update Data
+#### Sezione II - Cancellare i dati di aggiornamento
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Spegni la tua console
+1. Accendi la console tenendo premuto insieme i pulsanti (Accensione) + (Volume Su) + (Volume Giù)
+1. Non selezionare alcuna delle opzioni
+1. Entrando in questo menù, qualsiasi dato degli aggiornamenti sarà stato eliminato
+1. Premi il pulsante di (Accensione) per spegnere la console
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Adesso gli aggiornamenti saranno bloccati sulla tua console.
 {: .notice--success}
