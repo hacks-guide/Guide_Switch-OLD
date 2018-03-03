@@ -14,7 +14,7 @@ După o repornire, va trebui să relansați exploit-ul secundar pentru a reactiv
  
 Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, această metoda ar putea fi considerata similara la un "jailbreak semi-independent".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei la prima instalare. Deși acest efect este inofensiv, va rezulta în pierderea oricărui Mii creat de utilizator.
 {: .notice--warning}
 
 ### What you need
@@ -110,7 +110,7 @@ Note that, if you were not connected to the correct DNS servers, this method wou
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Țineți cont că, în prezent, dezvoltarea de homebrew este într-o stare foarte nouă, cu un număr foarte limitat de aplicații.
 
 You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
