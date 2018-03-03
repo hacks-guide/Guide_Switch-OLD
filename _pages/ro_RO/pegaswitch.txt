@@ -6,11 +6,11 @@ title: "PegaSwitch"
 
 ### Lectură obligatorie
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch este un set de unelte de exploatare pentru Switch dedicat dezvoltatorilor, dezvoltat de ReSwitched. Este compatibil cu versiunile de firmware 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Setul de unelte folosește o combinație de vulnerabilități pentru a prelua controlul browserului bazat pe WebKit, dând acces utilizatorului la o serie de comenzi ce pot fi folosite pentru a scrie / citi în memorie, chema funcții native, și chiar explora funcțiile consolei.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
 ### What You Need
