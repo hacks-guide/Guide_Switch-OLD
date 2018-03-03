@@ -30,7 +30,7 @@ Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a a
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
+În cazul în care consola dumneavoastră are versiunea 3.0.0, pornind homebrew pe consolă este 100% gratis folosind doar browserul de sistem. Versiunile de firmware inferioare pot actualiza la 3.0.0 cu ajutorul unui card de joc. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
 
 ## Ce este Custom Firmware?
 
@@ -74,7 +74,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 ## Ce trebuie să știu înainte să încep?
 
-+ Deși hack-urile pentru Switch progresează constant, ele nu sunt într-o stare folositoare pentru utilizatori. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
++ Deși hack-urile pentru Switch progresează constant, ele nu sunt într-o stare folositoare pentru utilizatori. Ca atare, acest ghid poate solicita anumite cunoștințe tehnice pentru a depana orice problemă care poate apărea.
 + Scopul modificării consolei este limitat momentan pentru aplicațiile homebrew, ceea ce înseamnă că șansele de pierdere a datelor sau de stricare a consolei sunt mici atunci când folosiți aplicații homebrew de la surse populare.
 + Acest ghid va funcționa pe toate consolele Nintendo Switch cu firmware de la 1.0.0 până la 3.0.0, cu toate versiunile până la 4.1.0 fiind planificate pentru suport pe viitor. Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
 + Aveți nevoie de un card micro SD pentru consola dumneavoastră. Ar trebui să fie formatat în Fat32 şi [MBR, nu GPT](http://www.howtogeek.com/245610/) (cele mai multe carduri micro SD vor fi formatate în acest fel în mod implicit). 
