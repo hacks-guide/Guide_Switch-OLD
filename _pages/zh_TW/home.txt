@@ -10,11 +10,16 @@ header:
 excerpt: "最完整的 Switch 自製軟體<br /> 以及自製軟體開發教戰手冊。<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 請在繼續前讀完所有的前言頁面 (包括本頁！)。
 {: .notice--warning}
 
 {% capture notice-1 %}
-本手冊支持其他語言！    
+本手冊支持其他語言！
 按下右上角的 <i class="fa fa-language" aria-hidden="true"></i> 圖案以切換語言。    
 或者，按一下[這裡](https://crowdin.com/project/switch-guide)來貢獻您的翻譯以確保其為最新版本。
 {% endcapture %}
@@ -74,7 +79,7 @@ excerpt: "最完整的 Switch 自製軟體<br /> 以及自製軟體開發教戰�
 + 目前大部分的自製軟體能進行任何改機的能力是非常有限的，也就是說，在使用熱門的自製軟體時是不大可能造成資料損失或系統損壞的。
 + 本手冊將適用於版本 1.0.0 至 3.0.0 的 Switch，其他至 4.1.0 版本的系統將於未來新增支援。 >= 3.0.1 系統版本的 Switch 能先透過本手冊的指示阻擋未來更新。
 + 您的主機將需要一張 micro SD 卡。 而且其應格式化為 Fat32 及 [MBR (非 GPT)](http://www.howtogeek.com/245610/) (大部分的 micro SD 卡出廠時都是以這格式出廠的)。 
-+ 如果您需要格式化一張 micro SD 卡，可以使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 且將配置單位設為 32K。
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

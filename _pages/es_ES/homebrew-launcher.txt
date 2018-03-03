@@ -8,7 +8,10 @@ title: "Homebrew Launcher"
 
 El Homebrew Launcher actualmente se "instala" en tu consola a través de un exploit de navegador. 
 
-Una vez que esta instalación se realiza, serás capaz de acceder al Homebrew Launcher a través de la aplicación Álbum *hasta que la consola sea reiniciada*.
+Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+
+Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
+{: .notice--warning}
 
 Luego de un reinicio, tendrás que volver a ejecutar el exploit para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
 
@@ -59,6 +62,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
   + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
 1. Reinicia tu consola
+  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
@@ -80,7 +84,7 @@ Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego
 
 Dado que debes volver a relanzar el exploit luego de cada reinicio, sería ideal si hubiese una forma más conveniente de usar el navegador que la prueba de conexión.
 
-Afortunadamente, existen [múltiples](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets de navegador de internet en la Switch y cualquiera de ellas se puede usar para activar el exploit de navegador.
+Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
 
 Dos métodos convenientes para ejecutar un navegador se listan a continuación:
 

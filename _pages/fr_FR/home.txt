@@ -10,11 +10,16 @@ header:
 excerpt: "Un guide complet pour les homebrew Switch <br /> et le développement de homebrew.<br />"
 ---
 
+Pour des guides complets pour les homebrew et Custom Firmware sur d'autres consoles, consultez [hacks.guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.
 {: .notice--warning}
 
 {% capture notice-1 %}
-Ce guide est disponible dans d’autres langues !    
+Ce guide est disponible dans d’autres langues !
 Cliquez sur l'icône <i class="fa fa-language" aria-hidden="true"></i> en haut à droite de cette page pour changer de langue.    
 Ou sinon, cliquez [ici](https://crowdin.com/project/switch-guide) pour aider à maintenir ces traductions à jour.
 {% endcapture %}
@@ -73,7 +78,7 @@ Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être consid�
 + La portée de modification de la console est limitée pour la plupart des homebrews actuels, ce qui réduit drastiquement la probabilité de perte de données ou d'endommagement de la console à l'utilisation d'applications homebrew communes.
 + Ce guide fonctionnera sur toutes les consoles Switch possédant une version de firmware de 1.0.0 à 3.0.0, les versions jusqu'à 4.1.0 ayant un support futur prévu. Des instructions sont fournies pour bloquer les mises à jour sur les consoles avec une version de firmware >= 3.0.1.
 + Vous aurez besoin d'une carte micro SD pour votre console. Elle devra être formatée en FAT32 et [MBR, pas GPT](http://www.howtogeek.com/245610/) (la plupart des cartes micro SD seront formatées comme ceci par défaut). 
-+ Si vous avez besoin de formater une carte micro SD, vous pouvez utiliser [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et utiliser une taille d'unité d'allocation de 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

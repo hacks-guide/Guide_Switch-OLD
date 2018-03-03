@@ -10,11 +10,16 @@ header:
 excerpt: "Полное руководство по хоумбрю на Switch <br /> и его разработке.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Внимательно прочтите все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
 {% capture notice-1 %}
-Это руководство доступно на других языках!    
+Это руководство доступно на других языках!
 Нажмите на значок <i class="fa fa-language" aria-hidden="true"></i> в правом верхнем углу страницы, чтобы изменить язык.    
 Или же нажмите [сюда](https://crowdin.com/project/switch-guide), чтобы помочь поддерживать перевод в актуальном состоянии.
 {% endcapture %}
@@ -73,7 +78,7 @@ excerpt: "Полное руководство по хоумбрю на Switch <b
 + Область изменений на устройстве ограничена для хоумбрю на текущий момент, что делает вероятность потери данных или нанесения ущерба консоли при использовании популярных хоумбрю-приложений довольно низкой.
 + Это руководство подходит для консолей Switch с версией прошивки от 1.0.0 до 3.0.0 включительно, с запланированной поддержкой всех версий до 4.1.0. Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
 + Вам понадобится micro SD-карта для вашей консоли. SD-карта должна быть отформатирована в FAT32 и использовать [MBR, а не GPT](http://www.howtogeek.com/245610/) (англ.) (большинство micro SD-карт отформатированы таким образом по умолчанию). 
-+ Если вам нужно отформатировать micro SD-карту, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 32К.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

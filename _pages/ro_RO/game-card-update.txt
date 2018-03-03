@@ -14,23 +14,23 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 
 ### Ce aveți nevoie
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+* Un card de joc cu revizia originală de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
   + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Enable Airplane Mode
+#### Secțiunea I - Activarea Modului Avion
 
 1. Deschideți System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
+1. Navigaţi la `Modul Avion`
+1. Activați Modul Avion
 1. Ieșiți din System Settings
 
-#### Section II - Deleting Update Data
+#### Secţiunea II - Ștergerea actualizarilor
 
 1. Închideți consola
 1. Porniți consola în timp ce ţineţi apăsat (Power) + (Volum Sus) + (Volum Jos)
@@ -38,20 +38,20 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 1. Datele de actualizare care au fost descărcate au fost șterse din sistem doar intrând în acest menu
 1. Apăsaţi (Power) ca să închideți consola
 
-#### Section III - Game Card Update
+#### Secțiunea III - Actualizarea cu Cardul de Joc
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Introduceți cardul de joc Pokkén Tournament DX în consolă
+1. Încercați să porniți jocul
+1. Actualizați când vi se cere
 
-#### Section IV - Disable Airplane Mode
+#### Secțiunea IV - Dezactivarea Modului Avion
 
 1. Deschideți System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
+1. Navigaţi la `Modul Avion`
+1. Dezactivați Modul Avion
 1. Ieșiți din System Settings
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Continuați la [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

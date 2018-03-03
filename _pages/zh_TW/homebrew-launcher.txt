@@ -8,7 +8,10 @@ title: "Homebrew Launcher"
 
 Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您的主機中的。 
 
-安裝完成後，您將可以通過相簿應用程序來啟動 Homebrew Launcher－直到您的主機重啟為止。
+Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+
+Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
+{: .notice--warning}
 
 重新啟動後，您必須重新運行漏洞才能重新啟用主機中的 Homebrew Launcher。 如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
 
@@ -59,6 +62,7 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
   + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
 1. 重新啟動您的主機
+  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
 
 #### 第四節 — 啟動 Homebrew Launcher
 
@@ -80,7 +84,7 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 
 由於每次重新啟動後必須重新點擊漏洞的『Run』按鈕，因此如果啟動瀏覽器比連接測試更方便，這將是最理想的選擇。
 
-幸運的是，在Switch上實際上有[許多其他的](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets)小瀏覽器程序，其中任何一個都可以用來觸發瀏覽器漏洞。
+Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
 
 下面列出了兩種便捷啟動瀏覽器的方法：
 
