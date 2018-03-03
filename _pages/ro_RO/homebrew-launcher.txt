@@ -48,7 +48,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Salvați setările de reţea
 1. Ieșiți din System Settings
 
-#### Section III - Initial Installation
+### Secţiunea III - Instalarea inițială
 
 1. Navigate to `Internet` -> `Test Connection`
 1. Selectaţi-vă reţeaua Wi-Fi
