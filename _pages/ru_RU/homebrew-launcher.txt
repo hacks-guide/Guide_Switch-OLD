@@ -118,10 +118,10 @@ ___
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Теперь Homebrew Launcher доступен для запуска через приложение Альбом в меню HOME (*до следующей перезагрузки*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Теперь вы не сможете запускать игры на картриджах или из eShop (*до следующей перезагрузки*).
 {: .notice--warning}
 
 После перезагрузки необходимо проделать часть с запуском (используя любой браузер-апплет), чтобы восстановить доступ к Homebrew Launcher на вашей консоли.
