@@ -4,34 +4,34 @@ title: "Dezvoltare (libtransistor)"
 
 {% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Țineți cont că, în timp ce Homebrew Launcher-ul de unul singur este suficient pentru a porni homebrew compilat, poate doriţi un mediu local de PegaSwitch pentru dezvoltare mai rapidă. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Pentru informații despre cum să instalați un mediu local de muncă de PegaSwitch, vedeți pagina [PegaSwitch](pegaswitch).
 {: .notice--primary}
 
 ### Ce aveți nevoie
 
-* A supported operating system
-  + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
-  + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* Basic development tools
+* Un sistem de operare compatibil
+  + MacOs și majoritatea distribuțiilor de linux sunt compatibile; comenzi pentru Arch Linux, Ubuntu și Debian vor fi incluse
+  + Windows este compatibil *doar* folosind o distribuție de [Subsistem de Windows pentru Linux] (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* Unelte de dezvoltare de bază
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Installing Dependencies
+#### Secţiunea I - Instalând dependențele
 
-The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
+Biblioteca libtransistor se bazează pe mai multe dependenţe, inclusiv LLVM / Clang, Python 3 şi cmake.
 
-To install them, run the commands corresponding to your operating system.
+Pentru a le instala, executaţi comenzile corespunzătoare pentru sistemul dumneavoastră de operare.
 
 + MacOS: 
 
   ~~~ bash
-  # install dependencies
+  # instalare dependenţe
   brew install python3 cmake llvm
 
   # manually add llvm to $PATH
