@@ -6,110 +6,109 @@ title: "PegaSwitch"
 
 ### Lectură obligatorie
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch este un set de unelte de exploatare pentru Switch dedicat dezvoltatorilor, dezvoltat de ReSwitched. Este compatibil cu versiunile de firmware 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Setul de unelte folosește o combinație de vulnerabilități pentru a prelua controlul browserului bazat pe WebKit, dând acces utilizatorului la o serie de comenzi ce pot fi folosite pentru a scrie / citi în memorie, chema funcții native, și chiar explora funcțiile consolei.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei. Deși acest efect este inofensiv, va rezulta în pierderea oricărui Mii creat de utilizator.
 {: .notice--warning}
 
-### What You Need
+### Ce aveți nevoie
 
-* A supported operating system
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* Un sistem de operare compatibil
+  + MacOS şi majoritatea distribuţiilor de linux sunt acceptate
+  + Windows are mai multă compatibilitate folosind distribuția [Subsistemul Windows pentru Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* Sistemul [git](https://git-scm.com/) de control de versiuni
+* Runtime-ul [Node.JS](https://nodejs.org/en/download/package-manager/) de JavaScript (versiune recentă)
 
 ### Instrucțiuni
 
-#### Section I - Network Configuration
+#### Secțiunea I - Configurare de Reţea
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch funcționează găzdiund un [portal captiv](https://en.wikipedia.org/wiki/Captive_portal) folosind encriptare DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Pentru ca acesta să funcționeze, consola trebuie să se poată conecta la PC prin rețea.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Asigurați-vă că nicio altă aplicație nu este legată de portul UDP sau TCP 80 și 8100
+  + WSL: priviți la secțiunea "Listening Ports" din fila "Network" în `resmon.exe`
+  + Linux / MacOS: vedeți conțintul de ieșire de pe `sudo netstat - tulpn`
+1. Asigurați-vă că firewall-ul nu blochează conexiunile primite în oricare dintre aceste porturi
 
-#### Section II - Running PegaSwitch
+#### Secţiunea II - Pornind PegaSwitch
 
 ~~~ bash
-# clone the repository
+# clonați depozitul
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# instalare dependențe
 cd pegaswitch
 npm install
 
 # start PegaSwitch
-# Windows users: omit the 'sudo'
-sudo node start.js
+# Utilizatori de Windows: omiteți 'sudo'-ul sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+#### Secțiunea III - Configurare DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea declanșa exploit-ul.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
-1. Launch System Settings on your device
+1. Obșineți adresa IP a PC-ului cu `ifconfig` (sau `ifconfig` pe windows)
+1. Porniți System Settings pe consolă
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
   + Aceasta este simbolizată de o bifă verde alături de reţea
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
-1. Return to `Internet Settings`
+1. Setați "DNS-ul primar" și "DNS-ul secundar" pentru adresa IP a PC-ului
+1. Salvați setările de reţea
+1. Întoarceți-vă la `Internet Settings`
 
-#### Section IV - Initial Connection
+#### Secțiunea IV - Conexiune Inițială
 
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Selectaţi "Connect to this Network"
+1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
+1. Selectați "Next"
+1. Pagina web PegaSwitch se va încărca
+1. Dacă exploit-ul a mers, veți avea acum un shell de PegaSwitch conectat la consolă
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Secțiunea V - Appleturi alternative de browser (opțional)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+În realitate există [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsere de internet pe Switch, și oricare din ele pot fi folosite pentru declanșarea exploit-ului de browser.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Deși inițial am folosit appletul de testare a conexiunii browserului pentru a declanșa exploit-ul, ar fi mai convenabil pe viitor să folosiți alt applet de browser.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Declanșând exploit-ul de browser folosind oricare dintre aceste metode va avea același efect ca declanșând exploit-ul prin metoda de probă de conexiune folosită înainte.
 
-##### eShop Sign In Prompt
+##### Ecran de conectare în eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Pentru a folosi această metodă, creați un al doilea cont pe consolă. Nu vă conectați la un cont Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Porniți Nintendo eShop
+1. Selectați al doilea cont
+1. Selectați "Sign In and link"
+1. Appletul de browser se va porni
 
-##### Game Update Prompt
+##### Ecranul de actualizare a jocului
 
-To use this method, you must have at least one game on your home screen.
+Pentru a folosi această metodă, trebuie să aveți cel puțin un joc pe meniul principal.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Țineți cont că, dacă nu erați conectat la serverele DNS potrivite, această metodă ar fi *actualizat* consola. Este periculos!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Apăsaţi (+) cu orice joc selectat
+1. În fila "Software Update", selectați "Via the Internet"
+1. Appletul browserului se va lansa
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Acum puteţi conecta cu uşurinţă la consolă folosind mediul PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+Pentru scopuri de debug, puteți să [activați informații suplimentare despre erori](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Întoarceți-vă la [Dezvoltarea homebrew-ului](homebrew-development)
 {: .notice--primary}

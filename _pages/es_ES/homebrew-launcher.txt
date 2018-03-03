@@ -8,12 +8,11 @@ title: "Homebrew Launcher"
 
 El Homebrew Launcher actualmente se "instala" en tu consola a través de un exploit de navegador. 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Luego de que el proceso de instalación inicial haya terminado, debes ejecutar un exploit secundario que te permitirá acceder al Homebrew Launcher mediante la aplicación Álbum *hasta que tu consola sea reininiciada*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
-{: .notice--warning}
-
-Luego de un reinicio, tendrás que volver a ejecutar el exploit para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
+Después de reiniciar, tendrás que volver a ejecutar el exploit secundario para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Además, ten en cuenta que este exploit secundario impedirá que puedas jugar a juegos retail mientras esté activo (*hasta que tu consola sea reiniciada*).
+ 
+Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
 
 Ten en cuenta que el actual exploit de homebrew tiene el efecto secundario de corromper la base de datos de Miis de tu consola luego de la instalación inicial. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
 {: .notice--warning}
@@ -62,7 +61,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
   + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
 1. Reinicia tu consola
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. When prompted about Mii database corruption, select "OK" to reboot your device again
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
@@ -84,7 +83,7 @@ Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego
 
 Dado que debes volver a relanzar el exploit luego de cada reinicio, sería ideal si hubiese una forma más conveniente de usar el navegador que la prueba de conexión.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Afortunadamente, existen [múltiples](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets de navegador de internet en la Switch y cualquiera de ellas se puede usar para activar el exploit de navegador.
 
 Dos métodos convenientes para ejecutar un navegador se listan a continuación:
 
@@ -119,8 +118,11 @@ Para instalar aplicaciones homebrew, simplemente copia el archivo `.nro` de la a
 
 ___
 
-Ahora puedes iniciar el Homebrew Launcher iniciando la aplicación Álbum en el menú HOME de tu consola (hasta el próximo reinicio).
+Ahora puedes iniciar el Homebrew Launcher iniciando la aplicación Álbum en el menú HOME de tu consola (*hasta reiniciar tu consola*).
 {: .notice--success}
+
+Ahora no podrás ejecutar un cartucho retail o juegos eShop (*hasta que reinicies tu consola*).
+{: .notice--warning}
 
 Necesitarás volver a realizar los pasos para ejecutar el exploit (al usar cualquier applet de navegador) luego de cada reinicio, para así rehabilitar el acceso al Homebrew Launcher en tu consola.
 {: .notice--warning}

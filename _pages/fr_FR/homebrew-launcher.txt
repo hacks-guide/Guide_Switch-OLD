@@ -8,12 +8,11 @@ title: "Homebrew Launcher"
 
 L'Homebrew Launcher est maintenant "installé" sur votre appareil à travers une faille du navigateur. 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Après avoir terminé le processus d'installation initial, un exploit secondaire doit être réalisé afin d'accéder à l'Homebrew Launcher via l'application Album *jusqu'à ce que votre console soit redémarrée*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
-{: .notice--warning}
-
-Après un redémarrage, vous devrez ré-exécuter l'exploit pour réactiver l'accès à l'Homebrew Launcher. Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être considéré comme un "jailbreak semi-untethered".
+Après un redémarrage, vous devrez ré-exécuter cet exploit secondaire pour réactiver l'accès à l'Homebrew Launcher. En outre, notez que cet exploit secondaire vous empêchera également de jouer à des jeux commerciaux tant qu’il restera actif (*jusqu'à ce que votre appareil soit redémarré*).
+ 
+Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être considéré comme un "jailbreak semi-untethered".
 
 Notez que cet exploit a l'effet secondaire de corrompre la base de données de Miis de votre console lors de l'installation. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
 {: .notice--warning}
@@ -62,7 +61,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Si l'exploit a été correctement exécuté, vous verrez l'erreur "2000-1337"
   + Si vous êtes bloqué sur la page de PegaSwitch sans voir l'erreur, redémarrez la console et refaites le test de connexion
 1. Redémarrez la console
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. When prompted about Mii database corruption, select "OK" to reboot your device again
 
 #### Section IV - Lancer l'Homebrew Launcher
 
@@ -119,8 +118,11 @@ Pour installer un Homebrew, copiez le fichier `.nro` dans le dossier `switch` de
 
 ___
 
-Vous pouvez maintenant lancer l'Homebrew Launcher en lançant l'application Album depuis le menu principal (jusqu'au prochain redémarrage).
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
 {: .notice--success}
+
+You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+{: .notice--warning}
 
 Vous devrez répéter la Section IV (en utilisant n'importe quel applet navigateur) après chaque redémarrage pour avoir de nouveau accès à l'Homebrew Launcher.
 {: .notice--warning}

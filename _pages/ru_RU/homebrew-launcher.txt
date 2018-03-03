@@ -8,12 +8,11 @@ title: "Homebrew Launcher"
 
 На данный момент Homebrew Launcher "устанавливается" на вашу консоль через эксплойт интернет-браузера. 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+После завершения процесса первой установки должен быть запущен вторичный эксплойт, который позволит заходить в Homebrew Launcher через приложение Альбом *до следующей перезагрузки*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
-{: .notice--warning}
-
-После перезагрузки эксплойт необходимо перезапустить, чтобы восстановить доступ к Homebrew Launcher на вашей консоли. Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
+После перезагрузки этот вторичный эксплойт необходимо перезапустить, чтобы восстановить доступ к Homebrew Launcher на вашей консоли. Обратите внимание, что этот вторичный эксплойт также не позволяет запускать обычные игры, пока он активирован (*до следующей перезагрузки*).
+ 
+Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "полу-отвязанному джейлбрейку".
 
 Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается на момент первой установки. Хоть это и безвредно для самой консоли, все Mii, созданные пользователем, будут потеряны.
 {: .notice--warning}
@@ -62,7 +61,7 @@ Note that you will NOT be able to play retail games (cartridge or downloaded) af
 1. Если эксплойт сработал, вы увидите ошибку `2000-1337`
   + Если страница PegaSwitch застряла без видимых ошибок, перезагрузите консоль и снова проведите тест подключения
 1. Перезагрузите консоль
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. При появлении сообщения о повреждении базы данных Mii выберите "OK", чтобы снова перезагрузить консоль
 
 #### Часть IV - Запуск Homebrew Launcher
 
@@ -84,7 +83,7 @@ Note that you will NOT be able to play retail games (cartridge or downloaded) af
 
 Поскольку после каждой перезагрузки необходимо проделывать часть с запуском, идеальным было бы наличие более удобной возможности запуска браузера, чем тест подключения.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+К счастью, существуют [несколько](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) браузер-апплетов на Switch, и все они могут быть использованы для запуска эксплойта браузера.
 
 Два удобных метода запуска браузера указаны ниже:
 
@@ -119,8 +118,11 @@ ___
 
 ___
 
-Теперь Homebrew Launcher доступен для запуска через приложение Альбом в меню HOME (до перезагрузки).
+Теперь Homebrew Launcher доступен для запуска через приложение Альбом в меню HOME (*до следующей перезагрузки*).
 {: .notice--success}
+
+Теперь вы не сможете запускать игры на картриджах или из eShop (*до следующей перезагрузки*).
+{: .notice--warning}
 
 После перезагрузки необходимо проделать часть с запуском (используя любой браузер-апплет), чтобы восстановить доступ к Homebrew Launcher на вашей консоли.
 {: .notice--warning}
