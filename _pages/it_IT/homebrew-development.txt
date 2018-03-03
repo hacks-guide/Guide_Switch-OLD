@@ -1,41 +1,41 @@
 ---
-title: "Homebrew Development"
+title: "Sviluppare Homebrew"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+Al momento, lo strumento più usato per Switch è PegaSwitch, sviluppato da ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Se ti interessa collaborare con i membri di ReSwitched per lo Sviluppo di Homebrew, dai un'occhiata a [ReSwitched su Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Se ti interessa collaborare con i membri di Switchbrew per lo Sviluppo di Homebrew, dai un'occhiata a #switchdev su EFnet.
 {: .notice--success}
 
-### Libraries
+### Librerie
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Al momento, le librerie più usate per sviluppare homebrew per Switch sono due.
 
 ___
 
-#### Development (libnx)
+### Sviluppo (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+La libreria di libnx è stata sviluppata da SwitchBrew e compilata tramite gli strumenti di devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Il prodotto finale potrà essere eseguito sulla tua console tramite l'Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Continua su [Impostare l'ambiente di sviluppo](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) su SwitchBrew (in inglese)
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+### Sviluppo (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+La libreria di libtransistor è stata sviluppata da ReSwitched e compilata tramite LLVM e Clang. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Il prodotto finale può essere eseguito sul tuo PC usando l'emulatore Mephisto, o sulla tua console tramite l'Homebrew Launcher o l'ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Continua su [Sviluppo (libtransistor)](development-(libtransistor))
 {: .notice--primary}

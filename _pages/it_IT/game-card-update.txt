@@ -1,57 +1,57 @@
 ---
-title: "Game Card Update"
+title: "Aggiornamento tramite Scheda di Gioco"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Tutte le schede di gioco contengono una copia del firmware richiesto per giocarci, permettendo a chiunque stia su una versione precedente di aggiornare a quella versione e giocare al gioco (anche senza una connessione ad internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Possiamo approfittarne utilizzando un gioco contenente una versione specifica per installare una versione più recente del firmware (3.0.0) senza aggiornare all'ultima disponibile. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Prima di eseguire l'aggiornamento tramite scheda di gioco, bisogna bloccare gli aggiornamenti online ed entrare nella modalità di Recupero / Manutenzione della console per eliminare i dati degli aggiornamenti che potrebbero essere stati scaricati.
 
-### What you need
+### Cosa serve
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Una cartuccia di [Pokkén Tournament DX](https://amzn.to/2F9nsF3) in versione originale
+  + Le versioni originali di questa scheda di gioco contengono il firmware 3.0.0; hanno una scheda a circuito stampato verde e un seriale che finisce con **000** (vedi immagine sottostante)
+  + Le versioni più recenti di questa scheda di gioco contengono il firmware 3.0.1; hanno una scheda a circuito stampato nera e un seriale che finisce con **001** (*evita di usare queste per aggiornare!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Istruzioni
 
-#### Section I - Enable Airplane Mode
+#### Sezione I - Abilita Modalità Aereo
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. Avvia le Impostazioni di sistema
+1. Vai su `Modalità Aereo`
+1. Abilita la Modalità Aereo
+1. Esci dalle Impostazioni di sistema
 
-#### Section II - Deleting Update Data
+#### Sezione II - Cancellare i dati di aggiornamento
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Spegni la tua console
+1. Accendi la console tenendo premuto insieme i pulsanti (Accensione) + (Volume Su) + (Volume Giù)
+1. Non selezionare alcuna delle opzioni
+1. Entrando in questo menù, qualsiasi dato degli aggiornamenti sarà stato eliminato
+1. Premi il pulsante di (Accensione) per spegnere la console
 
-#### Section III - Game Card Update
+#### Sezione III - Aggiornamento tramite Scheda di Gioco
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Inserisci la tua cartuccia di Pokkén Tournament DX nella console
+1. Prova ad avviare il gioco
+1. Aggiorna quando richiesto
 
-#### Section IV - Disable Airplane Mode
+#### Sezione IV - Disabilita la modalità Aereo
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. Avvia le Impostazioni di sistema
+1. Vai su `Modalità Aereo`
+1. Disabilita la Modalità Aereo
+1. Esci dalle Impostazioni di sistema
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Prosegui con [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

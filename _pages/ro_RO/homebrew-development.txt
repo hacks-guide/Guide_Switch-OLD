@@ -6,36 +6,36 @@ title: "Homebrew Development"
 
 ### Lectură obligatorie
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+În prezent, setul de unelte publice majore de exploit utilizate pentru Switch este PegaSwitch, dezvoltat de ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Dacă sunteţi interesat în a colabora cu membrii ReSwitched pentru dezvoltarea aplicațiilor homebrew, vedeți [ReSwitched pe Discord] (https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Dacă sunteţi interesat de colaborarea cu membrii SwitchBrew pentru dezvoltarea de homebrew, vedeți #switchdev pe EFnet.
 {: .notice--success}
 
-### Libraries
+### Biblioteci
 
-Currently, there are two major libraries used for developing Switch homebrew.
+În prezent, există două mari biblioteci folosite pentru dezvoltarea de homebrew pentru Switch.
 
 ___
 
-#### Development (libnx)
+#### Dezvoltare (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+Libraria libnx este dezvoltata de SwitchBrew si construita pe toolchain-ul devkit64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Binarele pot rula pe consola dumneavoatră folosind Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Continuați la [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) pe SwitchBrew
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### Dezvoltare (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+Biblioteca libtransistor este dezvoltat de ReSwitched şi compilat pe stack-ul LLVM / Clang. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Codul poate fi lansat pe PC folosind emulatorul Mephisto, sau pe conosola dumneavoastră folosind Homebrew Launcher sau ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Continuați spre [Dezvoltare (libtransistor)](development-(libtransistor))
 {: .notice--primary}

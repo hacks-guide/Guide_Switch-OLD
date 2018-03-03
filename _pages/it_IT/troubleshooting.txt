@@ -1,42 +1,42 @@
 ---
-title: "Troubleshooting"
+title: "Risoluzione dei problemi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+Se si dovessero verificare degli errori, consulta la sezione relativa al tuo problema e segui le istruzioni.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Se non riesci comunque a risolvere il tuo problema e hai bisogno di aiuto, sei pregato di presentarti preparato con una descrizione dettagliata del problema e di cosa hai cercato di fare.
 
-## Error 2347-0003
+## Errore 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Questo errore si verifica quando il `.nro` di nx-hbmenu non viene trovato nella scheda SD.
 
-### What You Need
+### Requisiti
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* L'ultima versione di [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Istruzioni
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Spegni la tua console
+1. Inserisci la scheda SD nel tuo computer
+1. Copia `hbmenu.nro` dall'archivio `.zip` di nx-hbmenu nella directory principale della tua scheda SD
+1. Reinserisci la scheda SD nella tua console
+1. Accendi la console
 
-## Enable Extra Error Info
+## Abilita Informazioni Extra sugli Errori
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+Questo script permette la visualizzazione di informazioni extra sugli errori quando occorre un errore fatale. Potrebbe essere utile per il debugging.
 
-### What You Need
+### Cosa serve
 
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
-### Instructions
+### Istruzioni
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. Copia `extraerrorinfo.js` nella cartella `/usefulscripts/` in PegaSwitch
+1. Connettiti alla tua console tramite PegaSwitch
+1. Esegui `evalfile usefulscripts/extraerrorinfo.js`

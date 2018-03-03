@@ -1,42 +1,42 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+title: "Ghidul de Modări Switch" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Un ghid complet pentru homebrew pe Switch <br /> și dezvoltare în homebrew.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Pentru ghiduri complete de homebrew și firmware personalizat pentru alte console, vedeți [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de a continua.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Acest ghid este disponibil în alte limbi!
+Faceţi clic pe iconița <i class="fa fa-language" aria-hidden="true"></i> în partea de sus dreapta a paginii pentru a schimba limba.    
+Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a ajuta spre menține traducerile la zi.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Ce este Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+În cazul în care consola dumneavoastră are versiunea 3.0.0, pornind homebrew pe consolă este 100% gratis folosind doar browserul de sistem. Versiunile de firmware inferioare pot actualiza la 3.0.0 cu ajutorul unui card de joc. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
 
-## What is Custom Firmware?
+## Ce este Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. Acesta este în prezent în dezvoltare, şi va fi lansat în funcţie de program când toate componentele relevante sunt finalizate.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Planificarea publicărilor de CFW este în ordinea versiunilor de firmware ascendente, împărțite în următoarele nivele: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -46,9 +46,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Viitor apropiat</th>
+      <th style="text-align: center; font-weight: bold;">Viitor Îndepărtat</th>
+      <th style="text-align: center; font-weight: bold;">Viitor Depărtat</th>
     </tr>
   </thead>
   <tbody>
@@ -60,27 +60,27 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+În cazul în care consola este pe versiunea de firmware 1.0.0 și sunteți interesat în CFW, cea mai bună opțiune este să urmați pagina despre [blocând acualizări](blocking-updates), să obțineți o copie japoneză de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (care va fi necesar pentru firmware personalizat pe 1.0.0), și #să aștepați pentru lansarea de CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+În cazul în care consola este pe o versiune de firmware >=3.0.1, cea mai bună opțiune este de a actualiza la 4.1.0 (de vreme ce va primi același CFW), urmați pagina ghidului de a [bloca actualizări](blocking-updates), adunați jocuri cât timp puteți (eShop-ul merge doar pe ultima versiune), și așteptați cu răbdare pentru lansarea CFW-ului.
 {: .notice--info}
 
-## What does this guide install?
+## Ce instalează acest ghid?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Acest ghid în prezent permite accesul la Homebrew Launcher printr-un exploit de browser, deşi "instalat" nu este o descriere deosebit de bună. Acest lucru este din cauza că exploit-ul trebuie să fie relansat după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, această metodă ar putea fi considerată similară cu un "jailbreak semi-independent".
 
-## What do I need to know before starting?
+## Ce trebuie să știu înainte să încep?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Deși hack-urile pentru Switch progresează constant, ele nu sunt într-o stare folositoare pentru utilizatori. Ca atare, acest ghid poate solicita anumite cunoștințe tehnice pentru a depana orice problemă care poate apărea.
++ Scopul modificării consolei este limitat momentan pentru aplicațiile homebrew, ceea ce înseamnă că șansele de pierdere a datelor sau de stricare a consolei sunt mici atunci când folosiți aplicații homebrew de la surse populare.
++ Acest ghid va funcționa pe toate consolele Nintendo Switch cu firmware de la 1.0.0 până la 3.0.0, cu toate versiunile până la 4.1.0 fiind planificate pentru suport pe viitor. Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
++ Aveți nevoie de un card micro SD pentru consola dumneavoastră. Ar trebui să fie formatat în Fat32 şi [MBR, nu GPT](http://www.howtogeek.com/245610/) (cele mai multe carduri micro SD vor fi formatate în acest fel în mod implicit). 
++ Dacă aveți nevoie să formatați un card micro SD mai mare de 32gb pe Windows, puteți să folosiți [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) și să setați Dimensiunea Unității de Alocare la 32k.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continuați la [Începeți](get-started)
 {: .notice--primary}

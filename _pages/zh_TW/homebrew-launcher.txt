@@ -8,12 +8,11 @@ title: "Homebrew Launcher"
 
 Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您的主機中的。 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
-{: .notice--warning}
-
-重新啟動後，您必須重新運行漏洞才能重新啟用主機中的 Homebrew Launcher。 如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
+After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+ 
+如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
 
 請注意，目前的漏洞具有在初始安裝時損壞主機中的 Mii 資料庫的副作用。 雖然這種副作用是相對無害的，但它將會導致任何所有已創建的 Mii 的丟失。
 {: .notice--warning}
@@ -62,7 +61,7 @@ Note that you will NOT be able to play retail games (cartridge or downloaded) af
 1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
   + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
 1. 重新啟動您的主機
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. When prompted about Mii database corruption, select "OK" to reboot your device again
 
 #### 第四節 — 啟動 Homebrew Launcher
 
@@ -119,8 +118,11 @@ ___
 
 ___
 
-您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher（直到下次重新啟動）。
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
 {: .notice--success}
+
+You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+{: .notice--warning}
 
 您需要在每次重新啟動後重新運行上述的啟動步驟 (透過任何瀏覽器) 以便重新啟用主機中的 Homebrew Launcher。
 {: .notice--warning}

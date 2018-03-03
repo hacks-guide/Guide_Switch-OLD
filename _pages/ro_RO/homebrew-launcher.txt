@@ -6,36 +6,36 @@ title: "Homebrew Launcher"
 
 ### Lectură obligatorie
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Homebrew Launcher-ul este în prezent "instalat" pe consolă printr-un exploit al browserului. 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+După finalizarea procesului de instalare inițială, va trebui să porniți un exploit secundar care vă va permite să accesați Homebrew Launcher prin aplicația Album *până când consola va fi repornită*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
+După o repornire, va trebui să relansați exploit-ul secundar pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră. În plus, țineți cont că acest exploit secundar de asemenea vă va preveni din a juca jocuri de pe piață atâta timp cât rămâne activ (*până când consola este repornită*).
+ 
+Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, această metoda ar putea fi considerata similara la un "jailbreak semi-independent".
+
+Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei la prima instalare. Deși acest efect este inofensiv, va rezulta în pierderea oricărui Mii creat de utilizator.
 {: .notice--warning}
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+### Ce aveți nevoie
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
-{: .notice--warning}
-
-### What you need
-
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Cea mai recentă versiune de [nx-hbmenu]
+(https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instrucțiuni
 
-#### Section I - Prep Work
+#### Secțiunea I - Preparații
 
 1. Închideți consola
 1. Introduceți cardul SD în calculator
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copiați `hbmenu.nro` de la nx-hbmenu `.zip` pe rădăcina cardului SD
+1. Creați un folder numit `switch` în rădăcina cardului SD dacă nu există deja
+1. Reintroduceţi cardul SD în consola dumneavoastră
+1. Porniți consola
 
-#### Section II - DNS Configuration
+#### Secțiunea II - Configurare DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea declanșa exploit-ul.
 {: .notice--info}
 
 1. Deschideți System Settings
@@ -44,89 +44,92 @@ Note that these DNS servers will need to be set on each network you connect your
   + Aceasta este simbolizată de o bifă verde alături de reţea
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. Setaţi "Primary DNS" la `104.236.106.125`
+1. Setaţi "Secondary DNS" la `62.210.147.20`
 1. Salvați setările de reţea
 1. Ieșiți din System Settings
 
-#### Section III - Initial Installation
+### Secţiunea III - Instalarea inițială
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Navigați spre `Internet` -> `Test Connection`
 1. Selectaţi-vă reţeaua Wi-Fi
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. Selectaţi "Connect to this Network"
+1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
+1. Selectați "Next"
+1. Pagina web de Homebrew Launcher se va încărca
+1. Selectați "Install"
+1. Pagina web PegaSwitch se va încărca
+1. Dacă exploit-ul a mers, veți vedea eroarea `2000-1337`
+  + În cazul în care consola este blocată la pagina PegaSwitch fără să afișeze eroarea, reporniți consola și încercați din nou
+1. Reporniți consola
+1. Când vi se solicită despre coruperea bazei de date Mii, selectaţi "OK" pentru a reporni consola din nou
 
-#### Section IV - Running the Homebrew Launcher
+#### Secțiunea IV - Pornind Homebrew Launcher-ul
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Țineți cont că va trebui să refaceți această secțiune a exploit-ului după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
+1. Navigați spre `Internet` -> `Test Connection`
 1. Selectaţi-vă reţeaua Wi-Fi
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Selectaţi "Connect to this Network"
+1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
+1. Selectați "Next"
+1. Pagina web de Homebrew Launcher se va încărca
+1. Selectați "Run"
+1. Dacă exploit-ul a mers, va apărea un mesaj cerând să ieșiți
+1. Întoarceți-vă în meniul HOME
+1. Lansați aplicația Album
+1. Dacă exploit-ul a avut succes, Homebrew Launcher-ul va porni
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Secțiunea V - Appleturi alternative de browser (opțional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Deoarece trebuie sa refaceti sectiunea "Run" a exploit-ului dupa fiecare reboot, ar fi ideal daca ar fi un mod mai usor de a lansa browseer-ul decat testul de conexiune.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Din fericire, există [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) appleturi de browsere pe Switch, și oricare din ele pot fi folosite pentru declanșarea exploit-ului de browser.
 
-Two convenient methods for launching a browser are listed below:
+Două metode convenabile pentru lansarea unui browser sunt enumerate mai jos:
 
-##### eShop Sign In Prompt
+##### Ecran de conectare în eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Pentru a folosi această metodă, creați un al doilea cont pe consolă. Nu vă conectați la un cont Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Porniți Nintendo eShop
+1. Selectați al doilea cont
+1. Selectați "Sign In and link"
+1. Appletul de browser se va porni
 
-##### Game Update Prompt
+##### Ecranul de actualizare a jocului
 
-To use this method, you must have at least one game on your home screen.
+Pentru a folosi această metodă, trebuie să aveți cel puțin un joc pe meniul principal.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Țineți cont că, dacă nu erați conectat la serverele DNS potrivite, această metodă ar fi *actualizat* consola. Este periculos!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Apăsaţi (+) cu orice joc selectat
+1. În fila "Software Update", selectați "Via the Internet"
+1. Appletul de browser se va porni
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Țineți cont că, în prezent, dezvoltarea de homebrew este într-o stare foarte nouă, cu un număr foarte limitat de aplicații.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Puteţi găsi aplicaţii disponibile pe [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks pe reddit](https://www.reddit.com/r/SwitchHacks/), sau [Switch Homebrew pe GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Pentru a instala aplicaţii homebrew, pur şi simplu copiaţi fişierul homebrew `.nro` în folderul `/switch/` de pe cardul SD.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Acum puteţi porni Homebrew Launcher prin lansarea aplicației Album de pe meniul HOME a consolei (*până la următoarea repornire*).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Acuma nu puteți porni jocuri de pe piață sau jocuri eShop (*până când consola va fi repornită*).
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Va trebui să refaceți pasul "Run" al exploit-ului (folosind orice applet de browser) după fiecare repornire pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră.
+{: .notice--warning}
+
+Pentru rezumate despre progresul în homebrew și în dezvoltare, vedeți blog-ul [ReSwitched Weekly](https://reswitchedweekly.github.io/) în mod regulat.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Pentru informaţii despre cum să contribuiți la dezvoltarea homebrew-ului ca dezvoltator, vedeți pagina de [Dezvoltare a Homebrew-ului](homebrew-development).
 {: .notice--primary}

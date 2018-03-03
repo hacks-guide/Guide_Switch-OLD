@@ -2,131 +2,133 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+L'Homebrew Launcher al momento viene "installato" sulla tua console tramite un exploit del browser. 
 
-Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+Dopo che il processo di installazione è stato completato, dovrai avviare un exploit secondario che ti permetterà di accedere all'Homebrew Launcher tramite l'applicazione Album *finchè la console non viene riavviata*. 
 
-Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
+Dopo un riavvio, dovrai ri-eseguire questo exploit secondario per ri-abilitare l'accesso all'Homebrew Launcher sulla tua console. Inoltre, questo exploit secondario ti impedirà di giocare a qualunque gioco finchè rimane attivo (*ovvero finchè la console non viene riavviata*).
+ 
+Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe essere considerata analoga al "jailbreak semi-untethered".
+
+L'attuale exploit per homebrew ha l'effetto collaterale di corrompere il Database dei Mii della console dopo l'installazione iniziale. Anche se l'effetto è innocuo, provocherà la perdita di ogni Mii creato dagli utenti.
 {: .notice--warning}
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+### Cosa serve
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
-{: .notice--warning}
+* L'ultima versione di [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### What you need
+### Istruzioni
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+#### Sezione I - Preparazione
 
-### Instructions
+1. Spegni la tua console
+1. Inserisci la scheda SD nel tuo computer
+1. Copia `hbmenu.nro` dall'archivio `.zip` di nx-hbmenu nella directory principale della tua scheda SD
+1. Se non è già presente, crea una cartella chiamata `switch` nella directory principale della tua scheda SD
+1. Reinserisci la scheda SD nella tua console
+1. Accendi la console
 
-#### Section I - Prep Work
+#### Sezione II - Configurazione dei DNS
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
-
-#### Section II - DNS Configuration
-
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Per poter innescare l'exploit, questi server DNS devono essere impostati su tutte le reti internet alle quali è connessa la tua console.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Avvia le Impostazioni di sistema
+1. Seleziona `Internet` -> `Impostazioni Internet`
+1. Seleziona la rete internet alla quale sei connesso
+  + Ciò è indicato da una spunta verde accanto alla rete
+1. Seleziona "Cambia le impostazioni"
+1. Imposta le "Impostazioni DNS" su "Manuali"
+1. Imposta il "DNS Primario" su `104.236.106.125`
+1. Imposta il "DNS Secondario" su `62.210.147.20`
+1. Salva le impostazioni
+1. Esci dalle Impostazioni di sistema
 
-#### Section III - Initial Installation
+#### Sezione III - Installazione iniziale
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
+1. Vai su 'Internet' -> 'Prova di Connessione'
+1. Seleziona la rete internet alla quale sei connesso
+1. Seleziona "Collegati a questa Rete"
+1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."
+1. Seleziona "Avanti"
+1. Verrà caricata la pagina web dell'Homebrew Launcher
+1. Seleziona "Installa"
+1. La pagina web di PegaSwitch verrà caricata
+1. Se l'exploit ha avuto successo, comparirà l'errore `2000-1337`
+  + Se dovessi rimanere sulla pagina di PegaSwitch senza vedere l'errore, riavvia il tuo dispositivo e riprova nuovamente la prova di connessione
+1. Riavvia la console
+1. All'avviso sulla corruzione dei dati Mii, premi "OK" per riavviare di nuovo la console
 
-#### Section IV - Running the Homebrew Launcher
+#### Sezione IV - Avviare l'Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Dovrai ri-eseguire questa parte dell'exploit ad ogni riavvio per poter accedere all'Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Vai su 'Internet' -> 'Prova di Connessione'
+1. Seleziona la rete internet alla quale sei connesso
+1. Seleziona "Collegati a questa Rete"
+1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."
+1. Seleziona "Avanti"
+1. Verrà caricata la pagina web dell'Homebrew Launcher
+1. Seleziona "Run"
+1. Se l'exploit ha avuto successo, riceverai una notifica che ti chiederà di uscire dal browser
+1. Ritorna alla schermata iniziale
+1. Avvia l'applicazione dell'Album
+1. Se l'exploit ha avuto successo, l'Homebrew Launcher verrà caricato
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Sezione V - Applet del Browser Alternativi (Opzionale)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Visto che è necessario ri-eseguire la parte di avvio dell'exploit ad ogni riavvio, sarebbe ideale se ci fosse un modo più conveniente di avviare il browser rispetto alla prova di connessione.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Fortunatamente, ci sono [molteplici](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser internet sulla Switch, e ognuno di essi può essere usato per innescare l'exploit del browser.
 
-Two convenient methods for launching a browser are listed below:
+Due metodi convenienti per avviare il browser sono elencati qua sotto:
 
-##### eShop Sign In Prompt
+##### Richiesta di Accesso dell'eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Per usare questo metodo, crea un secondo account sul tuo dispositivo. Non collegarlo ad un Account Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Avvia il Nintendo eShop
+1. Seleziona il secondo account
+1. Seleziona "Accedi"
+1. L'applet del browser si avvierà
 
-##### Game Update Prompt
+##### Richiesta di Aggiornamento di un Gioco
 
-To use this method, you must have at least one game on your home screen.
+Per usare questo metodo, bisogna avere almeno un gioco nella schermata iniziale.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Se non dovessi essere connesso ai DNS giusti, questo metodo *aggiornerà* il tuo dispositivo. È pericoloso!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Premi il pulsante (+) su un qualsiasi gioco selezionato
+1. Nella scheda "Aggiornamento software", seleziona "Tramite Internet"
+1. L'applet del browser si avvierà
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Al momento, lo sviluppo di homebrew è ancora agli inizi, ed il numero di applicazioni disponibili è veramente ridotto.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Puoi trovare delle applicazioni homebrew su [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks su reddit](https://www.reddit.com/r/SwitchHacks/), o su [Switch Homebrew su GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Per installare delle applicazioni homebrew, copia il file `.nro`nella cartella `/switch/` della tua scheda SD.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+Ora puoi avviare l'Homebrew Launcher avviando l'applicazione dell'Album dalla schermata principale della console (*finchè la console non viene riavviata*).
 {: .notice--success}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Non sarai ora in grado di avviare schede di gioco o giochi dell'eShop (*finchè la console non viene riavviata*).
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Dovrai eseguire nuovamente la parte di avvio dell'exploit (usando un qualsiasi browser internet) dopo ogni riavvio per poter riabilitare l'accesso all'Homebrew Launcher sulla tua console.
+{: .notice--warning}
+
+Per aggiornamenti sull'homebrew e sullo sviluppo di essi, dai un'occhiata al blog di [ReSwitched Weekly](https://reswitchedweekly.github.io/) regolarmente.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Per informazioni su come contribuire allo sviluppo di homebrew, dai un'occhiata alla pagina riguardo lo [Sviluppo di Homebrew](homebrew-development).
 {: .notice--primary}

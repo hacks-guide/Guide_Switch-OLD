@@ -1,37 +1,37 @@
 ---
-title: "Site Navigation" #
+title: "Mappa del sito"
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Più popolari**
 
 + [Homebrew Launcher](homebrew-launcher)
-+ [Blocking Updates](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [Bloccare gli aggiornamenti](blocking-updates)
++ [Aggiornamento tramite scheda di gioco](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Tutti**
 
-+ [Blocking Updates](blocking-updates)
-+ [Credits](credits)
-+ [Development (libtransistor)](development-(libtransistor))
-+ [Donations](donations)
++ [Bloccare gli aggiornamenti](blocking-updates)
++ [Riconoscimenti](credits)
++ [Sviluppamento con (libtransistor)](development-(libtransistor))
++ [Donazioni](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
-+ [Get Started](get-started)
++ [Estensioni dei file (Windows)](file-extensions-(windows))
++ [Aggiornamento tramite scheda di gioco](game-card-update)
++ [Cominciamo!](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
-+ [Homebrew Development](homebrew-development)
++ [Pagina iniziale](/)
++ [Sviluppare Homebrew](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Troubleshooting](troubleshooting)
-+ [Why Ads?](why-ads)
++ [Risoluzione dei problemi](troubleshooting)
++ [Perché c'è la pubblicità?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

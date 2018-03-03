@@ -4,128 +4,128 @@ title: "Dezvoltare (libtransistor)"
 
 {% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Țineți cont că, în timp ce Homebrew Launcher-ul de unul singur este suficient pentru a porni homebrew compilat, poate doriţi un mediu local de PegaSwitch pentru dezvoltare mai rapidă. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Pentru informații despre cum să instalați un mediu local de muncă de PegaSwitch, vedeți pagina [PegaSwitch](pegaswitch).
 {: .notice--primary}
 
 ### Ce aveți nevoie
 
-* A supported operating system
-  + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
-  + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* Basic development tools
-  + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
-  + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
+* Un sistem de operare compatibil
+  + MacOs și majoritatea distribuțiilor de linux sunt compatibile; comenzi pentru Arch Linux, Ubuntu și Debian vor fi incluse
+  + Windows este compatibil *doar* folosind o distribuție de [Subsistem de Windows pentru Linux] (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* Unelte de dezvoltare de bază
+  + Linux / WSL: instalați pachetul de dezvoltare relevant pentru distribuția dumneavoastră (cum ar fi `base-devel` pentru Arch, sau `build-essential` pentru Ubuntu / Debian)
+  + MacOS: instalați Xcode Command Line Tools și administratorul de pachete [Homebrew](https://brew.sh/)
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Installing Dependencies
+#### Secţiunea I - Instalând dependențele
 
-The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
+Biblioteca libtransistor se bazează pe mai multe dependenţe, inclusiv LLVM / Clang, Python 3 şi cmake.
 
-To install them, run the commands corresponding to your operating system.
+Pentru a le instala, executaţi comenzile corespunzătoare pentru sistemul dumneavoastră de operare.
 
 + MacOS: 
 
   ~~~ bash
-  # install dependencies
+  # instalare dependenţe
   brew install python3 cmake llvm
 
-  # manually add llvm to $PATH
+  # adaugăre llvm la $PATH manual
   echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.bash_profile
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # install dependencies
+  # instalare dependenţe
   sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 
   
-  Before running these commands, add the [LLVM repository](https://apt.llvm.org/) corresponding to your operating system to `/etc/apt/sources.list`.
+  Înainte de a porni aceste comenzi, adăugați [depozitul LLVM](https://apt.llvm.org/) la care corespunde sistemul dumneavoastră de operare la `/etc/apt/sources.list`.
 
   ~~~ bash
-  # add the LLVM signature key
-  # fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+  # adăugarea cheii de semnătura de LLVM
+  # amprentă: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
-  # install dependencies
+  # instalare dependenţe
   sudo apt-get update
   sudo apt-get install build-essential automake autoconf python3-setuptools squashfs-tools python3 python3-dev python3-pip cmake clang-5.0 lld-5.0 nmap
   ~~~
 
-#### Section II - Building libtransistor
+#### Secțiunea II - Compilând libtransistor
 
 + MacOS: 
 
   ~~~ bash
-  # clone the repository
+  # clonarea depozitului
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # instalare dependenţe de python
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # setarea variabilei de mediu libtransistor la directorul curent
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # compilând libtransistor
   make
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # clone the repository
+  # clonarea depozitului
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # instalare dependenţe de python
   pip install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # setarea variabilei de mediu libtransistor la directorul curent
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # compilând libtransistor
   make
   ~~~
 
 + Ubuntu / Debian: 
 
   ~~~ bash
-  # clone the repository
+  # clonarea depozitului
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # instalare dependenţe de python
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # setarea variabilei de mediu libtransistor la directorul curent
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # compilând libtransistor
   make LLVM_POSTFIX=-5.0
   ~~~
 
-#### Section III - ACE Loader
+#### Secțiunea III - ACE Loader
 
-For information on using ACE Loader, see the [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) on GitHub.
+Pentru informaţii despre cum să folosiți ACE Loader, consultaţi [depozitul](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) pe GitHub.
 {: .notice--info}
 
-#### Section IV - Mephisto
+#### Secţiunea IV - Mephisto
 
-For information on using Mephisto, see the [repository](https://github.com/reswitched/Mephisto) on GitHub.
+Pentru informaţii despre cum să folosiți Mephisto, consultaţi [depozitul](https://github.com/reswitched/Mephisto) pe GitHub.
 {: .notice--info}
 
 ___
 
-You now have a fully functional libtransistor development environment.
+Acum aveţi un mediu de dezvoltare libtransistor complet funcțional.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Dacă sunteţi interesat în a colabora cu membrii ReSwitched pentru dezvoltarea aplicațiilor homebrew, vedeți [ReSwitched pe Discord] (https://discord.gg/ZdqEhed).
 {: .notice--success}
