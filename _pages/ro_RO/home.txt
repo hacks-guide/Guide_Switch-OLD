@@ -1,42 +1,42 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+title: "Ghidul de Modări Switch" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Un ghid complet pentru homebrew pe Switch <br /> și dezvoltare în homebrew.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Pentru ghiduri complete de homebrew și firmware personalizat pentru alte console, vedeți [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de a continua.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Acest ghid este disponibil în alte limbi!
+Faceţi clic pe iconița <i class="fa fa-language" aria-hidden="true"></i> în partea de sus dreapta a paginii pentru a schimba limba.    
+Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a ajuta spre menține traducerile la zi.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Ce este Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
 
-## What is Custom Firmware?
+## Ce este Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. Acesta este în prezent în dezvoltare, şi va fi lansat în funcţie de program când toate componentele relevante sunt finalizate.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Planificarea publicărilor de CFW este în ordinea versiunilor de firmware ascendente, împărțite în următoarele nivele: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -46,9 +46,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Viitor apropiat</th>
+      <th style="text-align: center; font-weight: bold;">Viitor Îndepărtat</th>
+      <th style="text-align: center; font-weight: bold;">Viitor Depărtat</th>
     </tr>
   </thead>
   <tbody>
@@ -60,7 +60,7 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+În cazul în care consola este pe versiunea de firmware 1.0.0 și sunteți interesat în CFW, cea mai bună opțiune este să urmați pagina despre [blocând acualizări](blocking-updates), obțineți o copie japoneză de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (care va fi necesar pentru Custom Firmware 1.0.0), și aștepați pentru lansarea de CFW.
 {: .notice--info}
 
 If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
