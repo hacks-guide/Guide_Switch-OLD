@@ -50,7 +50,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 #### Sección III - Instalación inicial
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
@@ -67,7 +67,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
