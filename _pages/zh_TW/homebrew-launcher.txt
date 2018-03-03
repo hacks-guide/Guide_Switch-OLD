@@ -50,7 +50,7 @@ After a reboot, you will have to re-run this secondary exploit in order to re-en
 
 #### 第三節 － 初次安裝
 
-1. 移動至 `網路 (Internet)` -> `測試連線 (Test Connection)`
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
 1. 選擇您目前所連結的網路
 1. 選擇『連線至此網路 (Connect to this Network)』
 1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
@@ -67,7 +67,7 @@ After a reboot, you will have to re-run this secondary exploit in order to re-en
 
 請注意，為了重新啟用 Homebrew Launcher，您得在每次重新啟動後重新運行此章節。
 
-1. 移動至 `網路 (Internet)` -> `測試連線 (Test Connection)`
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
 1. 選擇您目前所連結的網路
 1. 選擇『連線至此網路 (Connect to this Network)』
 1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
