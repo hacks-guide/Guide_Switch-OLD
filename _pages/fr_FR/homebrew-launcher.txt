@@ -50,7 +50,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 
 #### Section III - Installation
 
-1. Allez dans `Internet` -> `Test de connexion`
+1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
 1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
@@ -67,7 +67,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 
 Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
 
-1. Allez dans `Internet` -> `Tester la connexion`
+1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
 1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
