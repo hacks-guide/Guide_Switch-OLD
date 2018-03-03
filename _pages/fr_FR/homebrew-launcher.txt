@@ -8,7 +8,10 @@ title: "Homebrew Launcher"
 
 L'Homebrew Launcher est maintenant "installé" sur votre appareil à travers une faille du navigateur. 
 
-Une fois que cette installation a été effectuée, vous serez en mesure d'accéder à l'Homebrew Launcher à partir de l'application Album *jusqu'au prochain redémarrage de la console*.
+Once the Homebrew Launcher has been installed and run, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+
+Note that you will NOT be able to play retail games (cartridge or downloaded) after running the Homebrew Launcher. Rebooting your device will allow you to play retail games again.
+{: .notice--warning}
 
 Après un redémarrage, vous devrez ré-exécuter l'exploit pour réactiver l'accès à l'Homebrew Launcher. Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être considéré comme un "jailbreak semi-untethered".
 
@@ -59,6 +62,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Si l'exploit a été correctement exécuté, vous verrez l'erreur "2000-1337"
   + Si vous êtes bloqué sur la page de PegaSwitch sans voir l'erreur, redémarrez la console et refaites le test de connexion
 1. Redémarrez la console
+  + After the device reboots, there will be a message about the Mii database being corrupted. Press OK and the device will reboot again.
 
 #### Section IV - Lancer l'Homebrew Launcher
 
@@ -80,7 +84,7 @@ Notez que vous devrez répéter ces étapes après chaque redémarrage de la con
 
 Puisque vous devez refaire à chaque redémarrage la Section IV du guide, il serait idéal d'avoir une méthode plus pratique pour lancer le navigateur autrement qu'avec le test de connexion.
 
-Heureusement, il y a en réalité [plusieurs](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets navigateur sur la Switch, et n'importe lequel peut être utilisé pour lancer l'exploit.
+Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
 
 Voici deux méthodes pratiques pour lancer le navigateur :
 

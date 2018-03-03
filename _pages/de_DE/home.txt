@@ -10,11 +10,16 @@ header:
 excerpt: "Eine vollständige Anleitung für Switch Homebrew <br /> und die Homebrew-Entwicklung.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du fortfährst.
 {: .notice--warning}
 
 {% capture notice-1 %}
-Diese Anleitung ist in verschiedenen Sprachen verfügbar!    
+Diese Anleitung ist in verschiedenen Sprachen verfügbar!
 Um die Sprache zu ändern klick auf das <i class="fa fa-language" aria-hidden="true"></i> Symbol oben rechts in der Ecke.    
 Klicke alternativ auf [hier](https://crowdin.com/project/switch-guide), um diese Übersetzungen auf dem neuesten Stand zu halten.
 {% endcapture %}
@@ -73,7 +78,7 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 + Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
 + Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
 + Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
-+ Falls du eine SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 32K setzen.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

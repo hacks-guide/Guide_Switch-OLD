@@ -10,11 +10,16 @@ header:
 excerpt: "Una guía completa de homebrew en Switch <br /> y de desarrollo de homebrew.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Lee detenidamente todas las páginas de introducción (¡incluyendo ésta!) antes de proceder.
 {: .notice--warning}
 
 {% capture notice-1 %}
-¡Esta guía está disponible en otros idiomas!    
+¡Esta guía está disponible en otros idiomas!
 Haz clic en el icono <i class="fa fa-language" aria-hidden="true"></i> en la parte superior derecha de la página para cambiar el idioma.    
 También puedes haz clic [aquí](https://crowdin.com/project/switch-guide) para ayudarnos a mantener estas traducciones actualizadas.
 {% endcapture %}
@@ -73,7 +78,7 @@ Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la gu
 + El alcance de las modificaciones en la consola es muy limitado para la mayoría de homebrew existente, lo cual significa que existen pocas posibilidades de pérdida de datos o daños a la consola por el uso de aplicaciones de homebrew populares.
 + Esta guía servirá para todas las consolas Switch en versión del sistema 1.0.0 a 3.0.0, con todas las versiones hasta 4.1.0 planeadas para soporte en el futuro. Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
 + Necesitarás una tarjeta Micro SD para tu consola. Debería estar formateada en formato FAT32 y ser [MBR, no GPT (http://www.howtogeek.com/245610/) (la mayoría de tarjetas Micro SD están formateadas así por defecto). 
-+ Si necesitas formatear una tarjeta micro SD, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
