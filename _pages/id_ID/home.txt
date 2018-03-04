@@ -20,15 +20,15 @@ Bacalah sepenuhnya semua halaman pengantar (termasuk yang ini!) Sebelum melanjut
 
 {% capture notice-1 %}
 Panduan ini juga tersedia dalam bahasa lain!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Klik ikon <i class="fa fa-language" aria-hidden="true"></i> di bagian kanan atas halaman untuk mengubah bahasa.    
+Sebagai alternatif, klik [here](https://crowdin.com/project/switch-guide) untuk membantu memperbarui terjemahan ini.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Apa itu Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) pada dasarnya mengacu kepada perangkat lunak yang tidak diperbolehkan oleh Nintendo. This includes homebrew tools, applications, games, and emulators.
 
 If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
 
