@@ -26,7 +26,7 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 #### Bagian I - Mengaktifkan Mode Pesawat
 
 1. Luncurkan Pengaturan Sistem
-1. Navigate to `Airplane Mode`
+1. Arahkan ke `Mode Pesawat`
 1. Aktifkan Mode Pesawat
 1. Keluar dari Pengaturan Sistem
 
@@ -42,16 +42,16 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 
 1. Masukkan kartu game Pokkén Tournament DX ke perangkat Anda
 1. Mencoba untuk menjalankan game
-1. Update when prompted
+1. Perbaharui saat diminta
 
-#### Section IV - Disable Airplane Mode
+#### Bagian IV - Nonaktifkan Mode Pesawat
 
 1. Luncurkan Pengaturan Sistem
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
+1. Arahkan ke `Mode Pesawat`
+1. Nonaktifkan Mode Pesawat
 1. Keluar dari Pengaturan Sistem
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Lanjutkan ke [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
