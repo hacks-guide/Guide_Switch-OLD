@@ -1,57 +1,57 @@
 ---
 main:
   - 
-    title: Home
+    title: Beranda
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Donasi
     url: donations
   - 
-    title: Credits
+    title: Kredit
     url: credits
   - 
-    title: Troubleshooting
+    title: Penyelesaian Masalah
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Pengembangan homebrew
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Navigasi Situs
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Untuk dukungan dalam bahasa Inggris, tanyakan bantuannya di<a href="https://discord.gg/ZdqEhed">ReSwitched pada Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Jika Anda menghargai panduan ini, saya menerimanya <a href="donations">Donasi</a>.
 footer:
   - 
-    title: Source
+    title: Sumber
   - 
-    title: Site Navigation
+    title: Navigasi Situs
   - 
-    title: Why Ads?
+    title: Mengapa Iklan?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Kemajuan secara keseluruhan
 sidebar_pages:
   - 
-    title: Home
+    title: Beranda
     url: /
   - 
-    title: Get Started
+    title: Memulai
     url: get-started
   - 
-    title: Blocking Updates
+    title: Memblokir Pembaruan
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Pembaharuan Permainan Kartu
     url: game-card-update
   - 
-    title: Homebrew Launcher
+    title: Peluncur Homebrew
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Beberapa Pilihan
     url: multiple-options
