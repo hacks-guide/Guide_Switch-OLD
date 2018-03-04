@@ -16,7 +16,7 @@ Note that, to access online services on 4.1.0, you will need to have connected t
 
 Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
 
-### Instructions
+### Instruksi
 
 #### Section I - DNS Configuration
 
