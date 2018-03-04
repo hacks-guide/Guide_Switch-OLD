@@ -60,7 +60,7 @@ Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjad
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Jika perangkat Anda menggunakan firmware versi 1.0.0 dan Anda tertarik dengan CFW, pilihan terbaik Anda saat ini adalah mengikuti halaman [Blocking Updates](blocking-updates), ambil salinan Jepang [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (yang akan dibutuhkan untuk 1.0.0 Custom Firmware), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
 If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
