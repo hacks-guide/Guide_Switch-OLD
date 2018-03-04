@@ -61,7 +61,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Si l'exploit a été correctement exécuté, vous verrez l'erreur "2000-1337"
   + Si vous êtes bloqué sur la page de PegaSwitch sans voir l'erreur, redémarrez la console et refaites le test de connexion
 1. Redémarrez la console
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. Quand la console vous notifie d'une corruption de la base de données de Miis, sélectionnez "OK" pour redémarrer votre appareil à nouveau
 
 #### Section IV - Lancer l'Homebrew Launcher
 
@@ -83,7 +83,7 @@ Notez que vous devrez répéter ces étapes après chaque redémarrage de la con
 
 Puisque vous devez refaire à chaque redémarrage la Section IV du guide, il serait idéal d'avoir une méthode plus pratique pour lancer le navigateur autrement qu'avec le test de connexion.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Heureusement, il y a en réalité [plusieurs](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets navigateur sur la Switch, et n'importe lequel peut être utilisé pour lancer l'exploit.
 
 Voici deux méthodes pratiques pour lancer le navigateur :
 
