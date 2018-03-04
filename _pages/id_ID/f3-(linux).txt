@@ -12,11 +12,11 @@ Depending on the size of your SD card and the speed of your computer, this proce
 
 This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
 
-### What You Need
+### Apa yang Anda Butuhkan
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Instruksi
 
 1. Unzip the f3 `.zip` file
 1. `cd` into the f3 directory
