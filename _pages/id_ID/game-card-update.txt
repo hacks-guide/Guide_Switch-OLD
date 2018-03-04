@@ -25,14 +25,14 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. Luncurkan Pengaturan Sistem
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Keluar dari Pengaturan Sistem
 
-#### Section II - Deleting Update Data
+#### Bagian II - Menghapus Pembaharuan Data
 
-1. Power off your device
+1. Matikan perangkat Anda
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. Do not select any of the options
 1. Any downloaded update data has been deleted from your system just by entering this menu
@@ -46,10 +46,10 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Luncurkan Pengaturan Sistem
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Keluar dari Pengaturan Sistem
 
 ___
 
