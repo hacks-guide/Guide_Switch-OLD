@@ -2,7 +2,7 @@
 judul: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
 ### Perlu Untuk Dibaca
 
