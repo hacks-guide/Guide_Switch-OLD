@@ -63,12 +63,12 @@ Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjad
 Jika perangkat Anda menggunakan firmware versi 1.0.0 dan Anda tertarik dengan CFW, pilihan terbaik Anda saat ini adalah mengikuti halaman [Blocking Updates](blocking-updates), ambil salinan Jepang [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (yang akan dibutuhkan untuk 1.0.0 Custom Firmware), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Jika perangkat Anda menggunakan versi firmware> = 3.0.1, pilihan terbaik Anda saat ini adalah memperbarui ke 4.1.0 (karena akan menerima CFW pada saat yang bersamaan), ikuti panduan halaman ini [Blocking Updates](blocking-updates), persediaan pada game sementara Anda bisa (eShop hanya berfungsi pada versi terbaru), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
-## What does this guide install?
+## Apa yang dipasang oleh panduan ini?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Panduan saat ini memungkinkan akses ke Homebrew Launcher melalui exploit browser, meskipun "installed" bukanlah deskripsi yang bagus. Ini karena exploit harus dijalankan ulang setelah setiap kali reboot untuk mengaktifkan kembali akses Homebrew Launcher.
 
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
