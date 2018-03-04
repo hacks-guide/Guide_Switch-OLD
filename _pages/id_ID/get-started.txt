@@ -25,13 +25,13 @@ Versi perangkat Anda dapat ditemukan di bawah menu System Update di tab System p
 
 Perhatikan bahwa perangkat mungkin tidak menampilkan versi sistem jika pembaruan yang diunduh menunggu instalasi.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Jika demikian halnya pada perangkat Anda, Anda dapat melihat versi Anda dari Mode Pemulihan / Pemeliharaan dengan menyalakan perangkat Anda sambil menahan (Power) + (Volume Atas) + (Volume Bawah).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### Versi Tabel
 
 <table>
   <colgroup>
