@@ -1,20 +1,20 @@
 ---
-title: "F3 (Linux)"
+judul: "F3 (Linux)"
 ---
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Perlu Untuk Dibaca
 
-This is an add-on section for checking your SD card for errors using F3.
+Ini adalah bagian tambahan untuk memeriksa kartu SD Anda karena kesalahan menggunakan F3.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Tergantung pada ukuran kartu SD dan kecepatan komputer Anda, proses ini bisa memakan waktu hingga beberapa jam!
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Halaman ini hanya untuk pengguna Linux. Jika Anda tidak berada di Linux, periksa halaman [H2testw (windows)](h2testw-(windows)) atau [F3X (mac)](f3x-(mac)).
 
 ### Apa yang Anda Butuhkan
 
-* The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* Versi terbaru dari [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
 ### Instruksi
 
@@ -55,8 +55,8 @@ ___
 If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Jika hasil tes menunjukkan hasil yang lain, kartu SD Anda mungkin bermasalah atau rusak dan Anda mungkin harus menggantinya!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Kembali ke [Get Started](get-started)
 {: .notice--primary}
