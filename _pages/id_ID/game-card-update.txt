@@ -1,8 +1,8 @@
 ---
-title: "Game Card Update"
+judul: "Game Card Update"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc = "Table of Contents" %}
 
 ### Perlu Untuk Dibaca
 
@@ -33,10 +33,10 @@ Before performing the game card update, we block online updates by using airplan
 #### Bagian II - Menghapus Pembaharuan Data
 
 1. Matikan perangkat Anda
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Power pada perangkat Anda saat memegang (Power) + (Volume Atas) + (Volume Bawah)
+1. Jangan memilih salah satu opsi
+1. Data pembaruan yang diunduh telah dihapus dari sistem Anda hanya dengan memasukkan menu ini
+1. Tekan (Power) untuk mematikan perangkat Anda
 
 #### Section III - Game Card Update
 
