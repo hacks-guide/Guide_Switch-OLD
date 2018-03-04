@@ -14,20 +14,20 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 
 ### Apa yang Anda butuhkan
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Kartu game revisi asli dari [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Revisi asli kartu game ini mengandung 3.0.0; mereka memiliki papan sirkuit cetak hijau dan serial yang berakhir pada ** 000** (lihat gambar di bawah)
+  + Revisi terbaru dari kartu game ini mengandung 3.0.1; mereka memiliki papan sirkuit cetak hitam dan serial yang berakhir pada **001** (*hindari penggunaan ini untuk memperbarui!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### Instruksi
 
-#### Section I - Enable Airplane Mode
+#### Bagian I - Mengaktifkan Mode Pesawat
 
 1. Luncurkan Pengaturan Sistem
 1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
+1. Aktifkan Mode Pesawat
 1. Keluar dari Pengaturan Sistem
 
 #### Bagian II - Menghapus Pembaharuan Data
@@ -38,10 +38,10 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 1. Data pembaruan yang diunduh telah dihapus dari sistem Anda hanya dengan memasukkan menu ini
 1. Tekan (Power) untuk mematikan perangkat Anda
 
-#### Section III - Game Card Update
+#### Bagian III - Pembaharuan Kartu Game
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
+1. Masukkan kartu game Pokkén Tournament DX ke perangkat Anda
+1. Mencoba untuk menjalankan game
 1. Update when prompted
 
 #### Section IV - Disable Airplane Mode
