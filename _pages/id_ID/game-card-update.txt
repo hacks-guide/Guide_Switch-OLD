@@ -10,9 +10,9 @@ Semua kartu game berisi salinan versi firmware yang dibutuhkan untuk memainkanny
 
 Kita bisa memanfaatkan ini dengan menggunakan game yang berisi versi tertentu untuk menginstal versi firmware yang lebih baru (3.0.0) tanpa memperbaharui sampai ke yang terbaru. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan menggunakan mode pesawat terbang dan masuk ke Mode Pemulihan / Pemeliharaan untuk menghapus data pembaruan yang mungkin telah diunduh.
 
-### What you need
+### Apa yang Anda butuhkan
 
 * An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
