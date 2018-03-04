@@ -4,11 +4,11 @@ title: "Game Card Update"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Perlu Untuk Dibaca
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Semua kartu game berisi salinan versi firmware yang dibutuhkan untuk memainkannya, memungkinkan siapa pun yang versi yang lebih rendah memperbarui ke versi itu dan bermain game (bahkan tanpa memerlukan koneksi internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Kita bisa memanfaatkan ini dengan menggunakan game yang berisi versi tertentu untuk menginstal versi firmware yang lebih baru (3.0.0) tanpa memperbaharui sampai ke yang terbaru. 
 
 Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
 
@@ -21,7 +21,7 @@ Before performing the game card update, we block online updates by using airplan
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Instruksi
 
 #### Section I - Enable Airplane Mode
 
