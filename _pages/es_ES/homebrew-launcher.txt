@@ -50,7 +50,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 #### Sección III - Instalación inicial
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
@@ -61,13 +61,13 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
   + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
 1. Reinicia tu consola
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. Cuando se alerte sobre corrupción en la base de datos de Mii, selecciona "OK" para reiniciar tu consola nuevamente
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
 Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."

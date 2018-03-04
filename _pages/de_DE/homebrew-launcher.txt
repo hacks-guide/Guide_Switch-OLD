@@ -50,7 +50,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 
 #### Abschnitt III - Erstinstallation
 
-1. Navigiere zu `Internet` -> `Verbindung testen`
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
 1. Wähle dein aktuelles Netzwerk
 1. Wähle "Verbindung zu diesem Netzwerk"
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
@@ -67,7 +67,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 
 Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
 
-1. Navigiere zu `Internet` -> `Verbindung testen`
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
 1. Wähle dein aktuelles Netzwerk
 1. Wähle "Verbindung zu diesem Netzwerk"
 1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
