@@ -75,8 +75,8 @@ Jika Anda sudah terbiasa dengan perangkat iOS "jailbreaking", gagasan ini bisa d
 ## Apa yang perlu saya ketahui sebelum memulai?
 
 + Sementara Switch hacks terus berkembang, mereka masih belum berada dalam keadaan yang mudah digunakan. Dengan demikian, panduan ini mungkin memerlukan beberapa pemahaman teknis untuk memecahkan masalah yang mungkin saja muncul.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
++ Ruang lingkup modifikasi perangkat terbatas untuk homebrew terkini, artinya ada sedikit kemungkinan kehilangan data atau kerusakan konsol saat menggunakan aplikasi homebrew yang populer.
++ Panduan ini akan bekerja pada semua perangkat Switch pada Firmwares dari 1.0.0 ke 3.0.0, dengan semua versi hingga 4.1.0 yang memiliki rencana dukungan masa mendatang. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
 + You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
 + Jika Anda perlu memformat kartu kartu SD yang lebih besar dari 32GB pada Windows, Anda dapat menggunakan [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) dan atur ke Unit Alokasi Ukuran 32K.
 
