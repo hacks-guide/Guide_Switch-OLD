@@ -30,13 +30,13 @@ Sebagai alternatif, klik [here](https://crowdin.com/project/switch-guide) untuk 
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) pada dasarnya mengacu kepada perangkat lunak yang tidak diperbolehkan oleh Nintendo. Ini termasuk alat homebrew, aplikasi, permainan, dan emulator.
 
-Jika perangkat Anda menggunakan firmware versi 3.0.0, menjalankan homebrew pada perangkat Anda 100% gratis hanya dengan menggunakan browser sistem. Versi firmware yang lebih rendah dapat diperbarui ke 3.0.0 dengan menggunakan kartu game. Higher firmware versions can block future updates in order to assure access to future exploits.
+Jika perangkat Anda menggunakan firmware versi 3.0.0, menjalankan homebrew pada perangkat Anda 100% gratis hanya dengan menggunakan browser sistem. Versi firmware yang lebih rendah dapat diperbarui ke 3.0.0 dengan menggunakan kartu game. Versi firmware yang lebih tinggi dapat memblokir pembaruan di masa mendatang untuk menjamin akses terhadap eksploitasi di masa depan.
 
-## What is Custom Firmware?
+## Apa itu Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Saat dirilis, **Custom Firmware** ("CFW") akan memungkinkan Anda untuk menggunakan hacks yang lebih canggih yang tidak dapat dilakukan dengan mudah oleh pengguna homebrew rumahan. Saat ini dalam pengembangan, dan akan dirilis sesuai jadwal kapan semua komponen yang bersangkutan selesai.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjadi tingkatan berikut ini: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -46,9 +46,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Tidak lama lagi</th>
+      <th style="text-align: center; font-weight: bold;">Jauh ke Depan</th>
+      <th style="text-align: center; font-weight: bold;">Jauh masa depan</th>
     </tr>
   </thead>
   <tbody>
