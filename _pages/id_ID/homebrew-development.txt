@@ -16,7 +16,7 @@ Jika Anda tertarik untuk berkolaborasi dengan anggota SwitchBrew di Homebrew Dev
 
 ### Perpustakaan
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Untuk saat ini, ada dua perpustakaan besar yang digunakan untuk pengembangan homebrew Switch.
 
 ___
 
