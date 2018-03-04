@@ -1,9 +1,9 @@
 ---
 judul: "Page Not Found" #
 tata letak: single-no-ads
-kutipan: "Halaman tidak ditemukan. Your pixels are in another canvas." #
+kutipan: "Halaman tidak ditemukan. Pixel Anda berada di kanvas yang lain." #
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+Maaf, halaman yang ingin Anda lihat tidak tersedia.
 {: .notice--info}
