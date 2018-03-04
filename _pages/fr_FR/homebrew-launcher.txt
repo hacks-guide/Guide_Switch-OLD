@@ -118,10 +118,10 @@ Pour installer un Homebrew, copiez le fichier `.nro` dans le dossier `switch` de
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Vous pouvez maintenant lancer l'Homebrew Launcher en lançant l'application Album depuis le menu principal (*jusqu'au prochain redémarrage*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Vous ne pourrez plus lancer de jeux commerciaux ou téléchargés depuis l'eShop (*jusqu'au prochain redémarrage*).
 {: .notice--warning}
 
 Vous devrez répéter la Section IV (en utilisant n'importe quel applet navigateur) après chaque redémarrage pour avoir de nouveau accès à l'Homebrew Launcher.
