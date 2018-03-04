@@ -1,10 +1,10 @@
 ---
-title: "Development (libtransistor)"
+judul: "Development (libtransistor)"
 ---
 
 {% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Perlu Untuk Dibaca
 
 Perhatikan bahwa, Launcher Homebrew saja sudah cukup untuk menjalankan homebrew terkompilasi, Anda mungkin menginginkan lingkungan PegaSwitch lokal untuk perkembangan yang lebih pesat. 
 
@@ -50,8 +50,8 @@ Untuk menginstalnya, jalankan perintah yang sesuai dengan sistem operasi Anda.
   Sebelum menjalankan perintah ini, tambahkan [repositori LLVM] (https://apt.llvm.org/) yang sesuai dengan sistem operasi Anda ke `/etc/apt/sources.list`.
 
   ~~~ bash
-  # add the LLVM signature key
-  # fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+  # tambahkan kunci tanda tangan LLVM
+  # sidik jari: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
   # Memasang dependensi
