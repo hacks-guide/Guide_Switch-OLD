@@ -14,7 +14,7 @@ Jika Anda berada di firmware versi 4.1.0, ini akan memungkinkan Anda untuk melan
 
 Perhatikan bahwa, untuk mengakses layanan online pada 4.1.0, Anda harus terhubung terlebih dahulu ke layanan online setidaknya satu kali sebelum mengikuti petunjuk ini.
 
-Selain itu, kami memasuki Pemulihan / Mode Pemeliharaan dan menghapus pembaharuan data yang mungkin sudah di unduh.
+Selain itu, kami memasuki Mode Pemulihan / Pemeliharaan dan menghapus pembaharuan data yang mungkin sudah di unduh.
 
 ### Instruksi
 
