@@ -2,9 +2,9 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
 The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
 
