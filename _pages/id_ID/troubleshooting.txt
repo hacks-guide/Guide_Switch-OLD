@@ -20,8 +20,8 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
 ### Instruksi
 
-1. Power off your device
-1. Insert your SD card into your computer
+1. Matikan perangkat Anda
+1. Masukkan kartu SD Anda ke dalam komputer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
