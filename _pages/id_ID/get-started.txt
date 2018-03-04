@@ -14,16 +14,16 @@ Sebelum memulai, pengguna Windows harus mengaktifkan opsi untuk menampilkan ekst
 Sebelum memulai, Anda mungkin ingin memeriksa kartu SD Anda karena kesalahan menggunakan [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. Ini berarti bahwa, sebagai contoh, versi "dari 1.0.0 to 2.3.0" mencakup versi 1.0.0, 2.3.0, dan semua versi di antaranya.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+Versi perangkat Anda dapat ditemukan di bawah menu System Update di tab System pada aplikasi Settings.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+Perhatikan bahwa perangkat mungkin tidak menampilkan versi sistem jika pembaruan yang diunduh menunggu instalasi.
 
 If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
 
