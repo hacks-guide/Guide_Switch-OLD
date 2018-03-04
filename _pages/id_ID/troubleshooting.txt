@@ -2,9 +2,9 @@
 title: "Troubleshooting"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
 If you encounter issues, please look for the section relevant to you and follow the instructions.
 
