@@ -50,7 +50,7 @@ Per poter innescare l'exploit, questi server DNS devono essere impostati su tutt
 
 #### Sezione III - Installazione iniziale
 
-1. Vai su 'Internet' -> 'Prova di Connessione'
+1. Seleziona `Internet` -> `Impostazioni Internet`
 1. Seleziona la rete internet alla quale sei connesso
 1. Seleziona "Collegati a questa Rete"
 1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."
@@ -67,7 +67,7 @@ Per poter innescare l'exploit, questi server DNS devono essere impostati su tutt
 
 Dovrai ri-eseguire questa parte dell'exploit ad ogni riavvio per poter accedere all'Homebrew Launcher.
 
-1. Vai su 'Internet' -> 'Prova di Connessione'
+1. Seleziona `Internet` -> `Impostazioni Internet`
 1. Seleziona la rete internet alla quale sei connesso
 1. Seleziona "Collegati a questa Rete"
 1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."

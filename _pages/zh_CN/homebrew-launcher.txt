@@ -51,7 +51,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Section III - Initial Installation
 
-1. Navigate to `Internet` -> `Test Connection`
+1. 进入到 `Internet` -> `Internet Settings`
 1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
@@ -68,7 +68,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
+1. 进入到 `Internet` -> `Internet Settings`
 1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."

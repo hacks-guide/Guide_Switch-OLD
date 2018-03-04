@@ -51,7 +51,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 ### Secţiunea III - Instalarea inițială
 
-1. Navigați spre `Internet` -> `Test Connection`
+1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
 1. Selectaţi "Connect to this Network"
 1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
@@ -68,7 +68,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 Țineți cont că va trebui să refaceți această secțiune a exploit-ului după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
 
-1. Navigați spre `Internet` -> `Test Connection`
+1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
 1. Selectaţi "Connect to this Network"
 1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
