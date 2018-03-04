@@ -2,13 +2,13 @@
 judul: "Blocking Updates"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+Saat ini, homebrew hanya tersedia untuk firmware versi 3.0.0, namun homebrew masa depan dan dukungan CFW direncanakan untuk semua versi hingga 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Untuk menjamin akses ke masa depan, kami menetapkan DNS jaringan Anda saat ini ke server (host oleh ReSwitched) yang memblokir permintaan ke server pembaruan Switch milik Nintendo.
 
 Jika Anda berada di firmware versi 4.1.0, ini akan memungkinkan Anda untuk melanjutkan untuk menggunakan layanan online (tanpa khawatir tentang diperbarui) selama 4.1.0 adalah versi terbaru.
 
