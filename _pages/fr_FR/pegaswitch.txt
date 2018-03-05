@@ -108,7 +108,7 @@ ___
 Vous pouvez maintenant facilement connecter votre console en utilisant l'environnement PegaSwitch.
 {: .notice--success}
 
-À des fins de débogage, vous pourriez vouloir [activer des informations d'erreur supplémentaires](troubleshooting#activer-des-informations-derreur-supplementaires).
+À des fins de débogage, vous pourriez vouloir [activer des informations d'erreur supplémentaires](troubleshooting#activer-des-informations-derreur-suppl%C3%A9mentaires).
 {: .notice--info}
 
 ### Retourner à [Développement des Homebrew](homebrew-development)
