@@ -1,25 +1,25 @@
 ---
 main:
   - 
-    title: Home
+    title: الصفحة الرئيسية
     url: /
   - 
-    title: FAQ
+    title: الأسئلة الشائعة
     url: faq
   - 
-    title: Donations
+    title: التبرعات
     url: donations
   - 
     title: Credits
     url: credits
   - 
-    title: Troubleshooting
+    title: استكشاف الأخطاء وإصلاحها
     url: troubleshooting
   - 
     title: Homebrew Development
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: التنقل في الموقع
     url: site-navigation
 bottom:
   - 
@@ -30,21 +30,21 @@ footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: التنقل في الموقع
   - 
-    title: Why Ads?
+    title: لماذا الإعلانات؟
 sidebar_title:
   - 
     title: Overall Progress
 sidebar_pages:
   - 
-    title: Home
+    title: الصفحة الرئيسية
     url: /
   - 
-    title: Get Started
+    title: ابدأ
     url: get-started
   - 
-    title: Blocking Updates
+    title: منع التحديثات
     url: blocking-updates
   - 
     title: Game Card Update
