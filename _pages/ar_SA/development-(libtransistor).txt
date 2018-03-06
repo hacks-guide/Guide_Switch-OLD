@@ -24,108 +24,108 @@ title: "التطوير بمكتبة (libtransistor)"
 
 #### القسم الأول - تثبيت الإعتمادات "Dependencies"
 
-The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
+مكتبة الـ"libtransistor" تعتمد على عدة توزيعات، بما في ذلك LLVM / Clang, Python 3, و cmake.
 
-To install them, run the commands corresponding to your operating system.
+لتثبيتهم، أدخل الأمر المناسب لنظام تشغيل حاسبك كما يلي.
 
 + MacOS: 
 
   ~~~ bash
-  # install dependencies
+  # تثبيت الأعتمادات "Dependencies"
   brew install python3 cmake llvm
 
-  # manually add llvm to $PATH
+  يدوياً أضف "llvm" إلى $PATH
   echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.bash_profile
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # install dependencies
+  # تثبيت الأعتمادات "Dependencies"
   sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 
   
-  Before running these commands, add the [LLVM repository](https://apt.llvm.org/) corresponding to your operating system to `/etc/apt/sources.list`.
+  قبل أدخال هذه الأوامر، أضف الـ [LLVM repository] (https://apt.llvm.org/) المناسب لنظام تشغيل حاسبك إلى `/etc/apt/sources.list`.
 
   ~~~ bash
-  # add the LLVM signature key
-  # fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+  # إضف مفتاح التوقيع LLVM
+  # البصمة: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
-  # install dependencies
+  # تثبيت الأعتمادات "Dependencies"
   sudo apt-get update
   sudo apt-get install build-essential automake autoconf python3-setuptools squashfs-tools python3 python3-dev python3-pip cmake clang-5.0 lld-5.0 nmap
   ~~~
 
-#### Section II - Building libtransistor
+#### القسم الثاني - بناء الـ"libtransistor"
 
 + MacOS: 
 
   ~~~ bash
-  # clone the repository
+  # استنتسخ هذا المُستودع
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # ثبت إعتمادات بأنثيون "python"
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # ابنى الـ"libtransistor"
   make
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # clone the repository
+  # استنسخ هذا المُستودع
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # ثبت إعتمادات بأنثيون "python"
   pip install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # ابنى الـ"libtransistor"
   make
   ~~~
 
 + Ubuntu / Debian: 
 
   ~~~ bash
-  # clone the repository
+  # استنتسخ هذا المُستودع
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # ثبت إعتمادات بأنثيون "python"
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # build libtransistor
+  # ابنى الـ"libtransistor"
   make LLVM_POSTFIX=-5.0
   ~~~
 
-#### Section III - ACE Loader
+#### القسم الثالث - محمل الـ"ACE"
 
-For information on using ACE Loader, see the [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) on GitHub.
+للمزيد من المعلومات عن طريقة أستخدام محمل الـ"ACE"، انظر إلى [repository] (https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) في موقع GitHub.
 {: .notice--info}
 
-#### Section IV - Mephisto
+#### القسم الرابع - "Mephisto"
 
-For information on using Mephisto, see the [repository](https://github.com/reswitched/Mephisto) on GitHub.
+للمزيد من المعلومات عن طريقة أستخدام "Mephisto"، انظر إلى [repository] (https://github.com/reswitched/Mephisto) في موقع GitHub.
 {: .notice--info}
 
 ___
 
-You now have a fully functional libtransistor development environment.
+لديك الآن بيئة تطوير ليبترانسيستور "libtransistor" تعمل بالكامل.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+إذا كنت مهتم بالتعاون مع أعضاء فريق ري سوتشد "ReSwitched" بتطوير الـ"Homebrew"، تفقد [ReSwitched على موقع Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
