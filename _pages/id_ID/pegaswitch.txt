@@ -56,7 +56,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"
@@ -67,7 +67,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Section IV - Initial Connection
 
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
