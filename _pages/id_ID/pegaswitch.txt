@@ -75,7 +75,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. The PegaSwitch webpage will load
 1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Bagian V - Alternatif Browser Applet (Opsional)
 
 There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
 
