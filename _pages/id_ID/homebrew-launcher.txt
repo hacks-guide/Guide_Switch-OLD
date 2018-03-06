@@ -53,12 +53,12 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
 1. Pilih "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
+1. Pilih "Next"
 1. Halaman web Homebrew Launcher akan dimuat
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
+1. Pilih "Install"
+1. Halaman web PegaSwitch akan dimuat
+1. Jika exploit berhasil, Anda akan melihat kesalahannya `2000-1337`
   + Jika Anda bermasalah di halaman PegaSwitch tanpa melihat kesalahannya, reboot perangkat Anda dan coba melakukan tes koneksi lagi
 1. Reboot perangkat Anda
 1. Saat diminta tentang korupsi database Mii, pilih "OK" untuk me-reboot perangkat Anda lagi
@@ -70,7 +70,7 @@ Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setia
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
 1. Pilih "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
 1. Pilih "Next"
 1. Halaman web Homebrew Launcher akan dimuat
 1. Pilih "Run"
