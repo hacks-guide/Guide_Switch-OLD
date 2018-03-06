@@ -59,11 +59,11 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 1. Select "Install"
 1. The PegaSwitch webpage will load
 1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+  + Jika Anda bermasalah di halaman PegaSwitch tanpa melihat kesalahannya, reboot perangkat Anda dan coba melakukan tes koneksi lagi
+1. Reboot perangkat Anda
+1. Saat diminta tentang korupsi database Mii, pilih "OK" untuk me-reboot perangkat Anda lagi
 
-#### Section IV - Running the Homebrew Launcher
+#### Bagian IV - Menjalankan Homebrew Launcher
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
