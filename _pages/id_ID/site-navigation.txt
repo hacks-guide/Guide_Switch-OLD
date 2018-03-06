@@ -9,12 +9,12 @@ sitemap: false
 
 + [Homebrew Launcher](homebrew-launcher)
 + [Pemblokiran Pembaharuan](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [Perbarui Kartu Game](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Semua**
 
 + [Pemblokiran Pembaharuan](blocking-updates)
 + [Credits](credits)
@@ -24,7 +24,7 @@ sitemap: false
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
++ [Perbarui Kartu Game](game-card-update)
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
