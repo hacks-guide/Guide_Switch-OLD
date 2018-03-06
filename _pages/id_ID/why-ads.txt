@@ -1,15 +1,15 @@
 ---
-title: "Why Ads?" #
-layout: single-no-ads
+judul: "Why Ads?" #
+tata letak: single-no-ads
 ---
 
-This project is the culmination of thousands of hours of constant work.
+Proyek ini merupakan bentuk dari ratusan demi ratusan jam kerja yang konstan.
 
-I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work.
+Saya menjaga panduan ini, secara gratis, dan memastikan agar selalu diperbaharui. Karena upaya ini, saya merasa bahwa adil bagi saya untuk mencoba mendapatkan sedikit penghasilan dari pekerjaan saya.
 
-This site costs you nothing to use, and all that I display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Situs ini gratis untuk digunakan, dan semua iklan yang saya tampilkan tidak mengganggu. Jika Anda masih memiliki masalah dengan ini, Anda bisa memblokir iklan ini.
 
-If you do block ads, I would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Jika Anda memblokir iklan, saya juga ingin mengingatkan Anda tentang laman [Donations](donations), tetapi sekali lagi hal ini juga opsional.
 
-Thanks,<br>
+Terima kasih,<br>
 Plailect
