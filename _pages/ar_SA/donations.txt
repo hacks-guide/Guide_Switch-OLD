@@ -1,5 +1,5 @@
 ---
-title: "Donations" #
+title: "التبرعات"
 layout: single-no-ads
 ---
 
