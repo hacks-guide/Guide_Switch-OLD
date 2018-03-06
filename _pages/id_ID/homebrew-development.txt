@@ -24,9 +24,9 @@ ___
 
 The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Binari dapat dijalankan di perangkat Anda dengan menggunakan Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Lanjutkan ke [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
 {: .notice--primary}
 
 ___
