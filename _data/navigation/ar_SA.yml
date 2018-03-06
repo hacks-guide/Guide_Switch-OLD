@@ -10,13 +10,13 @@ main:
     title: التبرعات
     url: donations
   - 
-    title: Credits
+    title: الشكر والتقدير
     url: credits
   - 
     title: استكشاف الأخطاء وإصلاحها
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: تطوير الـ Homebrew
     url: homebrew-development
   - 
     title: التنقل في الموقع
@@ -25,7 +25,7 @@ bottom:
   - 
     title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: إذا أعجبك الشرح، أنا أقبل التبرعات <a href="donations">التبرعات</a>.
 footer:
   - 
     title: Source
