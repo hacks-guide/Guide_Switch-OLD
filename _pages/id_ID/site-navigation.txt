@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation" #
-layout: single-no-ads
+judul: "Site Navigation" #
+tata letak: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Populer**
 
 + [Homebrew Launcher](homebrew-launcher)
-+ [Blocking Updates](blocking-updates)
++ [Pemblokiran Pembaharuan](blocking-updates)
 + [Game Card Update](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -16,7 +16,7 @@ sitemap: false
 {% capture notice-2 %}
 **All**
 
-+ [Blocking Updates](blocking-updates)
++ [Pemblokiran Pembaharuan](blocking-updates)
 + [Credits](credits)
 + [Development (libtransistor)](development-(libtransistor))
 + [Donations](donations)
