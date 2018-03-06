@@ -15,7 +15,7 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 ### Apa yang Anda butuhkan
 
 * Kartu game revisi asli dari [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Revisi asli kartu game ini mengandung 3.0.0; mereka memiliki papan sirkuit cetak hijau dan serial yang berakhir pada ** 000** (lihat gambar di bawah)
+  + Revisi asli kartu game ini mengandung 3.0.0; mereka memiliki papan sirkuit cetak hijau dan serial yang berakhir pada **000** (lihat gambar di bawah)
   + Revisi terbaru dari kartu game ini mengandung 3.0.1; mereka memiliki papan sirkuit cetak hitam dan serial yang berakhir pada **001** (*hindari penggunaan ini untuk memperbarui!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
@@ -26,7 +26,7 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 #### Bagian I - Mengaktifkan Mode Pesawat
 
 1. Luncurkan Pengaturan Sistem
-1. Arahkan ke `Mode Pesawat`
+1. Arahkan ke `Airplane Mode`
 1. Aktifkan Mode Pesawat
 1. Keluar dari Pengaturan Sistem
 
