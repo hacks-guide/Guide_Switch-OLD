@@ -10,7 +10,7 @@ PegaSwitch is a developer-focused exploitation toolkit for the Switch developed 
 
 The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
 {: .notice--warning}
 
 ### Apa yang Anda Butuhkan
