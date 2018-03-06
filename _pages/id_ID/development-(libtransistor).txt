@@ -47,7 +47,7 @@ Untuk menginstalnya, jalankan perintah yang sesuai dengan sistem operasi Anda.
 
 + Ubuntu / Debian: 
   
-  Sebelum menjalankan perintah ini, tambahkan [repositori LLVM] (https://apt.llvm.org/) yang sesuai dengan sistem operasi Anda ke `/etc/apt/sources.list`.
+  Sebelum menjalankan perintah ini, tambahkan [repository LLVM] (https://apt.llvm.org/) yang sesuai dengan sistem operasi Anda ke `/etc/apt/sources.list`.
 
   ~~~ bash
   # tambahkan kunci tanda tangan LLVM
