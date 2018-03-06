@@ -6,19 +6,19 @@ title: "PegaSwitch"
 
 ### Bacaan yang Perlu Dibaca
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. Hal ini kompatibel dengan versi firmware 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Toolkit ini menggunakan kombinasi kerentanan untuk mengambil alih browser yang berbasis WebKit, memberi pengguna sebuah shell yang dapat digunakan untuk membaca / menulis memori, memanggil fungsi asli, dan sebaliknya mengeksplorasi fungsionalitas Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
+Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untuk merusak perangkat Mii Database Anda. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
 {: .notice--warning}
 
 ### Apa yang Anda Butuhkan
 
 * Sistem operasi yang didukung
-  + MacOS and most linux distributions are supported
+  + MacOS dan sebagian besar distro linux didukung
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
+* Sistem kontrol versi [git](https://git-scm.com/)
 * The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
 
 ### Instruksi
