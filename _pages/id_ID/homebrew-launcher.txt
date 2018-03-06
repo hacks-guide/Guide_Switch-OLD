@@ -65,21 +65,21 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 
 #### Bagian IV - Menjalankan Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setiap kali reboot agar mengaktifkan kembali akses ke Homebrew Launcher.
 
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
 1. Pilih "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Pilih "Next"
+1. Halaman web Homebrew Launcher akan dimuat
+1. Pilih "Run"
+1. Jika exploit berhasil, Anda akan menerima popup yang meminta Anda untuk keluar
+1. Kembali ke menu utama
+1. Luncurkan aplikasi Album
+1. Jika exploit berhasil, Homebrew Launcher akan diluncurkan
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Bagian V - Alternatif Browser Applet (Opsional)
 
 As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
 
