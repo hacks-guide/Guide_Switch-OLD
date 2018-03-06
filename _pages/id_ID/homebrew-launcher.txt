@@ -1,14 +1,14 @@
 ---
-title: "Homebrew Launcher"
+judul: "Homebrew Launcher"
 ---
 
 {% termasuk judul toc="Table of Contents" %}
 
 ### Bacaan yang Perlu Dibaca
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Homebrew Launcher saat ini "installed" ke perangkat Anda melalui browser exploit. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+Setelah proses instalasi awal selesai, sebuah sekunder exploit kemudian harus dijalankan yang akan memungkinkan Anda mengakses Homebrew Launcher melalui aplikasi Album *sampai perangkat Anda di-reboot*. 
 
 After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
  
