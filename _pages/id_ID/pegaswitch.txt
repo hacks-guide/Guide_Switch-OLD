@@ -79,9 +79,9 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 
 Sebenarnya ada [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser internet di Switch, dan salah satunya bisa digunakan untuk memicu exploit browser.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Sementara kita menggunakan tes koneksi browser applet untuk awalnya memicu exploit, mungkin lebih mudah di masa depan untuk menggunakan browser applet lain.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Memicu browser exploit menggunakan salah satu metode ini akan memiliki efek yang sama seperti memicu exploit melalui Tes Koneksi metode yang kita gunakan sebelumnya.
 
 ##### eShop Sign In Prompt
 
@@ -105,11 +105,11 @@ Perhatikan bahwa, jika Anda tidak terhubung ke server DNS yang benar, metode ini
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Sekarang Anda dapat dengan mudah terhubung ke perangkat Anda menggunakan lingkungan PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+Untuk keperluan debugging, Anda mungkin ingin [mengaktifkan info kesalahan tambahan](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Kembali ke [Homebrew Development](homebrew-development)
 {: .notice--primary}
