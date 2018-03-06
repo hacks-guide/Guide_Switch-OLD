@@ -19,19 +19,19 @@ Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untu
   + MacOS dan sebagian besar distro linux didukung
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * Sistem kontrol versi [git](https://git-scm.com/)
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (rilis saat ini)
 
 ### Instruksi
 
-#### Section I - Network Configuration
+#### Bagian I - Konfigurasi Jaringan
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch bekerja dengan hosting [captive portal](https://en.wikipedia.org/wiki/Captive_portal) menggunakan pengalihan DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Agar ini dapat bekerja, perangkat Anda harus dapat terhubung ke PC melalui jaringan.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
+1. Pastikan tidak ada aplikasi lain yang terikat pada port UDP 53 atau port TCP 80 dan 8100
+  + WSL: lihat bagian "Listening Ports" pada tab "Network" di `resmon.exe`
+  + Linux / MacOS: lihat output dari `sudo netstat -tulpn`
 1. Ensure your firewall does not block incoming connections to any of these ports
 
 #### Section II - Running PegaSwitch
