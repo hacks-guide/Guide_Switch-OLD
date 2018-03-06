@@ -2,9 +2,9 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="جدول المحتويات" %}
 
-### Required Reading
+## # يتطلب القراءة
 
 This is an add-on section for checking your SD card for errors using F3X.
 
