@@ -44,5 +44,5 @@ title: "حجب التحديثات"
 
 ___
 
-Updates are now blocked on your device for the configured network.
+تم الأن منع التحديثات في جهازك وذالك فقط على الشبكة التي تم التعديل عليها.
 {: .notice--success}
