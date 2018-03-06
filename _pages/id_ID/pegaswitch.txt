@@ -32,9 +32,9 @@ Agar ini dapat bekerja, perangkat Anda harus dapat terhubung ke PC melalui jarin
 1. Pastikan tidak ada aplikasi lain yang terikat pada port UDP 53 atau port TCP 80 dan 8100
   + WSL: lihat bagian "Listening Ports" pada tab "Network" di `resmon.exe`
   + Linux / MacOS: lihat output dari `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Pastikan firewall Anda tidak memblokir koneksi masuk ke salah satu port ini
 
-#### Section II - Running PegaSwitch
+#### Bagian II - Menjalankan PegaSwitch
 
 ~~~ bash
 # kloning repositori
@@ -44,14 +44,14 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
+# mulai PegaSwitch
 # Windows users: omit the 'sudo'
 sudo node start.js
 ~~~
 
 #### Section III - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar dapat memicu exploit.
 {: .notice--info}
 
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
@@ -61,11 +61,11 @@ Note that these DNS servers will need to be set on each network you connect your
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"
 1. Atur "DNS Settings" ke "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+1. Atur "Primary DNS" dan "Secondary DNS" ke alamat IP PC Anda
 1. Simpan pengaturan jaringan
-1. Return to `Internet Settings`
+1. Kembali ke `Internet Settings`
 
-#### Section IV - Initial Connection
+#### Bagian IV - Koneksi Awal
 
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
@@ -73,11 +73,11 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
 1. Pilih "Next"
 1. Halaman web PegaSwitch akan dimuat
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Jika exploit berhasil, Anda sekarang akan memiliki sebuah shell PegaSwitch yang terhubung ke konsol Anda
 
 #### Bagian V - Alternatif Browser Applet (Opsional)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Sebenarnya ada [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser internet di Switch, dan salah satunya bisa digunakan untuk memicu exploit browser.
 
 While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
 
