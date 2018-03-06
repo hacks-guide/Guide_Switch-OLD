@@ -100,7 +100,7 @@ Perhatikan bahwa, jika Anda tidak terhubung ke server DNS yang benar, metode ini
 {: .notice--danger}
 
 1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
+1. Pada tab "Software Update", pilih "Via the Internet"
 1. Applet browser akan diluncurkan
 
 ___
