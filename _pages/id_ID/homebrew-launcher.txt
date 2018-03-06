@@ -127,8 +127,8 @@ Anda sekarang tidak dapat meluncurkan retail cartridge atau game eShop (*sampai 
 Anda perlu menjalankan kembali langkah "Run" dari exploit (menggunakan applet browser) setelah setiap kali reboot untuk mengaktifkan kembali akses Homebrew Launcher pada perangkat Anda.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Untuk homebrew reguler dan ringkasan perkembangan pengembangan, periksa di [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog secara teratur.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Untuk informasi mengenai kontribusi pengembangan homebrew sebagai pengembang, lihat halaman [Homebrew Development](homebrew-development).
 {: .notice--primary}
