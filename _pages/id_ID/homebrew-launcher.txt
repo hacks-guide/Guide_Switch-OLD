@@ -81,11 +81,11 @@ Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setia
 
 #### Bagian V - Alternatif Browser Applet (Opsional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Karena Anda harus menjalankan kembali bagian "Run" dari exploit setelah setiap kali reboot, itu akan lebih sesuai jika ada cara yang lebih mudah untuk meluncurkan browser daripada tes koneksi.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Untungnya, sebenarnya ada [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applet pada Switch, dan salah satu dari mereka dapat digunakan untuk memicu browser exploit.
 
-Two convenient methods for launching a browser are listed below:
+Dua metode yang mudah digunakan untuk meluncurkan browser tercantum di bawah ini:
 
 ##### eShop Sign In Prompt
 
