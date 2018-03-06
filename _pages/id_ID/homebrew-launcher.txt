@@ -104,27 +104,27 @@ Perhatikan bahwa, jika Anda tidak terhubung ke server DNS yang benar, metode ini
 {: .notice--danger}
 
 1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
+1. Pada tab "Software Update", pilih "Via the Internet"
 1. Applet browser akan diluncurkan
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Perhatikan bahwa, saat ini, pengembangan homebrew dalam keadaan sangat dini dengan jumlah aplikasi yang sangat terbatas.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Anda dapat menemukan aplikasi yang tersedia pada [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), atau [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Untuk memasang aplikasi homebrew, cukup salin file homebrew `.nro` ke folder `/switch/` pada kartu SD anda.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Anda sekarang dapat menjalankan Homebrew Launcher dengan meluncurkan aplikasi Album dari menu utama perangkat Anda (*sampai perangkat Anda di-reboot*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Anda sekarang tidak dapat meluncurkan retail cartridge atau game eShop (*sampai perangkat Anda di-reboot*).
 {: .notice--warning}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Anda perlu menjalankan kembali langkah "Run" dari exploit (menggunakan applet browser) setelah setiap kali reboot untuk mengaktifkan kembali akses Homebrew Launcher pada perangkat Anda.
 {: .notice--warning}
 
 For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
