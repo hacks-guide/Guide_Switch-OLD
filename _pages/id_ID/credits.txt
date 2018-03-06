@@ -2,10 +2,10 @@
 title: "Credits"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Terima kasih terkhususnya untuk semua [penerjemah] (https://crowdin.com/project/switch-guide) karena sangat mengagumkan! **
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Jika saya melupakan Anda di sini, hubungi saya dan saya akan menambahkan nama Anda.
 
 {% capture notice-1 %}
 

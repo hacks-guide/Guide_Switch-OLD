@@ -1,6 +1,6 @@
 ---
-title: "Donations" #
-layout: single-no-ads
+judul: "Donations" #
+tata letak: single-no-ads
 ---
 
 [![Paypal]({{ "/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/plailectguides/15){: .align-center}
