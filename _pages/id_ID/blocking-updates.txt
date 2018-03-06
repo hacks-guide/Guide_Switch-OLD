@@ -1,48 +1,48 @@
 ---
-title: "Blocking Updates"
+judul: "Blocking Updates"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+Saat ini, homebrew hanya tersedia untuk firmware versi 3.0.0, namun homebrew masa depan dan dukungan CFW direncanakan untuk semua versi hingga 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Untuk menjamin akses ke masa depan, kami menetapkan DNS jaringan Anda saat ini ke server (host oleh ReSwitched) yang memblokir permintaan ke server pembaruan Switch milik Nintendo.
 
-If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+Jika Anda berada di firmware versi 4.1.0, ini akan memungkinkan Anda untuk melanjutkan untuk menggunakan layanan online (tanpa khawatir tentang diperbarui) selama 4.1.0 adalah versi terbaru.
 
-Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+Perhatikan bahwa, untuk mengakses layanan online pada 4.1.0, Anda harus terhubung terlebih dahulu ke layanan online setidaknya satu kali sebelum mengikuti petunjuk ini.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Selain itu, kami memasuki Mode Pemulihan / Pemeliharaan dan menghapus pembaharuan data yang mungkin sudah di unduh.
 
-### Instructions
+### Instruksi
 
-#### Section I - DNS Configuration
+#### Bagian I - DNS Konfigurasi
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar memblokir pembaruan!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Luncurkan Pengaturan Sistem
+1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Pilih jaringan Anda saat ini
+  + Ini ditandai dengan tanda centang hijau di sebelah jaringan
+1. Pilih "Change Settings"
+1. Atur "DNS Settings" ke "Manual"
+1. Atur "Primary DNS" ke `173.255.238.217`
+1. Atur "Secondary DNS" ke `173.255.238.217`
+1. Simpan pengaturan jaringan
+1. Keluar dari Pengaturan Sistem
 
-#### Section II - Deleting Update Data
+#### Bagian II - Menghapus Pembaharuan Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Matikan perangkat Anda
+1. Power pada perangkat Anda saat memegang (Power) + (Volume Atas) + (Volume Bawah)
+1. Jangan memilih salah satu opsi
+1. Data pembaruan yang diunduh telah dihapus dari sistem Anda hanya dengan memasukkan menu ini
+1. Tekan (Power) untuk mematikan perangkat Anda
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Pembaruan sekarang diblokir pada perangkat Anda untuk jaringan yang dikonfigurasi.
 {: .notice--success}

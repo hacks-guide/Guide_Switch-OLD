@@ -1,37 +1,37 @@
 ---
-title: "F3X (Mac)"
+judul: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc = "Table of Contents" %}
 
-### Required Reading
+### Perlu Untuk Dibaca
 
-This is an add-on section for checking your SD card for errors using F3X.
+Ini adalah bagian tambahan untuk memeriksa kartu SD Anda karena kesalahan saat menggunakan F3X.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Tergantung pada ukuran kartu SD dan kecepatan komputer Anda, proses ini bisa memakan waktu hingga beberapa jam!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Halaman ini hanya untuk pengguna Mac. Jika Anda bukan pengguna Mac, lihat halaman [H2testw (windows)] (h2testw- (windows)) atau [F3 (Linux)] (f3- (linux)).
 
-### What You Need
+### Apa yang Anda Butuhkan
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* Perilisan terbaru dari [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
-### Instructions
+### Instruksi
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Ekstrak file '.zip' F3X
+1. Masukkan kartu SD Anda ke dalam komputer
+1. Jalankan aplikasi F3X
+1. Pilih kartu SD Anda
+1. Tekan "Start Test"
+1. Tunggu hingga prosesnya selesai.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
+Jika hasil tesnya menunjukkan `Sukses! Kartu Anda baik-baik saja` kartu SD Anda dalam keadaan baik dan Anda dapat menghapus semua berkas `.h2w` pada kartu SD Anda
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Jika hasil tes menunjukkan hasil yang lain, kartu SD Anda mungkin bermasalah atau rusak dan Anda mungkin harus menggantinya!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Kembali ke [Get Started](get-started)
 {: .notice--primary}

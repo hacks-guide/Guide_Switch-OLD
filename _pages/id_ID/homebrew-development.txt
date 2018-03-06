@@ -1,22 +1,22 @@
 ---
-title: "Homebrew Development"
+judul: "Homebrew Development"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+Saat ini, toolkit eksploitasi publik yang utama digunakan untuk Switch adalah PegaSwitch, yang dikembangkan oleh ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+Jika Anda tertarik untuk berkolaborasi dengan anggota ReSwitched pada Pengembangan Homebrew, lihat [ReSwitched on Discord] (https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Jika Anda tertarik untuk berkolaborasi dengan anggota SwitchBrew di Homebrew Development, periksa di #switchdev di EFnet.
 {: .notice--success}
 
-### Libraries
+### Perpustakaan
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Untuk saat ini, ada dua perpustakaan besar yang digunakan untuk pengembangan homebrew Switch.
 
 ___
 

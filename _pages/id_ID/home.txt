@@ -1,42 +1,42 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+judul: "Switch Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+kutipan: "Panduan lengkap untuk beralih homebrew <br /> dan pengembangan homebrew.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Untuk panduan lengkap homebrew dan custom firmware untuk perangkat lain, periksa di [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Bacalah sepenuhnya semua halaman pengantar (termasuk yang ini!) Sebelum melanjutkan.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Panduan ini juga tersedia dalam bahasa lain!
+Klik ikon <i class="fa fa-language" aria-hidden="true"></i> di bagian kanan atas halaman untuk mengubah bahasa.    
+Sebagai alternatif, klik [here](https://crowdin.com/project/switch-guide) untuk membantu memperbarui terjemahan ini.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Apa itu Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) pada dasarnya mengacu kepada perangkat lunak yang tidak diperbolehkan oleh Nintendo. Ini termasuk alat homebrew, aplikasi, permainan, dan emulator.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+Jika perangkat Anda menggunakan firmware versi 3.0.0, menjalankan homebrew pada perangkat Anda 100% gratis hanya dengan menggunakan browser sistem. Versi firmware yang lebih rendah dapat diperbarui ke 3.0.0 dengan menggunakan kartu game. Versi firmware yang lebih tinggi dapat memblokir pembaruan di masa mendatang untuk menjamin akses terhadap eksploitasi di masa depan.
 
-## What is Custom Firmware?
+## Apa itu Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Saat dirilis, **Custom Firmware** ("CFW") akan memungkinkan Anda untuk menggunakan hacks yang lebih canggih yang tidak dapat dilakukan dengan mudah oleh pengguna homebrew rumahan. Saat ini dalam pengembangan, dan akan dirilis sesuai jadwal kapan semua komponen yang bersangkutan selesai.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjadi tingkatan berikut ini: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -46,9 +46,9 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">Tidak lama lagi</th>
+      <th style="text-align: center; font-weight: bold;">Jauh ke Depan</th>
+      <th style="text-align: center; font-weight: bold;">Jauh masa depan</th>
     </tr>
   </thead>
   <tbody>
@@ -60,27 +60,27 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Jika perangkat Anda menggunakan firmware versi 1.0.0 dan Anda tertarik dengan CFW, pilihan terbaik Anda saat ini adalah mengikuti halaman [Blocking Updates](blocking-updates), ambil salinan Jepang [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (yang akan dibutuhkan untuk 1.0.0 Custom Firmware), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+Jika perangkat Anda menggunakan versi firmware> = 3.0.1, pilihan terbaik Anda saat ini adalah memperbarui ke 4.1.0 (karena akan menerima CFW pada saat yang bersamaan), ikuti panduan halaman ini [Blocking Updates](blocking-updates), persediaan pada game sementara Anda bisa (eShop hanya berfungsi pada versi terbaru), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
-## What does this guide install?
+## Apa yang dipasang oleh panduan ini?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Panduan saat ini memungkinkan akses ke Homebrew Launcher melalui exploit browser, meskipun "installed" bukanlah deskripsi yang bagus. Ini karena exploit harus dijalankan ulang setelah setiap kali reboot untuk mengaktifkan kembali akses Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Jika Anda sudah terbiasa dengan perangkat iOS "jailbreaking", gagasan ini bisa dianggap sejalan dengan "jailbreak semi-untethered".
 
-## What do I need to know before starting?
+## Apa yang perlu saya ketahui sebelum memulai?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Sementara Switch hacks terus berkembang, mereka masih belum berada dalam keadaan yang mudah digunakan. Dengan demikian, panduan ini mungkin memerlukan beberapa pemahaman teknis untuk memecahkan masalah yang mungkin saja muncul.
++ Ruang lingkup modifikasi perangkat terbatas untuk homebrew terkini, artinya ada sedikit kemungkinan kehilangan data atau kerusakan konsol saat menggunakan aplikasi homebrew yang populer.
++ Panduan ini akan bekerja pada semua perangkat Switch pada Firmwares dari 1.0.0 ke 3.0.0, dengan semua versi hingga 4.1.0 yang memiliki rencana dukungan masa mendatang. Instruksi disertakan untuk memblokir pembaruan pada perangkat dengan versi firmware> = 3.0.1.
++ Anda memerlukan kartu SD untuk perangkat Anda. Ini harus diformat sebagai Fat32 dan [MBR, bukan GPT] (http://www.howtogeek.com/245610/) (sebagian besar kartu micro SD akan diformat dengan cara ini secara default). 
++ Jika Anda perlu memformat kartu kartu SD yang lebih besar dari 32GB pada Windows, Anda dapat menggunakan [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) dan atur ke Unit Alokasi Ukuran 32K.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Lanjutkan ke [Get Started](get-started)
 {: .notice--primary}

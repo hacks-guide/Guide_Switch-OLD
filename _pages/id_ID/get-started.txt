@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+judul: "Get Started"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc="Table of Contents" %}
 
-### Required Reading
+### Bacaan yang Perlu Dibaca
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Versi perangkat yang berbeda akan memerlukan langkah yang berbeda untuk mencapai tujuan akhir Homebrew. Halaman ini akan membantu Anda untuk memulai sesuai dengan perangkat Anda.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Sebelum memulai, pengguna Windows harus mengaktifkan opsi untuk menampilkan ekstensi file menggunakan [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Sebelum memulai, Anda mungkin ingin memeriksa kartu SD Anda karena kesalahan menggunakan [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. Ini berarti bahwa, sebagai contoh, versi "dari 1.0.0 to 2.3.0" mencakup versi 1.0.0, 2.3.0, dan semua versi di antaranya.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+Versi perangkat Anda dapat ditemukan di bawah menu System Update di tab System pada aplikasi Settings.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+Perhatikan bahwa perangkat mungkin tidak menampilkan versi sistem jika pembaruan yang diunduh menunggu instalasi.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Jika demikian halnya pada perangkat Anda, Anda dapat melihat versi Anda dari Mode Pemulihan / Pemeliharaan dengan menyalakan perangkat Anda sambil menahan (Power) + (Volume Atas) + (Volume Bawah).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### Versi Tabel
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style = "text-align: center; font-weight: bold;">Dari</th>
+      <th style="text-align: center; font-weight: bold;">Ke</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -50,22 +50,22 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">Menunggu CFW -- <a href="blocking-updates">Pemblokiran Pembaharuan</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Pembaruan Kartu Game</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Peluncur Homebrew</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">4.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Pemblokiran Pembaruan</a></td>
     </tr>
   </tbody>
 </table>

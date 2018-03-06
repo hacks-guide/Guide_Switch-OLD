@@ -1,37 +1,37 @@
 ---
-title: "File Extensions (Windows)"
+judul: "File Extensions (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc = "Table of Contents" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
+Ini adalah bagian tambahan untuk menonaktifkan perilaku default Windows yang menyembunyikan ekstensi file.
 
-This will make it easier for you to find the referenced files in the rest of this guide.
+Ini akan mempermudahkan Anda untuk menemukan file yang direferensikan pada seluruh panduan ini.
 
-### Instructions
+### Instruksi
 
 #### Windows 10 / 8.1 / 8
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
-1. Click the "View" option on the ribbon menu 
-1. Check the box labeled "File name extensions"
+1. Luncurkan File Explorer dengan membuka direktori apa saja, seperti direktori kartu SD Anda
+1. Klik opsi "View" pada menu pita 
+1. Centang kotak berlabel "File name extensions"
 
     ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
 #### Windows 7
 
-1. Open the start menu by clicking on it or using the Windows key
-1. Search for "Folder Options" and select the corresponding result
+1. Buka menu start dengan mengkliknya atau gunakan tombol Windows
+1. Langsung ketik "Folder Options" pada start menu untuk mencari dan pilih hasil terkait
 
     ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
     {: .notice--info}
 
-1. Click the "View" option at the top of the Folder Options menu
-1. Uncheck the box labeled "Hide extensions for known file types"
+1. Klik opsi "View" di bagian atas menu Folder Options
+1. Hapus centang kotak berlabel "Hide extensions for known file types"
 
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
 
-### Return to [Get Started](get-started)
+### Kembali ke [Get Started](get-started)
 {: .notice--primary}

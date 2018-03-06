@@ -1,57 +1,57 @@
 ---
-title: "Game Card Update"
+judul: "Game Card Update"
 ---
 
-{% include toc title="Table of Contents" %}
+{% termasuk judul toc = "Table of Contents" %}
 
-### Required Reading
+### Perlu Untuk Dibaca
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Semua kartu game berisi salinan versi firmware yang dibutuhkan untuk memainkannya, memungkinkan siapa pun yang versi yang lebih rendah memperbarui ke versi itu dan bermain game (bahkan tanpa memerlukan koneksi internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Kita bisa memanfaatkan ini dengan menggunakan game yang berisi versi tertentu untuk menginstal versi firmware yang lebih baru (3.0.0) tanpa memperbaharui sampai ke yang terbaru. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan menggunakan mode pesawat terbang dan masuk ke Mode Pemulihan / Pemeliharaan untuk menghapus data pembaruan yang mungkin telah diunduh.
 
-### What you need
+### Apa yang Anda butuhkan
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Kartu game revisi asli dari [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + Revisi asli kartu game ini mengandung 3.0.0; mereka memiliki papan sirkuit cetak hijau dan serial yang berakhir pada ** 000** (lihat gambar di bawah)
+  + Revisi terbaru dari kartu game ini mengandung 3.0.1; mereka memiliki papan sirkuit cetak hitam dan serial yang berakhir pada **001** (*hindari penggunaan ini untuk memperbarui!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Instruksi
 
-#### Section I - Enable Airplane Mode
+#### Bagian I - Mengaktifkan Mode Pesawat
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. Luncurkan Pengaturan Sistem
+1. Arahkan ke `Mode Pesawat`
+1. Aktifkan Mode Pesawat
+1. Keluar dari Pengaturan Sistem
 
-#### Section II - Deleting Update Data
+#### Bagian II - Menghapus Pembaharuan Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Matikan perangkat Anda
+1. Power pada perangkat Anda saat memegang (Power) + (Volume Atas) + (Volume Bawah)
+1. Jangan memilih salah satu opsi
+1. Data pembaruan yang diunduh telah dihapus dari sistem Anda hanya dengan memasukkan menu ini
+1. Tekan (Power) untuk mematikan perangkat Anda
 
-#### Section III - Game Card Update
+#### Bagian III - Pembaharuan Kartu Game
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Masukkan kartu game Pokkén Tournament DX ke perangkat Anda
+1. Mencoba untuk menjalankan game
+1. Perbaharui saat diminta
 
-#### Section IV - Disable Airplane Mode
+#### Bagian IV - Nonaktifkan Mode Pesawat
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. Luncurkan Pengaturan Sistem
+1. Arahkan ke `Mode Pesawat`
+1. Nonaktifkan Mode Pesawat
+1. Keluar dari Pengaturan Sistem
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Lanjutkan ke [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
