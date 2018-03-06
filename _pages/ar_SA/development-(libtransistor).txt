@@ -20,7 +20,7 @@ For information on setting up a local PegaSwitch environment, check out the [Peg
   + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
   + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
 
-### Instructions
+### التعليمات
 
 #### Section I - Installing Dependencies
 
