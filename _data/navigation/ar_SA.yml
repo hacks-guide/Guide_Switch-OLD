@@ -23,19 +23,19 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: للدعم باللغة الإنجليزية، أطلب المساعدة في <a href="https://discord.gg/ZdqEhed"> ReSwitched على موقع Discord</a>.
   - 
     title: إذا أعجبك الشرح، أنا أقبل التبرعات <a href="donations">التبرعات</a>.
 footer:
   - 
-    title: Source
+    title: المصدر
   - 
     title: التنقل في الموقع
   - 
     title: لماذا الإعلانات؟
 sidebar_title:
   - 
-    title: Overall Progress
+    title: التقدم العام
 sidebar_pages:
   - 
     title: الصفحة الرئيسية
@@ -47,11 +47,11 @@ sidebar_pages:
     title: منع التحديثات
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: التحديث باستخدام بطاقة لعبة
     url: game-card-update
   - 
-    title: Homebrew Launcher
+    title: مشغل الـ Homebrew
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: خيارات متعددة
     url: multiple-options
