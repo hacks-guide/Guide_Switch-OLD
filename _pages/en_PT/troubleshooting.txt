@@ -14,7 +14,7 @@ If you still cannot solve your issue and need to reach out for help, please come
 
 This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
-### What You Need
+### What Ye Need
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
@@ -30,7 +30,7 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
 This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
 
-### What You Need
+### What Ye Need
 
 * [PegaSwitch](pegaswitch)
 * [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
