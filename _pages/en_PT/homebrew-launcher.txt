@@ -2,9 +2,9 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
 The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
 
@@ -25,7 +25,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. Power off ye device
 1. Insert your SD card into your computer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
@@ -37,21 +37,21 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Launch System Settings
+1. Launch System Settin's
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Select ye current network
+  + 'Tis be signified by a green check mark next to th' network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Save th' network settin's
+1. Exit System Settin's
 
 #### Section III - Initial Installation
 
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
+1. Select ye current network
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
@@ -68,7 +68,7 @@ Note that these DNS servers will need to be set on each network you connect your
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
+1. Select ye current network
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
