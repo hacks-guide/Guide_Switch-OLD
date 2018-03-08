@@ -1,48 +1,48 @@
 ---
-title: "Blocking Updates"
+title: "Blockin' Updates"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+Fer th' time bein', homebrew be only available fer firmware version 3.0.0, but homebrew 'n CFW support be planned fer th' future fer all versions up to 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+In order to guarantee future access, we gunna be settin' ye current network's DNS to a certain server (hosted by ReSwitched) that blocks requests to Nintendo's update server fer th' Switch.
 
-If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+If ye be on firmware version 4.1.0, 'tis gunna be allowin' ye to continue usin' online services (without worryin' about bein' updated) fer as long as 4.1.0 be th' latest version.
 
-Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+Note that, in order to access online services on 4.1.0, ye gunna need to have connected to online services at least once before followin' these instructions.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Additionally, we gunna be enterin' Recovery / Maintenance Mode 'n deletin' any update data which may have already been downloaded.
 
 ### Instructions
 
 #### Section I - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Note that these DNS servers gunna have to be set on each network ye device connects to, in order fer it to block updates!
 {: .notice--warning}
 
-1. Launch System Settings
+1. Launch System Settin's
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Select ye current network
+  + 'Tis be signified by a green check mark next to th' network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `173.255.238.217`
 1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. Save th' network settin's
+1. Exit System Settin's
 
-#### Section II - Deleting Update Data
+#### Section II - Deletin' Update Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Power off ye device
+1. Power on ye device while holdin' (Power) + (Volume Up) + (Volume Down)
+1. Do not select any 'o th' options
+1. Any downloaded update data has been deleted from ye system, jus' by enterin' 'tis menu
+1. Press (Power) to power off ye device
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Updates now be blocked on ye device fer th' configured network.
 {: .notice--success}
