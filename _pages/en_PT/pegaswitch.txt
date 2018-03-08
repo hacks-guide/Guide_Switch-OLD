@@ -13,9 +13,9 @@ The toolkit uses a combination of vulnerabilities to take over the WebKit-based 
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
-### What You Need
+### What Ye Need
 
-* A supported operating system
+* A supported operatin' system
   + MacOS and most linux distributions are supported
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * The [git](https://git-scm.com/) version control system
@@ -37,10 +37,10 @@ For this to work, your device must be able to connect to your PC over the networ
 #### Section II - Running PegaSwitch
 
 ~~~ bash
-# clone the repository
+# clone th' repository
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# install th' dependencies
 cd pegaswitch
 npm install
 
