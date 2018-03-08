@@ -2,9 +2,9 @@
 title: "Game Card Update"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="جدول المحتويات" %}
 
-### Required Reading
+## # يتطلب القراءة
 
 All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
 
@@ -21,22 +21,22 @@ Before performing the game card update, we block online updates by using airplan
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### التعليمات
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. اذهب إلى "إعدادات النظام"-"System Settings"
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
 1. Exit System Settings
 
 #### Section II - Deleting Update Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
+1. أطفأ الجهاز
+1. شغل الجهاز مع الضغط على الأزرار التالية (زر التشغيل) + (زر رفع الصوت) + (زر خفض الصوت)
+1. لا تحدد أي من الخيارات الظاهرة لك على الشاشة
 1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. اضغط على زر (إيقاف التشغيل) لإيقاف تشغيله الجهاز
 
 #### Section III - Game Card Update
 

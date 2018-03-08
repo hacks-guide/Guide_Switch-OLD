@@ -2,21 +2,21 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="جدول المحتويات" %}
 
-### Required Reading
+## # يتطلب القراءة
 
-This is an add-on section for checking your SD card for errors using F3.
+هذا قسم إضافي للتحقق من أن الذاكرة الخارجية "SD Card" خالية من الأخطاء باستخدام برنامج [F3].
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+حسب سعة بطاقة الذاكرة وسرعة الحاسب، فقد تستغرق هذه العملية من الوقت بضع دقائق أو عدة ساعات!
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+هذه الصفحة لمستخدمي نظام التشغيل لينكس فقط. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
 
-### What You Need
+### ما تحتاجة
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### التعليمات
 
 1. Unzip the f3 `.zip` file
 1. `cd` into the f3 directory

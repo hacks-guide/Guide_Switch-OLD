@@ -22,20 +22,20 @@ ___
 
 #### Development (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+Perpustakaan libnx dikembangkan oleh SwitchBrew dan dibangun di atas toolkit devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Binari dapat dijalankan di perangkat Anda dengan menggunakan Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Lanjutkan ke [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
 {: .notice--primary}
 
 ___
 
 #### Development (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+Perpustakaan libtransistor dikembangkan oleh ReSwitched dan dibangun pada LLVM / Clang. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Binari dapat dijalankan pada PC Anda menggunakan Mephisto emulator, atau pada perangkat Anda menggunakan Homebrew Launcher atau ACE Loader.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+Lanjutkan ke [Development (libtransistor)](development-(libtransistor))
 {: .notice--primary}

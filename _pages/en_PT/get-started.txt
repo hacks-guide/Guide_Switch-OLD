@@ -2,9 +2,9 @@
 title: "Get Started"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
 Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
 

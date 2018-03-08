@@ -8,17 +8,17 @@ judul: "Development (libtransistor)"
 
 Perhatikan bahwa, Launcher Homebrew saja sudah cukup untuk menjalankan homebrew terkompilasi, Anda mungkin menginginkan lingkungan PegaSwitch lokal untuk perkembangan yang lebih pesat. 
 
-Untuk informasi tentang pemasangan lingkungan PegaSwitch setempat, lihat halaman [PegaSwitch] (pegaswitch).
+Untuk informasi tentang pemasangan lingkungan PegaSwitch setempat, lihat halaman [PegaSwitch](pegaswitch).
 {: .notice--primary}
 
 ### Apa yang Anda Butuhkan
 
 * Sistem operasi yang didukung
   + MacOS dan sebagian besar distro linux didukung; perintah untuk Arch Linux, Ubuntu, dan Debian akan disuplai
-  + Windows *hanya* mendukung bila menggunakan distribusi [Windows Subsystem for Linux] (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  + Windows *hanya* mendukung bila menggunakan distribusi [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * Alat Pengembangan Dasar
-  + Linux / WSL: instal paket pengembangan yang relevan untuk distribusi Anda (seperti `base-devel` di Arch, atau`build-essential` di Ubuntu / Debian)
-  + MacOS: instal Xcode Command Line Tools dan manajer paket [Homebrew] (https://brew.sh/)
+  + Linux / WSL: pasang paket pengembangan yang relevan untuk distribusi Anda (seperti `base-devel` di Arch, atau`build-essential` di Ubuntu / Debian)
+  + MacOS: pasang Xcode Command Line Tools dan manajer paket [Homebrew](https://brew.sh/)
 
 ### Instruksi
 
@@ -26,7 +26,7 @@ Untuk informasi tentang pemasangan lingkungan PegaSwitch setempat, lihat halaman
 
 Perpustakaan libtransistor bergantung pada beberapa dependensi, termasuk LLVM / Clang, Python 3, dan cmake.
 
-Untuk menginstalnya, jalankan perintah yang sesuai dengan sistem operasi Anda.
+Untuk memasangnya, jalankan perintah yang sesuai dengan sistem operasi Anda.
 
 + MacOS: 
 
@@ -47,7 +47,7 @@ Untuk menginstalnya, jalankan perintah yang sesuai dengan sistem operasi Anda.
 
 + Ubuntu / Debian: 
   
-  Sebelum menjalankan perintah ini, tambahkan [repositori LLVM] (https://apt.llvm.org/) yang sesuai dengan sistem operasi Anda ke `/etc/apt/sources.list`.
+  Sebelum menjalankan perintah ini, tambahkan [LLVM repository](https://apt.llvm.org/) yang sesuai dengan sistem operasi Anda ke `/etc/apt/sources.list`.
 
   ~~~ bash
   # tambahkan kunci tanda tangan LLVM

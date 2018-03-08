@@ -1,22 +1,22 @@
 ---
-title: "Site Navigation" #
-layout: single-no-ads
+judul: "Site Navigation" #
+tata letak: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Populer**
 
 + [Homebrew Launcher](homebrew-launcher)
-+ [Blocking Updates](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [Pemblokiran Pembaharuan](blocking-updates)
++ [Perbarui Kartu Game](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Semua**
 
-+ [Blocking Updates](blocking-updates)
++ [Pemblokiran Pembaharuan](blocking-updates)
 + [Credits](credits)
 + [Development (libtransistor)](development-(libtransistor))
 + [Donations](donations)
@@ -24,7 +24,7 @@ sitemap: false
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
++ [Perbarui Kartu Game](game-card-update)
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)

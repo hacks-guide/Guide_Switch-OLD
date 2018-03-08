@@ -1,48 +1,48 @@
 ---
-title: "Blocking Updates"
+title: "حجب التحديثات"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="جدول المحتويات" %}
 
-### Required Reading
+## # يتطلب القراءة
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0.
+حالياً، الـ"Homebrew" يعمل فقط على تحديث رقم 3.0.0، ولكن في المستقبل سيكون الدعم للـ "Homebrew" و "التحديثات المعدلة"-"CFW" مخطط أصدارها لجميع التحديثات، من أول تحديث صدر للجهاز إلى التحديث رقم 4.1.0.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+لضمان الوصول إلى الأنترنت ومنع التحديثات فقط، يجب عليك تعديل إعدادات الـDNS وتحديد الخادم المدرج في الأسفل (تم أستضافته من قبل فريق ReSwitched) والذي يعمل على منع الطلبات الخارجة من جهازك لسيرفر التحديثات لنينتندو.
 
-If you are on firmware version 4.1.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 4.1.0 is the latest version.
+إذا كنت على تحديث رقم 4.1.0، فتستطيع أستخدام الخدمات عبر الأنترنت (دون القلق من تحديث جهازك) ما دام التحديث رقم 4.1.0 هو أخر تحديث تم أصداره.
 
-Note that, to access online services on 4.1.0, you will need to have connected to online services at least once before following these instructions.
+ملاحظة: للوصول للخدمات عبر الأنترنت في تحديث رقم 4.1.0، يجب عليك أن تتصل بإحدى خدمات الأنترنت من جهازك (كالاتصال بالمتجر الإلكتروني أو دخول الاون لاين في أحدى الألعاب) على الأقل مرة واحدة وذلك قبل متابعة الخطوات التالية.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+و بالإضافة إلى ذلك، سندخل على وضع الصيانة "Recovery / Maintenance Mode" لحذف أي ملفات لتحديث تم تحميلة مسبقاً.
 
-### Instructions
+### التعليمات
 
-#### Section I - DNS Configuration
+### القسم الأول-تعديل الـ"DNS"
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+ملاحظة: إعدادات الـ"DNS" يجب إن تعدل على كل الشبكات المحفوظة في جهازك لمنع التحديثات!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `173.255.238.217`
-1. Set "Secondary DNS" to `173.255.238.217`
-1. Save the network settings
-1. Exit System Settings
+1. اذهب إلى "إعدادات النظام"-"System Settings"
+1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. أختر شبكة الاتصال المتصل فيها حالياً
+  + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
+1. حدد "تغيير الإعدادات"-"Change Settings"
+1. عيين الـ"DNS Settings" إلى يدوي "Manual"
+1. عيين الـ"Primary DNS" إلى`173.255.238.217`
+1. عيين الـ"Secondary DNS" إلى `173.255.238.217`
+1. احفظ إعدادات شبكة الاتصال
+1. أغلق الإعدادات النظام
 
-#### Section II - Deleting Update Data
+### القسم الثاني - حذف ملفات التحديث
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. أطفأ الجهاز
+1. شغل الجهاز مع الضغط على الأزرار التالية (زر التشغيل) + (زر رفع الصوت) + (زر خفض الصوت)
+1. لا تحدد أي من الخيارات الظاهرة لك على الشاشة
+1. تم حذف أي ملفات تحديث تم تنزيله في جهازك مسبقاً، وذلك حين دخولك على هذه القائمة
+1. اضغط على زر (إيقاف التشغيل) لإيقاف تشغيله الجهاز
 
 ___
 
-Updates are now blocked on your device for the configured network.
+تم الأن منع التحديثات في جهازك وذالك فقط على الشبكة التي تم التعديل عليها.
 {: .notice--success}

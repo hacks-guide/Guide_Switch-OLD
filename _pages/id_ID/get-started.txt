@@ -11,7 +11,7 @@ Versi perangkat yang berbeda akan memerlukan langkah yang berbeda untuk mencapai
 Sebelum memulai, pengguna Windows harus mengaktifkan opsi untuk menampilkan ekstensi file menggunakan [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Sebelum memulai, Anda mungkin ingin memeriksa kartu SD Anda karena kesalahan menggunakan [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Sebelum memulai, Anda mungkin ingin memeriksa kartu SD Anda karena kesalahan menggunakan [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), atau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. Ini berarti bahwa, sebagai contoh, versi "dari 1.0.0 to 2.3.0" mencakup versi 1.0.0, 2.3.0, dan semua versi di antaranya.

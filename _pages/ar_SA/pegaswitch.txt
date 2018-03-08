@@ -2,9 +2,9 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="جدول المحتويات" %}
 
-### Required Reading
+## # يتطلب القراءة
 
 PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
 
@@ -21,7 +21,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 * The [git](https://git-scm.com/) version control system
 * The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
 
-### Instructions
+### التعليمات
 
 #### Section I - Network Configuration
 
@@ -37,10 +37,10 @@ For this to work, your device must be able to connect to your PC over the networ
 #### Section II - Running PegaSwitch
 
 ~~~ bash
-# clone the repository
+# استنتسخ هذا المُستودع
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# تثبيت الأعتمادات "Dependencies"
 cd pegaswitch
 npm install
 
@@ -56,19 +56,19 @@ Note that these DNS servers will need to be set on each network you connect your
 
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
+1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. أختر شبكة الاتصال المتصل فيها حالياً
+  + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
+1. حدد "تغيير الإعدادات"-"Change Settings"
+1. عيين الـ"DNS Settings" إلى يدوي "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
 1. Save the network settings
 1. Return to `Internet Settings`
 
 #### Section IV - Initial Connection
 
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
+1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. أختر شبكة الاتصال المتصل فيها حالياً
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
