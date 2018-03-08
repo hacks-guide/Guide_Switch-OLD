@@ -2,9 +2,9 @@
 title: "PegaSwitch"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
 PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
 
@@ -13,9 +13,9 @@ The toolkit uses a combination of vulnerabilities to take over the WebKit-based 
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
-### What You Need
+### What Ye Need
 
-* A supported operating system
+* A supported operatin' system
   + MacOS and most linux distributions are supported
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * The [git](https://git-scm.com/) version control system
@@ -37,10 +37,10 @@ For this to work, your device must be able to connect to your PC over the networ
 #### Section II - Running PegaSwitch
 
 ~~~ bash
-# clone the repository
+# clone th' repository
 git clone https://github.com/reswitched/pegaswitch
 
-# install dependencies
+# install th' dependencies
 cd pegaswitch
 npm install
 
@@ -57,18 +57,18 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Select ye current network
+  + 'Tis be signified by a green check mark next to th' network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-1. Save the network settings
+1. Save th' network settin's
 1. Return to `Internet Settings`
 
 #### Section IV - Initial Connection
 
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
+1. Select ye current network
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"

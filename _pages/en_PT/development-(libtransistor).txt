@@ -2,76 +2,76 @@
 title: "Development (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Note that although th' Homebrew Launcher on its own be sufficient fer runnin' compiled homebrew, ye might want a local PegaSwitch environment fer more rapid development. 
 
-For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
+Fer information on settin' up a local PegaSwitch environment, check out th' [PegaSwitch](pegaswitch) page.
 {: .notice--primary}
 
-### What You Need
+### What Ye Need
 
-* A supported operating system
-  + MacOS and most linux distributions are supported; commands for Arch Linux, Ubuntu, and Debian will be supplied
-  + Windows is *only* supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
+* A supported operatin' system
+  + macOS 'n most Linux distributions be supported; shell commands gunna be supplied fer Arch Linux, Ubuntu, 'n Debian
+  + Windows *only* be supported usin' a [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
 * Basic development tools
-  + Linux / WSL: install the relevant development package for your distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
-  + MacOS: install the Xcode Command Line Tools and the [Homebrew](https://brew.sh/) package manager
+  + Linux / WSL: install th' relevant development package fer ye distribution (such as `base-devel` on Arch, or `build-essential` on Ubuntu / Debian)
+  + macOS: install th' Xcode Command Line Tools 'n th' [Homebrew](https://brew.sh/) package manager
 
 ### Instructions
 
-#### Section I - Installing Dependencies
+#### Section I - Installin' Dependencies
 
-The libtransistor library relies on several dependencies, including LLVM / Clang, Python 3, and cmake.
+Th' libtransistor library relies on several pieces 'o software as dependencies. 'Tis be includin' LLVM / Clang, Python 3, 'n cmake.
 
-To install them, run the commands corresponding to your operating system.
+To install dependencies, run th' followin' commands, correspondin' to ye operatin' system.
 
-+ MacOS: 
++ macOS: 
 
   ~~~ bash
-  # install dependencies
+  # install th' dependencies
   brew install python3 cmake llvm
 
-  # manually add llvm to $PATH
+  # manually add llvm to th' $PATH
   echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.bash_profile
   ~~~
 
 + Arch Linux: 
 
   ~~~ bash
-  # install dependencies
+  # install th' dependencies
   sudo pacman -Syu python python-pip cmake clang llvm lld nmap squashfs-tools
   ~~~
 
 + Ubuntu / Debian: 
   
-  Before running these commands, add the [LLVM repository](https://apt.llvm.org/) corresponding to your operating system to `/etc/apt/sources.list`.
+  Before runnin' these commands, add th' [LLVM repository](https://apt.llvm.org/) correspondin' to ye operatin' system to `/etc/apt/sources.list`.
 
   ~~~ bash
-  # add the LLVM signature key
+  # add th' LLVM signature key
   # fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
-  # install dependencies
+  # install th' dependencies
   sudo apt-get update
   sudo apt-get install build-essential automake autoconf python3-setuptools squashfs-tools python3 python3-dev python3-pip cmake clang-5.0 lld-5.0 nmap
   ~~~
 
-#### Section II - Building libtransistor
+#### Section II - Buildin' libtransistor
 
-+ MacOS: 
++ macOS: 
 
   ~~~ bash
-  # clone the repository
+  # clone th' repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # install th' python dependencies
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # set th' libtransistor environment variable to th' current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
   # build libtransistor
@@ -81,14 +81,14 @@ To install them, run the commands corresponding to your operating system.
 + Arch Linux: 
 
   ~~~ bash
-  # clone the repository
+  # clone th' repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # install th' python dependencies
   pip install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # set th' libtransistor environment variable to th' current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
   # build libtransistor
@@ -98,14 +98,14 @@ To install them, run the commands corresponding to your operating system.
 + Ubuntu / Debian: 
 
   ~~~ bash
-  # clone the repository
+  # clone th' repository
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # install python dependencies
+  # install th' python dependencies
   pip3 install -r requirements.txt --user
 
-  # set libtransistor environment variable to current directory
+  # set th' libtransistor environment variable to th' current directory
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
   # build libtransistor
@@ -114,18 +114,18 @@ To install them, run the commands corresponding to your operating system.
 
 #### Section III - ACE Loader
 
-For information on using ACE Loader, see the [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) on GitHub.
+Fer information on usin' ACE Loader, see th' [repository](https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) on GitHub.
 {: .notice--info}
 
 #### Section IV - Mephisto
 
-For information on using Mephisto, see the [repository](https://github.com/reswitched/Mephisto) on GitHub.
+Fer information on usin' Mephisto, see th' [repository](https://github.com/reswitched/Mephisto) on GitHub.
 {: .notice--info}
 
 ___
 
-You now have a fully functional libtransistor development environment.
+Ye now have a fully-functional libtransistor development environment.
 {: .notice--success}
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+If ye have interest in collaboratin' wit' ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}

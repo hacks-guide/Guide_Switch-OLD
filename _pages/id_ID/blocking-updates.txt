@@ -24,7 +24,7 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 {: .notice--warning}
 
 1. Luncurkan Pengaturan Sistem
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"

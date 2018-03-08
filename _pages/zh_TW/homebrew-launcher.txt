@@ -8,9 +8,9 @@ title: "Homebrew Launcher"
 
 Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您的主機中的。 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+在初始安裝完成後，我們得使用另一個次要漏洞讓您可以透過相簿應用程式啟動 Homebrew Launcher 直到您的主機重啟為止。 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+重新啟動後，您必須重新運行此次要漏洞才能重新啟用主機中的 Homebrew Launcher。 請另外注意，此次要漏洞於使用時將阻止您遊玩零售遊戲卡帶 (*直到您的主機重啟為止*)。
  
 如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
 
@@ -61,7 +61,7 @@ After a reboot, you will have to re-run this secondary exploit in order to re-en
 1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
   + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
 1. 重新啟動您的主機
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. 當提示 Mii 資料庫損壞的可能性時，按下『OK』以重啟您的裝置。
 
 #### 第四節 — 啟動 Homebrew Launcher
 
@@ -83,7 +83,7 @@ After a reboot, you will have to re-run this secondary exploit in order to re-en
 
 由於每次重新啟動後必須重新點擊漏洞的『Run』按鈕，因此如果啟動瀏覽器比連接測試更方便，這將是最理想的選擇。
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+幸運的是，在Switch上實際上有[許多其他的](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets)小瀏覽器程序，其中任何一個都可以用來觸發瀏覽器漏洞。
 
 下面列出了兩種便捷啟動瀏覽器的方法：
 
@@ -118,10 +118,10 @@ ___
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher (*直到您的主機重啟為止*)。
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+您現在將無法啟動任何零售遊戲卡帶或 eShop 遊戲 (*直到您的主機重啟為止*)。
 {: .notice--warning}
 
 您需要在每次重新啟動後重新運行上述的啟動步驟 (透過任何瀏覽器) 以便重新啟用主機中的 Homebrew Launcher。

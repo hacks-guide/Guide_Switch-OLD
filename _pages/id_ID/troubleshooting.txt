@@ -6,25 +6,25 @@ title: "Troubleshooting"
 
 ### Bacaan yang Perlu Dibaca
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+Jika Anda mengalami masalah, cari bagian yang sesuai dengan Anda dan ikuti instruksinya.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Jika Anda masih tidak dapat memecahkan masalah Anda dan perlu untuk mencari bantuan, silahkan datang untuk bantuan yang disiapkan dengan penjelasan rinci tentang masalah Anda dan apa yang telah Anda coba.
 
-## Error 2347-0003
+## Kesalahan 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Kesalahan ini terjadi saat nx-hbmenu `.nro` tidak ditemukan pada kartu SD Anda.
 
 ### Apa yang Anda Butuhkan
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Perilisan terbaru dari [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instruksi
 
 1. Matikan perangkat Anda
 1. Masukkan kartu SD Anda ke dalam komputer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Salin `hbmenu.nro` dari nx-hbmenu `.zip` ke kartu SD Anda
+1. Masukkan kembali kartu SD Anda ke dalam perangkat Anda
+1. Hidupkan perangkat Anda
 
 ## Enable Extra Error Info
 

@@ -6,35 +6,35 @@ title: "PegaSwitch"
 
 ### Bacaan yang Perlu Dibaca
 
-PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. It is compatible with firmware versions 1.0.0 - 3.0.0.
+PegaSwitch is a developer-focused exploitation toolkit for the Switch developed by ReSwitched. Hal ini kompatibel dengan versi firmware 1.0.0 - 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+Toolkit ini menggunakan kombinasi kerentanan untuk mengambil alih browser yang berbasis WebKit, memberi pengguna sebuah shell yang dapat digunakan untuk membaca / menulis memori, memanggil fungsi asli, dan sebaliknya mengeksplorasi fungsionalitas Switch.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untuk merusak perangkat Mii Database Anda. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
 {: .notice--warning}
 
 ### Apa yang Anda Butuhkan
 
 * Sistem operasi yang didukung
-  + MacOS and most linux distributions are supported
+  + MacOS dan sebagian besar distro linux didukung
   + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* Sistem kontrol versi [git](https://git-scm.com/)
+* [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (rilis saat ini)
 
 ### Instruksi
 
-#### Section I - Network Configuration
+#### Bagian I - Konfigurasi Jaringan
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch bekerja dengan hosting [captive portal](https://en.wikipedia.org/wiki/Captive_portal) menggunakan pengalihan DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+Agar ini dapat bekerja, perangkat Anda harus dapat terhubung ke PC melalui jaringan.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. Pastikan tidak ada aplikasi lain yang terikat pada port UDP 53 atau port TCP 80 dan 8100
+  + WSL: lihat bagian "Listening Ports" pada tab "Network" di `resmon.exe`
+  + Linux / MacOS: lihat output dari `sudo netstat -tulpn`
+1. Pastikan firewall Anda tidak memblokir koneksi masuk ke salah satu port ini
 
-#### Section II - Running PegaSwitch
+#### Bagian II - Menjalankan PegaSwitch
 
 ~~~ bash
 # kloning repositori
@@ -44,72 +44,72 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
+# mulai PegaSwitch
 # Windows users: omit the 'sudo'
 sudo node start.js
 ~~~
 
 #### Section III - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar dapat memicu exploit.
 {: .notice--info}
 
 1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"
 1. Atur "DNS Settings" ke "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+1. Atur "Primary DNS" dan "Secondary DNS" ke alamat IP PC Anda
 1. Simpan pengaturan jaringan
-1. Return to `Internet Settings`
+1. Kembali ke `Internet Settings`
 
-#### Section IV - Initial Connection
+#### Bagian IV - Koneksi Awal
 
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will now have a PegaSwitch shell connected to your console
+1. Pilih "Connect to this Network"
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
+1. Pilih "Next"
+1. Halaman web PegaSwitch akan dimuat
+1. Jika exploit berhasil, Anda sekarang akan memiliki sebuah shell PegaSwitch yang terhubung ke konsol Anda
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Bagian V - Alternatif Browser Applet (Opsional)
 
-There are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) internet browsers on the Switch, and any of them can be used to trigger the browser exploit.
+Sebenarnya ada [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser internet di Switch, dan salah satunya bisa digunakan untuk memicu exploit browser.
 
-While we used the connection test browser applet to initially trigger the exploit, it may be more convenient in the future to use another browser applet.
+Sementara kita menggunakan tes koneksi browser applet untuk awalnya memicu exploit, mungkin lebih mudah di masa depan untuk menggunakan browser applet lain.
 
-Triggering the browser exploit using either of these methods will have the same effect as triggering the exploit through the Connection Test method we used before.
+Memicu browser exploit menggunakan salah satu metode ini akan memiliki efek yang sama seperti memicu exploit melalui Tes Koneksi metode yang kita gunakan sebelumnya.
 
 ##### eShop Sign In Prompt
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Untuk menggunakan metode ini, buat akun kedua di perangkat Anda. Jangan hubungkan ke Akun Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Luncurkan Nintendo eShop
+1. Pilih akun kedua
+1. Pilih "Sign In and link"
+1. Applet browser akan diluncurkan
 
 ##### Game Update Prompt
 
-To use this method, you must have at least one game on your home screen.
+Untuk menggunakan metode ini, Anda harus memiliki setidaknya satu game di layar utama Anda.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Perhatikan bahwa, jika Anda tidak terhubung ke server DNS yang benar, metode ini akan *memperbarui* perangkat Anda. Hal ini berbahaya!
 {: .notice--danger}
 
 1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Pada tab "Software Update", pilih "Via the Internet"
+1. Applet browser akan diluncurkan
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+Sekarang Anda dapat dengan mudah terhubung ke perangkat Anda menggunakan lingkungan PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+Untuk keperluan debugging, Anda mungkin ingin [mengaktifkan info kesalahan tambahan](troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### Kembali ke [Homebrew Development](homebrew-development)
 {: .notice--primary}

@@ -2,9 +2,9 @@
 title: "Game Card Update"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
 All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
 
@@ -25,18 +25,18 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. Launch System Settin's
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Exit System Settin's
 
-#### Section II - Deleting Update Data
+#### Section II - Deletin' Update Data
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Power off ye device
+1. Power on ye device while holdin' (Power) + (Volume Up) + (Volume Down)
+1. Do not select any 'o th' options
+1. Any downloaded update data has been deleted from ye system, jus' by enterin' 'tis menu
+1. Press (Power) to power off ye device
 
 #### Section III - Game Card Update
 
@@ -46,10 +46,10 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Launch System Settin's
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Exit System Settin's
 
 ___
 

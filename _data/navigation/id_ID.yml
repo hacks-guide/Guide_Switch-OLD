@@ -16,14 +16,14 @@ main:
     title: Penyelesaian Masalah
     url: troubleshooting
   - 
-    title: Pengembangan homebrew
+    title: Homebrew Development
     url: homebrew-development
   - 
     title: Navigasi Situs
     url: site-navigation
 bottom:
   - 
-    title: Untuk dukungan dalam bahasa Inggris, tanyakan bantuannya di<a href="https://discord.gg/ZdqEhed">ReSwitched pada Discord</a>.
+    title: Untuk dukungan dalam bahasa Inggris, tanyakan bantuannya di<a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
   - 
     title: Jika Anda menghargai panduan ini, saya menerimanya <a href="donations">Donasi</a>.
 footer:

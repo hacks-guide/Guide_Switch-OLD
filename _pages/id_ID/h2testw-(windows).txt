@@ -10,7 +10,7 @@ Ini adalah bagian tambahan untuk memeriksa kartu SD Anda karena kesalahan menggu
 
 Tergantung pada ukuran kartu SD dan kecepatan komputer Anda, proses ini bisa memakan waktu hingga beberapa jam!
 
-Halaman ini hanya untuk pengguna Windows. Jika Anda tidak berada di windows, periksa halaman [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)).
+Halaman ini hanya untuk pengguna Windows. Jika Anda tidak berada di windows, periksa halaman [F3 (linux)](f3-(linux)) atau [F3X (mac)](f3x-(mac)).
 
 ### Apa yang Anda Butuhkan
 

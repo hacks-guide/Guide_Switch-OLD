@@ -2,13 +2,13 @@
 title: "Homebrew Development"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
 Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+If ye have interest in collaboratin' wit' ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
 If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.

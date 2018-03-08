@@ -1,134 +1,134 @@
 ---
-title: "Homebrew Launcher"
+judul: "Homebrew Launcher"
 ---
 
 {% termasuk judul toc="Table of Contents" %}
 
 ### Bacaan yang Perlu Dibaca
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Homebrew Launcher saat ini "installed" ke perangkat Anda melalui browser exploit. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+Setelah proses instalasi awal selesai, sebuah sekunder exploit kemudian harus dijalankan yang akan memungkinkan Anda mengakses Homebrew Launcher melalui aplikasi Album *sampai perangkat Anda di-reboot*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+Setelah melakukan reboot, Anda harus menjalankan kembali sekunder exploit ini untuk mengaktifkan kembali akses Homebrew Launcher pada perangkat Anda. Selain itu, perhatikan bahwa sekunder exploit ini juga akan mencegah Anda bermain game ritel selama perangkat tetap aktif (*sampai perangkat Anda di-reboot*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Jika Anda sudah terbiasa dengan perangkat iOS "jailbreaking", ide ini bisa dianggap sejalan dengan "jailbreak semi-untethered".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untuk merusak perangkat Mii Database pada saat pemasangan awal. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
 {: .notice--warning}
 
 ### Apa yang Anda butuhkan
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Perilisan terbaru dari [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instruksi
 
-#### Section I - Prep Work
+#### Bagian I - Persiapan Pengoperasian
 
 1. Matikan perangkat Anda
 1. Masukkan kartu SD Anda ke dalam komputer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Salin `hbmenu.nro` dari nx-hbmenu `.zip` ke kartu SD Anda
+1. Membuat sebuah folder bernama `switch` pada kartu SD Anda jika belum ada
+1. Masukkan kembali kartu SD Anda ke dalam perangkat Anda
+1. Hidupkan perangkat Anda
 
-#### Section II - DNS Configuration
+#### Bagian II - DNS Konfigurasi
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar dapat memicu exploit.
 {: .notice--info}
 
 1. Luncurkan Pengaturan Sistem
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"
 1. Atur "DNS Settings" ke "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. Atur "Primary DNS" ke `104.236.106.125`
+1. Atur "Secondary DNS" ke`62.210.147.20`
 1. Simpan pengaturan jaringan
 1. Keluar dari Pengaturan Sistem
 
-#### Section III - Initial Installation
+#### Bagian III - Instalasi Awal
 
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. Pilih "Connect to this Network"
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
+1. Pilih "Next"
+1. Halaman web Homebrew Launcher akan dimuat
+1. Pilih "Install"
+1. Halaman web PegaSwitch akan dimuat
+1. Jika exploit berhasil, Anda akan melihat kesalahannya `2000-1337`
+  + Jika Anda bermasalah di halaman PegaSwitch tanpa melihat kesalahannya, reboot perangkat Anda dan coba melakukan tes koneksi lagi
+1. Reboot perangkat Anda
+1. Saat diminta tentang korupsi database Mii, pilih "OK" untuk me-reboot perangkat Anda lagi
 
-#### Section IV - Running the Homebrew Launcher
+#### Bagian IV - Menjalankan Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setiap kali reboot agar mengaktifkan kembali akses ke Homebrew Launcher.
 
-1. Arahkan ke `Internet` ->` Pengaturan Internet`
+1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Pilih "Connect to this Network"
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
+1. Pilih "Next"
+1. Halaman web Homebrew Launcher akan dimuat
+1. Pilih "Run"
+1. Jika exploit berhasil, Anda akan menerima popup yang meminta Anda untuk keluar
+1. Kembali ke menu utama
+1. Luncurkan aplikasi Album
+1. Jika exploit berhasil, Homebrew Launcher akan diluncurkan
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Bagian V - Alternatif Browser Applet (Opsional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Karena Anda harus menjalankan kembali bagian "Run" dari exploit setelah setiap kali reboot, itu akan lebih sesuai jika ada cara yang lebih mudah untuk meluncurkan browser daripada tes koneksi.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Untungnya, sebenarnya ada [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applet pada Switch, dan salah satu dari mereka dapat digunakan untuk memicu browser exploit.
 
-Two convenient methods for launching a browser are listed below:
+Dua metode yang mudah digunakan untuk meluncurkan browser tercantum di bawah ini:
 
 ##### eShop Sign In Prompt
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Untuk menggunakan metode ini, buat akun kedua di perangkat Anda. Jangan hubungkan ke Akun Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Luncurkan Nintendo eShop
+1. Pilih akun kedua
+1. Pilih "Sign In and link"
+1. Applet browser akan diluncurkan
 
 ##### Game Update Prompt
 
-To use this method, you must have at least one game on your home screen.
+Untuk menggunakan metode ini, Anda harus memiliki setidaknya satu game di layar utama Anda.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Perhatikan bahwa, jika Anda tidak terhubung ke server DNS yang benar, metode ini akan *memperbarui* perangkat Anda. Hal ini berbahaya!
 {: .notice--danger}
 
 1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Pada tab "Software Update", pilih "Via the Internet"
+1. Applet browser akan diluncurkan
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Perhatikan bahwa, saat ini, pengembangan homebrew dalam keadaan sangat dini dengan jumlah aplikasi yang sangat terbatas.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Anda dapat menemukan aplikasi yang tersedia pada [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), atau [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Untuk memasang aplikasi homebrew, cukup salin file homebrew `.nro` ke folder `/switch/` pada kartu SD anda.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Anda sekarang dapat menjalankan Homebrew Launcher dengan meluncurkan aplikasi Album dari menu utama perangkat Anda (*sampai perangkat Anda di-reboot*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Anda sekarang tidak dapat meluncurkan retail cartridge atau game eShop (*sampai perangkat Anda di-reboot*).
 {: .notice--warning}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Anda perlu menjalankan kembali langkah "Run" dari exploit (menggunakan applet browser) setelah setiap kali reboot untuk mengaktifkan kembali akses Homebrew Launcher pada perangkat Anda.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Untuk homebrew reguler dan ringkasan perkembangan pengembangan, periksa di [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog secara teratur.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Untuk informasi mengenai kontribusi pengembangan homebrew sebagai pengembang, lihat halaman [Homebrew Development](homebrew-development).
 {: .notice--primary}

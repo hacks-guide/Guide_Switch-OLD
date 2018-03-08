@@ -7,30 +7,30 @@ main:
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Gimme Ye Gold
     url: donations
   - 
     title: Credits
     url: credits
   - 
-    title: Troubleshooting
+    title: Troubleshootin'
     url: troubleshooting
   - 
     title: Homebrew Development
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Site Treasure Map
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Fer support in th' English 'o landlubbers, be askin' fer help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: If ye be appreciatin' 'tis guide, ye can feel free to <a href="donations">Gimme Ye Gold</a>.
 footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: Site Treasure Map
   - 
     title: Why Ads?
 sidebar_title:
@@ -44,7 +44,7 @@ sidebar_pages:
     title: Get Started
     url: get-started
   - 
-    title: Blocking Updates
+    title: Blockin' Updates
     url: blocking-updates
   - 
     title: Game Card Update

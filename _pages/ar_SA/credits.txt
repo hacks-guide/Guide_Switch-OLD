@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "الشكر والتقدير"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+* * شكر خاص لكل من [المترجمين] (https://crowdin.com/project/switch-guide) لكونهم رائعين!* *
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+إذا نسيت ذكر اسمك هنا، قم بالتواصل معي لكي أضيف اسمك.
 
 {% capture notice-1 %}
 
