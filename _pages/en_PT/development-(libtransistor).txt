@@ -2,11 +2,11 @@
 title: "Development (libtransistor)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Page Treasure Map" %}
 
-### Required Reading
+### Required Readin'
 
-Note that, while the Homebrew Launcher alone is sufficient for running compiled homebrew, you may want a local PegaSwitch environment for more rapid development. 
+Note that although th' Homebrew Launcher on its own be sufficient fer runnin' compiled homebrew, ye might want a local PegaSwitch environment fer more rapid development. 
 
 For information on setting up a local PegaSwitch environment, check out the [PegaSwitch](pegaswitch) page.
 {: .notice--primary}
