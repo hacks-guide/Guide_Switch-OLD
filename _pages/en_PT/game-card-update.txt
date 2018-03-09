@@ -16,7 +16,7 @@ Before performin' th' game card update, we block online updates by usin' airplan
 
 * An original-revision game card 'o [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions 'o 'tis game card contain 3.0.0; they have a green printed circuit board, 'n their serial ends in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+  + Newer revisions 'o 'tis game card contain 3.0.1; they have a black printed circuit board, 'n their serial ends in **001** (*avoid usin' these fer 'tis update method!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
@@ -40,8 +40,8 @@ Before performin' th' game card update, we block online updates by usin' airplan
 
 #### Section III - Game Card Update
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
+1. Insert ye Pokkén Tournament DX game card into ye device
+1. Attempt to launch th' game
 1. Update when prompted
 
 #### Section IV - Disable Airplane Mode
