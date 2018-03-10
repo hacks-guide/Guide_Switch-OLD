@@ -45,7 +45,7 @@ cd pegaswitch
 npm install
 
 # démarrage de PegaSwitch
-# Windows users: omit the 'sudo'
+# Utilisateurs Windows : ne mettez pas 'sudo'
 sudo node start.js
 ~~~
 
@@ -61,7 +61,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
 1. Mettez l'adresse IP de votre PC dans les champs "DNS primaire" et "DNS secondaire"
-  + This will be displayed in PegaSwitch
+  + Elle sera affichée dans PegaSwitch
 1. Sauvegardez les paramètres du réseau
 1. Retournez dans `Paramètres Internet`
 
