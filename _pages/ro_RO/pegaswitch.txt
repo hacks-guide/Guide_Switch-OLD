@@ -45,7 +45,7 @@ cd pegaswitch
 npm install
 
 # start PegaSwitch
-# Windows users: omit the 'sudo'
+# Utilizatori de Windows: omiteți 'sudo'-ul 
 sudo node start.js
 ~~~
 
@@ -61,7 +61,7 @@ sudo node start.js
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
 1. Setați "DNS-ul primar" și "DNS-ul secundar" pentru adresa IP a PC-ului
-  + This will be displayed in PegaSwitch
+  + Asta este ceea ce se va afișa în PegaSwitch
 1. Salvați setările de reţea
 1. Întoarceți-vă la `Internet Settings`
 
