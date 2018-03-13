@@ -38,7 +38,7 @@ When released, **Custom Firmware** ("CFW") will enable you to use more advanced 
 
 The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
 
-<table style="max-width:450px;">
+<table style="max-width:500px;">
   <colgroup>
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
