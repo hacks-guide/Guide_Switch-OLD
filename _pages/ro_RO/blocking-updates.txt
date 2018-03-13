@@ -10,9 +10,7 @@ title: "Blocarea actualizarilor"
 
 Pentru a putea garanta accesul pe viitor, vom seta DNS-ul rețelei la un server (întreținut de ReSwitched) care blochează solicitările pentru actualizare de Nintendo către Switch.
 
-Dacă sunteţi pe versiunea de firmware 5.0.0, aceasta vă va permite să continuaţi să utilizaţi serviciile online (fără griji despre eventuale acualizări) atâta timp cât 5.0.0 este cea mai recentă versiune.
-
-Țineți cont că, pentru a accesa serviciile online pe 5.0.0, va trebui să vă fi conectat la serviciile online cel puţin o dată înainte de a urma aceste instrucţiuni.
+If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 În plus, vom accesa Recovery / Maintenance Mode şi vom şterge orice actualizare care s-ar fi descărcat deja.
 
