@@ -6,13 +6,13 @@ title: "Bloquear actualizaciones"
 
 ### Lectura requerida
 
-Actualmente, el uso de homebrew solo es posible en firmware versión 3.0.0, pero está planeado a futuro que el uso de homebrew y el soporte para CFW sean posibles en todas las versiones hasta 4.1.0.
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
 
 Para garantizar el acceso a homebrew en el futuro, establecemos los DNS de la configuración de internet de la consola a un servidor (mantenido por ReSwitched) que bloquea las peticiones al servidor de actualizaciones de Nintendo para la Switch.
 
-Si estás en la versión 4.1.0 de firmware, te permitirá continuar utilizando servicios en línea (sin preocuparte de actualizar) mientras la versión 4.1.0 sea la más nueva.
+If you are on firmware version 5.0.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 5.0.0 is the latest version.
 
-Ten en cuenta que, para poder acceder a servicios en línea en 4.1.0, tendrás que haberte conectado a servicios en línea al menos una vez antes de seguir estas instrucciones.
+Note that, to access online services on 5.0.0, you will need to have connected to online services at least once before following these instructions.
 
 Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos cualquier dato de actualización que pudiere haberse descargado con anterioridad.
 
