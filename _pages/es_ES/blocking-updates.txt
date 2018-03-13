@@ -10,9 +10,7 @@ Actualmente, el uso de homebrew solo es posible en firmware versión 3.0.0, pero
 
 Para garantizar el acceso a homebrew en el futuro, establecemos los DNS de la configuración de internet de la consola a un servidor (mantenido por ReSwitched) que bloquea las peticiones al servidor de actualizaciones de Nintendo para la Switch.
 
-Si estás en la versión 5.0.0 de firmware, te permitirá continuar utilizando servicios en línea (sin preocuparte de actualizar) mientras la versión 5.0.0 sea la más nueva.
-
-Ten en cuenta que, para poder acceder a servicios en línea en 5.0.0, tendrás que haberte conectado a servicios en línea al menos una vez antes de seguir estas instrucciones.
+If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos cualquier dato de actualización que pudiere haberse descargado con anterioridad.
 
