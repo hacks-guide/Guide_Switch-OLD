@@ -63,10 +63,10 @@ Planificarea publicărilor de CFW este în ordinea versiunilor de firmware ascen
   </tbody>
 </table>
 
-În cazul în care consola este pe versiunea de firmware 1.0.0 și sunteți interesat în CFW, cea mai bună opțiune este să urmați pagina despre [bloacrea actualizărilor](blocking-updates), să obțineți o copie japoneză de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (care va fi necesar pentru firmware personalizat pe 1.0.0), și #să aștepați pentru lansarea de CFW.
+În cazul în care consola este pe versiunea de firmware 1.0.0 și sunteți interesat în CFW, cea mai bună opțiune este să urmați pagina despre [bloacrea actualizărilor](blocking-updates), să obțineți o copie japoneză de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (care va fi necesar pentru firmware personalizat pe 1.0.0), și să aștepați pentru lansarea de CFW.
 {: .notice--info}
 
-În cazul în care consola este pe o versiune de firmware >=3.0.1, cea mai bună opțiune este de a urma pagina [Blocarea Actualizărilor](blocking-updates) de pe acest ghid și să așteptați cu răbdare ca un CFW să fie disponibil.
+În cazul în care consola este pe o versiune de firmware >=3.0.1, cea mai bună opțiune este de a urma pagina despre [Blocarea Actualizărilor](blocking-updates) de pe acest ghid și să așteptați cu răbdare ca un CFW să fie disponibil.
 {: .notice--info}
 
 ## Ce instalează acest ghid?
