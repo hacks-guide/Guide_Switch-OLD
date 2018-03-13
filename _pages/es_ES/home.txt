@@ -50,7 +50,7 @@ El cronograma de lanzamientos actual se da en orden de versiones ascendente, div
       <th style="text-align: center; font-weight: bold;">Futuro próximo</th>
       <th style="text-align: center; font-weight: bold;">Futuro distante</th>
       <th style="text-align: center; font-weight: bold;">Futuro lejano</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
+      <th style="text-align: center; font-weight: bold;">Por determinar</th>
     </tr>
   </thead>
   <tbody>
@@ -66,7 +66,7 @@ El cronograma de lanzamientos actual se da en orden de versiones ascendente, div
 Si tu consola se encuentra en la versión 1.0.0 y estás interesado en conseguir CFW, tu mejor opción en este momento es seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir una copia japonesa de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (la cual será necesaria para Custom Firmware en 1.0.0) y esperar pacientemente al lanzamiento de CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
+Si tu consola tiene una versión de firmware >=3.0.1, la mejor opción a seguir es la página [Bloquear actualizaciones](blocking-updates) de esta guía y esperar pacientemente a que un CFW esté disponible.
 {: .notice--info}
 
 ## ¿Qué se instalará con esta guía?
@@ -79,7 +79,7 @@ Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la gu
 
 + A pesar de que los hacks en Switch están progresando constantemente, aún no se encuentran en un estado amigable para el usuario. Por lo tanto, esta guía puede requerir de algunos conocimientos técnicos para solucionar los problemas que puedan surgir.
 + El alcance de las modificaciones en la consola es muy limitado para la mayoría de homebrew existente, lo cual significa que existen pocas posibilidades de pérdida de datos o daños a la consola por el uso de aplicaciones de homebrew populares.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
++ Esta guía servirá para todas las consolas Switch en versión del sistema 1.0.0 a 3.0.0, con todas las versiones hasta 4.1.0 planeadas para soporte en el futuro (con el soporte para 5.0.0 por ser determinado). Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
 + Necesitarás una tarjeta Micro SD para tu consola. Debería estar formateada en formato FAT32 y ser [MBR, no GPT (http://www.howtogeek.com/245610/) (la mayoría de tarjetas Micro SD están formateadas así por defecto). 
 + Si necesitas formatear una tarjeta SD de más de 32gb en Windows, puedes utilizar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación (Allocation Unit Size) en 32K.
 
