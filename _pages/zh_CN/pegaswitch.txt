@@ -54,7 +54,6 @@ sudo node start.js
 Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
 1. 进入到 `Internet` -> `Internet Settings`
 1. 选择当前网络
@@ -63,6 +62,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 选择 "Change Settings"
 1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
+  + This will be displayed in PegaSwitch
 1. 保存网络设置
 1. Return to `Internet Settings`
 

@@ -7,36 +7,36 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "A complete guide to Switch homebrew <br /> 'n homebrew development.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Fer complete guides to homebrew 'n custom firmware fer other devices, be checkin' out [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Thoroughly read all 'o th' introductory pages (includin' 'tis one!) before proceedin' onward.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+'Tis guide be available in other languages!
+Click th' <i class="fa fa-language" aria-hidden="true"></i> icon at th' top right 'o th' page to change th' language.    
+Ye can also click [here](https://crowdin.com/project/switch-guide) to help in keepin' these translations up to date.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## What be Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually be referrin' to software that be not authorized by Nintendo. 'Tis includes homebrew tools, applications, games, 'n emulators.
 
-If your device is on firmware version 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
+If ye device be on th' firmware version 'o 3.0.0, runnin' homebrew on ye device be 100% free, usin' jus' th' system browser. Lower firmware versions can update to 3.0.0 wit' th' use 'o a game card. Higher firmware versions can block future updates in order to be assurin' access to future exploits.
 
-## What is Custom Firmware?
+## What be Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It indeed be currently in development, however, 'n it gunna be released accordin' to schedule when all relevant components 'o it be completed.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+Th' current CFW release schedule be in th' order 'o ascending firmware versions, divided into th' followin' tiers: 
 
 <table style="max-width:420px;">
   <colgroup>
@@ -60,25 +60,25 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </tbody>
 </table>
 
-If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+If ye device be on firmware version 1.0.0 'n ye have interest in CFW, ye best current option be to follow 'tis guide's [Blockin' Updates](blocking-updates) page, pick up a Japanese copy 'o [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which gunna be required fer 1.0.0 Custom Firmware), 'n be waitin' patiently fer a CFW release.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+If ye device be on a firmware version >=3.0.1, ye best current option be to update to 4.1.0 (as it gunna receive CFW at th' same time), follow 'tis guide's [Blockin' Updates](blocking-updates) page, stock up on games while ye can (th' eShop only be workin' on th' latest version), 'n be waitin' patiently fer a CFW release.
 {: .notice--info}
 
-## What does this guide install?
+## What does 'tis guide install?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+'Tis guide currently be enablin' access to th' Homebrew Launcher via a browser exploit. As such, "installed" may not be a particularly good description. 'Tis be because th' exploit must be run again after every reboot in order to re-enable Homebrew Launcher access.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought analogous to a "semi-untethered jailbreak".
 
-## What do I need to know before starting?
+## What do I need to be knowin' before startin'?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ While Switch hacks be constantly progressin', they be still a bit user-unfriendly. On account 'o 'tis fact, 'tis guide may require some understandin' 'o certain technology in order to troubleshoot any issues that may come up.
++ Th' scope 'o device modification be limited fer most homebrew right now, meanin' there be little chance 'o data loss or console damage when usin' popular homebrew applications.
++ 'Tis guide gunna work on all Switch devices on firmwares from 1.0.0 to 3.0.0. All versions up to 4.1.0 be planned fer future support. Instructions be included fer blockin' updates on devices wit' firmware >=3.0.1.
++ Ye gunna be needin' a microSD card fer ye device. It should be formatted as FAT32 'n [MBR, not GPT](http://www.howtogeek.com/245610/) (most microSD cards gunna be formatted 'tis way by default). 
++ If ye need to format a microSD card larger than 32GB on Windows, ye can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) set to an Allocation Unit Size 'o 32K.
 
 ___
 

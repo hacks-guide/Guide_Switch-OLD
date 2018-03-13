@@ -54,7 +54,6 @@ sudo node start.js
 Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar dapat memicu exploit.
 {: .notice--info}
 
-1. Get your PC's IP address with `ifconfig` (or `ipconfig` on windows)
 1. Launch System Settings on your device
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini
@@ -62,6 +61,7 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 1. Pilih "Change Settings"
 1. Atur "DNS Settings" ke "Manual"
 1. Atur "Primary DNS" dan "Secondary DNS" ke alamat IP PC Anda
+  + This will be displayed in PegaSwitch
 1. Simpan pengaturan jaringan
 1. Kembali ke `Internet Settings`
 

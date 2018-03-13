@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Development"
+title: "Dezvoltarea Homebrew-ului"
 ---
 
 {% include toc title="Cuprins" %}

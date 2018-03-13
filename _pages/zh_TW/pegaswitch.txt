@@ -46,7 +46,7 @@ cd pegaswitch
 npm install
 
 # 啟動 PegaSwitch
-# Windows 使用者: 去掉 'sudo' 的部分
+# Windows users: omit the 'sudo'
 sudo node start.js
 ~~~
 
@@ -55,7 +55,6 @@ sudo node start.js
 請注意，您需要在每個網路設定中設定這些 DNS 伺服器以使用此漏洞！
 {: .notice--info}
 
-1. 透過 ifconfig 取得您電腦的 IP 位址 (或 Windows 上的 `ipconfig`)
 1. 於您主機上啟動系統設定 (System Settings)
 1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
 1. 選擇您目前所連結的網路
@@ -63,6 +62,7 @@ sudo node start.js
 1. 選擇『更改設置 (Change Settings)』
 1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
 1. 將『主要 DNS (Primary DNS)』及『次要 DNS (Secondary DNS)』設定為您電腦的 IP 位址
+  + This will be displayed in PegaSwitch
 1. 儲存網路設定
 1. 回到 `網路設定 (Internet Settings)`
 
