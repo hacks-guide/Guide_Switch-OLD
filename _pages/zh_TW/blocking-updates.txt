@@ -10,9 +10,7 @@ Currently, homebrew is only available for firmware version 3.0.0, but future hom
 
 為了能確保您未來能順利使用它們，我們將把您 Switch 的 DNS 伺服器設定為 ReSwitched 的 DNS 伺服器以確實阻擋任天堂 Switch 系統更新的伺服器。
 
-If you are on firmware version 5.0.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 5.0.0 is the latest version.
-
-Note that, to access online services on 5.0.0, you will need to have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 此外，我們將進入還原 / 維修模式中並將任何可能已下載的更新刪除。
 
