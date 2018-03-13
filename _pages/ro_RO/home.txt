@@ -50,7 +50,7 @@ Planificarea publicărilor de CFW este în ordinea versiunilor de firmware ascen
       <th style="text-align: center; font-weight: bold;">Viitor apropiat</th>
       <th style="text-align: center; font-weight: bold;">Viitor Îndepărtat</th>
       <th style="text-align: center; font-weight: bold;">Viitor Depărtat</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
+      <th style="text-align: center; font-weight: bold;">A Se Determina</th>
     </tr>
   </thead>
   <tbody>
@@ -79,7 +79,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 + Deși hack-urile pentru Switch progresează constant, ele nu sunt într-o stare folositoare pentru utilizatori. Ca atare, acest ghid poate solicita anumite cunoștințe tehnice pentru a depana orice problemă care poate apărea.
 + Scopul modificării consolei este limitat momentan pentru aplicațiile homebrew, ceea ce înseamnă că șansele de pierdere a datelor sau de stricare a consolei sunt mici atunci când folosiți aplicații homebrew de la surse populare.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
++ Acest ghid va funcționa pe toate consolele Nintendo Switch cu firmware de la 1.0.0 până la 3.0.0, cu toate versiunile până la 4.1.0 fiind planificate pentru suport pe viitor (cu suport la 5.0.0 în curs de determinare). Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
 + Aveți nevoie de un card micro SD pentru consola dumneavoastră. Ar trebui să fie formatat în Fat32 şi [MBR, nu GPT](http://www.howtogeek.com/245610/) (cele mai multe carduri micro SD vor fi formatate în acest fel în mod implicit). 
 + Dacă aveți nevoie să formatați un card micro SD mai mare de 32gb pe Windows, puteți să folosiți [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) și să setați Dimensiunea Unității de Alocare la 32k.
 
