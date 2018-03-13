@@ -6,13 +6,13 @@ title: "Блокировка обновлений"
 
 ### Обязательно к прочтению
 
-На данный момент хоумбрю доступно только для версии прошивки 3.0.0, но в дальнейшем планируется поддержка хоумбрю и CFW для всех версий вплоть до 4.1.0.
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
 
 Для обеспечения гарантированного доступа в будущем, необходимо задать для вашей текущей сети адрес DNS сервера (принадлежащего ReSwitched), который блокирует запросы к серверу обновлений Nintendo Switch.
 
-Если версия прошивки вашей консоли равна 4.1.0, это позволит пользоваться онлайн-сервисами (не опасаясь обновлений прошивки), пока 4.1.0 является последней версией.
+If you are on firmware version 5.0.0, this will allow you to continue to use online services (without worrying about being updated) for as long as 5.0.0 is the latest version.
 
-Обратите внимание, что для использования онлайн-сервисов на версии 4.1.0 необходимо хотя бы раз подключиться к этим сервисам перед выполнением инструкции.
+Note that, to access online services on 5.0.0, you will need to have connected to online services at least once before following these instructions.
 
 В дополнение к этому необходимо войти в режим Восстановления / Сервисного обслуживания и удалить все данные обновлений, которые уже могли быть загружены.
 
