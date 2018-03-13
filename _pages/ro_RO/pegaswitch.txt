@@ -45,7 +45,8 @@ cd pegaswitch
 npm install
 
 # start PegaSwitch
-# Utilizatori de Windows: omiteți 'sudo'-ul sudo node start.js
+# Utilizatori de Windows: omiteți 'sudo'-ul 
+sudo node start.js
 ~~~
 
 #### Secțiunea III - Configurare DNS
@@ -53,7 +54,6 @@ npm install
 Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea declanșa exploit-ul.
 {: .notice--info}
 
-1. Obșineți adresa IP a PC-ului cu `ifconfig` (sau `ifconfig` pe windows)
 1. Porniți System Settings pe consolă
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
@@ -61,6 +61,7 @@ npm install
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
 1. Setați "DNS-ul primar" și "DNS-ul secundar" pentru adresa IP a PC-ului
+  + Asta este ceea ce se va afișa în PegaSwitch
 1. Salvați setările de reţea
 1. Întoarceți-vă la `Internet Settings`
 

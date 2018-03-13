@@ -17,7 +17,7 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
-### What you need
+### What ye need
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
@@ -26,7 +26,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 #### Section I - Prep Work
 
 1. Power off ye device
-1. Insert your SD card into your computer
+1. Insert ye SD card into ye computer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
 1. Reinsert your SD card into your device

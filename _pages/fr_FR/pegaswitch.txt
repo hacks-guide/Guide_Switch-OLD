@@ -54,7 +54,6 @@ sudo node start.js
 Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous connecterez votre console pour déclencher l'exploit.
 {: .notice--info}
 
-1. Notez l'adresse IP de votre PC avec `ifconfig` (ou `ipconfig` sous Windows)
 1. Lancez les Paramètres de la console
 1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
@@ -62,6 +61,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
 1. Mettez l'adresse IP de votre PC dans les champs "DNS primaire" et "DNS secondaire"
+  + Elle sera affichée dans PegaSwitch
 1. Sauvegardez les paramètres du réseau
 1. Retournez dans `Paramètres Internet`
 

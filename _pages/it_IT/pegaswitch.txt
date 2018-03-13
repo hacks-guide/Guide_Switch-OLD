@@ -45,7 +45,7 @@ cd pegaswitch
 npm install
 
 # avvia PegaSwitch
-# Utenti Windows: omettete il 'sudo'
+# Windows users: omit the 'sudo'
 sudo node start.js
 ~~~
 
@@ -54,7 +54,6 @@ sudo node start.js
 Per poter innescare l'exploit, questi server DNS devono essere impostati su tutte le reti internet alle quali è connessa la tua console.
 {: .notice--info}
 
-1. Ottieni l'indirizzo IP del tuo PC con 'ifconfig' (o 'ipconfig' su Windows)
 1. Avvia le Impostazioni di sistema sulla tua console
 1. Seleziona `Internet` -> `Impostazioni Internet`
 1. Seleziona la rete internet alla quale sei connesso
@@ -62,6 +61,7 @@ Per poter innescare l'exploit, questi server DNS devono essere impostati su tutt
 1. Seleziona "Cambia le impostazioni"
 1. Imposta le "Impostazioni DNS" su "Manuali"
 1. Imposta "DNS Primario" e "DNS Secondario" sull'indirizzo IP del tuo PC
+  + This will be displayed in PegaSwitch
 1. Salva le impostazioni
 1. Ritorna su 'Impostazioni Internet'
 
