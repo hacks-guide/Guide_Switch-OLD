@@ -50,7 +50,7 @@ ___
       <th style="text-align: center; font-weight: bold;">В ближайшем будущем</th>
       <th style="text-align: center; font-weight: bold;">В менее ближайшем будущем</th>
       <th style="text-align: center; font-weight: bold;">В далёком будущем</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
+      <th style="text-align: center; font-weight: bold;">Не подтверждена</th>
     </tr>
   </thead>
   <tbody>
@@ -66,7 +66,7 @@ ___
 Если версия прошивки вашей консоли равна 1.0.0 и вы заинтересованы в кастомной прошивке, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), приобрести японскую копию игры [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (которая понадобится для кастомной прошивки 1.0.0), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
+Если версия прошивки вашей консоли >=3.0.1, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates) и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
 ## Что устанавливается в этом руководстве?
@@ -79,7 +79,7 @@ If your device is on a firmware version >=3.0.1, your best current option is to 
 
 + Поскольку методы взлома Switch постоянно совершенствуются, они ещё не находятся в дружественном к пользователю состоянии. Поэтому в этом руководстве может понадобиться понимание технической части для разрешения всех потенциальных проблем.
 + Область изменений на устройстве ограничена для хоумбрю на текущий момент, что делает вероятность потери данных или нанесения ущерба консоли при использовании популярных хоумбрю-приложений довольно низкой.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
++ Это руководство подходит для консолей Switch с версией прошивки от 1.0.0 до 3.0.0 включительно, с запланированной поддержкой всех версий до 4.1.0 (поддержка версии 5.0.0 еще не подтверждена). Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
 + Вам понадобится micro SD-карта для вашей консоли. SD-карта должна быть отформатирована в FAT32 и использовать [MBR, а не GPT](http://www.howtogeek.com/245610/) (англ.) (большинство micro SD-карт отформатированы таким образом по умолчанию). 
 + Если вам нужно отформатировать micro SD-карту более 32ГБ под Windows, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 32К.
 
