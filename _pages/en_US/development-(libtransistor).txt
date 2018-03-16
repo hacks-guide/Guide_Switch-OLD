@@ -72,7 +72,7 @@ To install them, run the commands corresponding to your operating system.
   pip3 install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
-  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+  echo "export LIBTRANSISTOR_HOME=$(pwd)/dist" >> ~/.bashrc
 
   # build libtransistor
   make
@@ -89,7 +89,7 @@ To install them, run the commands corresponding to your operating system.
   pip install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
-  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+  echo "export LIBTRANSISTOR_HOME=$(pwd)/dist" >> ~/.bashrc
 
   # build libtransistor
   make
@@ -106,7 +106,7 @@ To install them, run the commands corresponding to your operating system.
   pip3 install -r requirements.txt --user
 
   # set libtransistor environment variable to current directory
-  echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
+  echo "export LIBTRANSISTOR_HOME=$(pwd)/dist" >> ~/.bashrc
 
   # build libtransistor
   make LLVM_POSTFIX=-5.0
