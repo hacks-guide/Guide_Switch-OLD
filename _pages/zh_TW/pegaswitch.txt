@@ -46,7 +46,7 @@ cd pegaswitch
 npm install
 
 # 啟動 PegaSwitch
-# Windows users: omit the 'sudo'
+# Windows 使用者: 去掉 'sudo' 的部分
 sudo node start.js
 ~~~
 
@@ -62,7 +62,7 @@ sudo node start.js
 1. 選擇『更改設置 (Change Settings)』
 1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
 1. 將『主要 DNS (Primary DNS)』及『次要 DNS (Secondary DNS)』設定為您電腦的 IP 位址
-  + This will be displayed in PegaSwitch
+  + 這將顯示於 PegaSwitch 中
 1. 儲存網路設定
 1. 回到 `網路設定 (Internet Settings)`
 
