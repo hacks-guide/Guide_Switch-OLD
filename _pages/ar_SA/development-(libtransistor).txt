@@ -59,7 +59,7 @@ title: "التطوير بمكتبة (libtransistor)"
   sudo apt-get install build-essential automake autoconf python3-setuptools squashfs-tools python3 python3-dev python3-pip cmake clang-5.0 lld-5.0 nmap
   ~~~
 
-#### القسم الثاني - بناء الـ"libtransistor"
+#### القسم الثاني - بناء الـ libtransistor
 
 + MacOS: 
 
@@ -68,13 +68,13 @@ title: "التطوير بمكتبة (libtransistor)"
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # ثبت إعتمادات بأنثيون "python"
+  # ثبت إعتمادات بأنثيون python
   pip3 install -r requirements.txt --user
 
-  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
+  # عين المتغيرات البيئة libtransistor environment variable إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # ابنى الـ"libtransistor"
+  # ابنى الـ libtransistor
   make
   ~~~
 
@@ -85,47 +85,47 @@ title: "التطوير بمكتبة (libtransistor)"
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # ثبت إعتمادات بأنثيون "python"
+  # ثبت إعتمادات بأنثيون python
   pip install -r requirements.txt --user
 
-  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
+  # عين المتغيرات البيئة libtransistor environment variable إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # ابنى الـ"libtransistor"
+  # ابنى الـ libtransistor
   make
   ~~~
 
 + Ubuntu / Debian: 
 
   ~~~ bash
-  # استنتسخ هذا المُستودع
+  # استنسخ هذا المُستودع
   git clone --recursive https://github.com/reswitched/libtransistor
   cd libtransistor
 
-  # ثبت إعتمادات بأنثيون "python"
+  # ثبت إعتمادات بأنثيون python
   pip3 install -r requirements.txt --user
 
-  # عيين المتغيرات البيئة "libtransistor environment variable" إلى المجلد الحالي
+  # عين المتغيرات البيئية libtransistor environment variable إلى المجلد الحالي
   echo "export LIBTRANSISTOR_HOME=$(pwd)" >> ~/.bashrc
 
-  # ابنى الـ"libtransistor"
+  # ابنى الـ libtransistor
   make LLVM_POSTFIX=-5.0
   ~~~
 
-#### القسم الثالث - محمل الـ"ACE"
+#### القسم الثالث - محمل الـ ACE
 
-للمزيد من المعلومات عن طريقة أستخدام محمل الـ"ACE"، انظر إلى [repository] (https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) في موقع GitHub.
+للمزيد من المعلومات عن طريقة أستخدام محمل الـ ACE، انظر إلى [repository] (https://github.com/reswitched/libtransistor/tree/development/projects/ace_loader) في موقع GitHub.
 {: .notice--info}
 
-#### القسم الرابع - "Mephisto"
+#### القسم الرابع - Mephisto
 
-للمزيد من المعلومات عن طريقة أستخدام "Mephisto"، انظر إلى [repository] (https://github.com/reswitched/Mephisto) في موقع GitHub.
+للمزيد من المعلومات عن طريقة أستخدام Mephisto، انظر إلى [repository] (https://github.com/reswitched/Mephisto) في موقع GitHub.
 {: .notice--info}
 
 ___
 
-لديك الآن بيئة تطوير ليبترانسيستور "libtransistor" تعمل بالكامل.
+لديك الآن بيئة تطوير ليبترانسيستور libtransistor تعمل بالكامل.
 {: .notice--success}
 
-إذا كنت مهتم بالتعاون مع أعضاء فريق ري سوتشد "ReSwitched" بتطوير الـ"Homebrew"، تفقد [ReSwitched على موقع Discord](https://discord.gg/ZdqEhed).
+إذا كنت مهتم بالتعاون مع أعضاء فريق ري سوتشد ReSwitched بتطوير الـ Homebrew، تفقد [ReSwitched على موقع Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
