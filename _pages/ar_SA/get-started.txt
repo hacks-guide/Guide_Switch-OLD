@@ -1,14 +1,14 @@
 ---
-title: "Get Started"
+title: "أبدأ"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
-### Required Reading
+### يتطلب القراءة
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+كل إصدار من التحديثات يحتاج إلى خطوات مختلفة لتحقيق الهدف النهائي وهو الـ Homebrew. و عليه فالصفحة التالية ستساعدك على معرفة أين تبدأ لجهازك.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+قبل البدء، يجب على مستخدمي نظام التشغيل ويندوز Windows تفعيل خيار اظهار امتدادات أسماء الملفات File Extensions باستخدام [امتدادات أسماء الملفات (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
