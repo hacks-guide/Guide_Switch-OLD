@@ -18,10 +18,10 @@ title: "H2testw (Windows)"
 
 ### التعليمات
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
+1. أنسخ ملف `h2testw.exe` من الملف المضغوط h2testw `.zip` إلى سطح المكتب في حاسبك
+1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
+1. شغل البرنامج `h2testw.exe`
+1. أختر أحد من اللغات المتوفرة
 1. Click "Select target"
 1. Select your SD card's drive letter
 1. Ensure "all available space" is selected
