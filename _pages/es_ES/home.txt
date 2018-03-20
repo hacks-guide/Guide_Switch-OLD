@@ -38,8 +38,9 @@ Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar 
 
 El cronograma de lanzamientos actual se da en orden de versiones ascendente, dividido en las siguientes escalas: 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -49,6 +50,7 @@ El cronograma de lanzamientos actual se da en orden de versiones ascendente, div
       <th style="text-align: center; font-weight: bold;">Futuro próximo</th>
       <th style="text-align: center; font-weight: bold;">Futuro distante</th>
       <th style="text-align: center; font-weight: bold;">Futuro lejano</th>
+      <th style="text-align: center; font-weight: bold;">Por determinar</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +58,7 @@ El cronograma de lanzamientos actual se da en orden de versiones ascendente, div
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +66,7 @@ El cronograma de lanzamientos actual se da en orden de versiones ascendente, div
 Si tu consola se encuentra en la versión 1.0.0 y estás interesado en conseguir CFW, tu mejor opción en este momento es seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir una copia japonesa de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (la cual será necesaria para Custom Firmware en 1.0.0) y esperar pacientemente al lanzamiento de CFW.
 {: .notice--info}
 
-Si tu consola se encuentra en versión 3.0.1 o superior, tu mejor opción en este momento es actualizar a 4.1.0 (ya que recibirá CFW al mismo tiempo), seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir la mayoría de juegos que puedas (la eShop solo funciona en la última versión) y esperar pacientemente al lanzamiento de CFW.
+Si tu consola tiene una versión de firmware >=3.0.1, la mejor opción a seguir es la página [Bloquear actualizaciones](blocking-updates) de esta guía y esperar pacientemente a que un CFW esté disponible.
 {: .notice--info}
 
 ## ¿Qué se instalará con esta guía?
@@ -76,7 +79,7 @@ Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la gu
 
 + A pesar de que los hacks en Switch están progresando constantemente, aún no se encuentran en un estado amigable para el usuario. Por lo tanto, esta guía puede requerir de algunos conocimientos técnicos para solucionar los problemas que puedan surgir.
 + El alcance de las modificaciones en la consola es muy limitado para la mayoría de homebrew existente, lo cual significa que existen pocas posibilidades de pérdida de datos o daños a la consola por el uso de aplicaciones de homebrew populares.
-+ Esta guía servirá para todas las consolas Switch en versión del sistema 1.0.0 a 3.0.0, con todas las versiones hasta 4.1.0 planeadas para soporte en el futuro. Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
++ Esta guía servirá para todas las consolas Switch en versión del sistema 1.0.0 a 3.0.0, con todas las versiones hasta 4.1.0 planeadas para soporte en el futuro (con el soporte para 5.0.0 por ser determinado). Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
 + Necesitarás una tarjeta Micro SD para tu consola. Debería estar formateada en formato FAT32 y ser [MBR, no GPT (http://www.howtogeek.com/245610/) (la mayoría de tarjetas Micro SD están formateadas así por defecto). 
 + Si necesitas formatear una tarjeta SD de más de 32gb en Windows, puedes utilizar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación (Allocation Unit Size) en 32K.
 

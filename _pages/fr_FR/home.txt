@@ -38,8 +38,9 @@ Quand il sera publié, un **Custom Firmware** ("CFW") vous permettra d'utiliser 
 
 Le planning actuel de publication de CFW est dans l'ordre ascendant des versions de firmware, divisées en les catégories suivantes : 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -49,6 +50,7 @@ Le planning actuel de publication de CFW est dans l'ordre ascendant des versions
       <th style="text-align: center; font-weight: bold;">Futur immédiat</th>
       <th style="text-align: center; font-weight: bold;">Futur proche</th>
       <th style="text-align: center; font-weight: bold;">Futur lointain</th>
+      <th style="text-align: center; font-weight: bold;">A déterminer</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +58,7 @@ Le planning actuel de publication de CFW est dans l'ordre ascendant des versions
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +66,7 @@ Le planning actuel de publication de CFW est dans l'ordre ascendant des versions
 Si votre console est en version firmware 1.0.0 et que le CFW vous intéresse, votre meilleure option est de suivre la page de [blocage des mises à jour](blocking-updates), de récupérer une copie japonaise de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (qui sera requise pour le CFW en 1.0.0), et d'attendre patiemment la publication du CFW.
 {: .notice--info}
 
-Si votre console possède une version firmware >= 3.0.1, votre meilleure option pour le moment est de mettre à jour en 4.1.0 (puisqu'elle recevra un CFW en même temps), suivre la page de [blocage des mises à jour](blocking-updates), de faire des provisions de jeux tant que vous le pouvez (l'eShop ne fonctionne que sur la dernière version), et d'attendre patiemment la publication du CFW.
+Si votre appareil possède une version du firmware >= 3.0.1, votre meilleure option est de suivre la page [Bloquer les mises à jour](blocking-updates) de ce guide et d'attendre patiemment la publication d'un CFW.
 {: .notice--info}
 
 ## Qu'est-ce que ce guide me fait installer ?
@@ -76,7 +79,7 @@ Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être consid�
 
 + Bien que les hacks Switch progressent constamment, ils ne sont pour le moment pas dans un état très user-friendly. Pour cette raison, ce guide peut vous demander des connaissances techniques pour comprendre les erreurs qui peuvent se produire.
 + La portée de modification de la console est limitée pour la plupart des homebrews actuels, ce qui réduit drastiquement la probabilité de perte de données ou d'endommagement de la console à l'utilisation d'applications homebrew communes.
-+ Ce guide fonctionnera sur toutes les consoles Switch possédant une version de firmware de 1.0.0 à 3.0.0, les versions jusqu'à 4.1.0 ayant un support futur prévu. Des instructions sont fournies pour bloquer les mises à jour sur les consoles avec une version de firmware >= 3.0.1.
++ Ce guide fonctionnera sur toutes les consoles Switch possédant une version de firmware de 1.0.0 à 3.0.0, les versions jusqu'à 4.1.0 ayant un support futur prévu (le support pour 5.0.0 restant à déterminer). Des instructions sont fournies pour bloquer les mises à jour sur les consoles avec une version du firmware >= 3.0.1.
 + Vous aurez besoin d'une carte micro SD pour votre console. Elle devra être formatée en FAT32 et [MBR, pas GPT](http://www.howtogeek.com/245610/) (la plupart des cartes micro SD seront formatées comme ceci par défaut). 
 + Si vous avez besoin de formater une carte micro SD de plus de 32 Go sous Windows, vous pouvez utiliser [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et utiliser une taille d'unité d'allocation de 32K.
 

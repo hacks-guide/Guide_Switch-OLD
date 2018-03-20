@@ -6,13 +6,11 @@ title: "Bloccare gli aggiornamenti"
 
 ### Lettura necessaria
 
-Al momento, homebrew è disponibile solo per la versione del firmware 3.0.0, ma è previsto in futuro il supporto ad homebrew e CFW per tutte le versioni, fino alla 4.1.0.
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
 
 Per garantire l'accesso futuro, seguendo questa guida imposterai i DNS della tua rete internet su un server (mantenuto da ReSwitched) il quale bloccherà le richieste di aggiornamento ai server Nintendo.
 
-Se sei su un firmware 4.1.0, questo ti permetterà di continuare a utilizzare i servizi online (senza preoccuparti di aggiornamenti) fintanto che 4.1.0 sia la versione più recente.
-
-Nota che, per accedere ai servizi online su 4.1.0, sarà necessario che tu ti sia collegato ai servizi online almeno una volta prima di seguire queste istruzioni.
+If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Inoltre, entrerai nella modalità di Recupero / Manutenzione della console e cancellerai i dati di aggiornamento che potrebbero essere stati scaricati sulla tua console.
 

@@ -6,13 +6,11 @@ title: "حجب التحديثات"
 
 ## # يتطلب القراءة
 
-حالياً، الـ"Homebrew" يعمل فقط على تحديث رقم 3.0.0، ولكن في المستقبل سيكون الدعم للـ "Homebrew" و "التحديثات المعدلة"-"CFW" مخطط أصدارها لجميع التحديثات، من أول تحديث صدر للجهاز إلى التحديث رقم 4.1.0.
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
 
 لضمان الوصول إلى الأنترنت ومنع التحديثات فقط، يجب عليك تعديل إعدادات الـDNS وتحديد الخادم المدرج في الأسفل (تم أستضافته من قبل فريق ReSwitched) والذي يعمل على منع الطلبات الخارجة من جهازك لسيرفر التحديثات لنينتندو.
 
-إذا كنت على تحديث رقم 4.1.0، فتستطيع أستخدام الخدمات عبر الأنترنت (دون القلق من تحديث جهازك) ما دام التحديث رقم 4.1.0 هو أخر تحديث تم أصداره.
-
-ملاحظة: للوصول للخدمات عبر الأنترنت في تحديث رقم 4.1.0، يجب عليك أن تتصل بإحدى خدمات الأنترنت من جهازك (كالاتصال بالمتجر الإلكتروني أو دخول الاون لاين في أحدى الألعاب) على الأقل مرة واحدة وذلك قبل متابعة الخطوات التالية.
+If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 و بالإضافة إلى ذلك، سندخل على وضع الصيانة "Recovery / Maintenance Mode" لحذف أي ملفات لتحديث تم تحميلة مسبقاً.
 

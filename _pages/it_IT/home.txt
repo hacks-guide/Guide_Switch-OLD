@@ -39,8 +39,9 @@ Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di acced
 
 Al momento, il programma di rilascio del CFW segue le versioni del firmware in ordine crescente ed è così diviso: 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -50,6 +51,7 @@ Al momento, il programma di rilascio del CFW segue le versioni del firmware in o
       <th style="text-align: center; font-weight: bold;">Futuro Vicino</th>
       <th style="text-align: center; font-weight: bold;">Futuro Distante</th>
       <th style="text-align: center; font-weight: bold;">Futuro Lontano</th>
+      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
     </tr>
   </thead>
   <tbody>
@@ -57,6 +59,7 @@ Al momento, il programma di rilascio del CFW segue le versioni del firmware in o
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -64,7 +67,7 @@ Al momento, il programma di rilascio del CFW segue le versioni del firmware in o
 Se la tua console ha come versione del firmware 1.0.0 e sei interessato al CFW, faresti meglio a seguire la pagina su come [bloccare gli aggiornamenti](blocking-updates), comprare una copia giapponese di [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (necessaria per il Custom Firmware su 1.0.0), e aspettare pazientemente il rilascio del CFW.
 {: .notice--info}
 
-Se la tua console ha come versione del firmware 3.0.1 o maggiore, faresti meglio ad aggiornare alla versione 4.1.0 (dato che otterrà il CFW allo stesso tempo), seguire la pagina su come [bloccare gli aggiornamenti](blocking-updates), comprare il prima possibile tutti i giochi ai quali vuoi giocare (l'eShop funziona solo sull'ultima versione del sistema), e aspettare pazientemente il rilascio del CFW.
+If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
 {: .notice--info}
 
 ## Cosa viene installato con questa guida?
@@ -77,7 +80,7 @@ Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe 
 
 + Sebbene le hack per switch si stanno evolvendo constantemente, non sono ancora del tutto user-friendly. Perciò, questa guida potrebbe richiedere una minima conoscenza tecnica per poter poi risolvere eventuali problemi.
 + Al momento, lo scopo della modifica della console è limitato per molti homebrew, quindi è molto difficile perdere dati o danneggiare la console utilizzando programmi homebrew.
-+ Questa guida funzionerà su tutte le Switch con firmware compreso tra 1.0.0 e 3.0.0. Tutte le versioni successive fino a 4.1.0 verranno supportate in futuro. Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
 + Ti servirà una scheda micro SD per la console. Deve essere formattata in Fat32 e [MBR, non GPT](http://www.howtogeek.com/245610/) (la maggior parte delle schede micro SD sarà già formattata in questo modo). 
 + Se devi formattare una scheda micro SD più grande di 32gb su Windows, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.
 
