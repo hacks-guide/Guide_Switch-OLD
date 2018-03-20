@@ -37,12 +37,12 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. اذهب إلى "إعدادات النظام"-"System Settings"
-1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. اذهب إلى إعدادات النظام System Settings
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
-1. حدد "تغيير الإعدادات"-"Change Settings"
-1. عيين الـ"DNS Settings" إلى يدوي "Manual"
+1. حدد تغيير الإعدادات "Change Settings"
+1. عيين الـ "DNS Settings" إلى يدوي "Manual"
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
 1. احفظ إعدادات شبكة الاتصال
@@ -50,7 +50,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Section III - Initial Installation
 
-1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
@@ -67,7 +67,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
-1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
