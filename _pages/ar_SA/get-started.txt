@@ -16,7 +16,7 @@ title: "أبدأ"
 
 حدد الصفحة المناسبة لتحديث جهازك من الجدول أدناه. ملاحظة: "من" و "إلى" تشمل جميع الأصدارت بينهم. وهذا يعني، على سبيل المثال، الصف "من 1.0.0 إلى 2.3.0 " يتضمن 1.0.0 و 2.3.0 و كل الأصدارات بينهم.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+تستطيع أن تجد اصدار تحديث جهازك تحت قائمة تحديثات النظام System Update menu في قسم النظام System tab داخل برنامج إعدادات النظام Settings application.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
