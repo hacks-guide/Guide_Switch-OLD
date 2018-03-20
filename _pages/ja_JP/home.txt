@@ -38,8 +38,9 @@ When released, **Custom Firmware** ("CFW") will enable you to use more advanced 
 
 The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -49,6 +50,7 @@ The current CFW release schedule is in order of ascending firmware versions, div
       <th style="text-align: center; font-weight: bold;">Near Future</th>
       <th style="text-align: center; font-weight: bold;">Distant Future</th>
       <th style="text-align: center; font-weight: bold;">Far Future</th>
+      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +58,7 @@ The current CFW release schedule is in order of ascending firmware versions, div
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +66,7 @@ The current CFW release schedule is in order of ascending firmware versions, div
 If your device is on firmware version 1.0.0 and you are interested in CFW, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for 1.0.0 Custom Firmware), and wait patiently for a CFW release.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to update to 4.1.0 (as it will receive CFW at the same time), follow this guide's [Blocking Updates](blocking-updates) page, stock up on games while you can (the eShop only functions on the latest version), and wait patiently for a CFW release.
+If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
 {: .notice--info}
 
 ## What does this guide install?
@@ -76,7 +79,7 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 
 + While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
 + The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
 + You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
 + If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 

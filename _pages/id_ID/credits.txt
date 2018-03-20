@@ -2,7 +2,7 @@
 title: "Credits"
 ---
 
-**Terima kasih terkhususnya untuk semua [penerjemah](https://crowdin.com/project/switch-guide) karena sangat mengagumkan!**
+**Terima kasih terkhususnya untuk semua [penerjemah(https://crowdin.com/project/switch-guide) karena sangat mengagumkan!**
 {: .notice--primary}
 
 Jika saya melupakan Anda di sini, hubungi saya dan saya akan menambahkan nama Anda.

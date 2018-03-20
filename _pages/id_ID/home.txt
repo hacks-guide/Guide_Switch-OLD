@@ -38,8 +38,9 @@ Saat dirilis, **Custom Firmware** ("CFW") akan memungkinkan Anda untuk menggunak
 
 Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjadi tingkatan berikut ini: 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -49,6 +50,7 @@ Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjad
       <th style="text-align: center; font-weight: bold;">Tidak lama lagi</th>
       <th style="text-align: center; font-weight: bold;">Jauh ke Depan</th>
       <th style="text-align: center; font-weight: bold;">Jauh masa depan</th>
+      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +58,7 @@ Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjad
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +66,7 @@ Jadwal rilis CFW saat ini adalah dalam rangka naik versi firmware, dibagi menjad
 Jika perangkat Anda menggunakan firmware versi 1.0.0 dan Anda tertarik dengan CFW, pilihan terbaik Anda saat ini adalah mengikuti halaman [Blocking Updates](blocking-updates), ambil salinan Jepang [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (yang akan dibutuhkan untuk 1.0.0 Custom Firmware), dan bersabar menunggu perilisan CFW.
 {: .notice--info}
 
-Jika perangkat Anda menggunakan versi firmware> = 3.0.1, pilihan terbaik Anda saat ini adalah memperbarui ke 4.1.0 (karena akan menerima CFW pada saat yang bersamaan), ikuti panduan halaman ini [Blocking Updates](blocking-updates), persediaan pada game sementara Anda bisa (eShop hanya berfungsi pada versi terbaru), dan bersabar menunggu perilisan CFW.
+If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
 {: .notice--info}
 
 ## Apa yang dipasang oleh panduan ini?
@@ -76,7 +79,7 @@ Jika Anda sudah terbiasa dengan perangkat iOS "jailbreaking", gagasan ini bisa d
 
 + Sementara Switch hacks terus berkembang, mereka masih belum berada dalam keadaan yang mudah digunakan. Dengan demikian, panduan ini mungkin memerlukan beberapa pemahaman teknis untuk memecahkan masalah yang mungkin saja muncul.
 + Ruang lingkup modifikasi perangkat terbatas untuk homebrew terkini, artinya ada sedikit kemungkinan kehilangan data atau kerusakan konsol saat menggunakan aplikasi homebrew yang populer.
-+ Panduan ini akan bekerja pada semua perangkat Switch pada Firmwares dari 1.0.0 ke 3.0.0, dengan semua versi hingga 4.1.0 yang memiliki rencana dukungan masa mendatang. Instruksi disertakan untuk memblokir pembaruan pada perangkat dengan versi firmware> = 3.0.1.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Instruksi disertakan untuk memblokir pembaruan pada perangkat dengan versi firmware> = 3.0.1.
 + Anda memerlukan kartu SD untuk perangkat Anda. Ini harus diformat sebagai Fat32 dan [MBR, bukan GPT] (http://www.howtogeek.com/245610/) (sebagian besar kartu micro SD akan diformat dengan cara ini secara default). 
 + Jika Anda perlu memformat kartu kartu SD yang lebih besar dari 32GB pada Windows, Anda dapat menggunakan [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) dan atur ke Unit Alokasi Ukuran 32K.
 

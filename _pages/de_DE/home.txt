@@ -38,8 +38,9 @@ Sobald veröffentlicht, ermöglicht **Custom Firmware** ("CFW") dir fortgeschrit
 
 Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen sortiert, aufgeteilt in folgende Stufen: 
 
-<table style="max-width:420px;">
+<table style="max-width:35em;">
   <colgroup>
+    <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
@@ -49,6 +50,7 @@ Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen s
       <th style="text-align: center; font-weight: bold;">Nahe Zukunft</th>
       <th style="text-align: center; font-weight: bold;">Ferne Zukunft</th>
       <th style="text-align: center; font-weight: bold;">Sehr ferne Zukunft™</th>
+      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +58,7 @@ Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen s
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
+      <td style="text-align: center; font-weight: bold;">5.0.0</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +66,7 @@ Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen s
 Wenn dein Gerät auf Firmware Version 1.0.0 ist und du interessiert an CFW bist, dann ist deine beste Option dieser Anleitung [Updates blockieren](blocking-updates) zu folgen. Kaufe eine japanische Version von [Puyo Puyo Tetris](http://amzn.to/2BMJa26) (welche benötigt wird für Custom Firmware auf Version 1.0.0) und warte auf die Veröffentlichung einer Custom Firmware.
 {: .notice--info}
 
-Wenn dein Gerät auf Firmware Version >=3.0.1 ist, ist deine beste Option auf 4.1.0 upzudaten (da diese Versionen zur gleichen Zeit CFW erhalten werden). Folge der [Updates blockieren](blocking-updates) Anleitung, kaufe dir Spiele solange du kannst (da der eShop nur auf der aktuellsten Version funktioniert) und warte auf die Veröffentlichung einer Custom Firmware.
+If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
 {: .notice--info}
 
 ## Was installiert diese Anleitung?
@@ -76,7 +79,7 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 
 + Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
 + Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
-+ Diese Anleitung funktioniert auf allen Switch Geräten mit Firmware Versionen von 1.0.0 bis 3.0.0. Alle Versionen darüber sind in Planung für zukünftige Unterstützung. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
 + Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
 + If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
