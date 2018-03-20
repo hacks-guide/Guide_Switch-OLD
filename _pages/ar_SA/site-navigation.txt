@@ -14,9 +14,9 @@ sitemap: false
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**كل المواضيع**
 
-+ [Blocking Updates](blocking-updates)
++ [منع التحديثات](blocking-updates)
 + [Credits](الشكر والتقدير)
 + [تطوير الـ(libtransistor)-development)[(libtransistor))
 + [Donations] (التبرعات)
@@ -31,7 +31,7 @@ sitemap: false
 + [تطوير الـ Homebrew](homebrew-development)
 + [مشغل الـ Homebrew](homebrew-launcher)
 + [PegaSwitch](pegaswitch)
-+ [Troubleshooting](troubleshooting)
-+ [Why Ads?](why-ads)
++[Troubleshooting] (استكشاف الأخطاء وإصلاحها)
++ [لماذا الاعلانات؟](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
