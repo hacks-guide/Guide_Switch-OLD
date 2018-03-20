@@ -127,8 +127,8 @@ ___
 بعد كل عملية اعادة تشغيل لجهازك، يجب عليك إعادة "تفعيل" ثغرة المتصفحة (وذلك باستخدام إحدى الطرق المذكورة أعلاه) وذلك لتفعيل الوصول لمشغل الـ Homebrew في جهازك.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+للتحديثات الدورية عن الـ Homebrew وتطوراته، إنظر إلى مدونة ReSwitched بشكل منتظم [ReSwitched Weekly](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+للمعلومات عن طريقة المساهمة في تطوير الـ Homebrew إذا كنت مطور، إنظر إلى صفحة [Homebrew Development](homebrew-development).
 {: .notice--primary}
