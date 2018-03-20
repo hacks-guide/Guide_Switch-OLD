@@ -53,37 +53,37 @@ title: "مشغل الـ Homebrew"
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
 1. أختر أتصل بهذه الشبكة "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. إذا كان الاتصال بالـ DNS ناجح، سترى الرسالة التالية "Registration is required to use this network." (وتعني: التسجيل مطلوب لستخدام هذه الشبكة)
+1. أختر التالي "Next"
+1. الصفحة الإلكترونية لمشغل الـ Homebrew ستفتح
+1. أختر تثبيت "Install"
+1. صفحة PegaSwitch ستفتح
+1. إذا كان أختراق الثغرة ناجح، سترى هذا الخطأ `1337-2000`
+  + إذا علقت في صفحة PegaSwitch ولم ترى رسالة الخطأ، أعد تشغيل جهازك وأعد تجربة الإتصال
+1. أعد تشغيل جهازك
+1. في حال أشعارك أن قاعدة بيانات الـ Mii فاسدة، أضغط موافق "OK" لأعادة تشغيل جهازك مرة أخرى
 
-#### Section IV - Running the Homebrew Launcher
+#### القسم الرابع - تشغيل مشغل الـ Homebrew
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
 1. أختر أتصل بهذه الشبكة "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. إذا كان الاتصال بالـ DNS ناجح، سترى الرسالة التالية "Registration is required to use this network." (وتعني: التسجيل مطلوب لستخدام هذه الشبكة)
+1. أختر التالي "Next"
+1. الصفحة الإلكترونية لمشغل الـ Homebrew ستفتح
+1. أختر تشغيل "Run"
+1. إذا كان أختراق الثغرة ناجاً، سترى رساله تخبرك بالخروج exit
+1. أرجع للصفحة الرئيسية Home Menu
+1. شغل تطبيق الألبوم Album application
+1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew
 
-#### Section V - Alternative Browser Applets (Optional)
+#### القسم الخامس - تطبيقات المتصفح البديلة (أختياري)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+حيث عليك أن تعيد أعاده عمل قسم "التشغيل" في الثغرة بعد كل إعادة تشغيل للجهاز، ولكن من المثالي إذا كان هنالك طريقة أسهل لتشغيل المتصفح بدل من طريقة اختبار الاتصال The Connection Test.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+لحسن الحظ، يوجد هنالك بالفعل عدة طرق [multiple] (http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) لتفعيل المتصفح في السويتش، وأي منهم يمكن استخدامه لتفعيل ثغره المتصفح.
 
 Two convenient methods for launching a browser are listed below:
 
