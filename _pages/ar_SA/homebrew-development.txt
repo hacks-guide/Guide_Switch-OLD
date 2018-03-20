@@ -8,21 +8,21 @@ title: "تطوير الـHomebrew"
 
 في الوقت الراهن الأداة الوحيدة لإيجاد الثغرات في جهاز ننتيندو سويتش والتي تم إصدارها للعامة هي بيج سويتش PegaSwitch،والتي تم تطويرها من قبل فريق ري سوتشد ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+إذا كنت مهتم بالتعاون مع أعضاء ري سويتشد ReSwitched بتطوير الـHomebrew، تفقد [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+إذا كنت مهتم بالتعاون مع أعضاء سويتش برو SwitchBrew بتطوير الـHomebrew، تفقد #switchdev في EFnet.
 {: .notice--success}
 
-### Libraries
+### المكتبات
 
-Currently, there are two major libraries used for developing Switch homebrew.
+في الوقت الراهن يوجد هنالك مكتبتين تستخدم لتطوير الـhomebrew لجهاز الننتندو سويتش.
 
 ___
 
-#### Development (libnx)
+#### تطوير بمكتبة (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+مكتبة الـ library تم تطويرها من قبل فريق سوتش برو SwitchBrew وتم بناؤها باستخدام سلسلة أدوات devkitA64.
 
 Binaries can be run on your device using the Homebrew Launcher.
 
