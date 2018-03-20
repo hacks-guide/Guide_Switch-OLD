@@ -11,10 +11,10 @@ title: "أبدأ"
 قبل البدء، يجب على مستخدمي نظام التشغيل ويندوز Windows تفعيل خيار اظهار امتدادات أسماء الملفات File Extensions باستخدام [امتدادات أسماء الملفات (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+قبل البدء، تأكد من أن بطاقة الذاكرة الخارجية SD Card خالية من الأخطاء، يمكنك استخدام إحدى الأدوات التالية حسب نظام التشغيل لحاسبك [H2testw (Windows)](h2testw-(windows)) أو [F3 (Linux)](f3-(linux)) أو [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+حدد الصفحة المناسبة لتحديث جهازك من الجدول أدناه. ملاحظة: "من" و "إلى" تشمل جميع الأصدارت بينهم. وهذا يعني، على سبيل المثال، الصف "من 1.0.0 إلى 2.3.0 " يتضمن 1.0.0 و 2.3.0 و كل الأصدارات بينهم.
 
 Your device version can be found under the System Update menu in the System tab of the Settings application.
 
