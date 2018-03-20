@@ -6,15 +6,15 @@ title: "H2testw (Windows)"
 
 ### يتطلب القراءة
 
-This is an add-on section for checking your SD card for errors using h2testw.
+هذا قسم إضافي للتحقق من أن الذاكرة الخارجية SD Card خالية من الأخطاء باستخدام برنامج [h2testw].
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+حسب سعة بطاقة الذاكرة وسرعة الحاسب، فقد تستغرق هذه العملية عديدة ساعات!
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+هذه الصفحة تخص مستخدمي نظام التشغيل Windows فقط. إن كان نظام تشغيل حاسبك غير الويندوز، فعليك الذهاب إلى إحدى الصفحات التالية [F3 (linux)](f3-(linux)) أو [F3X (mac)](f3x-(mac)).
 
 ### ما تحتاجة
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* أحدث اصدار من [h2testw][(http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
 ### التعليمات
 
