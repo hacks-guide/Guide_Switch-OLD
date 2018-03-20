@@ -6,15 +6,16 @@ title: "التحديث باستخدام بطاقة لعبة"
 
 ### يتطلب القراءة
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+جميع بطاقات الألعاب تحتوي على ملفات من تحديث النظام المطلوب لتشغيلها. و هذا يسمح لأي شخص يمتلك جهاز يحتوي على تحديث ذو اصدار أقل من تلك الموجودة في بطاقة اللعبة، أن يقوم بتحديث النظام إلى تلك النسخة الأحدث، (دون الحاجة للاتصال بالانترنت).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+نستطيع الاستفادة من تلك الخاصية، وذلك باستخدام لعبة تحتوي على نسخة محددة من تحديث النظام (مثل 3.0.0) بدون التحديث لأحدث أصدار. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+قبل القيام بالتحديث باستخدام بطاقة لعبة، نحتاج إلى منع التحديثات عبر الإنترنت وذلك باستخدام وضع الطيرانairplane mode والدخول على وضع الصيانة 
+Recovery / Maintenance Mode لحذف أي ملفات لتحديث تم تنزيلها مسبقاً.
 
-### What you need
+# # # ما تحتاجه
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+* الإصدار الأول من بطاقة للعبة بوكيمون تورنمنت دي أكس [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
   + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
   + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
 
