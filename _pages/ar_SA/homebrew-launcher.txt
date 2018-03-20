@@ -85,46 +85,46 @@ title: "مشغل الـ Homebrew"
 
 لحسن الحظ، يوجد هنالك بالفعل عدة طرق [multiple] (http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) لتفعيل المتصفح في السويتش، وأي منهم يمكن استخدامه لتفعيل ثغره المتصفح.
 
-Two convenient methods for launching a browser are listed below:
+توجد طريقتين مناسبتين لتشغيل المتصفح وهم مدرجتين بالأسفل:
 
-##### eShop Sign In Prompt
+#### طريقة أشعار بتسجيل الدخول في متجر الاي شوب eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+لاستخدام هذة الطريقة، أصنع حساب ثاني في جهازك. لا تتصل به في حسابك لدى ننتيندو.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. شغل برنامج ننتيندو اي شوب (المتجر الإلكتروني) Nintendo eShop
+1. أختر الحساب الثاني
+1. أختر سجل الدخول و اربط الحساب "Sign In and link"
+1. سيتم تشغيل تطبيق المتصفح
 
-##### Game Update Prompt
+#### طريقة أشعار بتحديث اللعبة سيظهر على الشاشة
 
-To use this method, you must have at least one game on your home screen.
+لاستخدام هذه الطريقة، يجب أن تكون هنالك على الأقل لعبة واحدة على الصفحة الرئيسية لجهازك.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+ملاحظة: إذا لم تكن متصل بسيرفر الـ DNS الصحيح، فأن هذه الطريقة *ستحدث* نظام جهازك لاخر اصدار. أمر خطر... أنـــــتــــبــــه!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. أضغط على الزر (+) مع أي لعبة مؤشرة
+1. في قائمة تحديث البرنامج "Software Update"، أختر عبر الأنترنت "Via the Internet"
+1. سيتم تشغيل تطبيق المتصفح
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+ملاحظة: حالياً، تطوير الهوم برو في بداية مراحلة و مع برامج قليلة ومحدوده.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+تستطيع أن تجد التطبيقات المتوفره على [switchbrew] (http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+لتثبيت تطبيقات الهوم برو، ببساطة أنسخ ملف الـ homebrew والمنتهي بالاختصار `.nro` إلى ملف `/switch/` في جذر (الملف الرئيسي) لذاكرتك الخارجية SD Card.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+تستطيع الآن تشغيل مشغل الـ Homebrew عن طريق فتح برنامج الألبوم Album application من على الصفحة الرئيسية لجهازك (*إلى حين إعادة تشغيل جهازك*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+لن تستطيع الآن تشغيل بطاقات الألعاب أو الألعاب المحملة من المتجر الاي شوب eShop (*إلى حين إعادة تشغيل جهازك*).
 {: .notice--warning}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+بعد كل عملية اعادة تشغيل لجهازك، يجب عليك إعادة "تفعيل" ثغرة المتصفحة (وذلك باستخدام إحدى الطرق المذكورة أعلاه) وذلك لتفعيل الوصول لمشغل الـ Homebrew في جهازك.
 {: .notice--warning}
 
 For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
