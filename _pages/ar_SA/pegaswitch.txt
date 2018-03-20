@@ -8,33 +8,33 @@ title: "PegaSwitch"
 
 بيج سوتش PegaSwitch هي أداة موجهة للمطورين لاكتشاف الثغرات، وتم تطويرها من قبل فريق ري سوتشد ReSwitched. وهي متوافقة مع التحديثات رقم 1.0.0 إلى 3.0.0.
 
-The toolkit uses a combination of vulnerabilities to take over the WebKit-based browser, giving the user a shell which can be used to read / write memory, call native functions, and otherwise explore the functionality of the Switch.
+هذه العدة من الأدوات يستخدم مزيجاً من الثغرات للاستيلاء على المتصفح، إعطاء المستخدم هيكل يمكنه من القراءة/كتابة من و إلى ذاكرة الجهاز، و استخدام الوظائف الأساسية، وخلاف ذلك استكشاف إمكانيات السويتش.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database. While this effect is harmless, it will result in the loss of any user-created Miis.
+ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
 {: .notice--warning}
 
-### What You Need
+### ما تحتاجه
 
-* A supported operating system
-  + MacOS and most linux distributions are supported
-  + Windows is best supported using a [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
-* The [git](https://git-scm.com/) version control system
-* The [Node.JS](https://nodejs.org/en/download/package-manager/) JavaScript runtime (current release)
+* نظام تشغيل مدعوم
+  + نظام ماك MacOS و معظم توزيعات لينكس مدعومين
+  + أفضل خيار لمستخدمين ويندوز هو بستخدام [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) distribution
+الـ [git](https://git-scm.com/) النسخة الخاضة بنظام تشغيلك
+الـ [Node.JS](https://nodejs.org/en/download/package-manager/) مشغل جافا سكربت (أخر أصدار)
 
 ### التعليمات
 
-#### Section I - Network Configuration
+#### القسم الأول - إعدادات شبكة الأنترنت
 
-PegaSwitch works by hosting a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using DNS redirection.
+PegaSwitch تعمل عن طريق استضافة [بوابة محجوزة captive portal] (https://en.wikipedia.org/wiki/Captive_portal) عن طريق تحويل الـ DNS.
 
-For this to work, your device must be able to connect to your PC over the network.
+من أجل أن تعمل، يجب على جهازك أن يتصل مع حاسبك عن طريق الشبكة.
 
-1. Ensure no other applications are bound to UDP port 53 or TCP ports 80 and 8100
-  + WSL: look at the "Listening Ports" section of the "Network" tab in `resmon.exe`
-  + Linux / MacOS: view the output of `sudo netstat -tulpn`
-1. Ensure your firewall does not block incoming connections to any of these ports
+1. تأكد من أنه لا توجد برامج تستخدم البورتات (البوابات) التالية UDP port 53 أو TCP ports 80 و 8100
+  + WSL: أنظر إلى قسم الاستماع للبورتات "Listening Ports" في تبويب شبكة الأتصالات "Network" في `resmon.exe`
+  + Linux / MacOS: أنظر للمخرجات من `sudo netstat -tulpn`
+1. تأكد من أن الجدارك الناري Firewall لا يحجب الاتصالات القادمة من كل هذه البورتات (البوابات)
 
-#### Section II - Running PegaSwitch
+#### القسم الثاني - تشغيل PegaSwitch
 
 ~~~ bash
 # استنتسخ هذا المُستودع
@@ -44,17 +44,17 @@ git clone https://github.com/reswitched/pegaswitch
 cd pegaswitch
 npm install
 
-# start PegaSwitch
-# Windows users: omit the 'sudo'
+# شغل PegaSwitch
+# لمستخدمين Windows: ألغى (omit) الـ sudo
 sudo node start.js
 ~~~
 
-#### Section III - DNS Configuration
+# # # القسم الثالث - تعديل الـ DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to be able to trigger the exploit.
+ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المسجل فيها جهازك لتفعيل الثغرة.
 {: .notice--info}
 
-1. Launch System Settings on your device
+1. شغل الإعدادات System Settings في جهازك
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
