@@ -105,11 +105,11 @@ sudo node start.js
 
 ___
 
-You can now easily connect to your device using the PegaSwitch environment.
+يمكنك الآن وبسهولة أن تشبك بجهازك باستخدام بيئة PegaSwitch.
 {: .notice--success}
 
-For debugging purposes, you may want to [enable extra error info](troubleshooting#enable-extra-error-info).
+لأغراض التصحيح debugging purposes، قد ترغب بتفعيل خاصية إظهار معلومات إضافية [enable extra error info] (troubleshooting#enable-extra-error-info).
 {: .notice--info}
 
-### Return to [Homebrew Development](homebrew-development)
+### العودة إلى [تطوير الـ Homebrew](homebrew-development)
 {: .notice--primary}
