@@ -4,7 +4,7 @@ title: "Game Card Update"
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
 All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
 
@@ -25,7 +25,7 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. اذهب إلى "إعدادات النظام"-"System Settings"
+1. اذهب إلى إعدادات النظام System Settings
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
 1. Exit System Settings
