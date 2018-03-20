@@ -60,12 +60,12 @@ sudo node start.js
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
 1. حدد تغيير الإعدادات "Change Settings"
 1. عيين الـ "DNS Settings" إلى يدوي "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to your PC's IP address
-  + This will be displayed in PegaSwitch
-1. Save the network settings
-1. Return to `Internet Settings`
+1. عين الـ DNS الأساسي "Primary DNS" و الـ DNS الثانوي "Secondary DNS" لعنوان الـ IP address لحاسبك الشخصي
+  + هذه ستظهر لك في PegaSwitch
+1. أحفظ إعدادات شبكة الاتصال
+1. أرجع إلى أعدادات الأنترنت `Internet Settings`
 
-#### Section IV - Initial Connection
+#### القسم الرابع - الأتصال الأولي
 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
