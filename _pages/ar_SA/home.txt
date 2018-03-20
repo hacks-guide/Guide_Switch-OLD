@@ -33,11 +33,11 @@ ___
 
 إذا كان جهازك على التحديث رقم 3.0.0، تستطيع أن تشغل الـ homebrew بشكل مجاني 100%، و ذلك فقط باستخدام متصفح الأنترنت في جهازك. الأصدارات الأقل من 3.0.0 تستطيع أن تحدث إليه وذلك باستخدام بطاقة لعبة. والأصدارات الأعلى منه تستطيع منع التحديثات المستقبلية وذلك من أجل ضمان حصولها على الثغرات المستقبلية.
 
-## What is Custom Firmware?
+# # ما هي التحديثات المعدلة Custom Firmware ؟
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and will be released according to schedule when all relevant components are completed.
+حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. هي حالياً قيد التطوير، وسيتم أصدارها في حال أكتمال جميع مكوناتها الأساسية.
 
-The current CFW release schedule is in order of ascending firmware versions, divided into the following tiers: 
+جدول الإصدار المتوقع للتحديثات المعدلة CFW هو بترتيب تصاعدي مع تحديثات النظام، وهي مقسمة على المستويات التالية: 
 
 <table style="max-width:35em;">
   <colgroup>
@@ -48,10 +48,10 @@ The current CFW release schedule is in order of ascending firmware versions, div
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
+      </th>المستقبل القريب<th style="text-align: center; font-weight: bold;">
+      <th style="text-align: center; font-weight: bold;">المستقبل البعيد</th>
+      <th style="text-align: center; font-weight: bold;">المستقبل الأبعد</th>
+      <th style="text-align: center; font-weight: bold;">في انتظار تحديد الدعم</th>
     </tr>
   </thead>
   <tbody>
