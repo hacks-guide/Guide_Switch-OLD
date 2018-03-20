@@ -1,12 +1,12 @@
 ---
-title: "Homebrew Development"
+title: "تطوير الـHomebrew"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
 ### يتطلب القراءة
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+في الوقت الراهن الأداة الوحيدة لإيجاد الثغرات في جهاز ننتيندو سويتش والتي تم إصدارها للعامة هي بيج سويتش PegaSwitch،والتي تم تطويرها من قبل فريق ري سوتشد ReSwitched.
 
 If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
