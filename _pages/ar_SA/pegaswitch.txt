@@ -69,7 +69,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
-1. Select "Connect to this Network"
+1. أختر أتصل بهذه الشبكة "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The PegaSwitch webpage will load
