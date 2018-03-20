@@ -48,9 +48,9 @@ ___
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">В ближайшем будущем</th>
-      <th style="text-align: center; font-weight: bold;">В менее ближайшем будущем</th>
+      <th style="text-align: center; font-weight: bold;">В будущем</th>
       <th style="text-align: center; font-weight: bold;">В далёком будущем</th>
-      <th style="text-align: center; font-weight: bold;">Не подтверждена</th>
+      <th style="text-align: center; font-weight: bold;">Не подтверждено</th>
     </tr>
   </thead>
   <tbody>
