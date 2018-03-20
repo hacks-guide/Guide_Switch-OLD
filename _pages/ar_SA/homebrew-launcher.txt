@@ -1,40 +1,40 @@
 ---
-title: "Homebrew Launcher"
+title: "مشغل الـ Homebrew"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
-### Required Reading
+### يتطلب القراءة
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+مشغل الـHomebrew في الوقت الراهن "مثبت" عن طريق ثغرة في متصفح جهازك. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+بعد اكتمال عملية التثبيت الأولية، ثغرة ثانية يجب تفعيلها لكي تسمح لك بالوصول إلى مشغل الـ Homebrew من خلال تطبيق الألبوم Album application *إلى حين إعادة تشغيل جهازك*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+بعد أي إعادة تشغيل لجهازك، يجب عليك إعادة تشغيل الثغرة الثانية لإعادة تفعيل الوصول إلى مشغل الـ Homebrew في جهازك. بالإضافة إلى ذلك، لاحظ انه مادامت الثغرة الثانية مفعلة لن تتمكن من تشغيل بطاقات الألعاب (*و لتعطيل الثغرة الثانية أعد تشغيل جهازك*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+إذا كنت معتاداً على أجهزة الـIOS و الجيل بريك "jailbreaking"، فأن هذه الثغرة تعتبر مشابهة للـ"semi-untethered jailbreak" أو جيل بريك الغير مربوط.
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك بعد التثبت الأولى. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
 {: .notice--warning}
 
 # # # ما تحتاجه
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* أحدث إصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest)[target="_blank]
 
 ### التعليمات
 
-#### Section I - Prep Work
+#### القسم الأول - الأستعداد للعمل
 
 1. أطفأ الجهاز
 1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) لطاقة الذاكرة الخارجية SD Card لجهازك
+1. اصنع مجلد اسمه `switch` مباشرة في جذر (الملف الرئيسي) لطاقة الذاكرة SD Card، إن لم يكن هذا المجلد موجودا من قبل
+1. أرجع الذاكرة الخارجية SD Card إلى جهازك
+1. شغل الجهاز الخاص بك
 
-#### Section II - DNS Configuration
+#### القسم الثاني - تعديل الـ DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المسجل فيها جهازك لتفعيل الثغرة.
 {: .notice--info}
 
 1. اذهب إلى إعدادات النظام System Settings
@@ -43,16 +43,16 @@ Note that these DNS servers will need to be set on each network you connect your
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
 1. حدد تغيير الإعدادات "Change Settings"
 1. عيين الـ "DNS Settings" إلى يدوي "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. عيين الـ"Primary DNS" إلى`104.236.106.125`
+1. عيين الـ"Secondary DNS" إلى `62.210.147.20`
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 
-#### Section III - Initial Installation
+#### القسم الثالث - التثبيت الأولي
 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
-1. Select "Connect to this Network"
+1. أختر أتصل بهذه الشبكة "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The Homebrew Launcher webpage will load
@@ -69,7 +69,7 @@ Note that you will have to re-run this section of the exploit after each reboot 
 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
-1. Select "Connect to this Network"
+1. أختر أتصل بهذه الشبكة "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The Homebrew Launcher webpage will load
