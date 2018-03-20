@@ -40,7 +40,7 @@ For this to work, your device must be able to connect to your PC over the networ
 # استنتسخ هذا المُستودع
 git clone https://github.com/reswitched/pegaswitch
 
-# تثبيت الأعتمادات "Dependencies"
+# تثبيت الاعتمادات Dependencies
 cd pegaswitch
 npm install
 
