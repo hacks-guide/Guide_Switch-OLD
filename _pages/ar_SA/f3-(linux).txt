@@ -58,5 +58,5 @@ ___
 لكن لو كانت النتيجة غير ذلك، فبطاقة ذاكرتك الخارجية SD Card قد يكون فيها عطب برمجي أو تلف مادي، و عليك تبديلها بذاكرة أخرى!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### العودة إلى [إبدأ](get-started)
 {: .notice--primary}
