@@ -16,43 +16,43 @@ Recovery / Maintenance Mode لحذف أي ملفات لتحديث تم تنزي�
 # # # ما تحتاجه
 
 * الإصدار الأول من بطاقة للعبة بوكيمون تورنمنت دي أكس [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+  + الإصدار الأول من بطاقة اللعبة يحتوي على التحديث رقم 3.0.0, ستجد لوحة دائرة كهربائية خضراء ورقم تسلسلي ينتهي بـ **000** خلف بطاقة اللعبة (انظر للصورة في الأسفل)
+  + الإصدار الأحدث من شريط اللعبة يحتوي على التحديث رقم 3.0.1, ستجد لوحة دائرة كهربائية سوداء ورقم تسلسلي ينتهي بـ **001** خلف شريط اللعبة (*تجنب أستخدام هذه النسخة!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### التعليمات
 
-#### Section I - Enable Airplane Mode
+#### القسم الأول - تفعيل وضع الطيران
 
 1. اذهب إلى إعدادات النظام System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. إذهب الي وضع الطيران `Airplane Mode`
+1. فعل وضع الطيران
+1. أغلق إعدادات النظام
 
-#### Section II - Deleting Update Data
+#### القسم الثاني-حذف ملفات التحديث
 
 1. أطفأ الجهاز
 1. شغل الجهاز مع الضغط على الأزرار التالية (زر التشغيل) + (زر رفع الصوت) + (زر خفض الصوت)
 1. لا تحدد أي من الخيارات الظاهرة لك على الشاشة
-1. Any downloaded update data has been deleted from your system just by entering this menu
+1. تم حذف أي ملفات تحديث تم تنزيله في جهازك مسبقاً، وذلك حين دخولك على هذه القائمة
 1. اضغط على زر (إيقاف التشغيل) لإيقاف تشغيله الجهاز
 
-#### Section III - Game Card Update
+#### القسم الثالث - التحديث باستخدام بطاقة لعبة
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. أدخل بطاقة لعبة بوكيمون تورنمنت دي أكس Pokkén Tournament DX في جهازك
+1. حاول تشغيل اللعبة
+1. عندما يطلب منك التحديث، اقبل التحديث
 
-#### Section IV - Disable Airplane Mode
+#### الجزء الرابع - تعطيل وضع الطيران
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. اذهب إلى إعدادات النظام System Settings
+1. إذهب الي وضع الطيران `Airplane Mode`
+1. عطل وضع الطيران
+1. أغلق إعدادات النظام
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### تابع الى [مشغل الـHomebrew](homebrew-launcher)
 {: .notice--primary}
