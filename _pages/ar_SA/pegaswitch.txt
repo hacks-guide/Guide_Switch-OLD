@@ -85,7 +85,7 @@ Triggering the browser exploit using either of these methods will have the same 
 
 ##### eShop Sign In Prompt
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+لاستخدام هذة الطريقة، أصنع حساب ثاني في جهازك. لا تتصل به في حسابك لدى ننتيندو.
 
 1. Launch Nintendo eShop
 1. Select the second account
