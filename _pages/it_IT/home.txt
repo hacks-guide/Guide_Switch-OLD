@@ -59,7 +59,7 @@ Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe 
 + Al momento, lo scopo della modifica della console è limitato per molti homebrew, quindi è molto difficile perdere dati o danneggiare la console utilizzando programmi homebrew.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
 + Ti servirà una scheda micro SD per la console. Deve essere formattata in Fat32 e [MBR, non GPT](http://www.howtogeek.com/245610/) (la maggior parte delle schede micro SD sarà già formattata in questo modo). 
-+ Se devi formattare una scheda micro SD più grande di 32gb su Windows, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
