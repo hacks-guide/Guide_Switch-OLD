@@ -36,7 +36,7 @@ If your device is on firmware version 3.0.0, running homebrew on your device is 
 
 When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release tentatively scheduled for summer 2018.
 
-This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version (though version-specific exploits will be required to install it).
+This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version.
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
