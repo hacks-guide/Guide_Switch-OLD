@@ -55,7 +55,7 @@ Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Actualizare cu card de joc</a></td>
+      <td style="text-align: center; font-weight: bold;">Wait for CFW or<a href="game-card-update">Game Card Update</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -64,8 +64,8 @@ Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocarea Actualizărilor</a></td>
+      <td style="text-align: center; font-weight: bold;">5.0.1</td>
+      <td style="text-align: center; font-weight: bold;">Așteptați pentru CFW --<a href="blocking-updates">Blocarea Actualizărilor</a></td>
     </tr>
   </tbody>
 </table>
