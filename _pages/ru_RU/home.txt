@@ -38,9 +38,9 @@ ___
 
 Этот релиз будет содержать аппаратную уязвимость ("fusée gelée"), которая совместима со всеми консолями Nintendo Switch независимо от версии прошивки.
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+Кроме того, в зависимости от доступного времени на разработку, вполне возможно, что консоли с версией прошивки 1.0.0 получат CFW раньше из-за программной уязвимости, отсутствующей в новых версиях прошивки.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Если версия прошивки вашей консоли равна 1.0.0 и вы заинтересованы в раннем доступе к кастомной прошивке, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), приобрести японскую копию игры [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (которая понадобится для раннего доступа к кастомной прошивке 1.0.0), и терпеливо ждать выхода кастомной прошивки.
 {: .notice--info}
 
 Если версия прошивки вашей консоли >=3.0.1, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates) и терпеливо ждать выхода кастомной прошивки.
