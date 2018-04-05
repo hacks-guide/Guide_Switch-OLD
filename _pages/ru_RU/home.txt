@@ -34,9 +34,9 @@ ___
 
 ## Что такое кастомная прошивка (CFW)?
 
-По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. It is currently in development, and has a release tentatively scheduled for summer 2018.
+По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. В настоящее время она находится в разработке, и релиз ориентировочно назначен на лето 2018.
 
-This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version.
+Этот релиз будет содержать аппаратную уязвимость ("fusée gelée"), которая совместима со всеми консолями Nintendo Switch независимо от версии прошивки.
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
