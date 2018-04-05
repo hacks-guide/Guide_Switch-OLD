@@ -58,7 +58,7 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 + The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
 + You will need a micro SD card for your device. It should be formatted as Fat32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
