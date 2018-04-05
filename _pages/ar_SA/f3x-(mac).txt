@@ -4,34 +4,35 @@ title: "F3X (Mac)"
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
-This is an add-on section for checking your SD card for errors using F3X.
+هذا قسم إضافي للتحقق من أن الذاكرة الخارجية SD Card خالية من الأخطاء باستخدام [F3].
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+حسب سعة بطاقة الذاكرة وسرعة الحاسب، فقد تستغرق هذه العملية من الوقت بضع دقائق أو عدة ساعات!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+هذه الصفحة لمستخدمي ماك Mac فقط. إذا لم تكن على ماك Mac، تحقق من [H2testw (ويندوز)](h2testw-(windows)) أو [F3 (لينكس)](f3-(linux)).
 
-### What You Need
+### ما تحتاجه
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* أحدث إصدار من [F3X]
+(https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
 ### التعليمات
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. فك ضغط ملف F3X `.zip`
+1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
+1. شغل برنامج F3X
+1. حدد بطاقة الذاكرة الخارجية SD Card التي أدخلتها
+1. أضغط على أبدأ الفحص "Start Test"
+1. انتظر حتى يتم إكمال العملية.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
+إذا كان الاختبار يظهر النتيجة `Success! ذاكرتك تعمل بالشكل المطلوب`! ذاكرتك الخارجية SD Card جيدة ويمكنك حذف كافة ملفات `.h2w` من ذاكرتك
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+لكن لو كانت النتيجة غير ذلك، فبطاقة ذاكرتك الخارجية SD Card قد يكون فيها عطب برمجي أو تلف مادي، و عليك تبديلها بذاكرة أخرى!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### العودة إلى [أبدأ](get-started)
 {: .notice--primary}

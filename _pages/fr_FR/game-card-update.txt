@@ -2,7 +2,7 @@
 title: "Mise à jour par cartouche"
 ---
 
-{% include toc title="Table des matières" %}
+{% include toc title="Table of Contents" %}
 
 ### Lecture requise
 
