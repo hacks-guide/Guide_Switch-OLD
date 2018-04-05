@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+title: "أبدأ"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
-### Required Reading
+### يتطلب القراءة
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+كل إصدار من التحديثات يحتاج إلى خطوات مختلفة لتحقيق الهدف النهائي وهو الـ Homebrew. و عليه فالصفحة التالية ستساعدك على معرفة أين تبدأ لجهازك.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+قبل البدء، يجب على مستخدمي نظام التشغيل ويندوز Windows تفعيل خيار اظهار امتدادات أسماء الملفات File Extensions باستخدام [امتدادات أسماء الملفات (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+قبل البدء، تأكد من أن بطاقة الذاكرة الخارجية SD Card خالية من الأخطاء، يمكنك استخدام إحدى الأدوات التالية حسب نظام التشغيل لحاسبك [H2testw (Windows)](h2testw-(windows)) أو [F3 (Linux)](f3-(linux)) أو [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 2.3.0" row includes 1.0.0, 2.3.0, and all versions in-between.
+حدد الصفحة المناسبة لتحديث جهازك من الجدول أدناه. ملاحظة: "من" و "إلى" تشمل جميع الأصدارت بينهم. وهذا يعني، على سبيل المثال، الصف "من 1.0.0 إلى 2.3.0 " يتضمن 1.0.0 و 2.3.0 و كل الأصدارات بينهم.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+تستطيع أن تجد اصدار تحديث جهازك تحت قائمة تحديثات النظام System Update menu في قسم النظام System tab داخل برنامج إعدادات النظام Settings application.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+ملاحظة: جهازك بالغالب لن يظهر رقم الأصدار للتحديث المحمل مسبقاً والذي وبنتظار التثبيت.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+إذا حدث ذلك في جهازك، تستطيع أن ترى رقم اصدار التحديث المحمل عن طريق الدخول إلى وضع الصيانة Recovery / Maintenance Mode، وذلك بتشغيل جهازك مع الاستمرار بالضغط على (زر التشغيل)+(زر رفع الصوت)+(زر خفض الصوت).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### جدول الإصدارات
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">من</th>
+      <th style="text-align: center; font-weight: bold;">إلى</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -50,22 +50,22 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">بنتظر التحديثات المعدلة CFW -- <a href="blocking-updates">منع التحديثات</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">التحديث باستخدام بطاقة لعبة</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">مشغل الـ Homebrew</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">منع التحديثات</a></td>
     </tr>
   </tbody>
 </table>

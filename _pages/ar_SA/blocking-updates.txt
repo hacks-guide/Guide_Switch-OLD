@@ -4,31 +4,31 @@ title: "حجب التحديثات"
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
+حالياً، الـ Homebrew يعمل فقط على تحديث رقم 3.0.0، ولكن في المستقبل سيكون الدعم للـ Homebrew و التحديثات المعدلة CFW مخطط إصدارها لجميع التحديثات، من أول تحديث صدر للجهاز إلى التحديث رقم 4.1.0 (ونحن بانتظار تحديد الدعم للتحديث رقم 5.0.0).
 
 لضمان الوصول إلى الأنترنت ومنع التحديثات فقط، يجب عليك تعديل إعدادات الـDNS وتحديد الخادم المدرج في الأسفل (تم أستضافته من قبل فريق ReSwitched) والذي يعمل على منع الطلبات الخارجة من جهازك لسيرفر التحديثات لنينتندو.
 
-If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+إذا كنت على تحديث رقم 5.0.0 وتريد الاستمرار باستخدام الخدمات عبر الأنترنت ومع منع التحديثات، تستطيع فعل ذلك ما دام التحديث رقم 5.0.0 هو أخر تحديث تم إصداره (حيث أن ننتيندو لم تسمح إلا لأخر أصدار من تحديثها بالوصول إلى خدمات الأنترنت). لكي تعمل هذه الطريقة، يجب عليك أن تتصل بإحدى خدمات الأنترنت من جهازك (كالاتصال بالمتجر الإلكتروني أو دخول الاون لاين في أحدى الألعاب) على الأقل مرة واحدة وذلك قبل متابعة الخطوات التالية.
 
-و بالإضافة إلى ذلك، سندخل على وضع الصيانة "Recovery / Maintenance Mode" لحذف أي ملفات لتحديث تم تحميلة مسبقاً.
+و بالإضافة إلى ذلك، سندخل على وضع الصيانة Recovery / Maintenance Mode لحذف أي ملفات لتحديث تم تحميله مسبقاً.
 
 ### التعليمات
 
-### القسم الأول-تعديل الـ"DNS"
+### القسم الأول-تعديل الـ DNS
 
-ملاحظة: إعدادات الـ"DNS" يجب إن تعدل على كل الشبكات المحفوظة في جهازك لمنع التحديثات!
+ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المحفوظة في جهازك لمنع التحديثات!
 {: .notice--warning}
 
-1. اذهب إلى "إعدادات النظام"-"System Settings"
-1. انتقل إلى "الأنترنت"-"Internet" -> "إعدادات الإنترنت"-"Internet Settings"
+1. اذهب إلى إعدادات النظام System Settings
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
-1. حدد "تغيير الإعدادات"-"Change Settings"
-1. عيين الـ"DNS Settings" إلى يدوي "Manual"
-1. عيين الـ"Primary DNS" إلى`173.255.238.217`
-1. عيين الـ"Secondary DNS" إلى `173.255.238.217`
+1. حدد تغيير الإعدادات "Change Settings"
+1. عيين الـ "DNS Settings" إلى يدوي "Manual"
+1. عيين الـ "Primary DNS" إلى`173.255.238.217`
+1. عيين الـ "Secondary DNS" إلى `173.255.238.217`
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 

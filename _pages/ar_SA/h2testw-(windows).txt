@@ -4,37 +4,37 @@ title: "H2testw (Windows)"
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
-This is an add-on section for checking your SD card for errors using h2testw.
+هذا قسم إضافي للتحقق من أن الذاكرة الخارجية SD Card خالية من الأخطاء باستخدام برنامج [h2testw].
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+حسب سعة بطاقة الذاكرة وسرعة الحاسب، فقد تستغرق هذه العملية عديدة ساعات!
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+هذه الصفحة تخص مستخدمي نظام التشغيل Windows فقط. إن كان نظام تشغيل حاسبك غير الويندوز، فعليك الذهاب إلى إحدى الصفحات التالية [F3 (linux)](f3-(linux)) أو [F3X (mac)](f3x-(mac)).
 
 ### ما تحتاجة
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* أحدث اصدار من [h2testw][(http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
 ### التعليمات
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. أنسخ ملف `h2testw.exe` من الملف المضغوط h2testw `.zip` إلى سطح المكتب في حاسبك
+1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
+1. شغل البرنامج `h2testw.exe`
+1. أختر أحد من اللغات المتوفرة
+1. انقر "Select Target" (أي اختيار المجلد المستهدف)
+1. اختر في الحاسب حرف قارئ بطاقة SD (مثلا E:\ أو غير ذلك حسب ما عندك)
+1. تأكد أن الخيار المحدد هو "all available space" (الفحص يشمل كل الحيز المتاح)
+1. انقر "Write + Verify" (كتابة و تحقق)
+1. انتظر حتى يتم إكمال العملية
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
+لو كانت النتيجة `Test finished without errors` (تم الفحص دون العثور على أخطاء), فبطاقة الذاكرة SD ليس بها مشكلة. لا تنس أن تحذف الملفات التي تنتهي بالأمتداد `.h2w` التي تركها برنامج الفحص على ذاكرتك
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+لكن لو كانت النتيجة غير ذلك، فبطاقة ذاكرتك الخارجية SD Card قد يكون فيها عطب برمجي أو تلف مادي، و عليك تبديلها بغيرها!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### العودة إلى [أبدأ](get-started)
 {: .notice--primary}

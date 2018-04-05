@@ -1,41 +1,42 @@
 ---
-title: "Homebrew Development"
+title: "تطوير الـHomebrew"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+في الوقت الراهن الأداة الوحيدة لإيجاد الثغرات في جهاز ننتيندو سويتش والتي تم إصدارها للعامة هي بيج سويتش PegaSwitch،والتي تم تطويرها من قبل فريق ري سوتشد ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+إذا كنت مهتم بالتعاون مع أعضاء ري سويتشد ReSwitched بتطوير الـHomebrew، تفقد [ReSwitched on Discord](https://discord.gg/ZdqEhed).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+إذا كنت مهتم بالتعاون مع أعضاء سويتش برو SwitchBrew بتطوير الـHomebrew، تفقد #switchdev في EFnet.
 {: .notice--success}
 
-### Libraries
+### المكتبات
 
-Currently, there are two major libraries used for developing Switch homebrew.
+في الوقت الراهن يوجد هنالك مكتبتين تستخدم لتطوير الـhomebrew لجهاز الننتندو سويتش.
 
 ___
 
-#### Development (libnx)
+#### تطوير بمكتبة (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+مكتبة الـ library تم تطويرها من قبل فريق سوتش برو SwitchBrew وتم بناؤها باستخدام سلسلة أدوات devkitA64.
 
-Binaries can be run on your device using the Homebrew Launcher.
+تستطيع تشغيل الباينري Binaries في جهازك وذلك باستخدام مشغل الـHomebrew.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+أكمل إلى [إعداد بيئة التطوير]
+(http://switchbrew.org/index.php?title=Setting_up_Development_Environment) على SwitchBrew
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### تطوير بمكتبة (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack. 
+مكتبة الـ libtransistor تم تطويرها من قبل فريق ري سوتشد ReSwitched وتم بناؤها باستخدام LLVM / Clang stack. 
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+تستطيع تشغيل الباينري Binaries في حاسبك باستخدام محاكي الـ Mephisto، أو على جهازك باستخدام أما مشغل الـ Homebrew أو محمل الـ ACE.
 
-Continue to [Development (libtransistor)](development-(libtransistor))
+كمل إلى [تطوير الـ(libtransistor)-development)[(libtransistor))
 {: .notice--primary}

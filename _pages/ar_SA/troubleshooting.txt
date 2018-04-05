@@ -1,34 +1,34 @@
 ---
-title: "Troubleshooting"
+title: "إستكشاف الأخطاء وإصلاحها"
 ---
 
 {% include toc title="جدول المحتويات" %}
 
-## # يتطلب القراءة
+### يتطلب القراءة
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+إذا صادفت مشكلة، رجاءا راجع القسم المطابق لمشكلتك وتابع التعليمات.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+إذا لم تتمكن من حل مشكلتك وتريد المساعدة، رجاءا تواصل معنا بوصف مفصل لمشكلتك وما هي محاولاتك لحلها.
 
-## Error 2347-0003
+## خطاء رقم 0003-2347
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+هذا الخطأ يحدث بسبب عدم وجود "nx-hbmenu `.nro`" في ذاكرة جهازك الخارجية SD Card.
 
 ### ما تحتاجة
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* أحدث إصدار من [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)";}
 
 ### التعليمات
 
 1. أطفأ الجهاز
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
+1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) بطاقة الذاكرة الخارجية SD Card لجهازك
+1. أرجع بطاقة الذكرة الخارجية SD Card إلى جهازك
+1. شغل الجهاز الخاص بك
 
-## Enable Extra Error Info
+## فعل معلومات الأخطاء الأضافية
 
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
+هذا النص (script) يفعل خاصية إظهار معلومات إضافية في حال حدوث أي خطأ. ربما تكون مفيدة لأغراض التصحيح (debugging purposes).
 
 ### ما تحتاجة
 
@@ -37,6 +37,6 @@ This script will enable the displaying of extra error info when a fatal error is
 
 ### التعليمات
 
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
+1. إنسخ `extraerrorinfo.js` إلى ملف `/usefulscripts/` في PegaSwitch
+1. أتصل بجهازك باستخدام PegaSwitch
+1. شغل `evalfile usefulscripts/extraerrorinfo.js`

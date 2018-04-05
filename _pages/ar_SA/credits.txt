@@ -2,7 +2,7 @@
 title: "الشكر والتقدير"
 ---
 
-* * شكر خاص لكل من [المترجمين] (https://crowdin.com/project/switch-guide) لكونهم رائعين!* *
+* * شكر خاص لكل من [المترجمين] (https://crowdin.com/project/switch-guide) لكونهم رائعين! **
 {: .notice--primary}
 
 إذا نسيت ذكر اسمك هنا، قم بالتواصل معي لكي أضيف اسمك.
