@@ -34,36 +34,13 @@ ___
 
 ## Что такое кастомная прошивка (CFW)?
 
-По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. В настоящее время она находится в разработке и будет выпущена согласно плану, когда все необходимые компоненты будут завершены.
+По готовности, **кастомная прошивка** ("CFW", "кастом") позволит пользоваться всеми возможностями консоли и делать вещи, недоступные простым пользователям хомбрю. It is currently in development, and has a release tentatively scheduled for summer 2018.
 
-Текущий план по выпуску CFW в порядке возрастания версий прошивок разделён на следующие части: 
+This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version (though version-specific exploits will be required to install it).
 
-<table style="max-width:35em;">
-  <colgroup>
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center; font-weight: bold;">В ближайшем будущем</th>
-      <th style="text-align: center; font-weight: bold;">В будущем</th>
-      <th style="text-align: center; font-weight: bold;">В далёком будущем</th>
-      <th style="text-align: center; font-weight: bold;">Не подтверждено</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
-      <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-    </tr>
-  </tbody>
-</table>
+Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
-Если версия прошивки вашей консоли равна 1.0.0 и вы заинтересованы в кастомной прошивке, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates), приобрести японскую копию игры [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (которая понадобится для кастомной прошивки 1.0.0), и терпеливо ждать выхода кастомной прошивки.
+If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
 {: .notice--info}
 
 Если версия прошивки вашей консоли >=3.0.1, то ваши лучшие действия на настоящий момент это: следовать инструкциям со страницы [Блокировка обновлений](blocking-updates) и терпеливо ждать выхода кастомной прошивки.
@@ -79,7 +56,7 @@ ___
 
 + Поскольку методы взлома Switch постоянно совершенствуются, они ещё не находятся в дружественном к пользователю состоянии. Поэтому в этом руководстве может понадобиться понимание технической части для разрешения всех потенциальных проблем.
 + Область изменений на устройстве ограничена для хоумбрю на текущий момент, что делает вероятность потери данных или нанесения ущерба консоли при использовании популярных хоумбрю-приложений довольно низкой.
-+ Это руководство подходит для консолей Switch с версией прошивки от 1.0.0 до 3.0.0 включительно, с запланированной поддержкой всех версий до 4.1.0 (поддержка версии 5.0.0 еще не подтверждена). Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Инструкции по блокировке обновлений на консолях с версией прошивки >=3.0.1 включены в руководство.
 + Вам понадобится micro SD-карта для вашей консоли. SD-карта должна быть отформатирована в FAT32 и использовать [MBR, а не GPT](http://www.howtogeek.com/245610/) (англ.) (большинство micro SD-карт отформатированы таким образом по умолчанию). 
 + Если вам нужно отформатировать micro SD-карту более 32ГБ под Windows, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 32К.
 
