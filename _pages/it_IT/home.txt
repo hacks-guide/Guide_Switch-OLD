@@ -35,9 +35,7 @@ Se la tua console ha come versione del firmware 3.0.0, avviare homebrew è grati
 
 ## Cosa vuol dire Custom Firmware?
 
-Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. It is currently in development, and has a release tentatively scheduled for summer 2018.
-
-This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version.
+Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
