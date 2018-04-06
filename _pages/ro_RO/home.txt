@@ -34,9 +34,7 @@ Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a a
 
 ## Ce este Custom Firmware?
 
-Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. It is currently in development, and has a release tentatively scheduled for summer 2018.
-
-This release will include a hardware vulnerability ("fusée gelée") which is compatible with all current Nintendo Switch devices regardless of firmware version.
+Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
