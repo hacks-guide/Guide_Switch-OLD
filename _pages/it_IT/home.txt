@@ -35,36 +35,11 @@ Se la tua console ha come versione del firmware 3.0.0, avviare homebrew è grati
 
 ## Cosa vuol dire Custom Firmware?
 
-Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. È attualmente in sviluppo e verrà rilasciato secondo il programma non appena verranno completati i suoi componenti.
+Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Al momento, il programma di rilascio del CFW segue le versioni del firmware in ordine crescente ed è così diviso: 
+Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
-<table style="max-width:35em;">
-  <colgroup>
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center; font-weight: bold;">Futuro Vicino</th>
-      <th style="text-align: center; font-weight: bold;">Futuro Distante</th>
-      <th style="text-align: center; font-weight: bold;">Futuro Lontano</th>
-      <th style="text-align: center; font-weight: bold;">Da Determinare</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
-      <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-    </tr>
-  </tbody>
-</table>
-
-Se la tua console ha come versione del firmware 1.0.0 e sei interessato al CFW, faresti meglio a seguire la pagina su come [bloccare gli aggiornamenti](blocking-updates), comprare una copia giapponese di [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (necessaria per il Custom Firmware su 1.0.0), e aspettare pazientemente il rilascio del CFW.
+If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
 {: .notice--info}
 
 Se la tua console ha una versione del firmware uguale o maggiore a 3.0.1, faresti meglio a seguire la pagina su come su come [bloccare gli aggiornamenti](blocking-updates) e aspettare pazientemente il rilascio del CFW.
@@ -80,9 +55,9 @@ Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe 
 
 + Sebbene le hack per switch si stanno evolvendo constantemente, non sono ancora del tutto user-friendly. Perciò, questa guida potrebbe richiedere una minima conoscenza tecnica per poter poi risolvere eventuali problemi.
 + Al momento, lo scopo della modifica della console è limitato per molti homebrew, quindi è molto difficile perdere dati o danneggiare la console utilizzando programmi homebrew.
-+ Questa guida funzionerà su tutte le Switch con firmware compreso tra 1.0.0 e 3.0.0. Tutte le versioni successive fino a 4.1.0 verranno supportate in futuro. (con il supporto per 5.0.0 ancora da determinarsi). Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
 + Ti servirà una scheda micro SD per la console. Deve essere formattata in Fat32 e [MBR, non GPT](http://www.howtogeek.com/245610/) (la maggior parte delle schede micro SD sarà già formattata in questo modo). 
-+ Se devi formattare una scheda micro SD più grande di 32gb su Windows, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

@@ -34,36 +34,11 @@ If ye device be on th' firmware version 'o 3.0.0, runnin' homebrew on ye device 
 
 ## What be Custom Firmware?
 
-Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It indeed be currently in development, however, 'n it gunna be released accordin' to schedule when all relevant components 'o it be completed.
+Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Th' current CFW release schedule be in th' order 'o ascending firmware versions, divided into th' followin' tiers: 
+Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
-<table style="max-width:35em;">
-  <colgroup>
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center; font-weight: bold;">Near Future</th>
-      <th style="text-align: center; font-weight: bold;">Distant Future</th>
-      <th style="text-align: center; font-weight: bold;">Far Future</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
-      <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-    </tr>
-  </tbody>
-</table>
-
-If ye device be on firmware version 1.0.0 'n ye have interest in CFW, ye best current option be to follow 'tis guide's [Blockin' Updates](blocking-updates) page, pick up a Japanese copy 'o [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which gunna be required fer 1.0.0 Custom Firmware), 'n be waitin' patiently fer a CFW release.
+If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
 {: .notice--info}
 
 If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
@@ -79,9 +54,9 @@ If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought 
 
 + While Switch hacks be constantly progressin', they be still a bit user-unfriendly. On account 'o 'tis fact, 'tis guide may require some understandin' 'o certain technology in order to troubleshoot any issues that may come up.
 + Th' scope 'o device modification be limited fer most homebrew right now, meanin' there be little chance 'o data loss or console damage when usin' popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Instructions be included fer blockin' updates on devices wit' firmware >=3.0.1.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instructions be included fer blockin' updates on devices wit' firmware >=3.0.1.
 + Ye gunna be needin' a microSD card fer ye device. It should be formatted as FAT32 'n [MBR, not GPT](http://www.howtogeek.com/245610/) (most microSD cards gunna be formatted 'tis way by default). 
-+ If ye need to format a microSD card larger than 32GB on Windows, ye can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) set to an Allocation Unit Size 'o 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 

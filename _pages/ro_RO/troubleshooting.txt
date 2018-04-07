@@ -33,7 +33,7 @@ Acest program va permite afișarea de informații suplimentare despre erori atun
 ### Ce aveți nevoie
 
 * [PegaSwitch](pegaswitch)
-* [`extraerrorinfo.js`]({{ "/images/extraerrorinfo.js" | absolute_url }})
+* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
 
 ### Instrucțiuni
 
