@@ -6,11 +6,11 @@ title: "Blocarea actualizarilor"
 
 ### Lectură obligatorie
 
-În prezent, homebrew este disponibil numai pentru versiunea 3.0.0, dar în viitor va fi suport pentru homebrew și CFW până la versiunea 4.1.0 (cu suport la 5.0.0 în curs de determinare).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 - 5.0.1 to be determined).
 
 Pentru a putea garanta accesul pe viitor, vom seta DNS-ul rețelei la un server (întreținut de ReSwitched) care blochează solicitările pentru actualizare de Nintendo către Switch.
 
-If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.1 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.1 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 În plus, vom accesa Recovery / Maintenance Mode şi vom şterge orice actualizare care s-ar fi descărcat deja.
 

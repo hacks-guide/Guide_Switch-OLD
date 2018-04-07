@@ -6,11 +6,11 @@ judul: "Blocking Updates"
 
 ### Bacaan yang Perlu Dibaca
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 to be determined).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 - 5.0.1 to be determined).
 
 Untuk menjamin akses ke masa depan, kami menetapkan DNS jaringan Anda saat ini ke server (host oleh ReSwitched) yang memblokir permintaan ke server pembaruan Switch milik Nintendo.
 
-If you are on firmware version 5.0.0 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.0 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.1 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.1 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Selain itu, kami memasuki Mode Pemulihan / Pemeliharaan dan menghapus pembaharuan data yang mungkin sudah di unduh.
 

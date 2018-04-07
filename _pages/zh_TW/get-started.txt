@@ -55,7 +55,7 @@ title: "新手入門"
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="game-card-update">遊戲卡帶更新</a></td>
+      <td style="text-align: center; font-weight: bold;">Wait for CFW or<a href="game-card-update">Game Card Update</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -64,8 +64,8 @@ title: "新手入門"
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">阻擋更新</a></td>
+      <td style="text-align: center; font-weight: bold;">5.0.1</td>
+      <td style="text-align: center; font-weight: bold;">等待自製系統 -- <a href="blocking-updates">阻擋更新</a></td>
     </tr>
   </tbody>
 </table>

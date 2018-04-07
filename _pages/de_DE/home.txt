@@ -34,36 +34,11 @@ Wenn dein Gerät auf Firmware Version 3.0.0 ist, kannst du komplett kostenlos Ho
 
 ## Was ist Custom Firmware?
 
-Sobald veröffentlicht, ermöglicht **Custom Firmware** ("CFW") dir fortgeschrittene Hacks, welche Userland-Homebrew nicht ohne weiteres erlaubt. Es ist aktuell in Entwicklung und wird gemäß des Veröffentlichungsplans veröffentlich sobald alle Komponenten fertiggestellt wurden.
+Sobald veröffentlicht, ermöglicht **Custom Firmware** ("CFW") dir fortgeschrittene Hacks, welche Userland-Homebrew nicht ohne weiteres erlaubt. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Der aktuelle CFW Veröffentlichungsplan ist aufsteigend der Firmware Versionen sortiert, aufgeteilt in folgende Stufen: 
+Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
-<table style="max-width:35em;">
-  <colgroup>
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center; font-weight: bold;">Nahe Zukunft</th>
-      <th style="text-align: center; font-weight: bold;">Ferne Zukunft</th>
-      <th style="text-align: center; font-weight: bold;">Sehr ferne Zukunft™</th>
-      <th style="text-align: center; font-weight: bold;">To Be Determined</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">2.0.0 - 3.0.0</td>
-      <td style="text-align: center; font-weight: bold;">3.0.1 - 4.1.0</td>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-    </tr>
-  </tbody>
-</table>
-
-Wenn dein Gerät auf Firmware Version 1.0.0 ist und du interessiert an CFW bist, dann ist deine beste Option dieser Anleitung [Updates blockieren](blocking-updates) zu folgen. Kaufe eine japanische Version von [Puyo Puyo Tetris](http://amzn.to/2BMJa26) (welche benötigt wird für Custom Firmware auf Version 1.0.0) und warte auf die Veröffentlichung einer Custom Firmware.
+If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
 {: .notice--info}
 
 If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
@@ -79,9 +54,9 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 
 + Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
 + Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all versions up to 4.1.0 having planned future support (with support for 5.0.0 to be determined). Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
++ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
 + Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
