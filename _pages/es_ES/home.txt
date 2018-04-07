@@ -34,11 +34,11 @@ Si tu consola se encuentra en versión del sistema 3.0.0, correr homebrew en tu 
 
 ## ¿Qué es Custom Firmware?
 
-Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar hacks más avanzados que el homebrew en el espacio del usuario no puede utilizar con facilidad. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar hacks más avanzados que el homebrew en el espacio del usuario no puede utilizar con facilidad. Se encuentra en desarrollo, y tiene una fecha tentativa de disponibilidad para el verano de 2018. Para más detalles, revisa [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+Adicionalmente, dependiendo del tiempo disponible de desarrollo, es posible que las consolas en firmware versión 1.0.0 tengan disponibilidad de CFW más temprana debido a una vulnerabilidad de sólo-software la cual no está presente en versiones más actuales.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Si tu consola se encuentra en la versión 1.0.0 y estás interesado en conseguir CFW antes, tu mejor opción en este momento es seguir la página sobre [bloqueo de actualizaciones](blocking-updates) de esta guía, conseguir una copia japonesa de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (la cual será necesaria para Custom Firmware en 1.0.0) y esperar pacientemente al lanzamiento de CFW.
 {: .notice--info}
 
 Si tu consola tiene una versión de firmware >=3.0.1, la mejor opción a seguir es la página [Bloquear actualizaciones](blocking-updates) de esta guía y esperar pacientemente a que un CFW esté disponible.
@@ -54,9 +54,9 @@ Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la gu
 
 + A pesar de que los hacks en Switch están progresando constantemente, aún no se encuentran en un estado amigable para el usuario. Por lo tanto, esta guía puede requerir de algunos conocimientos técnicos para solucionar los problemas que puedan surgir.
 + El alcance de las modificaciones en la consola es muy limitado para la mayoría de homebrew existente, lo cual significa que existen pocas posibilidades de pérdida de datos o daños a la consola por el uso de aplicaciones de homebrew populares.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
++ Esta guía servirá en todas las consolas Switch en firmware 1.0.0 a 3.0.0, y el resto de versiones con soporte planeado para el futuro. Hay instrucciones incluidas para bloquear actualizaciones en consolas con versiones del sistema 3.0.1 o superiores.
 + Necesitarás una tarjeta Micro SD para tu consola. Debería estar formateada en formato FAT32 y ser [MBR, no GPT (http://www.howtogeek.com/245610/) (la mayoría de tarjetas Micro SD están formateadas así por defecto). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Si necesitas formatear una tarjeta SD de más de 32gb en Windows, puedes utilizar [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación (Allocation Unit Size) en 32K.
 
 ___
 

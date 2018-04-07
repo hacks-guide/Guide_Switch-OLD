@@ -35,11 +35,11 @@ ___
 
 # # ما هي التحديثات المعدلة Custom Firmware ؟
 
-حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. وهي بالوقت الراهن تحت التطوير، وموعد الأصدار المتوقع لها هو صيف سنة 2018. للمزيد من المعلومات، أنظر إلى [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+بالإضافة إلى ذلك، وبنائاَ على الوقت المخصص للتطويرها، فمن المحتمل أن الأجهزة على التحديث رقم 1.0.0 قد تحصل على إصدار مبكر للـCFW بسبب وجود نقاط ضعف بذلك التحديث والتي تم معالجتها في التحديثات التي أصدرت بعد التحديث رقم 1.0.0.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+إذا كان جهازك بتحديث باصدار رقم 1.0.0 وأنت مهتم باصدار مبكر للتحديثات المعدلة CFW، فأفضل خيار لك هو بإتباع هذا الدليل [منع التحديثات](blocking-updates)، وأحصل على نسخة من [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (والتي ستكون مطلوبة للتحديث رقم 1.0.0 لتشغيل التحديثات المعدلة CFW)، وأنتظر بصبر لأصدار الـ CFW.
 {: .notice--info}
 
 إذا كان جهازك على تحديث رقم 3.0.1 أو أعلى، أفضل خيار حالي لك الآن هو بتباع صفحة هذا الدليل [منع التحديثات](blocking-updates) ونتظر بصبر إلى حين إصدار التحديثات المعدلة CFW.
@@ -55,9 +55,9 @@ If your device is on firmware version 1.0.0 and you are interested in early CFW 
 
 + مع أن تهكير النينتيندو سوتش في تطور مستمر، إلا أنه ليست مناسبة للمستخدم العادي في الوقت الراهن. فبذلك، هذا الدليل يتطلب بعض المعرفة التكنولوجية لحل المشاكل في حال مصادفتك لها.
 + نطاق التعديل على الأجهزة المتاح للـ homebrew في الوقت الحالي محدود، مما يعني أن هناك احتمال بسيط جداً بفقدان البيانات أو إحداث أضرار على جهازك في حال استخدام homebrew موثوق.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. التعليمات مرفقة لمنع التحديثات للأجهزة ذات أصدارة 3.0.1 وأعلى.
++ هذا الدليل سيعمل على كل أجهزة ننتيندو سويتش بتحديث من 1.0.0 إلى 3.0.0، ومع خطة لدعم الأصدارات المتبقية من في المستقبل. التعليمات مرفقة لمنع التحديثات للأجهزة ذات أصدارة 3.0.1 وأعلى.
 + ستحتاج ذاكرة خارجية micro SD card لجهازك. يجب تهيئتها بصيغة Fat32 وتكون [MBR, وليست GPT] (http://www.howtogeek.com/245610/) (معضم الذاكرات الخارجية مهيئة لهذه الصيغة بشكل افتراضي). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ إذا أرد تهيئة ذاكرتك الخارجية micro SD card أكبر من 32gb في Windows، تستطيع أستخدام برنامج [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) و ضع الـ Allocation Unit Size إلى 32K.
 
 ___
 
