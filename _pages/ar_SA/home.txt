@@ -35,7 +35,7 @@ ___
 
 # # ما هي التحديثات المعدلة Custom Firmware ؟
 
-حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. وهي بالوقت الراهن تحت التطوير، وموعد الأصدار المتوقع لها هو صيف سنة 2018. للمزيد من المعلومات، أنظر إلى [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
