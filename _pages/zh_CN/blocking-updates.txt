@@ -29,7 +29,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 选择 "Change Settings"
 1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. 设置 "Primary DNS" 为 `173.255.238.217`
-1. 设置 "Secondary DNS" 为 `173.255.238.217`
+1. 将“Secondary DNS”（次DNS）设为 `173.255.238.217`
 1. 保存网络设置
 1. 退出系统设置
 
@@ -38,7 +38,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 关闭你的设备电源
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. 不要选择任何选项
-1. 只需进入此菜单，任何已下载的更新数据都已从您的系统中删除
+1. 只要进入该菜单，所有已下载的更新数据都会从你的系统重删除
 1. 长按电源键关机
 
 ___
