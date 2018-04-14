@@ -1,57 +1,57 @@
 ---
 main:
   - 
-    title: Home
+    title: Αρχική
     url: /
   - 
-    title: FAQ
+    title: Συχνές Ερωτήσεις
     url: faq
   - 
-    title: Donations
+    title: Δωρεές
     url: donations
   - 
-    title: Credits
+    title: Συντελεστές
     url: credits
   - 
-    title: Troubleshooting
+    title: Αντιμετώπιση Προβλημάτων
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Ανάπτυξη για Homebrew
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Πλοήγηση Iστοτόπου
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Για υποστήριξη στα Αγγλικά, ζητήστε βοήθεια στο <a href="https://discord.gg/ZdqEhed">ReSwitched στο Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Εάν σας βοηθήσε αυτός ο οδηγός, μπορείτε να κάνετε μια <a href="donations">Δωρεά</a>.
 footer:
   - 
-    title: Source
+    title: Κώδικας
   - 
-    title: Site Navigation
+    title: Πλοήγηση Iστοτόπου
   - 
-    title: Why Ads?
+    title: Γιατί βλέπω διαφημίσεις;
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Συνολική πρόοδος
 sidebar_pages:
   - 
-    title: Home
+    title: Αρχική
     url: /
   - 
-    title: Get Started
+    title: Ας αρχίσουμε
     url: get-started
   - 
-    title: Blocking Updates
+    title: Αποκλεισμός ενημερώσεων
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Ενημέρωση μέσω Kασέτας Παιχνιδιού
     url: game-card-update
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Πολλαπλές επιλογές
     url: multiple-options
