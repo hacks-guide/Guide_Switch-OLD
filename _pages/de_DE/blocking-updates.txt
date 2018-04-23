@@ -27,8 +27,8 @@ Beachte, dass diese DNS-Server für jedes deiner Netzwerke einzeln gesetzt werde
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"
 1. Setze "DNS-Einstellungen" auf "Manuell"
-1. Setze "Primärer DNS" zu "173.255.238.217"
-1. Setze "Sekundärer DNS" zu "173.255.238.217"
+1. Setze "Primärer DNS" zu `104.236.106.125`
+1. Setze "Sekundärer DNS" zu `62.210.147.20`
 1. Speichere die Einstellungen
 1. Verlasse die Systemeinstellungen
 
