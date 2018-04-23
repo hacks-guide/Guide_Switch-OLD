@@ -34,7 +34,7 @@ If ye device be on th' firmware version 'o 3.0.0, runnin' homebrew on ye device 
 
 ## What be Custom Firmware?
 
-Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
