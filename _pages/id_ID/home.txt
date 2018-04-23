@@ -34,7 +34,7 @@ Jika perangkat Anda menggunakan firmware versi 3.0.0, menjalankan homebrew pada 
 
 ## Apa itu Custom Firmware?
 
-Saat dirilis, **Custom Firmware** ("CFW") akan memungkinkan Anda untuk menggunakan hacks yang lebih canggih yang tidak dapat dilakukan dengan mudah oleh pengguna homebrew rumahan. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Saat dirilis, **Custom Firmware** ("CFW") akan memungkinkan Anda untuk menggunakan hacks yang lebih canggih yang tidak dapat dilakukan dengan mudah oleh pengguna homebrew rumahan. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
