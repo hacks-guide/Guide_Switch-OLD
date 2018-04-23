@@ -35,7 +35,7 @@ ___
 
 ## 什麼是自製韌體 (Custom Firmware)？
 
-在推出後，**自製韌體** (CFW) 可以做些使用者空間中自製程式無法輕易做到的更高階的修改及破解。 It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+在推出後，**自製韌體** (CFW) 可以做些使用者空間中自製程式無法輕易做到的更高階的修改及破解。 It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
