@@ -27,8 +27,8 @@ Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos c
   + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
 1. Selecciona "Modificar los ajustes"
 1. Establece la "Configuración del DNS" en "Modo manual"
-1. Establece el "DNS primario" como `173.255.238.217`
-1. Establece el "DNS secundario" como `173.255.238.217`
+1. Establece el "DNS primario" como `104.236.106.125`
+1. Establece el "DNS secundario" como `62.210.147.20`
 1. Guarda la configuración de red
 1. Sal de la Configuración de la consola
 
