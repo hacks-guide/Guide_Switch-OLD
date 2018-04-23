@@ -27,8 +27,8 @@ If you are on firmware version 5.0.1 and wish to continue to use online services
   + 已連上的網路旁邊會有一個綠色勾勾
 1. 選擇『更改設置 (Change Settings)』
 1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
-1. 將『主要 DNS (Primary DNS)』改為 `173.255.238.217`
-1. 將『次要 DNS (Secondary DNS)』改為 `173.255.238.217`
+1. 將『主要 DNS (Primary DNS)』改為 `104.236.106.125`
+1. 將『次要 DNS (Secondary DNS)』改為 `62.210.147.20`
 1. 儲存網路設定
 1. 退出系統設定
 
