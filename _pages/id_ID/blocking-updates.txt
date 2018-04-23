@@ -27,8 +27,8 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
   + Ini ditandai dengan tanda centang hijau di sebelah jaringan
 1. Pilih "Change Settings"
 1. Atur "DNS Settings" ke "Manual"
-1. Atur "Primary DNS" ke `173.255.238.217`
-1. Atur "Secondary DNS" ke `173.255.238.217`
+1. Atur "Primary DNS" ke `104.236.106.125`
+1. Atur "Secondary DNS" ke`62.210.147.20`
 1. Simpan pengaturan jaringan
 1. Keluar dari Pengaturan Sistem
 
