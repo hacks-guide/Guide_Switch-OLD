@@ -27,8 +27,8 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
   + Ceci est indiqué par une coche verte à côté du réseau
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
-1. Mettez "DNS primaire" à `173.255.238.217`
-1. Mettez "DNS secondaire" à `173.255.238.217`
+1. Mettez "DNS primaire" à `104.236.106.125`
+1. Mettez "DNS secondaire" à `62.210.147.20`
 1. Sauvegardez les paramètres du réseau
 1. Sortez des Paramètres de la console
 
