@@ -34,7 +34,7 @@ Si tu consola se encuentra en versión del sistema 3.0.0, correr homebrew en tu 
 
 ## ¿Qué es Custom Firmware?
 
-Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar hacks más avanzados que el homebrew en el espacio del usuario no puede utilizar con facilidad. Se encuentra en desarrollo, y tiene una fecha tentativa de disponibilidad para el verano de 2018. Para más detalles, revisa [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Cuando se lance en el futuro, un **Custom Firmware** ("CFW") te permitirá usar hacks más avanzados que el homebrew en el espacio del usuario no puede utilizar con facilidad. It is currently in development, and has a release scheduled for June 2018. Para más detalles, revisa [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Adicionalmente, dependiendo del tiempo disponible de desarrollo, es posible que las consolas en firmware versión 1.0.0 tengan disponibilidad de CFW más temprana debido a una vulnerabilidad de sólo-software la cual no está presente en versiones más actuales.
 
