@@ -33,9 +33,9 @@ ___
 
 #### Development (libtransistor)
 
-Perpustakaan libtransistor dikembangkan oleh ReSwitched dan dibangun pada LLVM / Clang. 
+Perpustakaan libtransistor dikembangkan oleh ReSwitched dan dibangun pada LLVM / Clang.
 
 Binari dapat dijalankan pada PC Anda menggunakan Mephisto emulator, atau pada perangkat Anda menggunakan Homebrew Launcher atau ACE Loader.
 
-Lanjutkan ke [Development (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

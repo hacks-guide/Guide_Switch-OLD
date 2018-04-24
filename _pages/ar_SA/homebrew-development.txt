@@ -34,9 +34,9 @@ ___
 
 #### تطوير بمكتبة (libtransistor)
 
-مكتبة الـ libtransistor تم تطويرها من قبل فريق ري سوتشد ReSwitched وتم بناؤها باستخدام LLVM / Clang stack. 
+مكتبة الـ libtransistor تم تطويرها من قبل فريق ري سوتشد ReSwitched وتم بناؤها باستخدام LLVM / Clang stack.
 
 تستطيع تشغيل الباينري Binaries في حاسبك باستخدام محاكي الـ Mephisto، أو على جهازك باستخدام أما مشغل الـ Homebrew أو محمل الـ ACE.
 
-كمل إلى [تطوير الـ(libtransistor)-development)[(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

@@ -30,7 +30,6 @@ sitemap: false
 + [Acasă](/)
 + [Dezvoltarea homebrew-ului](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
-+ [PegaSwitch](pegaswitch)
 + [Depanare](troubleshooting)
 + [De ce sunt reclame?](why-ads)
 {% endcapture %}

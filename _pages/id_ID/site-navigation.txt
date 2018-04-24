@@ -30,7 +30,6 @@ sitemap: false
 + [Home](/)
 + [Homebrew Development](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
-+ [PegaSwitch](pegaswitch)
 + [Troubleshooting](troubleshooting)
 + [Why Ads?](why-ads)
 {% endcapture %}

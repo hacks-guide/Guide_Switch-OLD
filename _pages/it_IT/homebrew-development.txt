@@ -33,9 +33,9 @@ ___
 
 ### Sviluppo (libtransistor)
 
-La libreria di libtransistor è stata sviluppata da ReSwitched e compilata tramite LLVM e Clang. 
+La libreria di libtransistor è stata sviluppata da ReSwitched e compilata tramite LLVM e Clang.
 
 Il prodotto finale può essere eseguito sul tuo PC usando l'emulatore Mephisto, o sulla tua console tramite l'Homebrew Launcher o l'ACE Loader.
 
-Continua su [Sviluppo (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

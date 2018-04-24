@@ -25,18 +25,3 @@ Această eroare apare când fișierul nx-hbmenu`.nro` nu este găsit pe cardul S
 1. Copiați `hbmenu.nro` de la nx-hbmenu `.zip` pe rădăcina cardului SD
 1. Reintroduceţi cardul SD în dispozitiv
 1. Porniți dispozitivul
-
-## Activarea informațiilor sumplimentare despre erori
-
-Acest program va permite afișarea de informații suplimentare despre erori atunci când veți întâmpina o eroare fatală. Acesta poate fi util în scopuri de debug.
-
-### Ce aveți nevoie
-
-* [PegaSwitch](pegaswitch)
-* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
-
-### Instrucțiuni
-
-1. Copiați fișierul `extraerrorinfo.js` în folderul `/usefulscripts/` de pe PegaSwitch
-1. Conectați consola folosind PegaSwitch
-1. Porniți `evalfile usefulscripts/extraerrorinfo.js`

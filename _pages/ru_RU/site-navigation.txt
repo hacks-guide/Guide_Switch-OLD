@@ -30,7 +30,6 @@ sitemap: false
 + [Главная](/)
 + [Разработка хоумбрю](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
-+ [PegaSwitch](pegaswitch)
 + [Проблемы и их решения](troubleshooting)
 + [Зачем реклама?](why-ads)
 {% endcapture %}
