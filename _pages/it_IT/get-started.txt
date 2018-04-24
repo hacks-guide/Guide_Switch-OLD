@@ -55,7 +55,7 @@ Se questo è il caso, puoi vedere la versione della tua console dalla modalità 
     <tr>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW or<a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;">Aspetta il CFW oppure fai un <a href="game-card-update">Aggiornamento tramite Scheda di Gioco</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -64,7 +64,7 @@ Se questo è il caso, puoi vedere la versione della tua console dalla modalità 
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
-      <td style="text-align: center; font-weight: bold;">5.0.1</td>
+      <td style="text-align: center; font-weight: bold;">5.0.2</td>
       <td style="text-align: center; font-weight: bold;">Aspetta il CFW -- <a href="blocking-updates">Bloccare gli Aggiornamenti</a></td>
     </tr>
   </tbody>

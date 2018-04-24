@@ -34,7 +34,7 @@ If ye device be on th' firmware version 'o 3.0.0, runnin' homebrew on ye device 
 
 ## What be Custom Firmware?
 
-Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Though it be not released fer th' moment, **Custom Firmware** ("CFW") gunna be lettin' ye use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
@@ -56,7 +56,7 @@ If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought 
 + Th' scope 'o device modification be limited fer most homebrew right now, meanin' there be little chance 'o data loss or console damage when usin' popular homebrew applications.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instructions be included fer blockin' updates on devices wit' firmware >=3.0.1.
 + Ye gunna be needin' a microSD card fer ye device. It should be formatted as FAT32 'n [MBR, not GPT](http://www.howtogeek.com/245610/) (most microSD cards gunna be formatted 'tis way by default). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

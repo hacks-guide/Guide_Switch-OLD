@@ -34,7 +34,7 @@ Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a a
 
 ## Ce este Custom Firmware?
 
-Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
@@ -56,7 +56,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 + Scopul modificării consolei este limitat momentan pentru aplicațiile homebrew, ceea ce înseamnă că șansele de pierdere a datelor sau de stricare a consolei sunt mici atunci când folosiți aplicații homebrew de la surse populare.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
 + Aveți nevoie de un card micro SD pentru consola dumneavoastră. Ar trebui să fie formatat în Fat32 şi [MBR, nu GPT](http://www.howtogeek.com/245610/) (cele mai multe carduri micro SD vor fi formatate în acest fel în mod implicit). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

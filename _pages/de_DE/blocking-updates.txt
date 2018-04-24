@@ -6,11 +6,11 @@ title: "Updates blockieren"
 
 ### Wichtig
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 - 5.0.1 to be determined).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 Um zuķunftigen Zugang zu gewährleisten, setzen wir einen von ReSwitched gehosteten Server als DNS, der sämtliche Verbindungsversuche zu Nintendos Update-Servern blockiert.
 
-If you are on firmware version 5.0.1 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.1 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Zusätzlich starten wir in den Wiederherstellungs- / Wartungsmodus und löschen damit alle Update-Daten, die die Switch bereits potenziell heruntergeladen hat.
 
@@ -27,8 +27,8 @@ Beachte, dass diese DNS-Server für jedes deiner Netzwerke einzeln gesetzt werde
   + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
 1. Wähle "Einstellungen ändern"
 1. Setze "DNS-Einstellungen" auf "Manuell"
-1. Setze "Primärer DNS" zu "173.255.238.217"
-1. Setze "Sekundärer DNS" zu "173.255.238.217"
+1. Setze "Primärer DNS" zu `104.236.106.125`
+1. Setze "Sekundärer DNS" zu `62.210.147.20`
 1. Speichere die Einstellungen
 1. Verlasse die Systemeinstellungen
 

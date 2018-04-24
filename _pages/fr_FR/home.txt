@@ -34,7 +34,7 @@ Si votre console possède la version de firmware 3.0.0, exécuter des homebrew e
 
 ## Qu'est-ce qu'un Custom Firmware ?
 
-Quand il sera publié, un **Custom Firmware** ("CFW") vous permettra d'utiliser des hacks plus avancés que les homebrew "userland" ne peuvent pas réaliser facilement. Il est actuellement en développement, et sa sortie est potentiellement prévue pour l'été 2018. Pour plus de détails, consultez la [FAQ de Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee).
+Quand il sera publié, un **Custom Firmware** ("CFW") vous permettra d'utiliser des hacks plus avancés que les homebrew "userland" ne peuvent pas réaliser facilement. It is currently in development, and has a release scheduled for June 2018. Pour plus de détails, consultez la [FAQ de Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee).
 
 De plus, en fonction du temps disponible pour son développement, il est possible que les consoles en version de firmware 1.0.0 obtiennent un CFW plus tôt, grâce à une vulnérabilité purement logicielle qui n'est pas présente dans les versions ultérieures.
 
@@ -56,7 +56,7 @@ Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être consid�
 + La portée de modification de la console est limitée pour la plupart des homebrews actuels, ce qui réduit drastiquement la probabilité de perte de données ou d'endommagement de la console à l'utilisation d'applications homebrew communes.
 + Ce guide fonctionnera sur toutes les consoles Switch possédant une version de firmware de 1.0.0 à 3.0.0, toutes les autres versions ayant un support futur prévu. Des instructions sont fournies pour bloquer les mises à jour sur les consoles avec une version du firmware >= 3.0.1.
 + Vous aurez besoin d'une carte micro SD pour votre console. Elle devra être formatée en FAT32 et [MBR, pas GPT](http://www.howtogeek.com/245610/) (la plupart des cartes micro SD seront formatées comme ceci par défaut). 
-+ Si vous avez besoin de formater une carte micro SD de plus de 32 Go sous Windows, vous pouvez utiliser [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et utiliser une taille d'unité d'allocation de 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

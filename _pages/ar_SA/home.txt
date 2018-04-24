@@ -35,7 +35,7 @@ ___
 
 # # ما هي التحديثات المعدلة Custom Firmware ؟
 
-حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. وهي بالوقت الراهن تحت التطوير، وموعد الأصدار المتوقع لها هو صيف سنة 2018. للمزيد من المعلومات، أنظر إلى [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+حين أصدارها، **التحديثات المعدلة** ("CFW") ستمكنك من تفعيل أختراقات متطورة لن يستطيع homebrew اليوزر لاند userland تمكينها بسهولة. It is currently in development, and has a release scheduled for June 2018. للمزيد من المعلومات، أنظر إلى [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 بالإضافة إلى ذلك، وبنائاَ على الوقت المخصص للتطويرها، فمن المحتمل أن الأجهزة على التحديث رقم 1.0.0 قد تحصل على إصدار مبكر للـCFW بسبب وجود نقاط ضعف بذلك التحديث والتي تم معالجتها في التحديثات التي أصدرت بعد التحديث رقم 1.0.0.
 
@@ -57,7 +57,7 @@ ___
 + نطاق التعديل على الأجهزة المتاح للـ homebrew في الوقت الحالي محدود، مما يعني أن هناك احتمال بسيط جداً بفقدان البيانات أو إحداث أضرار على جهازك في حال استخدام homebrew موثوق.
 + هذا الدليل سيعمل على كل أجهزة ننتيندو سويتش بتحديث من 1.0.0 إلى 3.0.0، ومع خطة لدعم الأصدارات المتبقية من في المستقبل. التعليمات مرفقة لمنع التحديثات للأجهزة ذات أصدارة 3.0.1 وأعلى.
 + ستحتاج ذاكرة خارجية micro SD card لجهازك. يجب تهيئتها بصيغة Fat32 وتكون [MBR, وليست GPT] (http://www.howtogeek.com/245610/) (معضم الذاكرات الخارجية مهيئة لهذه الصيغة بشكل افتراضي). 
-+ إذا أرد تهيئة ذاكرتك الخارجية micro SD card أكبر من 32gb في Windows، تستطيع أستخدام برنامج [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) و ضع الـ Allocation Unit Size إلى 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

@@ -6,11 +6,11 @@ title: "Bloquear actualizaciones"
 
 ### Lectura requerida
 
-Actualmente, el uso de homebrew solo es posible en firmware versión 3.0.0, pero está planeado a futuro el soporte para homebrew y CFW en todas las versiones hasta 4.1.0 (con el soporte para 5.0.0 - 5.0.1 por ser determinado).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 Para garantizar el acceso a homebrew en el futuro, establecemos los DNS de la configuración de internet de la consola a un servidor (mantenido por ReSwitched) que bloquea las peticiones al servidor de actualizaciones de Nintendo para la Switch.
 
-Si estás en versión de firmware 5.0.1 y deseas continuar usando servicios en línea con las actualizaciones bloqueadas, puedes hacerlo mientras la versión 5.0.1 siga siendo la más reciente (dado que solo está permitido acceder a servicios en línea en la versión más reciente). Para que esto funcione, el único requisito es que debes haberte conectado al menos una vez a algún servicio en línea antes de seguir estas instrucciones.
+If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). Para que esto funcione, el único requisito es que debes haberte conectado al menos una vez a algún servicio en línea antes de seguir estas instrucciones.
 
 Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos cualquier dato de actualización que pudiere haberse descargado con anterioridad.
 
@@ -27,8 +27,8 @@ Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos c
   + Esta se encuentra indicada por una marca verde ubicada al lado de dicha red
 1. Selecciona "Modificar los ajustes"
 1. Establece la "Configuración del DNS" en "Modo manual"
-1. Establece el "DNS primario" como `173.255.238.217`
-1. Establece el "DNS secundario" como `173.255.238.217`
+1. Establece el "DNS primario" como `104.236.106.125`
+1. Establece el "DNS secundario" como `62.210.147.20`
 1. Guarda la configuración de red
 1. Sal de la Configuración de la consola
 

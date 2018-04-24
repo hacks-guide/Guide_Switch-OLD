@@ -35,7 +35,7 @@ ___
 
 ## 什麼是自製韌體 (Custom Firmware)？
 
-在推出後，**自製韌體** (CFW) 可以做些使用者空間中自製程式無法輕易做到的更高階的修改及破解。 It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+在推出後，**自製韌體** (CFW) 可以做些使用者空間中自製程式無法輕易做到的更高階的修改及破解。 It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
 Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
 
@@ -57,7 +57,7 @@ If your device is on firmware version 1.0.0 and you are interested in early CFW 
 + 目前大部分的自製軟體能進行任何改機的能力是非常有限的，也就是說，在使用熱門的自製軟體時是不大可能造成資料損失或系統損壞的。
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. >= 3.0.1 系統版本的 Switch 能先透過本手冊的指示阻擋未來更新。
 + 您的主機將需要一張 micro SD 卡。 而且其應格式化為 Fat32 及 [MBR (非 GPT)](http://www.howtogeek.com/245610/) (大部分的 micro SD 卡出廠時都是以這格式出廠的)。 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 
