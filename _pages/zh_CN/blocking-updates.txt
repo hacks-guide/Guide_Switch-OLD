@@ -6,11 +6,11 @@ title: "阻止更新"
 
 ### 重要事项
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 - 5.0.1 to be determined).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
 
-If you are on firmware version 5.0.1 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.1 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
 
@@ -28,8 +28,8 @@ Note that these DNS servers will need to be set on each network you connect your
 
 1. 选择 "Change Settings"
 1. 找到 "DNS Settings" 将他设置为 "Manual"
-1. 设置 "Primary DNS" 为 `173.255.238.217`
-1. 设置 "Secondary DNS" 为 `173.255.238.217`
+1. Set "Primary DNS" to `104.236.106.125`
+1. Set "Secondary DNS" to `62.210.147.20`
 1. 保存网络设置
 1. 退出系统设置
 
@@ -38,7 +38,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 关闭你的设备电源
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. 不要选择任何选项
-1. 只需进入此菜单，任何已下载的更新数据都已从您的系统中删除
+1. 只要进入该菜单，所有已下载的更新数据都会从你的系统重删除
 1. 长按电源键关机
 
 ___

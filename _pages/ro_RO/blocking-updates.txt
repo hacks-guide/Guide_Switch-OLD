@@ -6,11 +6,11 @@ title: "Blocarea actualizarilor"
 
 ### Lectură obligatorie
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 4.1.0 (with support for 5.0.0 - 5.0.1 to be determined).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 Pentru a putea garanta accesul pe viitor, vom seta DNS-ul rețelei la un server (întreținut de ReSwitched) care blochează solicitările pentru actualizare de Nintendo către Switch.
 
-If you are on firmware version 5.0.1 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.1 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 În plus, vom accesa Recovery / Maintenance Mode şi vom şterge orice actualizare care s-ar fi descărcat deja.
 
@@ -27,8 +27,8 @@ If you are on firmware version 5.0.1 and wish to continue to use online services
   + Aceasta este simbolizată de o bifă verde alături de reţea
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
-1. Setaţi "Primary DNS" la `173.255.238.217`
-1. Setaţi "Secondary DNS" la `173.255.238.217`
+1. Setaţi "Primary DNS" la `104.236.106.125`
+1. Setaţi "Secondary DNS" la `62.210.147.20`
 1. Salvați setările de reţea
 1. Ieșiți din System Settings
 

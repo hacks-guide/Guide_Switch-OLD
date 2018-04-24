@@ -35,11 +35,11 @@ Se la tua console ha come versione del firmware 3.0.0, avviare homebrew è grati
 
 ## Cosa vuol dire Custom Firmware?
 
-Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. It is currently in development, and has a release tentatively scheduled for summer 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Quando verrà rilasciato, un **Custom Firmware** ("CFW") ti permetterà di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. It is currently in development, and has a release scheduled for June 2018. Per ulteriori dettagli vedi [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+Inoltre, in base al tempo di sviluppo, è possibile che le console con firmware 1.0.0 possano avere un accesso anticipato al CFW per una vulnerabilità nel software che non è presente nelle versioni successive.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Se la tua console ha come versione del firmware 1.0.0 e sei interessato al CFW, faresti meglio a seguire la pagina su come [bloccare gli aggiornamenti](blocking-updates), comprare una copia giapponese di [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (necessaria per il Custom Firmware su 1.0.0), e aspettare pazientemente il rilascio del CFW.
 {: .notice--info}
 
 Se la tua console ha una versione del firmware uguale o maggiore a 3.0.1, faresti meglio a seguire la pagina su come su come [bloccare gli aggiornamenti](blocking-updates) e aspettare pazientemente il rilascio del CFW.
@@ -55,9 +55,9 @@ Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe 
 
 + Sebbene le hack per switch si stanno evolvendo constantemente, non sono ancora del tutto user-friendly. Perciò, questa guida potrebbe richiedere una minima conoscenza tecnica per poter poi risolvere eventuali problemi.
 + Al momento, lo scopo della modifica della console è limitato per molti homebrew, quindi è molto difficile perdere dati o danneggiare la console utilizzando programmi homebrew.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
++ Questa guida funzionerà su tutte le Switch con firmware compreso tra 1.0.0 e 3.0.0. Tutte le versioni successive verranno supportate in futuro. Sono incluse istruzioni per bloccare gli aggiornamenti su console con versioni del firmware >= 3.0.1.
 + Ti servirà una scheda micro SD per la console. Deve essere formattata in Fat32 e [MBR, non GPT](http://www.howtogeek.com/245610/) (la maggior parte delle schede micro SD sarà già formattata in questo modo). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

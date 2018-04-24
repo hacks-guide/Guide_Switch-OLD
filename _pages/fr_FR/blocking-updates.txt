@@ -6,11 +6,11 @@ title: "Bloquer les mises à jour"
 
 ### Lecture requise
 
-Pour le moment, les homebrew ne sont disponibles que pour la version 3.0.0 du firmware, mais un futur support des homebrew et CFW est prévu pour toutes les versions jusqu'à 4.1.0 (le support pour 5.0.0 - 5.0.1 est encore à déterminer).
+Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 Afin d'y garantir un accès futur, nous allons repointer les serveurs DNS de votre réseau actuel vers un serveur (hébergé par ReSwitched) qui bloque les requêtes vers le serveur de mise à jour Nintendo Switch.
 
-Si vous êtes sur la version 5.0.1 du firmware et voulez continuer à utiliser les services en ligne avec les mises à jour bloquées, vous pouvez le faire tant que 5.0.1 est la dernière version (étant donné que seule la dernière version peut accéder aux services en ligne). Pour que cela fonctionne, le seul prérequis est que vous devrez vous être connecté aux services en ligne au moins une fois avant d'appliquer ces instructions.
+If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). Pour que cela fonctionne, le seul prérequis est que vous devrez vous être connecté aux services en ligne au moins une fois avant d'appliquer ces instructions.
 
 De plus, nous allons activer le Mode Recovery / Maintenance et supprimer toute donnée de mise à jour qui aurait pu avoir été précédemment installée.
 
@@ -27,8 +27,8 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
   + Ceci est indiqué par une coche verte à côté du réseau
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
-1. Mettez "DNS primaire" à `173.255.238.217`
-1. Mettez "DNS secondaire" à `173.255.238.217`
+1. Mettez "DNS primaire" à `104.236.106.125`
+1. Mettez "DNS secondaire" à `62.210.147.20`
 1. Sauvegardez les paramètres du réseau
 1. Sortez des Paramètres de la console
 
