@@ -33,9 +33,9 @@ ___
 
 #### 自製軟體開發 (libtransistor)
 
-libtransistor 函式庫是由 ReSwitched 開發且構建於 LLVM / Clang 上。 
+libtransistor 函式庫是由 ReSwitched 開發且構建於 LLVM / Clang 上。
 
 已編譯檔案可以透過 Mephisto 模擬器在您的PC上運行，或者使用 Homebrew Launcher 或 ACE Loader 在您的主機上運行。
 
-繼續至[自製軟體開發 (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}
