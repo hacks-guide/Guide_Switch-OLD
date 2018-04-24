@@ -25,18 +25,3 @@ Kesalahan ini terjadi saat nx-hbmenu `.nro` tidak ditemukan pada kartu SD Anda.
 1. Salin `hbmenu.nro` dari nx-hbmenu `.zip` ke kartu SD Anda
 1. Masukkan kembali kartu SD Anda ke dalam perangkat Anda
 1. Hidupkan perangkat Anda
-
-## Enable Extra Error Info
-
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
-
-### Apa yang Anda Butuhkan
-
-* [PegaSwitch](pegaswitch)
-* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
-
-### Instruksi
-
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`
