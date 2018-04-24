@@ -25,18 +25,3 @@ title: "疑難排解"
 1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
 1. 啟動您的主機
-
-## 啟用額外錯誤訊息
-
-當遇到致命錯誤時，該腳本將啟用顯示額外的錯誤信息。 這對於調試目的可能很有用。
-
-### 必備項目
-
-* [PegaSwitch](pegaswitch)
-* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
-
-### 操作說明
-
-1. 將 `extraerrorinfo.js` 複製到 PegaSwitch 中的 `/usefulscripts/` 資料夾中
-1. 使用 PegaSwitch 連接到您的主機
-1. 運行 `evalfile usefulscripts/extraerrorinfo.js`
