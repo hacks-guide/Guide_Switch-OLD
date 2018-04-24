@@ -37,5 +37,5 @@ La biblioteca libtransistor es desarrollada por ReSwitched y compilada con el st
 
 Los binarios pueden ser ejecutados en tu PC mediante el emulador Mephisto, o en tu consola a través del Homebrew Launcher o ACE Loader.
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+Continúa en [Desarrollo (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) en Reswitched Weekly
 {: .notice--primary}
