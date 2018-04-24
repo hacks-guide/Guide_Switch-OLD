@@ -30,7 +30,6 @@ sitemap: false
 + [الصفحة الرئيسية](/)
 + [تطوير الـ Homebrew](homebrew-development)
 + [مشغل الـ Homebrew](homebrew-launcher)
-+ [PegaSwitch](pegaswitch)
 +[Troubleshooting] (استكشاف الأخطاء وإصلاحها)
 + [لماذا الاعلانات؟](why-ads)
 {% endcapture %}
