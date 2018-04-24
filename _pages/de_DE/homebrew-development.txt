@@ -33,9 +33,9 @@ ___
 
 #### Entwicklung (libtransistor)
 
-Die libtransistor Bibliothek ist von ReSwitched entwickelt und auf dem LLVM / Clang stack aufgebaut. 
+Die libtransistor Bibliothek ist von ReSwitched entwickelt und auf dem LLVM / Clang stack aufgebaut.
 
 Ausführbare Dateien können auf deinem PC mit dem Mephisto Emulator getestet werden, oder auf deinem Device mit entweder dem Homebrew Launcher oder dem ACE Loader.
 
-Weiter zu [Development (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}
