@@ -30,7 +30,6 @@ sitemap: false
 + [首頁](/zh_TW/)
 + [自製軟體開發](homebrew-development)
 + [Homebrew Launcher](homebrew-launcher)
-+ [PegaSwitch](pegaswitch)
 + [疑難排解](troubleshooting)
 + [為什麼有廣告?](why-ads)
 {% endcapture %}

@@ -33,9 +33,9 @@ ___
 
 #### Dezvoltare (libtransistor)
 
-Biblioteca libtransistor este dezvoltat de ReSwitched şi compilat pe stack-ul LLVM / Clang. 
+Biblioteca libtransistor este dezvoltat de ReSwitched şi compilat pe stack-ul LLVM / Clang.
 
 Codul poate fi lansat pe PC folosind emulatorul Mephisto, sau pe conosola dumneavoastră folosind Homebrew Launcher sau ACE Loader.
 
-Continuați spre [Dezvoltare (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

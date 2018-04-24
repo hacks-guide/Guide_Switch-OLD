@@ -25,18 +25,3 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
-
-## Enable Extra Error Info
-
-This script will enable the displaying of extra error info when a fatal error is encountered. It may be useful for debugging purposes.
-
-### What You Need
-
-* [PegaSwitch](pegaswitch)
-* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
-
-### 操作步骤
-
-1. Copy `extraerrorinfo.js` to the `/usefulscripts/` folder in PegaSwitch
-1. Connect to your device using PegaSwitch
-1. Run `evalfile usefulscripts/extraerrorinfo.js`

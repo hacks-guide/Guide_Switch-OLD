@@ -33,9 +33,9 @@ ___
 
 #### Разработка (libtransistor)
 
-Библиотека libtransistor разрабатывается командой ReSwitched и собрана на стэке LLVM / Clang. 
+Библиотека libtransistor разрабатывается командой ReSwitched и собрана на стэке LLVM / Clang.
 
 Бинарники могут быть запущены на вашем компьютере с помощью эмулятора Mephisto, или на вашей консоли при помощи Homebrew Launcher или ACE Loader.
 
-Следующий шаг: [Разработка (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

@@ -33,9 +33,9 @@ ___
 
 #### Desarrollo (libtransistor)
 
-La biblioteca libtransistor es desarrollada por ReSwitched y compilada con el stack LLVM / Clang. 
+La biblioteca libtransistor es desarrollada por ReSwitched y compilada con el stack LLVM / Clang.
 
 Los binarios pueden ser ejecutados en tu PC mediante el emulador Mephisto, o en tu consola a través del Homebrew Launcher o ACE Loader.
 
-Continúa a [Desarrollo (libtransistor)](development-(libtransistor))
+Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}

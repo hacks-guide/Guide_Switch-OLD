@@ -25,18 +25,3 @@ title: "إستكشاف الأخطاء وإصلاحها"
 1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) بطاقة الذاكرة الخارجية SD Card لجهازك
 1. أرجع بطاقة الذكرة الخارجية SD Card إلى جهازك
 1. شغل الجهاز الخاص بك
-
-## فعل معلومات الأخطاء الأضافية
-
-هذا النص (script) يفعل خاصية إظهار معلومات إضافية في حال حدوث أي خطأ. ربما تكون مفيدة لأغراض التصحيح (debugging purposes).
-
-### ما تحتاجة
-
-* [PegaSwitch](pegaswitch)
-* [extraerrorinfo.js]({{ "/images/extraerrorinfo.js" | absolute_url }})
-
-### التعليمات
-
-1. إنسخ `extraerrorinfo.js` إلى ملف `/usefulscripts/` في PegaSwitch
-1. أتصل بجهازك باستخدام PegaSwitch
-1. شغل `evalfile usefulscripts/extraerrorinfo.js`
