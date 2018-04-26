@@ -37,5 +37,5 @@ ___
 
 Бинарники могут быть запущены на вашем компьютере с помощью эмулятора Mephisto, или на вашей консоли при помощи Homebrew Launcher или ACE Loader.
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+Следующий шаг: [Разработка (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) на Reswitched Weekly (англ.)
 {: .notice--primary}
