@@ -38,5 +38,5 @@ ___
 
 تستطيع تشغيل الباينري Binaries في حاسبك باستخدام محاكي الـ Mephisto، أو على جهازك باستخدام أما مشغل الـ Homebrew أو محمل الـ ACE.
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+أكمل إلى [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
 {: .notice--primary}
