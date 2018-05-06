@@ -30,7 +30,9 @@ Ou sinon, cliquez [ici](https://crowdin.com/project/switch-guide) pour aider à 
 
 Les [**Homebrew**](https://fr.wikipedia.org/wiki/Homebrew_(jeu_vid%C3%A9o)) désignent généralement des logiciels qui ne sont pas autorisés par Nintendo. Ceci inclut les outils, applications, jeux, émulateurs "fait maison".
 
-Si votre console possède la version de firmware 3.0.0, exécuter des homebrew est 100% gratuit en utilisant uniquement le navigateur de la console. Les versions de firmware antérieures peuvent se mettre à jour en 3.0.0 avec une cartouche de jeu. Les versions de firmware ultérieures peuvent bloquer les prochaines mises à jour afin de s'assurer l'accès aux futurs exploits.
+Si votre console est en version 2.0.0 - 3.0.0, lancer des homebrews est 100% gratuit simplement en utilisant le navigateur internet. Les versions de firmware antérieures peuvent se mettre à jour en 3.0.0 avec une cartouche de jeu. Les versions de firmware ultérieures peuvent bloquer les prochaines mises à jour afin de s'assurer l'accès aux futurs exploits.
+Si votre console est en 1.0.0, vous pouvez lancer des homebrews avec une copie japonaise de Puyo Puyo Tetris S. 
+
 
 ## Qu'est-ce qu'un Custom Firmware ?
 
@@ -55,8 +57,8 @@ Si vous êtes familier avec le jailbreak sur iOS, cet exploit peut être consid�
 + Bien que les hacks Switch progressent constamment, ils ne sont pour le moment pas dans un état très user-friendly. Pour cette raison, ce guide peut vous demander des connaissances techniques pour comprendre les erreurs qui peuvent se produire.
 + La portée de modification de la console est limitée pour la plupart des homebrews actuels, ce qui réduit drastiquement la probabilité de perte de données ou d'endommagement de la console à l'utilisation d'applications homebrew communes.
 + Ce guide fonctionnera sur toutes les consoles Switch possédant une version de firmware de 1.0.0 à 3.0.0, toutes les autres versions ayant un support futur prévu. Des instructions sont fournies pour bloquer les mises à jour sur les consoles avec une version du firmware >= 3.0.1.
-+ Vous aurez besoin d'une carte micro SD pour votre console. Elle devra être formatée en FAT32 et [MBR, pas GPT](http://www.howtogeek.com/245610/) (la plupart des cartes micro SD seront formatées comme ceci par défaut). 
-+ Si vous avez besoin de formater une carte micro SD de plus de 32 Go sous Windows, vous pouvez utiliser [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et utiliser une taille d'unité d'allocation de 32K (32768).
++ Vous aurez besoin d'une carte micro SD pour votre console. Elle doit être formatée en FAT32 et en [MBR, pas GPT](http://www.howtogeek.com/245610/) (la plupart des cartes micro SD sont déjà formatées en FAT32 par défaut). 
++ Si votre Switch ne veut pas lire votre carte SD de plus de 32 Go sans une mise à jour système, vous pouvez utiliser [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) sur Windows pour la formater en FAT32 avec une taille d'unité d'allocation de 32K (32768).
 
 ___
 

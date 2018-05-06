@@ -7,7 +7,8 @@ sitemap: false
 {% capture notice-1 %}
 **熱門**
 
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [阻擋更新](blocking-updates)
 + [遊戲卡帶更新](game-card-update)
 {% endcapture %}
@@ -29,7 +30,8 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [首頁](/zh_TW/)
 + [自製軟體開發](homebrew-development)
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [疑難排解](troubleshooting)
 + [為什麼有廣告?](why-ads)
 {% endcapture %}

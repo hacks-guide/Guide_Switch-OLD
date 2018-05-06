@@ -31,7 +31,9 @@ ___
 [**自製程式**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games)
  (Homebrew) 通常是指未經由任天堂所授權之軟體。 這包括自製工具、應用程式、遊戲和模擬器。
 
-如果您的裝置系統版本為 3.0.0，透過系統內建的瀏覽器在您的裝置上使用自製軟體是 100% 免費的。 較舊的系統版本可透過遊戲卡帶更新至 3.0.0。 較新的系統版本可透過阻擋更新以確保未來能順利使用新的漏洞。
+If your device is on firmware version 2.0.0 - 3.0.0, running homebrew on your device is 100% free using just the system browser. 較舊的系統版本可透過遊戲卡帶更新至 3.0.0。 較新的系統版本可透過阻擋更新以確保未來能順利使用新的漏洞。
+If your device is on firmware version 1.0.0, you can run homebrew via a copy of the Japanese version of Puyo Puyo Tetris S. 
+
 
 ## 什麼是自製韌體 (Custom Firmware)？
 
@@ -56,8 +58,8 @@ If your device is on firmware version 1.0.0 and you are interested in early CFW 
 + 雖然 Switch 的改機仍在不斷進步，但以目前狀態而言還不是很容易使用。 因此，於本手冊中，在解決任何可能出現的問題前，您得要有些技術上的理解才能繼續。
 + 目前大部分的自製軟體能進行任何改機的能力是非常有限的，也就是說，在使用熱門的自製軟體時是不大可能造成資料損失或系統損壞的。
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. >= 3.0.1 系統版本的 Switch 能先透過本手冊的指示阻擋未來更新。
-+ 您的主機將需要一張 micro SD 卡。 而且其應格式化為 Fat32 及 [MBR (非 GPT)](http://www.howtogeek.com/245610/) (大部分的 micro SD 卡出廠時都是以這格式出廠的)。 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ 您的主機將需要一張 micro SD 卡。 It should be formatted as FAT32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
++ If your Switch won't read your larger than 32GB micro SD card without a System Update, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 with an Allocation Unit Size of 32K (32768).
 
 ___
 

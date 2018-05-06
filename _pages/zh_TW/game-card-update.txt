@@ -53,5 +53,5 @@ title: "遊戲卡帶更新"
 
 ___
 
-### 繼續至 [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

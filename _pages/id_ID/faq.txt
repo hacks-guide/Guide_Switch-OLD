@@ -2,3 +2,17 @@
 judul: "FAQ"
 ---
 
+<a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
+**A:** Yes. All currently released Switches will eventually be hackable with Fusée Gelée. See [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) for more information. However, it is unknown if the "mariko" hardware revision soon to release to the market will be vulnerable.
+
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricking via simply running the Homebrew Launcher or Fusée Gelée is highly unlikely. However, modifying System savedata and highly privileged exploits like Fusée Gelée can easily brick your system if done incorrectly. Only run PegaSwitch scripts, Homebrew Launcher NROs, and especially Fusée Gelée payloads from trusted sources! Running untrusted homebrew payloads has the potential to brick your console permanently.
+
+<a name="faq_4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
+**A:** This is possible if all you want to do is run the Homebrew Launcher; however, an SD card of at least 64GB is required if running Custom Firmware like the upcoming Atmosphère, as a Switch emuNAND will take up 32GB.
+
+<a name="faq_exfatsd" />**Q:** *My Switch claims I need a System Update to use my SD card, can I get around this?*    
+**A:** Yes; SD cards above 64GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if you are not on the latest firmware you will not be able to install this update independently of updating the actual device firmware. You can get around this by using a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format the SD card as FAT32. 
+
+<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
+**A:** Just copy all the files to the new SD card. 

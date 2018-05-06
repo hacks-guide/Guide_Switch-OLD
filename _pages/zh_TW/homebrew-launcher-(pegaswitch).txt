@@ -1,0 +1,147 @@
+---
+title: "Homebrew Launcher (PegaSwitch)"
+---
+
+{% include toc title="條目內容" %}
+
+### 必讀事項
+
+On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+
+This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+
+重新啟動後，您必須重新運行此次要漏洞才能重新啟用主機中的 Homebrew Launcher。 請另外注意，此次要漏洞於使用時將阻止您遊玩零售遊戲卡帶 (*直到您的主機重啟為止*)。
+ 
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+{: .notice--info}
+
+請注意，目前的漏洞具有在初始安裝時損壞主機中的 Mii 資料庫的副作用。 雖然這種副作用是相對無害的，但它將會導致任何所有已創建的 Mii 的丟失。
+{: .notice--warning}
+
+### 必備項目
+
+* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* The latest version of [node.js](https://nodejs.org/en/)
+* [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
+* [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
+
+### 操作說明
+
+#### 第一節 — 準備工作
+
+1. 關閉您的主機
+1. 將 SD 卡插入電腦
+1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
+1. Copy `hbl.nsp` to the root of your SD card
+1. 在 SD 卡的根目錄底下建立一個新資料夾 `switch`
+1. 將 SD 卡插回裝置中
+1. 啟動您的主機
+
+#### Section II - PegaSwitch Configuration
+1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
+1. Start cmd/terminal and `cd` to the PegaSwitch folder
+1. Run `npm install`; this will install the node modules that PegaSwitch depends on
+1. Start PegaSwitch by running the command corresponding to your operating system
+  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
+  + **Windows:** Run `node start.js` and make note of the IP address it displays
+1. Exit PegaSwitch by inputting Ctrl+C twice
+
+#### Section III - DNS Configuration
+
+請注意，您需要在每個網路設定中設定這些 DNS 伺服器以使用此漏洞！
+{: .notice--info}
+
+1. 進入系統設定 (System Settings)
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色勾勾
+1. 選擇『更改設置 (Change Settings)』
+1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
+1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
+  + This is usually in the format of `192.168.1.XXX`
+1. 儲存網路設定
+1. 退出系統設定
+
+#### Section IV - Initial Installation
+
+請注意，為了重新啟用 Homebrew Launcher，您得在每次重新啟動後重新運行此章節。
+
+##### Option i - Firmware Version 1.0.0
+
+Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+
+Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+{: .notice--info}
+
+1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
+1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
+1. Launch Puyo Puyo Tetris S on your device
+1. Press A and then press R
+1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
+1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
+1. Press the Home button to exit
+1. Launch the Album applet
+1. 如果漏洞成功執行的話，Homebrew Launcher 將會啟動
+
+##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+
+Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+
+1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+1. 選擇『連線至此網路 (Connect to this Network)』
+1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
+1. 選擇『繼續 (Next)』
+1. PegaSwitch 網頁將開始加載
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. Run `evalfile usefulscripts/nsp.js`
+1. Press the Home button to exit
+1. Launch the Album applet
+1. 如果漏洞成功執行的話，Homebrew Launcher 將會啟動 
+
+#### Section V - Fake News (Optional)
+
+As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+
+Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+
+Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+{: .notice--warning}
+
+1. In order to do so, connect your device to PegaSwitch as in Section III
+1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
+1. Reboot your device and you should see a PegaSwitch news entry
+1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+
+___
+
+
+請注意，目前自製軟件開發仍處於非常早的狀態，已開發的應用程式數量非常有限。
+
+你可以在 [SwitchBrew](http://switchbrew.org/index.php?title=Homebrew_Applications)、[reddit 上的 /r/SwitchHacks](https://www.reddit.com/r/SwitchHacks/)、或 [GBAtemp 上的自製軟體論壇](https://gbatemp.net/forums/285/)上找到可用的應用程式。
+
+若要安裝自製軟體，您只需將軟體的 `.nro` 檔案複製到 SD 卡上的 `/switch/` 資料夾中。
+
+___
+
+您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher (*直到您的主機重啟為止*)。
+{: .notice--success}
+
+您現在將無法啟動任何零售遊戲卡帶或 eShop 遊戲 (*直到您的主機重啟為止*)。
+{: .notice--warning}
+
+You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+{: .notice--warning}
+
+關於常規自製軟體和開發進度摘要，請定期查看 [ReSwitched Weekly](https://reswitchedweekly.github.io/) 部落格。
+{: .notice--primary}
+
+關於如何開發自製軟體，請查看[自製軟體開發](homebrew-development)頁面。
+{: .notice--primary}

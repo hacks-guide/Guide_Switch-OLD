@@ -30,7 +30,9 @@ Klicke alternativ auf [hier](https://crowdin.com/project/switch-guide), um diese
 
 [**Homebrew**](https://de.wikipedia.org/wiki/Homebrew) bezeichnet für gewöhnlich Software, die nicht von Nintendo autorisiert wurde. Dazu gehören Homebrew-Tools, Anwendungen, Spiele und Emulatoren.
 
-Wenn dein Gerät auf Firmware Version 3.0.0 ist, kannst du komplett kostenlos Homebrew über den Systembrowser nutzen. Niedrigere Firmware Versionen können mit Hilfe von Spielekarten auf 3.0.0 geupdated werden. Höhere Firmware Versionen können zukünftige Updates blockieren um den Zugang zu zukünftigen Exploits zu sichern.
+If your device is on firmware version 2.0.0 - 3.0.0, running homebrew on your device is 100% free using just the system browser. Niedrigere Firmware Versionen können mit Hilfe von Spielekarten auf 3.0.0 geupdated werden. Höhere Firmware Versionen können zukünftige Updates blockieren um den Zugang zu zukünftigen Exploits zu sichern.
+If your device is on firmware version 1.0.0, you can run homebrew via a copy of the Japanese version of Puyo Puyo Tetris S. 
+
 
 ## Was ist Custom Firmware?
 
@@ -55,8 +57,8 @@ Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man 
 + Während Switch Hacks stetig voranschreiten, sind sie dennoch noch nicht in einem nutzerfreundlichen Zustand. Als solche erfordert diese Anleitung ein wenig technisches Verständnis um Probleme die auftreten könnten zu beheben.
 + Der Umfang der Gerätemodifikation für die aktuellste Homebrew Version ist sehr gering, d.h. es besteht eine nur sehr geringe Chance auf Datenverlust oder einen Schaden an der Konsole selbst durch populäre Homebrew Anwendungen.
 + This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Es sind Anleitungen für das Blockieren von Updates auf Firmware Versionen >=3.0.1 vorhanden.
-+ Du benötigst eine Micro SD-Karte für dein Gerät. Diese sollte FAT32 und [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein (viele Mikro SD-Karten sind dies schon beim Kauf). 
-+ If you need to format a micro SD card larger than 32gb on Windows, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ Du benötigst eine Micro SD-Karte für dein Gerät. It should be formatted as FAT32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
++ If your Switch won't read your larger than 32GB micro SD card without a System Update, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 with an Allocation Unit Size of 32K (32768).
 
 ___
 

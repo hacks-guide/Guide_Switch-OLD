@@ -50,8 +50,11 @@ sidebar_pages:
     title: Actualización con cartucho
     url: game-card-update
   - 
-    title: Homebrew Launcher
-    url: homebrew-launcher
+    title: Homebrew Launcher (PegaSwitch)
+    url: homebrew-launcher-(pegaswitch)
+  - 
+    title: Homebrew Launcher (instalador)
+    url: homebrew-launcher-(installer)
   - 
     title: Múltiples opciones
     url: multiple-options

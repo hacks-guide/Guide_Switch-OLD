@@ -14,7 +14,7 @@ title: "Начало"
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Выберите подходящую для вашей версии страницу из таблицы ниже. Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 1.0.0 по 2.3.0" включает в себя 1.0.0, 2.3.0 и все версии между ними.
+Выберите подходящую для вашей версии страницу из таблицы ниже. Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 1.0.0 по 3.0.0" включает в себя 1.0.0, 3.0.0 и все версии между ними.
 
 Версия прошивки вашей консоли отображается во вкладке Система в приложении Системные настройки.
 
@@ -49,18 +49,13 @@ title: "Начало"
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Ждите CFW -- <a href="blocking-updates">Блокировка обновлений</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">Ждите CFW или<a href="game-card-update">Обновление картриджем</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

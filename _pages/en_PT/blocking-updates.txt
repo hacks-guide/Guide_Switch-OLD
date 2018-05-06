@@ -6,7 +6,7 @@ title: "Blockin' Updates"
 
 ### Required Readin'
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 In order to guarantee future access, we gunna be settin' ye current network's DNS to a certain server (hosted by ReSwitched) that blocks requests to Nintendo's update server fer th' Switch.
 

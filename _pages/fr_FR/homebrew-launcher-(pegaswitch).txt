@@ -1,0 +1,147 @@
+---
+title: "Homebrew Launcher (PegaSwitch)"
+---
+
+{% include toc title="Table des matières" %}
+
+### Lecture requise
+
+Sur les firmwares 1.0.0 - 2.3.0, l'Hombrew Launcher est actuellement "installé" sur votre console via un script lancé par [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+
+Cela va vous permettre d'avoir accès à l'Homebrew Launcher en lançant l'application Album *jusqu'à ce que vous redémarriez votre console*, après quoi vous devrez *relancer le script* pour restaurer la fonctionnalité de l'Hombrew Launcher. 
+
+Après un redémarrage, vous devrez ré-exécuter cet exploit secondaire pour réactiver l'accès à l'Homebrew Launcher. En outre, notez que cet exploit secondaire vous empêchera également de jouer à des jeux commerciaux tant qu’il restera actif (*jusqu'à ce que votre appareil soit redémarré*).
+ 
+Si vous êtes familier avec le "jailbreaking" de smartphones iOS, on peut considérer cette idée similaire à un "jailbreak tethered".
+
+Notez que, même si ces instructions marchent aussi sur le firmware 3.0.0, il serait beaucoup plus facile de suivre [Homebrew Launcher (Installeur)](homebrew-launcher-(installer)) à la place pour cette version.
+{: .notice--info}
+
+Notez que cet exploit a l'effet secondaire de corrompre la base de données de Miis de votre console lors de l'installation. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
+{: .notice--warning}
+
+### Ce dont vous avez besoin
+
+* **Firmware 1.0.0 :** La version 1.0.0 de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*pour le moment, la dernière version de nx-hbmenu crashe en 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0 :** La dernière version [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* La dernière version de [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* La dernière version de [node.js](https://nodejs.org/en/)
+* [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
+* [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
+
+### Instructions
+
+#### Section I - Préparatifs
+
+1. Éteignez votre console
+1. Insérez votre carte SD dans votre ordinateur
+1. Copiez `hbmenu.nro` du fichier `.zip` de nx-hbmenu vers la racine de votre carte SD
+1. Copiez `nbl.nsp` à la racine de votre carte SD
+1. Créez un dossier nommé `switch` à la racine de votre carte SD si celui ci n'existe pas
+1. Réinsérez votre carte SD dans votre console
+1. Allumez votre console
+
+#### Section II - Configuration de PegaSwitch
+1. Après avoir téléchargé la dernière version de PegaSwitch, copiez `nsp.js` vers `PegaSwitch/usefulscripts`
+1. Lancer un terminal/invite de commandes et `cd` vers le dossier de PegaSwitch
+1. Lancez `npm install` ; ceci va installer les modules node dont PegaSwitch dépend
+1. Lancez PegaSwitch en lançant la commande correspondant à votre système d'exploitation
+  + **Linux/macOS:** Lancez `sudo node start.js` et notez l'adresse IP qui s'affiche
+  + **Windows:** Lancez `node start.js` et notez l'adresse IP qui s'affiche
+1. Quittez PegaSwitch en appuyant deux fois sur Ctrl+C
+
+#### Section III - Configuration du DNS
+
+Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous connecterez votre console pour déclencher l'exploit.
+{: .notice--info}
+
+1. Ouvrez les Paramètres de la console
+1. Allez dans `Internet` -> `Paramètres Internet`
+1. Sélectionnez votre réseau actuel
+  + Ceci est indiqué par une coche verte à côté du réseau
+1. Sélectionnez "Modifier les paramètres"
+1. Mettez "Paramétrage du DNS" sur "Manuel"
+1. Mettez dans "Primary DNS" et "Secondary DNS" l'adresse IP affichée par PegaSwitch
+  + C'est généralement du genre `192.168.1.XXX`
+1. Sauvegardez les paramètres du réseau
+1. Sortez des Paramètres de la console
+
+#### Section IV - Installation
+
+Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
+
+##### Option i - Version de firmware 1.0.0
+
+Notez que cette option ne s'applique qu'aux consoles en 1.0.0 ; si vous avez un firmware entre 2.0.0 et 2.3.0, descendez vers "Option ii - Versions de firmware 2.0.0 - 2.3.0".
+
+Notez qu'actuellement, la version 1.0.0 requiert une copie Japonaise de Puyo Puyo Tetris S pour pouvoir se connecter à PegaSwitch pour la première fois. Après ça, une méthode alternative de connexion à PegaSwitch sera disponible.
+{: .notice--info}
+
+1. Assurez-vous que votre pare-feu ne bloque pas les connexions vers le port UDP 53 ou les ports TCP 80 et 8100
+1. Lancez PegaSwitch dans votre terminal/invite de commande en tapant `sudo node start.js --webapplet`
+1. Lancez Puyo Pyuo Tetris S sur votre console
+1. Appuyez sur A puis R
+1. Appuyez sur A et touchez l'option la plus en bas du menu, appelée "お問い合わせ先"
+1. Touchez le logo SEGA en bas à gauche ; cela va lancer l'applet web et charger la page web de PegaSwitch.
+1. Sur votre PC, PegaSwitch devrait indiquer que votre console s'est connectée, et montrer sa version de firmware et son adresse MAC, dans le terminal.
+1. Sur votre ordinateur, tapez dans PegaSwitch `evalfile usefulscripts/nsp.js`
+1. Appuyez sur le bouton Home pour quitter
+1. Lancez l'applet Album
+1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera
+
+##### Option ii - Versions de firmware 2.0.0 - 2.3.0
+
+Notez que cette option ne s'applique qu'aux consoles en 2.0.0 - 2.3.0 ; si vous avez un firmware 1.0.0, remontez vers "Option i - Version de firmware 1.0.0".
+
+1. Lancez PegaSwitch dans votre terminal/invite de commande en tapant `sudo node start.js` 
+1. Allez dans `Internet` -> `Paramètres Internet`
+1. Sélectionnez votre réseau actuel
+1. Sélectionnez "Se connecter à ce réseau"
+1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
+1. Sélectionnez "Suivant"
+1. La page Web de PegaSwitch va s'afficher
+1. Sur votre PC, PegaSwitch devrait indiquer que votre console s'est connectée, et montrer sa version de firmware et son adresse MAC, dans le terminal.
+1. Lancez `evalfile usefulscripts/nsp.js`
+1. Appuyez sur le bouton Home pour quitter
+1. Lancez l'applet Album
+1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera 
+
+#### Section V - Fake News (Optionnel)
+
+Vu qu'il faut refaire la partie "Installation" de l'exploit après chaque redémarrage, il serait idéal d'avoir une manière plus pratique d'accéder à PegaSwitch.
+
+Heureusement, on peut installer une fausse entrée dans l'applet News (l'exploit "Fake News") qui permet de se connecter plus facilement à PegaSwitch.
+
+Notez que modifier des sauvegardes sur système peut **bricker** votre console de manière irrécupérable si vous n'êtes pas attentif ! Pour éviter d'endommager votre console, il est fortement recommandé de ne pas modifier le script `installFakeNews.js`.
+{: .notice--warning}
+
+1. Commencez par connecter votre console à PegaSwitch comme dans la Section III
+1. Une fois connecté à PegaSwitch, lancez `evalfile usefulscripts/installFakeNews.js` et attendez qu'il finisse
+1. Redémarrez votre console, vous devriez voir une news PegaSwitch
+1. Pour déclencher Fake News, lancez PegaSwitch sur votre PC avec `sudo node start.js --webapplet`, puis sélectionnez la news de Fake News sur votre console, puis touchez la "vidéo" pour la lancer
+
+___
+
+
+Notez que le développement d'Homebrews n'en est qu'à ses débuts, peu d'applications ont donc été développées.
+
+Vous trouverez les applications disponibles sur [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks sur reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew sur GBAtemp](https://gbatemp.net/forums/285/).
+
+Pour installer un Homebrew, copiez le fichier `.nro` dans le dossier `switch` de votre carte SD.
+
+___
+
+Vous pouvez maintenant lancer l'Homebrew Launcher en lançant l'application Album depuis le menu principal (*jusqu'au prochain redémarrage*).
+{: .notice--success}
+
+Vous ne pourrez plus lancer de jeux commerciaux ou téléchargés depuis l'eShop (*jusqu'au prochain redémarrage*).
+{: .notice--warning}
+
+Vous devrez re-lancer `evalfile usefulscripts/nsp.js` dans PegaSwitch (en utilisant n'importe quel applet navigateur) après chaque redémarrage pour accéder à nouveau à l'Homebrew Launcher sur votre console.
+{: .notice--warning}
+
+Pour des résumés réguliers sur les Homebrews et le développement, consultez régulièrement le blog [ReSwitched Weekly](https://reswitchedweekly.github.io/).
+{: .notice--primary}
+
+Pour des informations sur la contribution au développement d'Homebrew en tant que développeur, consultez la page [Homebrew Development](homebrew-development).
+{: .notice--primary}

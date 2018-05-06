@@ -50,8 +50,11 @@ sidebar_pages:
     title: Pembaharuan Permainan Kartu
     url: game-card-update
   - 
-    title: Peluncur Homebrew
-    url: homebrew-launcher
+    title: Homebrew Launcher (PegaSwitch)
+    url: homebrew-launcher-(pegaswitch)
   - 
-    title: Beberapa Pilihan
+    title: Homebrew Launcher (Installer)
+    url: homebrew-launcher-(installer)
+  - 
+    title: Multiple Options
     url: multiple-options

@@ -53,5 +53,5 @@ Avant de faire la mise à jour à partir de la carte de jeu, on bloque les mises
 
 ___
 
-### Continuer vers [Homebrew Launcher](homebrew-launcher)
+### Continuer vers [Homebrew Launcher (Installeur)](homebrew-launcher-(installer))
 {: .notice--primary}

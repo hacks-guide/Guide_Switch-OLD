@@ -53,5 +53,5 @@ Prima di eseguire l'aggiornamento tramite scheda di gioco, bisogna bloccare gli 
 
 ___
 
-### Prosegui con [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

@@ -1,0 +1,147 @@
+---
+title: "Homebrew Launcher (PegaSwitch)"
+---
+
+{% termasuk judul toc="Table of Contents" %}
+
+### Bacaan yang Perlu Dibaca
+
+On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+
+This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+
+Setelah melakukan reboot, Anda harus menjalankan kembali sekunder exploit ini untuk mengaktifkan kembali akses Homebrew Launcher pada perangkat Anda. Selain itu, perhatikan bahwa sekunder exploit ini juga akan mencegah Anda bermain game ritel selama perangkat tetap aktif (*sampai perangkat Anda di-reboot*).
+ 
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+{: .notice--info}
+
+Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untuk merusak perangkat Mii Database pada saat pemasangan awal. Meskipun efek ini tidak berbahaya, namun ini akan mengakibatkan hilangnya Miis yang dibuat pengguna.
+{: .notice--warning}
+
+### Apa yang Anda butuhkan
+
+* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* The latest version of [node.js](https://nodejs.org/en/)
+* [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
+* [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
+
+### Instruksi
+
+#### Bagian I - Persiapan Pengoperasian
+
+1. Matikan perangkat Anda
+1. Masukkan kartu SD Anda ke dalam komputer
+1. Salin `hbmenu.nro` dari nx-hbmenu `.zip` ke kartu SD Anda
+1. Copy `hbl.nsp` to the root of your SD card
+1. Membuat sebuah folder bernama `switch` pada kartu SD Anda jika belum ada
+1. Masukkan kembali kartu SD Anda ke dalam perangkat Anda
+1. Hidupkan perangkat Anda
+
+#### Section II - PegaSwitch Configuration
+1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
+1. Start cmd/terminal and `cd` to the PegaSwitch folder
+1. Run `npm install`; this will install the node modules that PegaSwitch depends on
+1. Start PegaSwitch by running the command corresponding to your operating system
+  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
+  + **Windows:** Run `node start.js` and make note of the IP address it displays
+1. Exit PegaSwitch by inputting Ctrl+C twice
+
+#### Section III - DNS Configuration
+
+Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubungkan perangkat Anda agar dapat memicu exploit.
+{: .notice--info}
+
+1. Luncurkan Pengaturan Sistem
+1. Arahkan ke `Internet` -> `Internet Settings`
+1. Pilih jaringan Anda saat ini
+  + Ini ditandai dengan tanda centang hijau di sebelah jaringan
+1. Pilih "Change Settings"
+1. Atur "DNS Settings" ke "Manual"
+1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
+  + This is usually in the format of `192.168.1.XXX`
+1. Simpan pengaturan jaringan
+1. Keluar dari Pengaturan Sistem
+
+#### Section IV - Initial Installation
+
+Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setiap kali reboot agar mengaktifkan kembali akses ke Homebrew Launcher.
+
+##### Option i - Firmware Version 1.0.0
+
+Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+
+Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+{: .notice--info}
+
+1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
+1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
+1. Launch Puyo Puyo Tetris S on your device
+1. Press A and then press R
+1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
+1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
+1. Press the Home button to exit
+1. Launch the Album applet
+1. Jika exploit berhasil, Homebrew Launcher akan diluncurkan
+
+##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+
+Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+
+1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Arahkan ke `Internet` -> `Internet Settings`
+1. Pilih jaringan Anda saat ini
+1. Pilih "Connect to this Network"
+1. Jika koneksi DNS berhasil, Anda akan melihat pesan "Registration is required to use this network."
+1. Pilih "Next"
+1. Halaman web PegaSwitch akan dimuat
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. Run `evalfile usefulscripts/nsp.js`
+1. Press the Home button to exit
+1. Launch the Album applet
+1. Jika exploit berhasil, Homebrew Launcher akan diluncurkan 
+
+#### Section V - Fake News (Optional)
+
+As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+
+Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+
+Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+{: .notice--warning}
+
+1. In order to do so, connect your device to PegaSwitch as in Section III
+1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
+1. Reboot your device and you should see a PegaSwitch news entry
+1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+
+___
+
+
+Perhatikan bahwa, saat ini, pengembangan homebrew dalam keadaan sangat dini dengan jumlah aplikasi yang sangat terbatas.
+
+Anda dapat menemukan aplikasi yang tersedia pada [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), atau [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+
+Untuk memasang aplikasi homebrew, cukup salin file homebrew `.nro` ke folder `/switch/` pada kartu SD anda.
+
+___
+
+Anda sekarang dapat menjalankan Homebrew Launcher dengan meluncurkan aplikasi Album dari menu utama perangkat Anda (*sampai perangkat Anda di-reboot*).
+{: .notice--success}
+
+Anda sekarang tidak dapat meluncurkan retail cartridge atau game eShop (*sampai perangkat Anda di-reboot*).
+{: .notice--warning}
+
+You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+{: .notice--warning}
+
+Untuk homebrew reguler dan ringkasan perkembangan pengembangan, periksa di [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog secara teratur.
+{: .notice--primary}
+
+Untuk informasi mengenai kontribusi pengembangan homebrew sebagai pengembang, lihat halaman [Homebrew Development](homebrew-development).
+{: .notice--primary}

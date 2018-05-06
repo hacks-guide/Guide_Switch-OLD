@@ -54,5 +54,5 @@ Recovery / Maintenance Mode لحذف أي ملفات لتحديث تم تنزي�
 
 ___
 
-### تابع الى [مشغل الـHomebrew](homebrew-launcher)
+### تابع الى [مشغل الـHomebrew (المثبت)](homebrew-launcher-(installer))
 {: .notice--primary}

@@ -1,0 +1,134 @@
+---
+title: "Homebrew Launcher (Installer)"
+---
+
+{% include toc title="Inhalt" %}
+
+### Wichtig
+
+Der Homebrew Launcher wird über einen Browserexploit auf deinem Gerät "installiert". 
+
+After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+
+After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+ 
+Falls du mit dem "jailbreaken" von iOS Geräten vertraut bist, dies könnte man auch als "semi-untethered jailbreak" bezeichnen.
+
+Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
+{: .notice--warning}
+
+### Was du benötigst
+
+* Die neuste Version von [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+
+### Anleitung
+
+#### Abschnitt I - Vorbereitungen
+
+1. Schalte das Gerät aus
+1. Stecke deine SD Karte in den Computer
+1. Kopiere `hbmenu.nro` von dem nx-hbmenu `.zip` auf das Stammverzeichnis deiner SD-Karte
+1. Erstelle einen Ordner namens `switch` im Stammverzeichnis deiner SD-Karte falls er noch nicht existiert
+1. Setze die SD-Karte wieder in die Konsole ein
+1. Schalte dein Gerät an
+
+#### Abschnitt II - DNS-Konfiguration
+
+Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf denen du dich verbindest um in der Lage zu sein den Exploit auszuführen.
+{: .notice--info}
+
+1. Starte die Systemeinstellungen
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
+1. Wähle dein aktuelles Netzwerk
+  + Dieses ist durch einen grünen Haken neben dem Netzwerk markiert
+1. Wähle "Einstellungen ändern"
+1. Setze "DNS-Einstellungen" auf "Manuell"
+1. Setze "Primärer DNS" zu `104.236.106.125`
+1. Setze "Sekundärer DNS" zu `62.210.147.20`
+1. Speichere die Einstellungen
+1. Verlasse die Systemeinstellungen
+
+#### Abschnitt III - Erstinstallation
+
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
+1. Wähle dein aktuelles Netzwerk
+1. Wähle "Verbindung zu diesem Netzwerk"
+1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
+1. Wähle "Weiter"
+1. Die Homebrew Launcher Website wird laden
+1. Wähle "Install"
+1. Die PegaSwitch Website wird laden
+1. Wenn der Exploit erfolgreich war, wirst du den Fehler `2000-1337` sehen
+  + Wenn du auf der PegaSwitch Seite fest hängst ohne einen Fehler zu bekommen, starte dein Gerät neu und versuche den Verbindungstest erneut
+1. Starte dein Gerät neu
+1. When prompted about Mii database corruption, select "OK" to reboot your device again
+
+#### Abschnitt IV - Starten des Homebrew Launchers
+
+Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
+
+1. Navigiere zu `Internet` -> `Interneteinstellungen`
+1. Wähle dein aktuelles Netzwerk
+1. Wähle "Verbindung zu diesem Netzwerk"
+1. Wenn die DNS Verbindung erfolgreich war, wirst du die Nachricht "Eine Registrierung wird benötigt um dieses Netzwerk nutzen zu können." sehen
+1. Wähle "Weiter"
+1. Die Homebrew Launcher Website wird laden
+1. Wähle "Run"
+1. Wenn der Exploit erfolgreich war, wirst du eine Mitteilung erhalten die dich zum Schließen auffordert
+1. Kehre zum Home Menü zurück
+1. Starte die Album Applikation
+1. Wenn der Exploit erfolgreich war, wird der Homebrew-Launcher starten
+
+#### Abschnitt V - Alternative Browser Applets (optional)
+
+Weil du den "Run" Abschnitt des Exploits nach jedem Neustart neustarten musst, wäre es ideal wenn es einen besseren Weg gebe den Browser zu starten, als den Verbindungstest.
+
+Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+
+Zwei praktische Methoden um den Browser zu starten sind unten aufgelistet:
+
+##### eShop Einloggen-Fenster
+
+Um diese Methode zu nutzen, erstelle einen zweiten Account auf deinem Gerät. Verbinde ihn nicht mit einen Nintendo Account.
+
+1. Starte den Nintendo eShop
+1. Wähle den zweiten Account
+1. Wähle "Einloggen und verbinden"
+1. Die Browserapplet wird starten
+
+##### Spielupdate Fenster
+
+Um diese Methode zu nutzen, musst du mindestens ein Spiel auf deinem Homescreen haben.
+
+Beachte, dass wenn du nicht mit den korrekten DNS Servern verbunden bist, diese Methode dein Gerät updaten *wird*. Das ist gefährlich!
+{: .notice--danger}
+
+1. Drücke (+) mit irgendeinem Spiel ausgewählt
+1. Im "Softwareupdate" Reiter, wähle "Über das Internet"
+1. Die Browserapplet wird starten
+
+___
+
+
+Beachte, dass zurzeit die Homebrew Entwicklung in einem sehr frühen Stadium mit nur wenigen Applikationen ist.
+
+Du kannst verfügbare Applikationen auf [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks auf reddit](https://www.reddit.com/r/SwitchHacks/), oder [Switch Homebrew auf GBAtemp](https://gbatemp.net/forums/285/) finden.
+
+Um Homebrew Applikationen zu installieren, kopiere einfach die Homebrew `.nro` Datei in den `/switch/` Ordner auf deiner SD-Karte.
+
+___
+
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+{: .notice--success}
+
+You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+{: .notice--warning}
+
+Du musst nach jedem Neustart die "Run" Schritte dieses Exploits neu durchführen (mit einer der Browserapplets) um den Homebrew Launcher wieder zu öffnen.
+{: .notice--warning}
+
+Für normale Homebrew- und Entwicklungs Fortschritte, checke den [ReSwitched Weekly](https://reswitchedweekly.github.io/) Blog ab und zu.
+{: .notice--primary}
+
+Für Informationen zum Beitragen zur Homebrew Entwicklung als Entwickler, schau dir die [Homebrew Entwicklung](homebrew-development) Seite an.
+{: .notice--primary}

@@ -14,7 +14,7 @@ title: "新手入門"
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
-請於下表中選擇與您系統版本相符的頁面。 請注意，在『從』和『到』區域中的任何版本將包括在內。 比方說，『從 1.0 到 2.3.0』，包括著1.0.0版、2.3.0版、以及任何中間的版本。
+請於下表中選擇與您系統版本相符的頁面。 請注意，在『從』和『到』區域中的任何版本將包括在內。 This means that, for example, the "from 1.0.0 to 3.0.0" row includes 1.0.0, 3.0.0, and all versions in-between.
 
 您的系統版本可以在設定、系統中的系統更新中找到。
 
@@ -49,18 +49,13 @@ title: "新手入門"
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">等待自製系統 -- <a href="blocking-updates">阻擋更新</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW or<a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

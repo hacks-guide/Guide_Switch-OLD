@@ -50,8 +50,11 @@ sidebar_pages:
     title: التحديث باستخدام بطاقة لعبة
     url: game-card-update
   - 
-    title: مشغل الـ Homebrew
-    url: homebrew-launcher
+    title: مشغل الـHomebrew (PegaSwitch)
+    url: homebrew-launcher-(pegaswitch)
+  - 
+    title: مشغل الـHomebrew (المثبت)
+    url: homebrew-launcher-(installer)
   - 
     title: خيارات متعددة
     url: multiple-options

@@ -53,5 +53,5 @@ Antes de realizar la actualización con cartucho, bloqueamos las actualizaciones
 
 ___
 
-### Continúa a [Homebrew Launcher](homebrew-launcher)
+### Continúa en [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

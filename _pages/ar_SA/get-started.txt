@@ -14,7 +14,7 @@ title: "أبدأ"
 قبل البدء، تأكد من أن بطاقة الذاكرة الخارجية SD Card خالية من الأخطاء، يمكنك استخدام إحدى الأدوات التالية حسب نظام التشغيل لحاسبك [H2testw (Windows)](h2testw-(windows)) أو [F3 (Linux)](f3-(linux)) أو [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-حدد الصفحة المناسبة لتحديث جهازك من الجدول أدناه. ملاحظة: "من" و "إلى" تشمل جميع الأصدارت بينهم. وهذا يعني، على سبيل المثال، الصف "من 1.0.0 إلى 2.3.0 " يتضمن 1.0.0 و 2.3.0 و كل الأصدارات بينهم.
+حدد الصفحة المناسبة لتحديث جهازك من الجدول أدناه. ملاحظة: "من" و "إلى" تشمل جميع الأصدارت بينهم. وهذا يعني، على سبيل المثال، الصف "من 1.0.0 إلى 3.0.0 " يتضمن 1.0.0 و 3.0.0 و كل الأصدارات بينهم.
 
 تستطيع أن تجد اصدار تحديث جهازك تحت قائمة تحديثات النظام System Update menu في قسم النظام System tab داخل برنامج إعدادات النظام Settings application.
 
@@ -49,18 +49,13 @@ title: "أبدأ"
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">بنتظر التحديثات المعدلة CFW -- <a href="blocking-updates">منع التحديثات</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">بنتظر التحديثات المعدلة CFW -- <a href="game-card-update">التحديث بستخدام بطاقة لعبة</a></td>
+      </a></td>مشغل الـHomebrew (PegaSwitch)<td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">مشغل الـ Homebrew</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">مشغل الـHomebrew (المثبت)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

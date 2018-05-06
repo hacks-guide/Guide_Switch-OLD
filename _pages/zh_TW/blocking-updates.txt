@@ -6,7 +6,7 @@ title: "阻擋更新"
 
 ### 必讀事項
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 為了能確保您未來能順利使用它們，我們將把您 Switch 的 DNS 伺服器設定為 ReSwitched 的 DNS 伺服器以確實阻擋任天堂 Switch 系統更新的伺服器。
 
