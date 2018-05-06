@@ -6,15 +6,15 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 ### Lecture requise
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+Sur les firmwares 1.0.0 - 2.3.0, l'Hombrew Launcher est actuellement "installé" sur votre console via un script lancé par [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+Cela va vous permettre d'avoir accès à l'Homebrew Launcher en lançant l'application Album *jusqu'à ce que vous redémarriez votre console*, après quoi vous devrez *relancer le script* pour restaurer la fonctionnalité de l'Hombrew Launcher. 
 
 Après un redémarrage, vous devrez ré-exécuter cet exploit secondaire pour réactiver l'accès à l'Homebrew Launcher. En outre, notez que cet exploit secondaire vous empêchera également de jouer à des jeux commerciaux tant qu’il restera actif (*jusqu'à ce que votre appareil soit redémarré*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Si vous êtes familier avec le "jailbreaking" de smartphones iOS, on peut considérer cette idée similaire à un "jailbreak tethered".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Notez que, même si ces instructions marchent aussi sur le firmware 3.0.0, il serait beaucoup plus facile de suivre [Homebrew Launcher (Installeur)](homebrew-launcher-(installer)) à la place pour cette version.
 {: .notice--info}
 
 Notez que cet exploit a l'effet secondaire de corrompre la base de données de Miis de votre console lors de l'installation. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
