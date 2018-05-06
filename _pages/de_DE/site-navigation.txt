@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Beliebt**
 
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Blockiere Updates](blocking-updates)
 + [Software-Karten-Update](game-card-update)
@@ -30,7 +30,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Startseite](/)
 + [Homebrew Entwicklung](homebrew-development)
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Troubleshooting](troubleshooting)
 + [Warum Werbung?](why-ads)
