@@ -137,7 +137,7 @@ Vous pouvez maintenant lancer l'Homebrew Launcher en lançant l'application Albu
 Vous ne pourrez plus lancer de jeux commerciaux ou téléchargés depuis l'eShop (*jusqu'au prochain redémarrage*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Vous devrez re-lancer `evalfile usefulscripts/nsp.js` dans PegaSwitch (en utilisant n'importe quel applet navigateur) après chaque redémarrage pour accéder à nouveau à l'Homebrew Launcher sur votre console.
 {: .notice--warning}
 
 Pour des résumés réguliers sur les Homebrews et le développement, consultez régulièrement le blog [ReSwitched Weekly](https://reswitchedweekly.github.io/).
