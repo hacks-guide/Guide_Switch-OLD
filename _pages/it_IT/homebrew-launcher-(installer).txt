@@ -1,0 +1,134 @@
+---
+title: "Homebrew Launcher (Installer)"
+---
+
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
+L'Homebrew Launcher al momento viene "installato" sulla tua console tramite un exploit del browser. 
+
+Dopo che il processo di installazione è stato completato, dovrai avviare un exploit secondario che ti permetterà di accedere all'Homebrew Launcher tramite l'applicazione Album *finchè la console non viene riavviata*. 
+
+Dopo un riavvio, dovrai ri-eseguire questo exploit secondario per ri-abilitare l'accesso all'Homebrew Launcher sulla tua console. Inoltre, questo exploit secondario ti impedirà di giocare a qualunque gioco finchè rimane attivo (*ovvero finchè la console non viene riavviata*).
+ 
+Se hai familiarità con il "jailbreak" dei dispositivi iOS, quest'idea potrebbe essere considerata analoga al "jailbreak semi-untethered".
+
+L'attuale exploit per homebrew ha l'effetto collaterale di corrompere il Database dei Mii della console dopo l'installazione iniziale. Anche se l'effetto è innocuo, provocherà la perdita di ogni Mii creato dagli utenti.
+{: .notice--warning}
+
+### Cosa serve
+
+* L'ultima versione di [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+
+### Istruzioni
+
+#### Sezione I - Preparazione
+
+1. Spegni la tua console
+1. Inserisci la scheda SD nel tuo computer
+1. Copia `hbmenu.nro` dall'archivio `.zip` di nx-hbmenu nella directory principale della tua scheda SD
+1. Se non è già presente, crea una cartella chiamata `switch` nella directory principale della tua scheda SD
+1. Reinserisci la scheda SD nella tua console
+1. Accendi la console
+
+#### Sezione II - Configurazione dei DNS
+
+Per poter innescare l'exploit, questi server DNS devono essere impostati su tutte le reti internet alle quali è connessa la tua console.
+{: .notice--info}
+
+1. Avvia le Impostazioni di sistema
+1. Seleziona `Internet` -> `Impostazioni Internet`
+1. Seleziona la rete internet alla quale sei connesso
+  + Ciò è indicato da una spunta verde accanto alla rete
+1. Seleziona "Cambia le impostazioni"
+1. Imposta le "Impostazioni DNS" su "Manuali"
+1. Imposta il "DNS Primario" su `104.236.106.125`
+1. Imposta il "DNS Secondario" su `62.210.147.20`
+1. Salva le impostazioni
+1. Esci dalle Impostazioni di sistema
+
+#### Sezione III - Installazione iniziale
+
+1. Seleziona `Internet` -> `Impostazioni Internet`
+1. Seleziona la rete internet alla quale sei connesso
+1. Seleziona "Collegati a questa Rete"
+1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."
+1. Seleziona "Avanti"
+1. Verrà caricata la pagina web dell'Homebrew Launcher
+1. Seleziona "Installa"
+1. La pagina web di PegaSwitch verrà caricata
+1. Se l'exploit ha avuto successo, comparirà l'errore `2000-1337`
+  + Se dovessi rimanere sulla pagina di PegaSwitch senza vedere l'errore, riavvia il tuo dispositivo e riprova nuovamente la prova di connessione
+1. Riavvia la console
+1. All'avviso sulla corruzione dei dati Mii, premi "OK" per riavviare di nuovo la console
+
+#### Sezione IV - Avviare l'Homebrew Launcher
+
+Dovrai ri-eseguire questa parte dell'exploit ad ogni riavvio per poter accedere all'Homebrew Launcher.
+
+1. Seleziona `Internet` -> `Impostazioni Internet`
+1. Seleziona la rete internet alla quale sei connesso
+1. Seleziona "Collegati a questa Rete"
+1. Se la connessione ai DNS è riuscita, vedrai il messaggio "È necessario essere registrati per usare questa rete."
+1. Seleziona "Avanti"
+1. Verrà caricata la pagina web dell'Homebrew Launcher
+1. Seleziona "Run"
+1. Se l'exploit ha avuto successo, riceverai una notifica che ti chiederà di uscire dal browser
+1. Ritorna alla schermata iniziale
+1. Avvia l'applicazione dell'Album
+1. Se l'exploit ha avuto successo, l'Homebrew Launcher verrà caricato
+
+#### Sezione V - Applet del Browser Alternativi (Opzionale)
+
+Visto che è necessario ri-eseguire la parte di avvio dell'exploit ad ogni riavvio, sarebbe ideale se ci fosse un modo più conveniente di avviare il browser rispetto alla prova di connessione.
+
+Fortunatamente, ci sono [molteplici](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser internet sulla Switch, e ognuno di essi può essere usato per innescare l'exploit del browser.
+
+Due metodi convenienti per avviare il browser sono elencati qua sotto:
+
+##### Richiesta di Accesso dell'eShop
+
+Per usare questo metodo, crea un secondo account sul tuo dispositivo. Non collegarlo ad un Account Nintendo.
+
+1. Avvia il Nintendo eShop
+1. Seleziona il secondo account
+1. Seleziona "Accedi"
+1. L'applet del browser si avvierà
+
+##### Richiesta di Aggiornamento di un Gioco
+
+Per usare questo metodo, bisogna avere almeno un gioco nella schermata iniziale.
+
+Se non dovessi essere connesso ai DNS giusti, questo metodo *aggiornerà* il tuo dispositivo. È pericoloso!
+{: .notice--danger}
+
+1. Premi il pulsante (+) su un qualsiasi gioco selezionato
+1. Nella scheda "Aggiornamento software", seleziona "Tramite Internet"
+1. L'applet del browser si avvierà
+
+___
+
+
+Al momento, lo sviluppo di homebrew è ancora agli inizi, ed il numero di applicazioni disponibili è veramente ridotto.
+
+Puoi trovare delle applicazioni homebrew su [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks su reddit](https://www.reddit.com/r/SwitchHacks/), o su [Switch Homebrew su GBAtemp](https://gbatemp.net/forums/285/).
+
+Per installare delle applicazioni homebrew, copia il file `.nro`nella cartella `/switch/` della tua scheda SD.
+
+___
+
+Ora puoi avviare l'Homebrew Launcher avviando l'applicazione dell'Album dalla schermata principale della console (*finchè la console non viene riavviata*).
+{: .notice--success}
+
+Non sarai ora in grado di avviare schede di gioco o giochi dell'eShop (*finchè la console non viene riavviata*).
+{: .notice--warning}
+
+Dovrai eseguire nuovamente la parte di avvio dell'exploit (usando un qualsiasi browser internet) dopo ogni riavvio per poter riabilitare l'accesso all'Homebrew Launcher sulla tua console.
+{: .notice--warning}
+
+Per aggiornamenti sull'homebrew e sullo sviluppo di essi, dai un'occhiata al blog di [ReSwitched Weekly](https://reswitchedweekly.github.io/) regolarmente.
+{: .notice--primary}
+
+Per informazioni su come contribuire allo sviluppo di homebrew, dai un'occhiata alla pagina riguardo lo [Sviluppo di Homebrew](homebrew-development).
+{: .notice--primary}
