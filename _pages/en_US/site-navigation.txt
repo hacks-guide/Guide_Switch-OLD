@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Popular**
 
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Blocking Updates](blocking-updates)
 + [Game Card Update](game-card-update)
