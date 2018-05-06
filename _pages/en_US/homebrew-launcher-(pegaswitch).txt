@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher"
+title: "Homebrew Launcher (PegaSwitch)"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -14,21 +14,20 @@ After a reboot, you will have to re-run this secondary exploit in order to re-en
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
-Note that while these instructions also work for firmware 3.0.0, it is substantially less tedious to follow <a href="homebrew-launcher">Homebrew Launcher (Installer)</a> instead for that firmware.
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow Homebrew Launcher (Installer)](homebrew-launcher) for that firmware version.
 {: .notice--info}
 
-
-
+Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
 ### What you need
 
 * **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
 * **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
-* <a href="{{ base_path }}/files/hbl.nsp">hbl.nsp</a>
-* <a href="{{ base_path }}/files/nsp.js">nsp.js</a>
 * The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
 * The latest version of [node.js](https://nodejs.org/en/)
+* [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
+* [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
 ### Instructions
 
@@ -46,10 +45,10 @@ Note that while these instructions also work for firmware 3.0.0, it is substanti
 1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
 1. Start cmd/terminal and `cd` to the PegaSwitch folder
 1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1.  
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it shows
-  + **Windows:** Run `node start.js` and make note of the IP address it shows
-1. Exit PegaSwitch by typing Ctrl+C twice.
+1. Start PegaSwitch by running the command corresponding to your operating system
+  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
+  + **Windows:** Run `node start.js` and make note of the IP address it displays
+1. Exit PegaSwitch by inputting Ctrl+C twice
 
 #### Section III - DNS Configuration
 
@@ -62,32 +61,38 @@ Note that these DNS servers will need to be set on each network you connect your
   + This is signified by a green check mark next to the network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to the IP address PegaSwitch is displaying. This is usually in the format of `192.168.1.XXX`
-1. Set "Secondary DNS" to the IP address PegaSwitch is displaying. This is usually in the format of `192.168.1.XXX`
+1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
+  + This is usually in the format of `192.168.1.XXX`
 1. Save the network settings
 1. Exit System Settings
 
-#### Section III - Initial Installation (Firmware 1.0.0)
+#### Section III - Initial Installation
 
-Note that this section is only for Switches with firmware 1.0.0. If you have firmware 2.0.0 - 2.3.0, please scroll down to "Section III - Initial Installation (Firmware 2.0.0 - 2.3.0)".
+Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+
+##### Option i - Firmware Version 1.0.0
+
+Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+
+Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
 {: .notice--info}
 
-Note that firmware 1.0.0 (initially) requires a Japanese copy of Puyo Puyo Tetris S to launch PegaSwitch.
-{: .notice--info}
-
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`. If on Windows, you may need to temporarily disable Windows Firewall in order for the Switch to connect.
-1. Launch Puyo Puyo Tetris S
+1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
+1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
+1. Launch Puyo Puyo Tetris S on your device
 1. Press A and then press R
 1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
 1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your Switch has connected and show its firmware version and MAC address in the prompt.
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
 1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
 1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch 
-1. **You will need to repeat these steps every time you reboot your Switch.**
+1. If the exploit was successful, the Homebrew Launcher will launch
 
-#### Section III - Initial Installation (Firmware 2.0.0 - 2.3.0)
+##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+
+Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+
 1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select your current network
@@ -95,24 +100,25 @@ Note that firmware 1.0.0 (initially) requires a Japanese copy of Puyo Puyo Tetri
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
 1. The PegaSwitch webpage will load
-1. PegaSwitch on your PC should show that your Switch has connected and show its firmware version and MAC address in the prompt.
+1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
 1. Run `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
 1. Launch the Album applet
 1. If the exploit was successful, the Homebrew Launcher will launch 
-1. **You will need to repeat these steps every time you reboot your Switch.**
 
 #### Section V - Fake News (Optional)
 
-Modifying System save data can **brick** your Switch permanently! It is highly recommended to avoid editing `installFakeNews.js` in any way.
+As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+
+Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+
+Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
 {: .notice--warning}
 
-
-1. As launching PegaSwitch can be somewhat tedious, particularly on firmware 1.0, we can install "Fake News" to make it slightly less annoying. This will install a fake entry to the News applet that can launch PegaSwitch
-1. In order to do so, connec your Switch to PegaSwitch as in Section III
+1. In order to do so, connect your device to PegaSwitch as in Section III
 1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
 1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on the Switch and tap to open the "video"
+1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
 
 ___
 
