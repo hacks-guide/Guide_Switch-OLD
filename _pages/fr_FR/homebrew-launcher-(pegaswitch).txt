@@ -14,7 +14,7 @@ Après un redémarrage, vous devrez ré-exécuter cet exploit secondaire pour r�
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
 Notez que cet exploit a l'effet secondaire de corrompre la base de données de Miis de votre console lors de l'installation. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
