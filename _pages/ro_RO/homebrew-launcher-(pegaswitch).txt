@@ -14,7 +14,7 @@ După o repornire, va trebui să relansați exploit-ul secundar pentru a reactiv
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
 Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei la prima instalare. Deși acest efect este inofensiv, va rezulta în pierderea oricărui Mii creat de utilizator.
