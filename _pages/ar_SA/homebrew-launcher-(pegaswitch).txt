@@ -14,7 +14,7 @@ This will allow you to access the Homebrew Launcher through the Album applicatio
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
 ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك بعد التثبت الأولى. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
