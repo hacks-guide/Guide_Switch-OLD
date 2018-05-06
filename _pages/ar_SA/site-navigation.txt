@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **العناوين المتداولة**
 
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [منع التحديثات](blocking-updates)
 + [التحديث بستخدام شريط لعبة](game-card-update)
@@ -30,7 +30,7 @@ sitemap: false
 + [H2testw (ويندوز)](h2testw-(windows))
 + [الصفحة الرئيسية](/)
 + [تطوير الـ Homebrew](homebrew-development)
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 +[Troubleshooting] (استكشاف الأخطاء وإصلاحها)
 + [لماذا الاعلانات؟](why-ads)
