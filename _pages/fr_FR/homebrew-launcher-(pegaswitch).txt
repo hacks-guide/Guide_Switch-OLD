@@ -20,12 +20,12 @@ Notez que, même si ces instructions marchent aussi sur le firmware 3.0.0, il se
 Notez que cet exploit a l'effet secondaire de corrompre la base de données de Miis de votre console lors de l'installation. Bien que ce soit inoffensif, cela résultera en la perte des Miis créés par les utilisateurs.
 {: .notice--warning}
 
-### Ce que vous avez besoin
+### Ce dont vous avez besoin
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* **Firmware 1.0.0 :** La version 1.0.0 de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*pour le moment, la dernière version de nx-hbmenu crashe en 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0 :** La dernière version [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* La dernière version de [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* La dernière version de [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
@@ -36,13 +36,13 @@ Notez que cet exploit a l'effet secondaire de corrompre la base de données de M
 1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
 1. Copiez `hbmenu.nro` du fichier `.zip` de nx-hbmenu vers la racine de votre carte SD
-1. Copy `hbl.nsp` to the root of your SD card
+1. Copiez `nbl.nsp` à la racine de votre carte SD
 1. Créez un dossier nommé `switch` à la racine de votre carte SD si celui ci n'existe pas
 1. Réinsérez votre carte SD dans votre console
 1. Allumez votre console
 
-#### Section II - PegaSwitch Configuration
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
+#### Section II - Configuration de PegaSwitch
+1. Après avoir téléchargé la dernière version de PegaSwitch, copiez `nsp.js` vers `PegaSwitch/usefulscripts`
 1. Start cmd/terminal and `cd` to the PegaSwitch folder
 1. Run `npm install`; this will install the node modules that PegaSwitch depends on
 1. Start PegaSwitch by running the command corresponding to your operating system
