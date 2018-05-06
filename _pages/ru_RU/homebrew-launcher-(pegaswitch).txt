@@ -14,7 +14,7 @@ This will allow you to access the Homebrew Launcher through the Album applicatio
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
 Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается на момент первой установки. Хоть это и безвредно для самой консоли, все Mii, созданные пользователем, будут потеряны.
