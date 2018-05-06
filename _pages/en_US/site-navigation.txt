@@ -30,7 +30,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
 + [Homebrew Development](homebrew-development)
-+ [Homebrew Launcher (Installer)](homebrew-launcher-(installer)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Troubleshooting](troubleshooting)
 + [Why Ads?](why-ads)
