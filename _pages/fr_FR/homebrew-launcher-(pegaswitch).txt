@@ -43,14 +43,14 @@ Notez que cet exploit a l'effet secondaire de corrompre la base de données de M
 
 #### Section II - Configuration de PegaSwitch
 1. Après avoir téléchargé la dernière version de PegaSwitch, copiez `nsp.js` vers `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. Lancer un terminal/invite de commandes et `cd` vers le dossier de PegaSwitch
+1. Lancez `npm install` ; ceci va installer les modules node dont PegaSwitch dépend
+1. Lancez PegaSwitch en lançant la commande correspondant à votre système d'exploitation
+  + **Linux/macOS:** Lancez `sudo node start.js` et notez l'adresse IP qui s'affiche
+  + **Windows:** Lancez `node start.js` et notez l'adresse IP qui s'affiche
+1. Quittez PegaSwitch en appuyant deux fois sur Ctrl+C
 
-#### Section III - DNS Configuration
+#### Section III - Configuration du DNS
 
 Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous connecterez votre console pour déclencher l'exploit.
 {: .notice--info}
@@ -61,8 +61,8 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
   + Ceci est indiqué par une coche verte à côté du réseau
 1. Sélectionnez "Modifier les paramètres"
 1. Mettez "Paramétrage du DNS" sur "Manuel"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Mettez dans "Primary DNS" et "Secondary DNS" l'adresse IP affichée par PegaSwitch
+  + C'est généralement du genre `192.168.1.XXX`
 1. Sauvegardez les paramètres du réseau
 1. Sortez des Paramètres de la console
 
@@ -70,11 +70,11 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 
 Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
 
-##### Option i - Firmware Version 1.0.0
+##### Option i - Version de firmware 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Notez que cette option ne s'applique qu'aux consoles en 1.0.0 ; Si vous avez un firmware entre 2.0.0 et 2.3.0, descendez vers "Option ii - Versions de firmware 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Notez qu'actuellement, la version 1.0.0 requiert une copie Japonaise de Puyo Puyo Tetris S pour pouvoir se connecter à PegaSwitch pour la première fois. Après ça, une méthode alternative de connexion à PegaSwitch sera disponible.
 {: .notice--info}
 
 1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
