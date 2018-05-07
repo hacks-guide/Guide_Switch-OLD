@@ -106,19 +106,19 @@ Homebrew Launcher будет доступен для запуска через �
 1. Запустите приложение Альбом
 1. Если эксплойт сработал, запустится Homebrew Launcher 
 
-#### Section V - Fake News (Optional)
+#### Часть V - Fake News (Опционально)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Поскольку после каждой перезагрузки необходимо проделывать часть с установкой, идеальным было бы наличие более удобной возможности подключения к PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+К счастью, мы можем установить поддельную запись в приложение Новости (эксплойт "Fake News"), которая сделает подключение к PegaSwitch гораздо проще.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Обратите внимание, что модификация системных сохранений может привести к перманентному **брику** в случае некорректного использования! Настоятельно рекомендуется избегать редактирования скрипта `installFakeNews.js`, чтобы избежать повреждения консоли.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. Подключите консоль к PegaSwitch, как написано в Части III
+1. После подключения к PegaSwitch выполните команду `evalfile usefulscripts/installFakeNews.js` и дождитесь ее завершения
+1. Перезагрузите консоль, и вы должны увидеть запись PegaSwitch в новостях
+1. Чтобы воспользоваться Fake News, запустите PegaSwitch на компьютере командой `sudo node start.js --webapplet`, затем выберите запись Fake News в новостях на консоли и откройте "видео"
 
 ___
 
@@ -137,7 +137,7 @@ ___
 Теперь вы не сможете запускать игры на картриджах или из eShop (*до следующей перезагрузки*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+После перезагрузки необходимо заново выполнить `evalfile usefulscripts/nsp.js` в PegaSwitch (используя любой браузер-апплет), чтобы восстановить доступ к Homebrew Launcher на вашей консоли.
 {: .notice--warning}
 
 Для получения информации по прогрессу в разработке хоумбрю регулярно проверяйте еженедельный блог [ReSwitched Weekly](https://reswitchedweekly.github.io/).
