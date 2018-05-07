@@ -106,19 +106,19 @@ Notez que cette option ne s'applique qu'aux consoles en 2.0.0 - 2.3.0 ; si vous 
 1. Lancez l'applet Album
 1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera 
 
-#### Section V - Fake News (Optional)
+#### Section V - Fake News (Optionnel)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Vu qu'il faut refaire la partie "Installation" de l'exploit après chaque redémarrage, il serait idéal d'avoir une manière plus pratique d'accéder à PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Heureusement, on peut installer une fausse entrée dans l'applet News (l'exploit "Fake News") qui permet de se connecter plus facilement à PegaSwitch.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Notez que modifier des sauvegardes sur système peut **bricker** votre console de manière irrécupérable si vous n'êtes pas attentif ! Pour éviter d'endommager votre console, il est fortement recommandé de ne pas modifier le script `installFakeNews.js`.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. Commencez par connecter votre console à PegaSwitch comme dans la Section III
+1. Une fois connecté à PegaSwitch, lancez `evalfile usefulscripts/installFakeNews.js` et attendez qu'il finisse
+1. Redémarrez votre console, vous devriez voir une news PegaSwitch
+1. Pour déclencher Fake News, lancez PegaSwitch sur votre PC avec `sudo node start.js --webapplet`, puis sélectionnez la news de Fake News sur votre console, puis touchez la "vidéo" pour la lancer
 
 ___
 
