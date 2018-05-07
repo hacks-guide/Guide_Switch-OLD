@@ -53,5 +53,5 @@ title: "Обновление картриджем"
 
 ___
 
-### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
+### Следующий шаг: [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}
