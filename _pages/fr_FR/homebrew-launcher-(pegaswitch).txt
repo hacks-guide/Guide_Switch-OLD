@@ -72,7 +72,7 @@ Notez que vous devrez répéter ces étapes après chaque redémarrage de la con
 
 ##### Option i - Version de firmware 1.0.0
 
-Notez que cette option ne s'applique qu'aux consoles en 1.0.0 ; Si vous avez un firmware entre 2.0.0 et 2.3.0, descendez vers "Option ii - Versions de firmware 2.0.0 - 2.3.0".
+Notez que cette option ne s'applique qu'aux consoles en 1.0.0 ; si vous avez un firmware entre 2.0.0 et 2.3.0, descendez vers "Option ii - Versions de firmware 2.0.0 - 2.3.0".
 
 Notez qu'actuellement, la version 1.0.0 requiert une copie Japonaise de Puyo Puyo Tetris S pour pouvoir se connecter à PegaSwitch pour la première fois. Après ça, une méthode alternative de connexion à PegaSwitch sera disponible.
 {: .notice--info}
@@ -83,27 +83,27 @@ Notez qu'actuellement, la version 1.0.0 requiert une copie Japonaise de Puyo Puy
 1. Appuyez sur A puis R
 1. Appuyez sur A et touchez l'option la plus en bas du menu, appelée "お問い合わせ先"
 1. Touchez le logo SEGA en bas à gauche ; cela va lancer l'applet web et charger la page web de PegaSwitch.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Sur votre PC, PegaSwitch devrait indiquer que votre console s'est connectée, et montrer sa version de firmware et son adresse MAC, dans le terminal.
+1. Sur votre ordinateur, tapez dans PegaSwitch `evalfile usefulscripts/nsp.js`
+1. Appuyez sur le bouton Home pour quitter
+1. Lancez l'applet Album
 1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+##### Option ii - Versions de firmware 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Notez que cette option ne s'applique qu'aux consoles en 2.0.0 - 2.3.0 ; si vous avez un firmware 1.0.0, remontez vers "Option i - Version de firmware 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Lancez PegaSwitch dans votre terminal/invite de commande en tapant `sudo node start.js` 
 1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
 1. Sélectionnez "Se connecter à ce réseau"
 1. Si la connexion aux serveurs DNS a réussie, vous verrez le message "Authentification requise pour utiliser ce réseau"
 1. Sélectionnez "Suivant"
 1. La page Web de PegaSwitch va s'afficher
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Sur votre PC, PegaSwitch devrait indiquer que votre console s'est connectée, et montrer sa version de firmware et son adresse MAC, dans le terminal.
+1. Lancez `evalfile usefulscripts/nsp.js`
+1. Appuyez sur le bouton Home pour quitter
+1. Lancez l'applet Album
 1. Si l'exploit s'est bien exécuté, l'Homebrew Launcher se lancera 
 
 #### Section V - Fake News (Optional)
