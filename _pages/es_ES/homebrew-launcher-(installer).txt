@@ -12,7 +12,7 @@ Luego de que el proceso de instalación inicial haya terminado, debes ejecutar u
 
 Después de reiniciar, tendrás que volver a ejecutar el exploit secundario para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Además, ten en cuenta que este exploit secundario impedirá que puedas jugar a juegos retail mientras esté activo (*hasta que tu consola sea reiniciada*).
  
-Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
+Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "semi-untethered jailbreak".
 
 Ten en cuenta que el actual exploit de homebrew tiene el efecto secundario de corromper la base de datos de Miis de tu consola luego de la instalación inicial. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
 {: .notice--warning}
