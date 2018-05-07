@@ -50,7 +50,7 @@ Si tu consola tiene una versión de firmware >=3.0.1, la mejor opción a seguir 
 
 Esta guía actualmente permite habilitar el acceso al Homebrew Launcher a través de un exploit de navegador, a pesar de que "instalado" no es una descripción particularmente apropiada. Esto se debe a que el exploit debe ser relanzado luego de reiniciar la consola para poder rehabilitar el acceso al Homebrew Launcher.
 
-Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 ## ¿Qué necesito saber antes de empezar?
 
