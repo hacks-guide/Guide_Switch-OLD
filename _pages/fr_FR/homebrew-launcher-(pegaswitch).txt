@@ -78,11 +78,11 @@ Notez qu'actuellement, la version 1.0.0 requiert une copie Japonaise de Puyo Puy
 {: .notice--info}
 
 1. Assurez-vous que votre pare-feu ne bloque pas les connexions vers le port UDP 53 ou les ports TCP 80 et 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
+1. Lancez PegaSwitch dans votre terminal/invite de commande en tapant `sudo node start.js --webapplet`
+1. Lancez Puyo Pyuo Tetris S sur votre console
+1. Appuyez sur A puis R
+1. Appuyez sur A et touchez l'option la plus en bas du menu, appelée "お問い合わせ先"
+1. Touchez le logo SEGA en bas à gauche ; cela va lancer l'applet web et charger la page web de PegaSwitch.
 1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
 1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
