@@ -41,16 +41,16 @@ Homebrew Launcher будет доступен для запуска через �
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-#### Section II - PegaSwitch Configuration
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+#### Часть II - Конфигурация PegaSwitch
+1. После загрузки последней версии PegaSwitch, скопируйте `nsp.js` в папку `PegaSwitch/usefulscripts`
+1. Запустите cmd/терминал и перейдите в папку PegaSwitch командой `cd`
+1. Выполните `npm install`; эта команда установит node модули, от которых зависит PegaSwitch
+1. Запустите PegaSwitch, выполнив команду, соответствующую вашей операционной системе
+  + **Linux/macOS:** Выполните `sudo node start.js` и запишите отображаемый IP-адрес
+  + **Windows:** Выполните `node start.js` и запишите отображаемый IP-адрес
+1. Выйдите из PegaSwitch, дважды нажав Ctrl+C
 
-#### Section III - DNS Configuration
+#### Часть III - Конфигурация DNS
 
 Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы эксплойт сработал.
 {: .notice--info}
@@ -61,8 +61,8 @@ Homebrew Launcher будет доступен для запуска через �
   + Она обозначена зелёной галочкой рядом с сетью
 1. Выберите "Изменить настройки"
 1. Измените "Настройки DNS" на "Вручную"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Измените значения полей "Первичный DNS" и "Вторичный DNS" на IP-адрес, отображаемый в PegaSwitch
+  + Обычно этот адрес имеет формат `192.168.1.XXX`
 1. Сохраните настройки сети
 1. Закройте Системные настройки
 
