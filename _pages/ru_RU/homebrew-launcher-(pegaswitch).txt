@@ -77,19 +77,19 @@ Homebrew Launcher будет доступен для запуска через �
 Обратите внимание, что версия прошивки 1.0.0 на данный момент требует японскую версию игры Puyo Puyo Tetris S для подключения к PegaSwitch в первый раз. Впоследствии будет доступен альтернативный метод подключения к PegaSwitch.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Убедитесь, что файервол не блокирует входящие подключения на UDP порте 53 или TCP портах 80 и 8100
+1. Запустите PegaSwitch в cmd/терминале, выполнив команду `sudo node start.js --webapplet`
+1. Запустите Puyo Puyo Tetris S на консоли
+1. Нажмите A, затем нажмите R
+1. Нажмите A, затем нажмите на самый нижний пункт меню с надписью "お問い合わせ先"
+1. Нажмите на логотип SEGA в левом нижнем углу; это запустит webapplet и откроет страницу PegaSwitch.
+1. PegaSwitch на компьютере должен показать, что ваша консоль подключена, и отобразить ее версию прошивки и MAC-адрес в командной строке.
+1. В PegaSwitch на компьютере выполните команду `evalfile usefulscripts/nsp.js`
+1. Нажмите кнопку Home, чтобы выйти
+1. Запустите приложение Альбом
 1. Если эксплойт сработал, запустится Homebrew Launcher
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+##### Опция ii - Версия прошивки 2.0.0 - 2.3.0
 
 Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
@@ -100,10 +100,10 @@ Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0;
 1. Если соединение с DNS прошло успешно, вы увидите сообщение "Регистрация необходима для использования этой сети."
 1. Выберите "Далее"
 1. Будет загружена веб-страница PegaSwitch
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. PegaSwitch на компьютере должен показать, что ваша консоль подключена, и отобразить ее версию прошивки и MAC-адрес в командной строке.
 1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Нажмите кнопку Home, чтобы выйти
+1. Запустите приложение Альбом
 1. Если эксплойт сработал, запустится Homebrew Launcher 
 
 #### Section V - Fake News (Optional)
