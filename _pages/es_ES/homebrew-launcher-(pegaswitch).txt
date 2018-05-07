@@ -12,7 +12,7 @@ This will allow you to access the Homebrew Launcher through the Album applicatio
 
 Después de reiniciar, tendrás que volver a ejecutar el exploit secundario para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Además, ten en cuenta que este exploit secundario impedirá que puedas jugar a juegos retail mientras esté activo (*hasta que tu consola sea reiniciada*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "tethered jailbreak".
 
 Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
