@@ -70,11 +70,11 @@ Homebrew Launcher будет доступен для запуска через �
 
 Обратите внимание, что эту часть придется выполнять после каждой перезагрузки, чтобы восстановить доступ к Homebrew Launcher.
 
-##### Option i - Firmware Version 1.0.0
+##### Опция i - Версия прошивки 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Обратите внимание, что эта часть подходит только для консолей с версией прошивки 1.0.0; если ваша версия прошивки 2.0.0 - 2.3.0, переходите к части "Опция ii - Версия прошивки 2.0.0 - 2.3.0" ниже.
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Обратите внимание, что версия прошивки 1.0.0 на данный момент требует японскую версию игры Puyo Puyo Tetris S для подключения к PegaSwitch в первый раз. Впоследствии будет доступен альтернативный метод подключения к PegaSwitch.
 {: .notice--info}
 
 1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
