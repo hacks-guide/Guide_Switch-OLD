@@ -8,13 +8,13 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 Для версий прошивки 1.0.0 - 2.3.0 на данный момент Homebrew Launcher "устанавливается" на вашу консоль при помощи скрипта, запускаемого через [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+Homebrew Launcher будет доступен для запуска через приложение Альбом *до следующей перезагрузки*, после чего необходимо *перезапустить скрипт*, чтобы восстановить доступ к Homebrew Launcher. 
 
 После перезагрузки этот вторичный эксплойт необходимо перезапустить, чтобы восстановить доступ к Homebrew Launcher на вашей консоли. Обратите внимание, что этот вторичный эксплойт также не позволяет запускать обычные игры, пока он активирован (*до следующей перезагрузки*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Если вы знакомы с "джейлбрейком" для iOS-устройств, эта идея может считаться аналогичной "привязанному джейлбрейку".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Обратите внимание, что, хотя эти инструкции также подходят для версии прошивки 3.0.0, будет намного проще вместо этого следовать инструкции [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) для этой версии.
 {: .notice--info}
 
 Обратите внимание, что текущий эксплойт для хоумбрю имеет побочный эффект, при котором база данных Mii повреждается на момент первой установки. Хоть это и безвредно для самой консоли, все Mii, созданные пользователем, будут потеряны.
