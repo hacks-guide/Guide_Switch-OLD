@@ -2,9 +2,9 @@
 title: "Homebrew Launcher (PegaSwitch)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Lezen Vereist
 
 On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
