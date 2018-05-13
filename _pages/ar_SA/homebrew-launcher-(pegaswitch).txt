@@ -25,7 +25,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 * **تحديث النظام رقم 1.0.0:** الإصدار رقم 1.0.0 من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*أخر أصدار من nx-hbmenu لا يعمل حالياً على تحديث النظام رقم 1.0.0*)
 * **تحديث النظام رقم 2.0.0 إلى 2.3.0:** أخر أصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 * أخر أصدار من [PegaSwitch] (https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* أخر أصدار من [node.js] (https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
@@ -36,12 +36,12 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. أطفأ الجهاز
 1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
 1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) بطاقة الذاكرة الخارجية SD Card لجهازك
-1. Copy `hbl.nsp` to the root of your SD card
+1. أنسخ الملف `hbl.nsp` إلى جذر (الملف الرئيسي) لبطاقة ذاكرتك الخارجية SD card
 1. اصنع مجلد اسمه `switch` مباشرة في جذر (الملف الرئيسي) لطاقة الذاكرة SD Card، إن لم يكن هذا المجلد موجودا من قبل
 1. أرجع الذاكرة الخارجية SD Card إلى جهازك
 1. شغل الجهاز الخاص بك
 
-#### Section II - PegaSwitch Configuration
+### القسم الثاني - إعداد PegaSwitch
 1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
 1. Start cmd/terminal and `cd` to the PegaSwitch folder
 1. Run `npm install`; this will install the node modules that PegaSwitch depends on
