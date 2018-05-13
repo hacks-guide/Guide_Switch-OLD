@@ -66,7 +66,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 
-#### القسم الثالث - التثبيت الأولي
+#### Section III - Initial Installation
 
 ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
 
