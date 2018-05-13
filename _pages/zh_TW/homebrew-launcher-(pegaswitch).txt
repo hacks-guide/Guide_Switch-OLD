@@ -66,7 +66,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. 儲存網路設定
 1. 退出系統設定
 
-#### 第三節 － 初次安裝
+#### Section IV - Initial Installation
 
 請注意，為了重新啟用 Homebrew Launcher，您得在每次重新啟動後重新運行此章節。
 
