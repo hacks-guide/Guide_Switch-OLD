@@ -66,7 +66,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Speichere die Einstellungen
 1. Verlasse die Systemeinstellungen
 
-#### Abschnitt III - Erstinstallation
+#### Section IV - Initial Installation
 
 Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
 
