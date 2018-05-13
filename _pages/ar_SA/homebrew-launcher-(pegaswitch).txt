@@ -12,7 +12,7 @@ This will allow you to access the Homebrew Launcher through the Album applicatio
 
 بعد أي إعادة تشغيل لجهازك، يجب عليك إعادة تشغيل الثغرة الثانية لإعادة تفعيل الوصول إلى مشغل الـ Homebrew في جهازك. بالإضافة إلى ذلك، لاحظ انه مادامت الثغرة الثانية مفعلة لن تتمكن من تشغيل بطاقات الألعاب (*و لتعطيل الثغرة الثانية أعد تشغيل جهازك*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+إذا كنت معتاداً على أجهزة الـIOS و الجيل بريك "jailbreaking"، فأن هذه الثغرة تعتبر مشابهة للـ"tethered jailbreak" أو جيل بريك المربوط.
 
 Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
@@ -22,9 +22,9 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 # # # ما تحتاجه
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* **تحديث النظام رقم 1.0.0:** الإصدار رقم 1.0.0 من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*أخر أصدار من nx-hbmenu لا يعمل حالياً على تحديث النظام رقم 1.0.0*)
+* **تحديث النظام رقم 2.0.0 إلى 2.3.0:** أخر أصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* أخر أصدار من [PegaSwitch] (https://github.com/reswitched/PegaSwitch)
 * The latest version of [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
