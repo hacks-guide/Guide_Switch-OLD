@@ -16,7 +16,7 @@ Currently, homebrew is only available for firmware versions up to 3.0.0, but fut
 
 ### التعليمات
 
-### القسم الأول-تعديل الـ DNS
+### القسم الأول - إعداد الـ DNS
 
 ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المحفوظة في جهازك لمنع التحديثات!
 {: .notice--warning}
