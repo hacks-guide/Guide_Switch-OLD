@@ -66,7 +66,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Save the network settings
 1. Exit System Settings
 
-#### Section III - Initial Installation
+#### Section IV - Initial Installation
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
