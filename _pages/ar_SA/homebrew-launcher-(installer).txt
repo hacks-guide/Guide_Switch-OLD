@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Installer)"
+title: "مشغل الـHomebrew (المثبت)"
 ---
 
 {% include toc title="جدول المحتويات" %}
@@ -27,7 +27,7 @@ title: "Homebrew Launcher (Installer)"
 
 1. أطفأ الجهاز
 1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
+1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) بطاقة الذاكرة الخارجية SD Card لجهازك
 1. اصنع مجلد اسمه `switch` مباشرة في جذر (الملف الرئيسي) لطاقة الذاكرة SD Card، إن لم يكن هذا المجلد موجودا من قبل
 1. أرجع الذاكرة الخارجية SD Card إلى جهازك
 1. شغل الجهاز الخاص بك
