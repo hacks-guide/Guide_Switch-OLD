@@ -42,15 +42,15 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. شغل الجهاز الخاص بك
 
 ### القسم الثاني - إعداد PegaSwitch
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. بعد تحميلك لأخر نسخة من PegaSwitch، أنسخ الملف `nsp.js` إلى المجلد `PegaSwitch/usefulscripts`
+1. شغل cmd/موجه الاوامر و `cd` إلى ملف PegaSwitch (وذلك بإدخال cd ثم أدخل cd pegaswitch في موجه الأوامر cmd)
+1. أدخل `npm install`; هذا الأمر سيثبت وحدات node والتي يعتمد عليها PegaSwitch
+1. شغل PegaSwitch وذلك بإدخال الأمر المناسب لنظام تشغيلك
+  + **Linux/macOS:** أدخل `sudo node start.js` وأحفظ رقم عنوان الـIP الظاهر على شاشتك
+  + **Windows:** أدخل `node start.js` وأحفظ رقم عنوان الـIP الظاهر على شاشتك
+1. للخروج من PegaSwitch أضغط Ctrl+C معاً مرتين
 
-#### Section III - DNS Configuration
+# # # القسم الثالث - إعداد الـ DNS
 
 ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المسجل فيها جهازك لتفعيل الثغرة.
 {: .notice--info}
@@ -61,49 +61,50 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
   + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
 1. حدد تغيير الإعدادات "Change Settings"
 1. عيين الـ "DNS Settings" إلى يدوي "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. عيين الـ DNS الأساسي "Primary DNS" والـ DNS الثانوي "Secondary DNS" إلى عنوان الـ IP الذي ظهر لك في PegaSwitch
+  + وبالغالب سيكون العنوان على الشكل التالي`192.168.1.XXX`
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 
-#### Section III - Initial Installation
+#### القسم الرابع - التثبيت الأولي
 
 ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
 
-##### Option i - Firmware Version 1.0.0
+#### الاختيار الأول - لتحديث النظام رقم 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+ملاحظة هذا الخيار يطبق فقط على الأجهزة بتحديث رقم 1.0.0; إذا كان تحديث 
+نظام جهازك ما بين 2.0.0 و 2.3.0، فانتقل إلى "الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+ملاحظة تحديث النظام رقم 1.0.0 في الوقت الحالي يتطلب نسخة من لعبة Puyo Puyo Tetris S الإصدار الياباني وذلك للأتصال بـ PegaSwitch للمرة الأولى. بعد ذلك، تستطيع أن تتصل بـ PegaSwitch بطريقة أخرى.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. تأكد أن الجدار الناري firewall لا يحجب الأتصالات القادمة من البورتات التالية UDP ports 53 أو TCP ports 80 و 8100 TCP ports
+1. شغل PegaSwitch وذلك باستخدام موجه الأوامر cmd ثم اكتب الأمر التالي `sudo node start.js --webapplet`
+1. شغل لعبة Puyo Puyo Tetris S في جهازك
+1. أضغط A و بعد ذلك أضغط R
+1. أضغط A واختر اخر خيار في القائمة والمسمى بـ "お問い合わせ先"
+1. أضغط على أيقونة SEGA في الزاوية اليسرى السفلية; هذا سيشغل متصفح الأنترنت و بعدها يجب أن تظهر لديك صفحة PegaSwitch.
+1. ومن على حاسبك الشخصي سيعلمك PegaSwitch أن جهازك متصل حالياً وسيظهر لك نسخة النظام الحالية و عنوان الـ MAC لجهازك في موجه الأوامر.
+1. في PegaSwitch على حاسوبك الشخصي، واكتب `evalfile usefulscripts/nsp.js`
+1. في جهازك أضغط على زر العودة للقائمة الرئيسية Home button للخروج
+1. شغل تطبيق الألبوم Album application
 1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+#### الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0
 
 Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. شغل PegaSwitch وذلك باستخدام موجه الأوامر cmd ثم اكتب الأمر التالي `sudo node start.js` 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
 1. أختر شبكة الاتصال المتصل فيها حالياً
 1. أختر أتصل بهذه الشبكة "Connect to this Network"
 1. إذا كان الاتصال بالـ DNS ناجح، سترى الرسالة التالية "Registration is required to use this network." (وتعني: التسجيل مطلوب لستخدام هذه الشبكة)
 1. أختر التالي "Next"
 1. صفحة PegaSwitch ستفتح
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. ومن على حاسبك الشخصي سيعلمك PegaSwitch أن جهازك متصل حالياً وسيظهر لك نسخة النظام الحالية و عنوان الـ MAC لجهازك في موجه الأوامر.
+1. أدخل `evalfile usefulscripts/nsp.js`
+1. في جهازك أضغط على زر العودة للقائمة الرئيسية Home button للخروج
+1. شغل تطبيق الألبوم Album application
 1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew 
 
 #### Section V - Fake News (Optional)
@@ -137,7 +138,7 @@ ___
 لن تستطيع الآن تشغيل بطاقات الألعاب أو الألعاب المحملة من المتجر الاي شوب eShop (*إلى حين إعادة تشغيل جهازك*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+بعد كل عملية اعادة تشغيل لجهازك، يجب عليك إعادة تفعيل`evalfile usefulscripts/nsp.js` باستخدام PegaSwitch (وذلك باستخدام إحدى الطرق لتشغيل المتصفح) وذلك لتفعيل الوصول لمشغل الـ Homebrew في جهازك مرة أخرى.
 {: .notice--warning}
 
 للتحديثات الدورية عن الـ Homebrew وتطوراته، إنظر إلى مدونة ReSwitched بشكل منتظم [ReSwitched Weekly](https://reswitchedweekly.github.io/).
