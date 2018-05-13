@@ -66,7 +66,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 1. Sauvegardez les paramètres du réseau
 1. Sortez des Paramètres de la console
 
-#### Section III - Installation
+#### Section IV - Initial Installation
 
 Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
 
