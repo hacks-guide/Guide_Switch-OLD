@@ -2,8 +2,8 @@
 title: "الأسئلة الشائعة"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
-**A:** Yes. All currently released Switches will eventually be hackable with Fusée Gelée. See [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) for more information. However, it is unknown if the "mariko" hardware revision soon to release to the market will be vulnerable.
+<a name="faq_latestfw" />**سؤال:** *أنا على اخر تحديث صدر للجهاز. هل جهازي قابل للتهكير؟*    
+**الجواب:** نعم. كل السويتشات المصدرة حالياً سوف يمكن تهكيرها باستخدام Fusée Gelée. أنظر إلى [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) للمزيد من المعلومات. لكن، نحن لا نعلم إذا كان الإصدار المحدث من الأجهزة والتي سيتم إصدارها قريباً والمسماه بـ"mariko" قابلة للتهكير حين صدورها.
 
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
 **A:** Bricking via simply running the Homebrew Launcher or Fusée Gelée is highly unlikely. However, modifying System savedata and highly privileged exploits like Fusée Gelée can easily brick your system if done incorrectly. Only run PegaSwitch scripts, Homebrew Launcher NROs, and especially Fusée Gelée payloads from trusted sources! Running untrusted homebrew payloads has the potential to brick your console permanently.
