@@ -73,7 +73,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 #### الاختيار الأول - لتحديث النظام رقم 1.0.0
 
 ملاحظة هذا الخيار يطبق فقط على الأجهزة بتحديث رقم 1.0.0; إذا كان تحديث 
-نظام جهازك ما بين 2.0.0 و 2.3.0، فانتقل إلى "الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0".
+نظام جهازك ما بين 2.0.0 و 2.3.0، فانتقل إلى "الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0" في الأسفل.
 
 ملاحظة تحديث النظام رقم 1.0.0 في الوقت الحالي يتطلب نسخة من لعبة Puyo Puyo Tetris S الإصدار الياباني وذلك للأتصال بـ PegaSwitch للمرة الأولى. بعد ذلك، تستطيع أن تتصل بـ PegaSwitch بطريقة أخرى.
 {: .notice--info}
@@ -92,7 +92,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 #### الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+ملاحظة هذا الخيار يطبق فقط على الأجهزة بالتحديثات ما بين 2.0.0 و 2.3.0; إذا كان تحديث نظام جهازك 1.0.0 فانتقل إلى "الاختيار الأول- لتحديثات النظام رقم 1.0.0" في الأعلى.
 
 1. شغل PegaSwitch وذلك باستخدام موجه الأوامر cmd ثم اكتب الأمر التالي `sudo node start.js` 
 1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
@@ -107,7 +107,7 @@ Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0;
 1. شغل تطبيق الألبوم Album application
 1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew 
 
-#### Section V - Fake News (Optional)
+#### القسم الخامس - Fake News والأخبار الزائفة (اختياري)
 
 As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
 
