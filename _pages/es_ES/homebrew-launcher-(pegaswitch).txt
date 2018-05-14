@@ -66,7 +66,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Guarda la configuración de red
 1. Sal de la Configuración de la consola
 
-#### Section IV - Initial Installation
+#### Sección IV - Instalación inicial
 
 Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
 
