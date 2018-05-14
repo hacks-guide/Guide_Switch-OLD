@@ -1,30 +1,30 @@
 ---
-title: "Blocking Updates"
+title: "Updates Blokkeren"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Lezen Vereist
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Momenteel is homebrew alleen beschikbaar voor firmwareversies tot en met 3.0.0, maar toekomstige homebrew en CFW is voor alle versies tot en met 5.0.2 gepland.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Om toekomstige toegang te garanderen, zetten wij van uw huidige netwerk de DNS op een server (gehost door ReSwitched) die update verzoeken van Nintendo's Switch update-server blokkeert.
 
-If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+Als je op firmwareversie 5.0.2 bent en online diensten wil blijven gebruiken met updates geblokkeerd, kan je dat doen zolang als 5.0.2 de nieuwste versie is (omdat alleen de nieuwste versie toegang heeft tot de online diensten). Om dit te laten werken, moet je minstens één keer gebruik hebben gemaakt van de online diensten voordat je deze instructies volgt.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Daarnaast betreden we de Herstel- / Onderhoudsmodus en verwijderen we alle updategegevens die al gedownload zijn.
 
-### Instructions
+### Instructies
 
-#### Section I - DNS Configuration
+#### Deel 1 - DNS Configuratie
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Deze DNS servers zullen op elk netwerk waar je je toestel op aansluit ingesteld moeten worden om te zorgen dat je toestel updates blokkeert!
 {: .notice--warning}
 
-1. Launch System Settings
+1. Open Instellingen
 1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
+1. Selecteer uw huidige netwerk
+  + Dit wordt aangegeven met een groen vinkje naast het netwerk
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `104.236.106.125`

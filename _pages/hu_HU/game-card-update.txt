@@ -53,5 +53,5 @@ Before performing the game card update, we block online updates by using airplan
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

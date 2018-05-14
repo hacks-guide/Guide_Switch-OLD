@@ -4,54 +4,57 @@ main:
     title: Home
     url: /
   - 
-    title: FAQ
+    title: Veelgestelde vragen (FAQ)
     url: faq
   - 
-    title: Donations
+    title: Donaties
     url: donations
   - 
     title: Credits
     url: credits
   - 
-    title: Troubleshooting
+    title: Probleemoplossing
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Homebrew Ontwikkeling
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Site Navigatie
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/ZdqEhed">ReSwitched on Discord</a>.
+    title: Voor Engelse support kunt u voor hulp vragen in <a href="https://discord.gg/ZdqEhed"> Nintendo Homebrew op Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Als je deze handleiding waardeert, accepteer ik <a href="donations">donaties</a>.
 footer:
   - 
-    title: Source
+    title: Broncode
   - 
-    title: Site Navigation
+    title: Site Navigatie
   - 
-    title: Why Ads?
+    title: Waarom Advertenties?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Algemene vooruitgang
 sidebar_pages:
   - 
     title: Home
     url: /
   - 
-    title: Get Started
+    title: Voorbereiding
     url: get-started
   - 
-    title: Blocking Updates
+    title: Updates Blokkeren
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Gamekaart Update
     url: game-card-update
   - 
-    title: Homebrew Launcher
-    url: homebrew-launcher
+    title: Homebrew Launcher (PegaSwitch)
+    url: homebrew-launcher-(pegaswitch)
   - 
-    title: Multiple Options
+    title: Homebrew Launcher (Installer)
+    url: homebrew-launcher-(installer)
+  - 
+    title: Meerdere mogelijkheden
     url: multiple-options

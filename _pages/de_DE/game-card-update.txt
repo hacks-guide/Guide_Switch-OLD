@@ -53,5 +53,5 @@ Bevor wir mit einem Cardupdate beginnen, blockieren wir alle online Updates inde
 
 ___
 
-### Weiter zu [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

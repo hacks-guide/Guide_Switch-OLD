@@ -7,7 +7,8 @@ sitemap: false
 {% capture notice-1 %}
 **Populer**
 
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Pemblokiran Pembaharuan](blocking-updates)
 + [Perbarui Kartu Game](game-card-update)
 {% endcapture %}
@@ -29,7 +30,8 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
 + [Homebrew Development](homebrew-development)
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Troubleshooting](troubleshooting)
 + [Why Ads?](why-ads)
 {% endcapture %}

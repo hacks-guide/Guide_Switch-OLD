@@ -6,7 +6,7 @@ title: "Bloccare gli aggiornamenti"
 
 ### Lettura necessaria
 
-Currently, homebrew is only available for firmware version 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
 
 Per garantire l'accesso futuro, seguendo questa guida imposterai i DNS della tua rete internet su un server (mantenuto da ReSwitched) il quale bloccherà le richieste di aggiornamento ai server Nintendo.
 

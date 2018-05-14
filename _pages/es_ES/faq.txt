@@ -2,3 +2,17 @@
 title: "Preguntas Frecuentes"
 ---
 
+<a name="faq_latestfw" />**P:** *Estoy en la última versión de sistema. ¿Mi consola es hackeable?*    
+**R:** Si. Todas las Switch lanzadas serán eventualmente hackeables con Fusée Gelée. Revisa el [FAQ de ktemkin sobre Fusée Gelée](https://www.ktemkin.com/faq-fusee-gelee/) para más información. Sin embargo, se desconoce si la revisión de hardware "mariko" que está por ser lanzada al mercado, será vulnerable.
+
+<a name="faq_risky" />**P:** *¿Qué tan arriesgado es hackear mi consola?*    
+**R:** Es muy poco probable inutilizar la consola por tan solo ejecutar el Homebrew Launcher o Fusée Gelée. No obstante, la modificación de datos de guardado del sistema y la ejecución de exploits con privilegios de alto nivel pueden inutilizar tu sistema fácilmente si se ejecutan incorrectamente. ¡Sólo ejecuta scripts de PegaSwitch, NROs de Homebrew Launcher, y especialmente payloads de Fusée Gelée desde fuentes confiables! Ejecutar payloads de homebrew no confiables tienen una alta probabilidad de inutilizar permanentemente tu consola.
+
+<a name="faq_4gbsd" />**P:** *¿Puedo hacer esto con una tarjeta SD de 4GB (o más pequeña)?*    
+**A:** Es posible si solo quieres ejecutar el Homebrew Launcher; sin embargo, se requiere una tarjeta SD de al menos 64GB para ejecutar custom firmware como lo es Atmosphère, que está en camino, ya que una emuNAND de Switch ocupará hasta 32GB.
+
+<a name="faq_exfatsd" />**P:** *Mi Switch me pide una Actualización de la consola para usar mi tarjeta SD, ¿cómo puedo resolver esto?*    
+**A:** Sí; las tarjetas SD con capacidad mayor a 64GB vienen formateadas como exFAT de fábrica, y la Switch no puede usar tarjetas con formato exFAT sin instalar la Actualización de la consola con soporte para dicho formato. Desafortunadamente, si no tienes el último firmware no podrás instalar esta actualización independiente de actualizar el firmware de la consola. Puedes arreglarlo al usar una herramienta como [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) para poder formatear la tarjeta SD como FAT32. 
+
+<a name="faq_movesd" />**Q:** *¿Cómo puedo transferir la instalación a una nueva tarjeta SD al final de esto?*    
+**A:** Solo copia todos los archivos a la nueva tarjeta SD. 

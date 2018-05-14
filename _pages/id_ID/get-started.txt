@@ -14,7 +14,7 @@ Sebelum memulai, pengguna Windows harus mengaktifkan opsi untuk menampilkan ekst
 Sebelum memulai, Anda mungkin ingin memeriksa kartu SD Anda karena kesalahan menggunakan [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), atau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. Ini berarti bahwa, sebagai contoh, versi "dari 1.0.0 to 2.3.0" mencakup versi 1.0.0, 2.3.0, dan semua versi di antaranya.
+Pilih halaman yang sesuai untuk versi Anda dari tabel di bawah ini. Catatan bahwa "from" dan "to" merupakan bidang iklusif. This means that, for example, the "from 1.0.0 to 3.0.0" row includes 1.0.0, 3.0.0, and all versions in-between.
 
 Versi perangkat Anda dapat ditemukan di bawah menu System Update di tab System pada aplikasi Settings.
 
@@ -49,18 +49,13 @@ Jika demikian halnya pada perangkat Anda, Anda dapat melihat versi Anda dari Mod
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Menunggu CFW -- <a href="blocking-updates">Pemblokiran Pembaharuan</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW or<a href="game-card-update">Game Card Update</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Peluncur Homebrew</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

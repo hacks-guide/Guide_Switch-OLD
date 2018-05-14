@@ -2,3 +2,17 @@
 title: "الأسئلة الشائعة"
 ---
 
+<a name="faq_latestfw" />**سؤال:** *أنا على اخر تحديث صدر للجهاز. هل جهازي قابل للتهكير؟*    
+**الجواب:** نعم. كل السويتشات المصدرة حالياً سوف يمكن تهكيرها باستخدام Fusée Gelée. أنظر إلى [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) للمزيد من المعلومات. لكن، نحن لا نعلم إذا كان الإصدار المحدث من الأجهزة والتي سيتم إصدارها قريباً والمسماه بـ"mariko" قابلة للتهكير حين صدورها.
+
+<a name="faq_risky" />**سؤال:** *ما مدى خطورة تهكير جهازي؟*    
+**الجواب:** من أبعد الاحتمالات أن تتلف جهازك أو ما يطلق عليه بـBricking من خلال تشغيل الـ Homebrew أو ثغرة Fusée Gelée. لكن، تعديل ملفات النظام System savedata و الحصول على امتيازات عالية من خلال ثغرة Fusée Gelée من إمكانها أن تتلف brick جهازك اذا استعملتها بشكل خطأ. تأكد أن المصدر موثوق قبل تشغل أي scripts باستخدام PegaSwitch، أو تشغيل ملفات NROs باستخدام مشغل الـ Homebrew، و خصوصاً تثبيت الـ payloads باستخدام ثغرة Fusée Gelée! تشغيل الـ homebrews أو تثبيت الـ payloads من مصادر غير موثوقة قد تؤدي إلى تلف brick جهازك نهائياً.
+
+<a name="faq_4gbsd" />**سؤال** *هل يمكنني تهكير جهازي باستخدام ذاكرة خارجية SD Card ذات حجم 4GB (أو أقل)؟*    
+**A:** This is possible if all you want to do is run the Homebrew Launcher; however, an SD card of at least 64GB is required if running Custom Firmware like the upcoming Atmosphère, as a Switch emuNAND will take up 32GB.
+
+<a name="faq_exfatsd" />**سؤال** *جهازي يطلب تحديث نظام التشغيل لكي تعمل ذاكرتي الخارجية SD Card، هل أستطيع تجنب التحديث؟*    
+**A:** Yes; SD cards above 64GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if you are not on the latest firmware you will not be able to install this update independently of updating the actual device firmware. You can get around this by using a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format the SD card as FAT32. 
+
+**سؤال:** *كيف يمكنني الانتقال إلى ذاكرة SD جديدة في نهاية هذا الدليل؟*    
+**الجواب:** فقط انسخ جميع الملفات الى الذاكرة الخارجية SD card الجديدة. 

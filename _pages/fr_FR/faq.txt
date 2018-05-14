@@ -2,3 +2,17 @@
 title: "FAQ"
 ---
 
+<a name="faq_latestfw" /> **Q :** *Je suis sur la version du système la plus récente. Est-ce que ma console peut être hackée?*    
+**A:** Oui. Toutes les Switch déjà produites seront hackables via Fusée Gelée à un moment ou un autre. Référez-vous à la [FAQ Fusée Gelée de ktemkin](https://www.ktemkin.com/faq-fusee-gelee/) pour plus d'informations. Cependant, on ne sait pas si la révision "mariko" du hardware bientôt lancée sur le marché sera vulnérable.
+
+<a name="faq_risky" /> **Q :** *À quel point hacker ma console est-il risqué ?*    
+**R :** Bricker une Switch en utilisant juste le Homebrew Launcher ou Fusée Gelée est très improbable. Cependant, modifier des sauvegardes du système, et des exploits hautement privilégiés comme Fusée Gelée, peuvent facilement bricker votre console si vous vous y prenez mal. N'exécutez des scripts PegaSwitch, des NROs via le Homebrew Launcher, et surtout des payloads pour Fusée Gelée, **que s'ils proviennent d'une source sûre** ! Exécuter des programmes homebrew auxquels vous ne faites pas confiance peut bricker votre console de manière irrécupérable.
+
+<a name="faq_4gbsd" />**Q :** *Puis-je faire cela avec une carte SD de 4 Go (ou moins) ?*    
+**R :** C’est possible si tout ce que vous voulez faire est exécuter l'Homebrew Launcher ; toutefois, une carte SD d’au moins 64Go est nécessaire si vous voulez faire tourner un Custom Firmware comme Atmosphère (en cours de développement), sachant qu'un emuNAND de Switch prendra 32 Go.
+
+<a name="faq_exfatsd" />**Q:** *Ma Switch me dit que j'ai besoin d'un mise à jour du système pour utiliser ma carte SD, puis-je éviter cela ?*    
+**R :** Oui; les cartes SD de plus de 64 Go sont vendues formatées en exFAT par défaut, et la Switch ne peut pas utiliser les cartes SD dans ce format sans installer la mise à jour qui apporte le support de l'exFAT. Malheureusement, si vous n'êtes pas sur le firmware le plus récent, vous ne pourrez pas installer cette mise à jour indépendamment de la mise à jour de la console en elle-même. Vous pouvez passer outre ce problème en utilisant un outil comme [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) pour formater la carte SD en FAT32. 
+
+<a name="faq_movesd" />**Q:** *Comment passer sur une nouvelle carte SD après avoir fini tout ça ?*    
+**R :** Copiez tout simplement tous les fichiers vers la nouvelle carte SD. 

@@ -50,8 +50,11 @@ sidebar_pages:
     title: 透過遊戲卡帶更新
     url: game-card-update
   - 
-    title: Homebrew Launcher
-    url: homebrew-launcher
+    title: Homebrew Launcher (PegaSwitch)
+    url: homebrew-launcher-(pegaswitch)
   - 
-    title: 多項選擇
+    title: Homebrew Launcher (Installer)
+    url: homebrew-launcher-(installer)
+  - 
+    title: Multiple Options
     url: multiple-options

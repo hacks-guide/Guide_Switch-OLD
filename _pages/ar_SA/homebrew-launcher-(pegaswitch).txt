@@ -1,0 +1,148 @@
+---
+title: "مشغل الـHomebrew (PegaSwitch)"
+---
+
+{% include toc title="جدول المحتويات" %}
+
+### يتطلب القراءة
+
+On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+
+This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+
+بعد أي إعادة تشغيل لجهازك، يجب عليك إعادة تشغيل الثغرة الثانية لإعادة تفعيل الوصول إلى مشغل الـ Homebrew في جهازك. بالإضافة إلى ذلك، لاحظ انه مادامت الثغرة الثانية مفعلة لن تتمكن من تشغيل بطاقات الألعاب (*و لتعطيل الثغرة الثانية أعد تشغيل جهازك*).
+ 
+إذا كنت معتاداً على أجهزة الـIOS و الجيل بريك "jailbreaking"، فأن هذه الثغرة تعتبر مشابهة للـ"tethered jailbreak" أو جيل بريك المربوط.
+
+Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+{: .notice--info}
+
+ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك بعد التثبت الأولى. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
+{: .notice--warning}
+
+# # # ما تحتاجه
+
+* **تحديث النظام رقم 1.0.0:** الإصدار رقم 1.0.0 من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*أخر أصدار من nx-hbmenu لا يعمل حالياً على تحديث النظام رقم 1.0.0*)
+* **تحديث النظام رقم 2.0.0 إلى 2.3.0:** أخر أصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* أخر أصدار من [PegaSwitch] (https://github.com/reswitched/PegaSwitch)
+* أخر أصدار من [node.js] (https://nodejs.org/en/)
+* [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
+* [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
+
+### التعليمات
+
+#### القسم الأول - الأستعداد للعمل
+
+1. أطفأ الجهاز
+1. أدخل بطاقة الذاكرة الخارجية SD Card في حاسبك
+1. أنسخ ملف `hbmenu.nro` من nx-hbmenu `.zip` إلى جذر (الملف الرئيسي) بطاقة الذاكرة الخارجية SD Card لجهازك
+1. أنسخ الملف `hbl.nsp` إلى جذر (الملف الرئيسي) لبطاقة ذاكرتك الخارجية SD card
+1. اصنع مجلد اسمه `switch` مباشرة في جذر (الملف الرئيسي) لطاقة الذاكرة SD Card، إن لم يكن هذا المجلد موجودا من قبل
+1. أرجع الذاكرة الخارجية SD Card إلى جهازك
+1. شغل الجهاز الخاص بك
+
+### القسم الثاني - إعداد PegaSwitch
+1. بعد تحميلك لأخر نسخة من PegaSwitch، أنسخ الملف `nsp.js` إلى المجلد `PegaSwitch/usefulscripts`
+1. شغل cmd/موجه الاوامر و `cd` إلى ملف PegaSwitch (وذلك بإدخال cd ثم أدخل cd pegaswitch في موجه الأوامر cmd)
+1. أدخل `npm install`; هذا الأمر سيثبت وحدات node والتي يعتمد عليها PegaSwitch
+1. شغل PegaSwitch وذلك بإدخال الأمر المناسب لنظام تشغيلك
+  + **Linux/macOS:** أدخل `sudo node start.js` وأحفظ رقم عنوان الـIP الظاهر على شاشتك
+  + **Windows:** أدخل `node start.js` وأحفظ رقم عنوان الـIP الظاهر على شاشتك
+1. للخروج من PegaSwitch أضغط Ctrl+C معاً مرتين
+
+# # # القسم الثالث - إعداد الـ DNS
+
+ملاحظة: إعدادات الـ DNS يجب إن تعدل على كل الشبكات المسجل فيها جهازك لتفعيل الثغرة.
+{: .notice--info}
+
+1. اذهب إلى إعدادات النظام System Settings
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
+1. أختر شبكة الاتصال المتصل فيها حالياً
+  + للتأكد أنك متصل بالأنترنت ستجد علامة صح أخضر مقابل شبكة الاتصال الخاصة بك
+1. حدد تغيير الإعدادات "Change Settings"
+1. عيين الـ "DNS Settings" إلى يدوي "Manual"
+1. عيين الـ DNS الأساسي "Primary DNS" والـ DNS الثانوي "Secondary DNS" إلى عنوان الـ IP الذي ظهر لك في PegaSwitch
+  + وبالغالب سيكون العنوان على الشكل التالي`192.168.1.XXX`
+1. احفظ إعدادات شبكة الاتصال
+1. أغلق الإعدادات النظام
+
+#### Section IV - Initial Installation
+
+ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
+
+#### الاختيار الأول - لتحديث النظام رقم 1.0.0
+
+ملاحظة هذا الخيار يطبق فقط على الأجهزة بتحديث رقم 1.0.0; إذا كان تحديث 
+نظام جهازك ما بين 2.0.0 و 2.3.0، فانتقل إلى "الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0" في الأسفل.
+
+ملاحظة تحديث النظام رقم 1.0.0 في الوقت الحالي يتطلب نسخة من لعبة Puyo Puyo Tetris S الإصدار الياباني وذلك للأتصال بـ PegaSwitch للمرة الأولى. بعد ذلك، تستطيع أن تتصل بـ PegaSwitch بطريقة أخرى.
+{: .notice--info}
+
+1. تأكد أن الجدار الناري firewall لا يحجب الأتصالات القادمة من البورتات التالية UDP ports 53 أو TCP ports 80 و 8100 TCP ports
+1. شغل PegaSwitch وذلك باستخدام موجه الأوامر cmd ثم اكتب الأمر التالي `sudo node start.js --webapplet`
+1. شغل لعبة Puyo Puyo Tetris S في جهازك
+1. أضغط A و بعد ذلك أضغط R
+1. أضغط A واختر اخر خيار في القائمة والمسمى بـ "お問い合わせ先"
+1. أضغط على أيقونة SEGA في الزاوية اليسرى السفلية; هذا سيشغل متصفح الأنترنت و بعدها يجب أن تظهر لديك صفحة PegaSwitch.
+1. ومن على حاسبك الشخصي سيعلمك PegaSwitch أن جهازك متصل حالياً وسيظهر لك نسخة النظام الحالية و عنوان الـ MAC لجهازك في موجه الأوامر.
+1. في PegaSwitch على حاسوبك الشخصي، واكتب `evalfile usefulscripts/nsp.js`
+1. في جهازك أضغط على زر العودة للقائمة الرئيسية Home button للخروج
+1. شغل تطبيق الألبوم Album application
+1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew
+
+#### الاختيار الثانى - لتحديثات النظام ما بين 2.0.0 و 2.3.0
+
+ملاحظة هذا الخيار يطبق فقط على الأجهزة بالتحديثات ما بين 2.0.0 و 2.3.0; إذا كان تحديث نظام جهازك 1.0.0 فانتقل إلى "الاختيار الأول- لتحديثات النظام رقم 1.0.0" في الأعلى.
+
+1. شغل PegaSwitch وذلك باستخدام موجه الأوامر cmd ثم اكتب الأمر التالي `sudo node start.js` 
+1. انتقل إلى الإنترنت `Internet` -> إعدادات الإنترنت `Internet Settings`
+1. أختر شبكة الاتصال المتصل فيها حالياً
+1. أختر أتصل بهذه الشبكة "Connect to this Network"
+1. إذا كان الاتصال بالـ DNS ناجح، سترى الرسالة التالية "Registration is required to use this network." (وتعني: التسجيل مطلوب لستخدام هذه الشبكة)
+1. أختر التالي "Next"
+1. صفحة PegaSwitch ستفتح
+1. ومن على حاسبك الشخصي سيعلمك PegaSwitch أن جهازك متصل حالياً وسيظهر لك نسخة النظام الحالية و عنوان الـ MAC لجهازك في موجه الأوامر.
+1. أدخل `evalfile usefulscripts/nsp.js`
+1. في جهازك أضغط على زر العودة للقائمة الرئيسية Home button للخروج
+1. شغل تطبيق الألبوم Album application
+1. إذا كان أختراق الثغره ناجح، سيعمل تطبيق مشغل الـ Homebrew 
+
+#### القسم الخامس - Fake News والأخبار الزائفة (اختياري)
+
+As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+
+Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+
+Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+{: .notice--warning}
+
+1. In order to do so, connect your device to PegaSwitch as in Section III
+1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
+1. Reboot your device and you should see a PegaSwitch news entry
+1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+
+___
+
+
+ملاحظة: حالياً، تطوير الهوم برو في بداية مراحلة و مع برامج قليلة ومحدوده.
+
+تستطيع أن تجد التطبيقات المتوفره على [switchbrew] (http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+
+لتثبيت تطبيقات الهوم برو، ببساطة أنسخ ملف الـ homebrew والمنتهي بالاختصار `.nro` إلى ملف `/switch/` في جذر (الملف الرئيسي) لذاكرتك الخارجية SD Card.
+
+___
+
+تستطيع الآن تشغيل مشغل الـ Homebrew عن طريق فتح برنامج الألبوم Album application من على الصفحة الرئيسية لجهازك (*إلى حين إعادة تشغيل جهازك*).
+{: .notice--success}
+
+لن تستطيع الآن تشغيل بطاقات الألعاب أو الألعاب المحملة من المتجر الاي شوب eShop (*إلى حين إعادة تشغيل جهازك*).
+{: .notice--warning}
+
+بعد كل عملية اعادة تشغيل لجهازك، يجب عليك إعادة تفعيل`evalfile usefulscripts/nsp.js` باستخدام PegaSwitch (وذلك باستخدام إحدى الطرق لتشغيل المتصفح) وذلك لتفعيل الوصول لمشغل الـ Homebrew في جهازك مرة أخرى.
+{: .notice--warning}
+
+للتحديثات الدورية عن الـ Homebrew وتطوراته، إنظر إلى مدونة ReSwitched بشكل منتظم [ReSwitched Weekly](https://reswitchedweekly.github.io/).
+{: .notice--primary}
+
+للمعلومات عن طريقة المساهمة في تطوير الـ Homebrew إذا كنت مطور، إنظر إلى صفحة [Homebrew Development](homebrew-development).
+{: .notice--primary}

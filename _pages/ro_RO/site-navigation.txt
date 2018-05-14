@@ -7,7 +7,8 @@ sitemap: false
 {% capture notice-1 %}
 **Populare**
 
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Blocarea actualizărilor](blocking-updates)
 + [Actualizare cu card de joc](game-card-update)
 {% endcapture %}
@@ -29,7 +30,8 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Acasă](/)
 + [Dezvoltarea homebrew-ului](homebrew-development)
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Depanare](troubleshooting)
 + [De ce sunt reclame?](why-ads)
 {% endcapture %}

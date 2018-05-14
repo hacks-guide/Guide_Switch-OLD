@@ -6,7 +6,7 @@ title: "Bloquer les mises à jour"
 
 ### Lecture requise
 
-Pour le moment, les homebrew ne sont disponibles que pour la version 3.0.0 du firmware, mais un futur support des homebrew et CFW est prévu pour toutes les versions jusqu'à 5.0.2.
+Pour le moment, les homebrew ne sont disponibles que pour les version 3.0.0 et inférieures du firmware, mais un futur support des homebrew et CFW est prévu pour toutes les versions jusqu'à 5.0.2.
 
 Afin d'y garantir un accès futur, nous allons repointer les serveurs DNS de votre réseau actuel vers un serveur (hébergé par ReSwitched) qui bloque les requêtes vers le serveur de mise à jour Nintendo Switch.
 

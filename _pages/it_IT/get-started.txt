@@ -14,7 +14,7 @@ Prima di iniziare, gli utenti Windows dovrebbero attivare l'opzione per visualiz
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Per proseguire, clicca sul collegamento corrispondente alla tua versione di sistema dalla tabella sottostante. I campi "da" e "a" sono inclusivi. Questo vuol dire che, per esempio, la riga "da 1.0.0 a 2.3.0" include 1.0.0, 2.3.0, e tutte le versioni nel mezzo.
+Per proseguire, clicca sul collegamento corrispondente alla tua versione di sistema dalla tabella sottostante. I campi "da" e "a" sono inclusivi. This means that, for example, the "from 1.0.0 to 3.0.0" row includes 1.0.0, 3.0.0, and all versions in-between.
 
 Puoi scoprire la versione firmware della tua console nella sezione Sistema delle Impostazioni di sistema.
 
@@ -49,18 +49,13 @@ Se questo è il caso, puoi vedere la versione della tua console dalla modalità 
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">Aspetta il CFW -- <a href="blocking-updates">Bloccare gli Aggiornamenti</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;">Aspetta il CFW oppure fai un <a href="game-card-update">Aggiornamento tramite Scheda di Gioco</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher">Homebrew Launcher</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

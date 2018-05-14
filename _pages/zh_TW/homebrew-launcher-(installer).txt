@@ -1,0 +1,134 @@
+---
+title: "Homebrew Launcher (Installer)"
+---
+
+{% include toc title="條目內容" %}
+
+### 必讀事項
+
+Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您的主機中的。 
+
+在初始安裝完成後，我們得使用另一個次要漏洞讓您可以透過相簿應用程式啟動 Homebrew Launcher 直到您的主機重啟為止。 
+
+重新啟動後，您必須重新運行此次要漏洞才能重新啟用主機中的 Homebrew Launcher。 請另外注意，此次要漏洞於使用時將阻止您遊玩零售遊戲卡帶 (*直到您的主機重啟為止*)。
+ 
+如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
+
+請注意，目前的漏洞具有在初始安裝時損壞主機中的 Mii 資料庫的副作用。 雖然這種副作用是相對無害的，但它將會導致任何所有已創建的 Mii 的丟失。
+{: .notice--warning}
+
+### 必備項目
+
+* 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+
+### 操作說明
+
+#### 第一節 — 準備工作
+
+1. 關閉您的主機
+1. 將 SD 卡插入電腦
+1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
+1. 在 SD 卡的根目錄底下建立一個新資料夾 `switch`
+1. 將 SD 卡插回裝置中
+1. 啟動您的主機
+
+#### 第二節 — DNS 設置
+
+請注意，您需要在每個網路設定中設定這些 DNS 伺服器以使用此漏洞！
+{: .notice--info}
+
+1. 進入系統設定 (System Settings)
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色勾勾
+1. 選擇『更改設置 (Change Settings)』
+1. 將『DNS設定 (DNS Settings)』改為『手動 (Manual)』
+1. 將『主要 DNS (Primary DNS)』改為 `104.236.106.125`
+1. 將『次要 DNS (Secondary DNS)』改為 `62.210.147.20`
+1. 儲存網路設定
+1. 退出系統設定
+
+#### 第三節 － 初次安裝
+
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+1. 選擇『連線至此網路 (Connect to this Network)』
+1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
+1. 選擇『繼續 (Next)』
+1. 安裝/啟動 Homebrew Launcher 的網頁將會載入
+1. 選擇『Install』
+1. PegaSwitch 網頁將開始加載
+1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
+  + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
+1. 重新啟動您的主機
+1. 當提示 Mii 資料庫損壞的可能性時，按下『OK』以重啟您的裝置。
+
+#### 第四節 — 啟動 Homebrew Launcher
+
+請注意，為了重新啟用 Homebrew Launcher，您得在每次重新啟動後重新運行此章節。
+
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
+1. 選擇您目前所連結的網路
+1. 選擇『連線至此網路 (Connect to this Network)』
+1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
+1. 選擇『繼續 (Next)』
+1. 安裝/啟動 Homebrew Launcher 的網頁將會載入
+1. 選擇『Run』
+1. 如果漏洞成功執行的話，您將會看到一個視窗要求您退出
+1. 回到 HOME 主選單
+1. 啟動相簿應用程式
+1. 如果漏洞成功執行的話，Homebrew Launcher 將會啟動
+
+#### 第四節 — 其他瀏覽器程序 (選用)
+
+由於每次重新啟動後必須重新點擊漏洞的『Run』按鈕，因此如果啟動瀏覽器比連接測試更方便，這將是最理想的選擇。
+
+幸運的是，在Switch上實際上有[許多其他的](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets)小瀏覽器程序，其中任何一個都可以用來觸發瀏覽器漏洞。
+
+下面列出了兩種便捷啟動瀏覽器的方法：
+
+##### eShop 登錄提示
+
+要使用此方法，請在您的主機上創建另一個帳號。 不要將它連接到任天堂帳戶 (Nintendo Account) 中。
+
+1. 啟動 Nintendo eShop
+1. 選擇第二個帳戶
+1. 選擇『登入並鏈接』
+1. 這將啟動瀏覽器
+
+##### 遊戲更新提示
+
+要使用此方法，您的 HOME 選單中必須至少有一個遊戲。
+
+請注意，如果您未連接到正確的 DNS 伺服器，那麼此方法會*更新*您的主機。 這是很危險的！
+{: .notice--danger}
+
+1. 於任一選取的遊戲上按下『+』
+1. 在『軟體更新 (Software Update)』選項中，選擇『透過網際網路 (Via the Internet)』
+1. 這將啟動瀏覽器
+
+___
+
+
+請注意，目前自製軟件開發仍處於非常早的狀態，已開發的應用程式數量非常有限。
+
+你可以在 [SwitchBrew](http://switchbrew.org/index.php?title=Homebrew_Applications)、[reddit 上的 /r/SwitchHacks](https://www.reddit.com/r/SwitchHacks/)、或 [GBAtemp 上的自製軟體論壇](https://gbatemp.net/forums/285/)上找到可用的應用程式。
+
+若要安裝自製軟體，您只需將軟體的 `.nro` 檔案複製到 SD 卡上的 `/switch/` 資料夾中。
+
+___
+
+您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher (*直到您的主機重啟為止*)。
+{: .notice--success}
+
+您現在將無法啟動任何零售遊戲卡帶或 eShop 遊戲 (*直到您的主機重啟為止*)。
+{: .notice--warning}
+
+您需要在每次重新啟動後重新運行上述的啟動步驟 (透過任何瀏覽器) 以便重新啟用主機中的 Homebrew Launcher。
+{: .notice--warning}
+
+關於常規自製軟體和開發進度摘要，請定期查看 [ReSwitched Weekly](https://reswitchedweekly.github.io/) 部落格。
+{: .notice--primary}
+
+關於如何開發自製軟體，請查看[自製軟體開發](homebrew-development)頁面。
+{: .notice--primary}

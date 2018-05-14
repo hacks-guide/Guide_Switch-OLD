@@ -1,0 +1,135 @@
+---
+title: "Homebrew Launcher (Installer)"
+---
+
+{% include toc title="Cuprins" %}
+
+### Lectură obligatorie
+
+Homebrew Launcher-ul este în prezent "instalat" pe consolă printr-un exploit al browserului. 
+
+După finalizarea procesului de instalare inițială, va trebui să porniți un exploit secundar care vă va permite să accesați Homebrew Launcher prin aplicația Album *până când consola va fi repornită*. 
+
+După o repornire, va trebui să relansați exploit-ul secundar pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră. În plus, țineți cont că acest exploit secundar de asemenea vă va preveni din a juca jocuri de pe piață atâta timp cât rămâne activ (*până când consola este repornită*).
+ 
+Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, această metoda ar putea fi considerata similara la un "jailbreak semi-independent".
+
+Țineți cont că exploit-ul de homebrew are efectul advers de a corupe baza de date Mii a consolei la prima instalare. Deși acest efect este inofensiv, va rezulta în pierderea oricărui Mii creat de utilizator.
+{: .notice--warning}
+
+### Ce aveți nevoie
+
+* Cea mai recentă versiune de [nx-hbmenu]
+(https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+
+### Instrucțiuni
+
+#### Secțiunea I - Preparații
+
+1. Închideți consola
+1. Introduceți cardul SD în calculator
+1. Copiați `hbmenu.nro` de la nx-hbmenu `.zip` pe rădăcina cardului SD
+1. Creați un folder numit `switch` în rădăcina cardului SD dacă nu există deja
+1. Reintroduceţi cardul SD în consola dumneavoastră
+1. Porniți consola
+
+#### Secțiunea II - Configurare DNS
+
+Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea declanșa exploit-ul.
+{: .notice--info}
+
+1. Deschideți System Settings
+1. Navigaţi spre `Internet` -> `Internet Settings`
+1. Selectaţi-vă reţeaua Wi-Fi
+  + Aceasta este simbolizată de o bifă verde alături de reţea
+1. Selectați "Change Settings"
+1. Setați "DNS Settings" la "Manual"
+1. Setaţi "Primary DNS" la `104.236.106.125`
+1. Setaţi "Secondary DNS" la `62.210.147.20`
+1. Salvați setările de reţea
+1. Ieșiți din System Settings
+
+### Secţiunea III - Instalarea inițială
+
+1. Navigaţi spre `Internet` -> `Internet Settings`
+1. Selectaţi-vă reţeaua Wi-Fi
+1. Selectaţi "Connect to this Network"
+1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
+1. Selectați "Next"
+1. Pagina web de Homebrew Launcher se va încărca
+1. Selectați "Install"
+1. Pagina web PegaSwitch se va încărca
+1. Dacă exploit-ul a mers, veți vedea eroarea `2000-1337`
+  + În cazul în care consola este blocată la pagina PegaSwitch fără să afișeze eroarea, reporniți consola și încercați din nou
+1. Reporniți consola
+1. Când vi se solicită despre coruperea bazei de date Mii, selectaţi "OK" pentru a reporni consola din nou
+
+#### Secțiunea IV - Pornind Homebrew Launcher-ul
+
+Țineți cont că va trebui să refaceți această secțiune a exploit-ului după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
+
+1. Navigaţi spre `Internet` -> `Internet Settings`
+1. Selectaţi-vă reţeaua Wi-Fi
+1. Selectaţi "Connect to this Network"
+1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
+1. Selectați "Next"
+1. Pagina web de Homebrew Launcher se va încărca
+1. Selectați "Run"
+1. Dacă exploit-ul a mers, va apărea un mesaj cerând să ieșiți
+1. Întoarceți-vă în meniul HOME
+1. Lansați aplicația Album
+1. Dacă exploit-ul a avut succes, Homebrew Launcher-ul va porni
+
+#### Secțiunea V - Appleturi alternative de browser (opțional)
+
+Deoarece trebuie sa refaceti sectiunea "Run" a exploit-ului dupa fiecare reboot, ar fi ideal daca ar fi un mod mai usor de a lansa browseer-ul decat testul de conexiune.
+
+Din fericire, există [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) appleturi de browsere pe Switch, și oricare din ele pot fi folosite pentru declanșarea exploit-ului de browser.
+
+Două metode convenabile pentru lansarea unui browser sunt enumerate mai jos:
+
+##### Ecran de conectare în eShop
+
+Pentru a folosi această metodă, creați un al doilea cont pe consolă. Nu vă conectați la un cont Nintendo.
+
+1. Porniți Nintendo eShop
+1. Selectați al doilea cont
+1. Selectați "Sign In and link"
+1. Appletul de browser se va porni
+
+##### Ecranul de actualizare a jocului
+
+Pentru a folosi această metodă, trebuie să aveți cel puțin un joc pe meniul principal.
+
+Țineți cont că, dacă nu erați conectat la serverele DNS potrivite, această metodă ar fi *actualizat* consola. Este periculos!
+{: .notice--danger}
+
+1. Apăsaţi (+) cu orice joc selectat
+1. În fila "Software Update", selectați "Via the Internet"
+1. Appletul de browser se va porni
+
+___
+
+
+Țineți cont că, în prezent, dezvoltarea de homebrew este într-o stare foarte nouă, cu un număr foarte limitat de aplicații.
+
+Puteţi găsi aplicaţii disponibile pe [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks pe reddit](https://www.reddit.com/r/SwitchHacks/), sau [Switch Homebrew pe GBAtemp](https://gbatemp.net/forums/285/).
+
+Pentru a instala aplicaţii homebrew, pur şi simplu copiaţi fişierul homebrew `.nro` în folderul `/switch/` de pe cardul SD.
+
+___
+
+Acum puteţi porni Homebrew Launcher prin lansarea aplicației Album de pe meniul HOME a consolei (*până la următoarea repornire*).
+{: .notice--success}
+
+Acuma nu puteți porni jocuri de pe piață sau jocuri eShop (*până când consola va fi repornită*).
+{: .notice--warning}
+
+Va trebui să refaceți pasul "Run" al exploit-ului (folosind orice applet de browser) după fiecare repornire pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră.
+{: .notice--warning}
+
+Pentru rezumate despre progresul în homebrew și în dezvoltare, vedeți blog-ul [ReSwitched Weekly](https://reswitchedweekly.github.io/) în mod regulat.
+{: .notice--primary}
+
+Pentru informaţii despre cum să contribuiți la dezvoltarea homebrew-ului ca dezvoltator, vedeți pagina de [Dezvoltare a Homebrew-ului](homebrew-development).
+{: .notice--primary}

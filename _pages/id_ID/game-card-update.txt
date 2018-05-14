@@ -53,5 +53,5 @@ Sebelum melakukan pembaharuan kartu game, kami memblokir pembaruan online dengan
 
 ___
 
-### Lanjutkan ke [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}

@@ -7,7 +7,8 @@ sitemap: false
 {% capture notice-1 %}
 **Популярные**
 
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Блокировка обновлений](blocking-updates)
 + [Обновление картриджем](game-card-update)
 {% endcapture %}
@@ -29,7 +30,8 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Главная](/)
 + [Разработка хоумбрю](homebrew-development)
-+ [Homebrew Launcher](homebrew-launcher)
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Проблемы и их решения](troubleshooting)
 + [Зачем реклама?](why-ads)
 {% endcapture %}

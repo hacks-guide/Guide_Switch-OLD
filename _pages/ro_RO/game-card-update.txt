@@ -53,5 +53,5 @@ Putem profita de acest lucru folosind un joc care conţine o anumită versiune p
 
 ___
 
-### Continuați la [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}
