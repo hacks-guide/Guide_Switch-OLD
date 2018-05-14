@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Installer)"
+title: "Homebrew Launcher (instalador)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
