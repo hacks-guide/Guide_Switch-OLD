@@ -8,13 +8,13 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 
 على تحديث النظام رقم 1.0.0 إلى 2.3.0، مشغل الـ Homebrew "مثبت" حالياً على جهازك وكل ما عليك فعله لتنشيطة هو تشغيل نص برمجي script باستخدام [PegaSwitch] (https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+وهذا سيتيح لك الوصول إلى مشغل الـ Homebrew عن طريق برنامج الألبوم Album application في جهازك *وذلك لحين إعادة تشغيل جهازك*، وبعد اعادة تشغيل جهازك يجب عليك *إعادة تشغيل النص البرمجي script* لتفعيل وظائف مشغل الـ Homebrew مرة أخرى. 
 
 بعد أي إعادة تشغيل لجهازك، يجب عليك إعادة تشغيل الثغرة الثانية لإعادة تفعيل الوصول إلى مشغل الـ Homebrew في جهازك. بالإضافة إلى ذلك، لاحظ انه مادامت الثغرة الثانية مفعلة لن تتمكن من تشغيل بطاقات الألعاب (*و لتعطيل الثغرة الثانية أعد تشغيل جهازك*).
  
 إذا كنت معتاداً على أجهزة الـIOS و الجيل بريك "jailbreaking"، فأن هذه الثغرة تعتبر مشابهة للـ"tethered jailbreak" أو جيل بريك المربوط.
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+ملاحظة، مع العلم أن الإرشادات التالية تعمل أيضاً على التحديث رقم 3.0.0، من الأسهل لك بكثير بتثبيت التالي [مشغل الـ Homebrew (المثبت)](homebrew-launcher-(installer)) لذلك التحديث بالتحديد.
 {: .notice--info}
 
 ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك بعد التثبت الأولى. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
