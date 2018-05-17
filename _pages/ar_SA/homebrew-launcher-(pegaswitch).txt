@@ -6,19 +6,16 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 
 ### يتطلب القراءة
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+على تحديث النظام رقم 1.0.0 إلى 2.3.0، مشغل الـ Homebrew "مثبت" حالياً على جهازك وكل ما عليك فعله لتنشيطة هو تشغيل نص برمجي script باستخدام [PegaSwitch] (https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+وهذا سيتيح لك الوصول إلى مشغل الـ Homebrew عن طريق برنامج الألبوم Album application في جهازك *وذلك لحين إعادة تشغيل جهازك*، وبعد اعادة تشغيل جهازك يجب عليك *إعادة تشغيل النص البرمجي script* لتفعيل وظائف مشغل الـ Homebrew مرة أخرى. 
 
 بعد أي إعادة تشغيل لجهازك، يجب عليك إعادة تشغيل الثغرة الثانية لإعادة تفعيل الوصول إلى مشغل الـ Homebrew في جهازك. بالإضافة إلى ذلك، لاحظ انه مادامت الثغرة الثانية مفعلة لن تتمكن من تشغيل بطاقات الألعاب (*و لتعطيل الثغرة الثانية أعد تشغيل جهازك*).
  
 إذا كنت معتاداً على أجهزة الـIOS و الجيل بريك "jailbreaking"، فأن هذه الثغرة تعتبر مشابهة للـ"tethered jailbreak" أو جيل بريك المربوط.
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+ملاحظة، مع العلم أن الإرشادات التالية تعمل أيضاً على التحديث رقم 3.0.0، من الأسهل لك بكثير بتثبيت التالي [مشغل الـ Homebrew (المثبت)](homebrew-launcher-(installer)) لذلك التحديث بالتحديد.
 {: .notice--info}
-
-ملاحظة: ثغرة الـ homebrew الحالية لها أعراض جانبية ، وذلك بإفساد قاعدة بيانات الـ Mii لجهازك بعد التثبت الأولى. في حين أن هذا التأثير غير مؤذي لجهازك، لكنه سيؤدي إلى فقدان أي Miis تم إنشائها من قبل المستخدم.
-{: .notice--warning}
 
 # # # ما تحتاجه
 
@@ -66,7 +63,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 
-#### Section IV - Initial Installation
+#### القسم الرابع - التثبيت الأولي
 
 ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
 
@@ -109,17 +106,17 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 #### القسم الخامس - Fake News والأخبار الزائفة (اختياري)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+يجب عليك إعادة عمل خطوات القسم الرابع "التثبيت الأولي" بعد كل اعادة تشغيل لجهازك وذلك لتفعيل الثغرة مرة أخرى، ولكن من الأسهل إذا وجده طريقة أسهل للأتصال بـ PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+لحسن الحظ، يمكننا تثبيت مدخل وهمي وذلك في تطبيق الأخبار (أو مايطلق عليها ثغرة "الأخبار الزائفة") والتي ستسهل بشكل كبير الأتصال بـ PegaSwitch.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+لاحظ أن تعديل ملفات النظام قد تؤدي إلى تلف **brick** لجهازك بشكل دائم إذا لم تكن حذراً! ننصح بشدة بعدم التعديل على الملف النصي `installFakeNews.js` لتجنب إتلاف جهازك.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. ولعمل ذلك، صل جهازك بـ PegaSwitch كما ذكر في القسم الثالث في هذا الدليل
+1. بعد اتصالك بـ PegaSwitch، أدخل الأمر `evalfile usefulscripts/installFakeNews.js`و أنتظر لحين انتهائه
+1. أعد تشغيل جهازك وستجد أيقونة للدخول لخبر PegaSwitch
+1. لتفعيل الأتصال بـ PegaSwitch وذلك عن طريق أستخدام طريقة الأخبار الزائفة، شغل PegaSwitch بحاسبك الشخصي وذلك بإدخال الأمر التالي `sudo node start.js --webapplet` ثم أدخل على خبر PegaSwitch من جهازك واضغط على "الفيديو" لتشغيله
 
 ___
 

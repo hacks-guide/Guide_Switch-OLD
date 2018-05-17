@@ -6,11 +6,11 @@ title: "阻擋更新"
 
 ### 必讀事項
 
-Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+目前自製軟體僅適用於系統版本 3.0.0 (含) 以下的主機，但適用於系統版本 5.0.2 (含) 以下的自製軟體及自製韌體支援目前已在規劃中。
 
 為了能確保您未來能順利使用它們，我們將把您 Switch 的 DNS 伺服器設定為 ReSwitched 的 DNS 伺服器以確實阻擋任天堂 Switch 系統更新的伺服器。
 
-If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). 為此，唯一的要求是在遵循這些步驟前，您必須至少連接到線上服務一次。
+如果您目前使用的系統為 5.0.2 且希望能繼續使用線上服務並阻擋最新更新，只要 5.0.2 為最新版本，您仍可以進行下列步驟 (這是因為只有最新的系統版本能使用線上服務)。 為此，唯一的要求是在遵循這些步驟前，您必須至少連接到線上服務一次。
 
 此外，我們將進入還原 / 維修模式中並將任何可能已下載的更新刪除。
 

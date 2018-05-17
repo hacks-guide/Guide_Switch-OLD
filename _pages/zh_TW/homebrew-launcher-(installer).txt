@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Installer)"
+title: "Homebrew Launcher (透過安裝包)"
 ---
 
 {% include toc title="條目內容" %}

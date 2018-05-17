@@ -2,10 +2,10 @@
 title: "Credits"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Erg veel dank gaat uit naar [alle vertalers](https://crowdin.com/project/switch-guide), omdat jullie zo fantastisch zijn!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je toe.
 
 {% capture notice-1 %}
 

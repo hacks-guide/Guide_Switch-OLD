@@ -8,7 +8,7 @@ title: "Sviluppare Homebrew"
 
 Al momento, lo strumento più usato per Switch è PegaSwitch, sviluppato da ReSwitched.
 
-Se ti interessa collaborare con i membri di ReSwitched per lo Sviluppo di Homebrew, dai un'occhiata a [ReSwitched su Discord](https://discord.gg/ZdqEhed).
+If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Se ti interessa collaborare con i membri di Switchbrew per lo Sviluppo di Homebrew, dai un'occhiata a #switchdev su EFnet.

@@ -8,7 +8,7 @@ title: "Dezvoltarea Homebrew-ului"
 
 În prezent, setul de unelte publice majore de exploit utilizate pentru Switch este PegaSwitch, dezvoltat de ReSwitched.
 
-Dacă sunteţi interesat în a colabora cu membrii ReSwitched pentru dezvoltarea aplicațiilor homebrew, vedeți [ReSwitched pe Discord] (https://discord.gg/ZdqEhed).
+If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Dacă sunteţi interesat de colaborarea cu membrii SwitchBrew pentru dezvoltarea de homebrew, vedeți #switchdev pe EFnet.

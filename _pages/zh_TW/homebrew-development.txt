@@ -8,7 +8,7 @@ title: "開發自製軟體"
 
 目前，用於 Switch 的主要漏洞開發工具包是由 ReSwitched 開發的 PegaSwitch。
 
-如果您想與 ReSwitched 成員一同開發自製軟體，請見 Discord 上的 [ReSwitched 伺服器](https://discord.gg/ZdqEhed)。
+如果您想與 ReSwitched 成員一同開發自製軟體，請見 Discord 上的 [ReSwitched 伺服器](https://discord.gg/DThbZ7z)。
 {: .notice--success}
 
 如果您想要與 SwitchBrew 的成員一同開發自製程式，請見 EFnet 上的 #switchdev 頻道。
@@ -37,5 +37,5 @@ libtransistor 函式庫是由 ReSwitched 開發且構建於 LLVM / Clang 上。
 
 已編譯檔案可以透過 Mephisto 模擬器在您的PC上運行，或者使用 Homebrew Launcher 或 ACE Loader 在您的主機上運行。
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+繼續至 Reswitched Weekly 的 [開發自製軟體 (透過 libtransistor)](https://reswitchedweekly.github.io/Development-Setup/)
 {: .notice--primary}
