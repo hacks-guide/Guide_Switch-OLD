@@ -6,7 +6,7 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 
 ### يتطلب القراءة
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+على تحديث النظام رقم 1.0.0 إلى 2.3.0، مشغل الـ Homebrew "مثبت" حالياً على جهازك وكل ما عليك فعله لتنشيطة هو تشغيل نص برمجي script باستخدام [PegaSwitch] (https://github.com/ReSwitched/PegaSwitch). 
 
 This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
 
@@ -66,7 +66,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. احفظ إعدادات شبكة الاتصال
 1. أغلق الإعدادات النظام
 
-#### Section IV - Initial Installation
+#### القسم الرابع - التثبيت الأولي
 
 ملاحظة: يجب عليك فعل هذه الخطوات في هذا القسم بعد كل عملية أعادة تشغيل للجهاز لأعادة تفعيل الوصول لمشغل الـ Homebrew.
 
