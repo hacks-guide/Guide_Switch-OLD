@@ -16,15 +16,15 @@ Deze pagina is alleen voor Linux gebruikers. Als je geen Linux gebruikt, zie dan
 
 * De meest recente versie van [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Instructies
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
-1. Insert your SD card into your computer
-1. Mount your SD card
-1. Run `./f3write <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Unzip (Decomprimeer) het f3 `.zip` bestand
+1. `cd` naar de bestandslocatie van f3
+1. Voer `make` uit om F3 te compileren
+1. Plaats uw SD kaart in je computer
+1. Mount uw SD kaart
+1. Voer `./f3write <uw sd kaart mount punt>` uit
+1. Wacht totdat het proces voltooid is. Zie hieronder voor een voorbeeld van de uitkomst.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -34,8 +34,8 @@ Deze pagina is alleen voor Linux gebruikers. Als je geen Linux gebruikt, zie dan
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-1. Run `./f3read <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Voer `./f3read <uw Sd kaart mount punt>` uit
+1. Wacht totdat het proces voltooid is. Zie hieronder voor een voorbeeld van de uitkomst.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
@@ -52,11 +52,11 @@ Deze pagina is alleen voor Linux gebruikers. Als je geen Linux gebruikt, zie dan
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Als het resultaat van de test `Data LOST: 0.00 Byte (0 sectors)` is, dan is je SD kaart goed en kun je alle `.h2w` bestanden van je SD kaart verwijderen
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Als de test iets anders laat zien, kan het zijn dat je SD kaart corrupt of kapot is en moet je hem wellicht vervangen!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Ga terug naar [Begin](get-started)
 {: .notice--primary}
