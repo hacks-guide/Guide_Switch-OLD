@@ -2,17 +2,17 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Lezen Vereist
 
-This is an add-on section for checking your SD card for errors using F3.
+Dit is een extra gedeelte speciaal voor het checken van je SD kaart op fouten, met behulp van F3.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Afhankelijk van de grootte van je SD kaart en de snelheid van je computer, kan dit proces enkele uren duren!
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Deze pagina is alleen voor Linux gebruikers. Als je geen Linux gebruikt, zie dan [H2testw (windows)](h2testw-(windows)) of [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Wat u nodig zult hebben
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
