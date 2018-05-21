@@ -8,7 +8,7 @@ judul: "Homebrew Development"
 
 Saat ini, toolkit eksploitasi publik yang utama digunakan untuk Switch adalah PegaSwitch, yang dikembangkan oleh ReSwitched.
 
-Jika Anda tertarik untuk berkolaborasi dengan anggota ReSwitched pada Pengembangan Homebrew, lihat [ReSwitched on Discord] (https://discord.gg/ZdqEhed).
+If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Jika Anda tertarik untuk berkolaborasi dengan anggota SwitchBrew di Homebrew Development, periksa di #switchdev di EFnet.
