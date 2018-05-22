@@ -8,7 +8,7 @@ title: "Разработка хоумбрю"
 
 На данный момент основной публично доступный набор инструментов для Switch это PegaSwitch, разрабатываемый командой ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
+Если вы заинтересованы в совместной разработке хоумбрю с участниками команды ReSwitched, посетите [сервер ReSwitched в Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Если вы заинтересованы в совместной разработке хоумбрю с участниками команды SwitchBrew, посетите канал #switchdev на EFnet.
