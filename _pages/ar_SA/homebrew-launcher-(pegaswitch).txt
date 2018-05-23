@@ -109,17 +109,17 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 
 #### القسم الخامس - Fake News والأخبار الزائفة (اختياري)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+يجب عليك إعادة عمل خطوات القسم الرابع "التثبيت الأولي" بعد كل اعادة تشغيل لجهازك وذلك لتفعيل الثغرة مرة أخرى، ولكن من الأسهل إذا وجده طريقة أسهل للأتصال بـ PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+لحسن الحظ، يمكننا تثبيت مدخل وهمي وذلك في تطبيق الأخبار (أو مايطلق عليها ثغرة "الأخبار الزائفة") والتي ستسهل بشكل كبير الأتصال بـ PegaSwitch.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+لاحظ أن تعديل ملفات النظام قد تؤدي إلى تلف **brick** لجهازك بشكل دائم إذا لم تكن حذراً! ننصح بشدة بعدم التعديل على الملف النصي `installFakeNews.js` لتجنب إتلاف جهازك.
 {: .notice--warning}
 
 1. ولعمل ذلك، صل جهازك بـ PegaSwitch كما ذكر في القسم الثالث في هذا الدليل
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. بعد اتصالك بـ PegaSwitch، أدخل الأمر `evalfile usefulscripts/installFakeNews.js`و أنتظر لحين انتهائه
+1. أعد تشغيل جهازك وستجد أيقونة للدخول لخبر PegaSwitch
+1. لتفعيل الأتصال بـ PegaSwitch وذلك عن طريق أستخدام طريقة الأخبار الزائفة، شغل PegaSwitch بحاسبك الشخصي وذلك بإدخال الأمر التالي `sudo node start.js --webapplet` ثم أدخل على خبر PegaSwitch من جهازك واضغط على "الفيديو" لتشغيله
 
 ___
 
