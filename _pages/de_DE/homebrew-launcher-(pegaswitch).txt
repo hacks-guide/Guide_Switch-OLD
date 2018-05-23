@@ -29,9 +29,9 @@ Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Dat
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
-### Anleitung
+### Instructions
 
-#### Abschnitt I - Vorbereitungen
+#### Section I - Prep Work
 
 1. Schalte das Gerät aus
 1. Stecke deine SD Karte in den Computer
