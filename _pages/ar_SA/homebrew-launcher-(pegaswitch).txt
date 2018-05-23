@@ -116,7 +116,7 @@ Fortunately, we can install a fake entry into the News applet (the "Fake News" e
 Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
+1. ولعمل ذلك، صل جهازك بـ PegaSwitch كما ذكر في القسم الثالث في هذا الدليل
 1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
 1. Reboot your device and you should see a PegaSwitch news entry
 1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
