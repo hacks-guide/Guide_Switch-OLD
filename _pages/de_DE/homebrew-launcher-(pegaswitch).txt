@@ -63,12 +63,12 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Setze "DNS-Einstellungen" auf "Manuell"
 1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
   + This is usually in the format of `192.168.1.XXX`
-1. Speichere die Einstellungen
+1. Save the network settings
 1. Verlasse die Systemeinstellungen
 
 #### Section IV - Initial Installation
 
-Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
+Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
 ##### Option i - Firmware Version 1.0.0
 
