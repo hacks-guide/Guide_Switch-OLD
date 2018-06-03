@@ -6,23 +6,23 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 ### Required Readin'
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+On firmwares 1.0.0 - 2.3.0, th' Homebrew Launcher currently be "installed" to ye device usin' a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+'Tis gunna be allowin' ye to access th' Homebrew Launcher through th' Album application, *but only 'til ye device be rebooted.* After it be rebooted, ye gotta be *rerunnin' th' script* to restore Homebrew Launcher functionality. 
 
 After a reboot, ye gunna need to be re-runnin' 'tis secondary exploit in order to re-enable Homebrew Launcher access on ye device. Additionally, note that 'tis secondary exploit gunna also prevent ye from playin' retail games fer as long as it remains active (meanin' *'til ye device be rebooted*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+If ye be familiar wit' iOS devices' "jailbreaking", 'tis idea could be thought analogous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that although these instructions work fine on firmware version 3.0.0, it be far easier instead fer 3.0.0 users to be followin' [Homebrew Launcher (Installer)](homebrew-launcher-(installer)).
 {: .notice--info}
 
 ### What ye need
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* **Firmware 1.0.0:** Th' 1.0.0 release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*th' latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest version 'o [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* Th' latest version 'o [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
@@ -33,19 +33,19 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. Power off ye device
 1. Insert ye SD card into ye computer
 1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
-1. Copy `hbl.nsp` to the root of your SD card
+1. Copy `hbl.nsp` to th' root 'o ye SD card
 1. Create a folder named `switch` on th' root 'o ye SD card if it does not already exist
 1. Reinsert ye SD card into ye device
 1. Power on ye device
 
 #### Section II - PegaSwitch Configuration
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. After downloadin' th' latest version 'o PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
+1. Start cmd/terminal, 'n `cd` to th' PegaSwitch folder
+1. Run `npm install`; 'tis gunna be installin' th' node modules that PegaSwitch depends on
+1. Start PegaSwitch by runnin' th' command correspondin' to ye operatin' system
+  + **Linux/macOS:** Run `sudo node start.js` 'n make note 'o th' IP address it displays
+  + **Windows:** Run `node start.js` 'n make note 'o th' IP address it displays
+1. Press Ctrl+C twice to exit PegaSwitch
 
 #### Section III - DNS Configuration
 
@@ -58,8 +58,8 @@ Note that these DNS servers gunna need to be set on each network ye device conne
   + 'Tis be signified by a green check mark next to th' network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Set "Primary DNS" 'n "Secondary DNS" to th' IP address displayed by PegaSwitch
+  + 'Tis usually be takin' th' form 'o `192.168.1.XXX`
 1. Save th' network settin's
 1. Exit System Settin's
 
