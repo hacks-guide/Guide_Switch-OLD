@@ -10,7 +10,7 @@ On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to yo
 
 This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+After a reboot, ye gunna need to be re-runnin' 'tis secondary exploit in order to re-enable Homebrew Launcher access on ye device. Additionally, note that 'tis secondary exploit gunna also prevent ye from playin' retail games fer as long as it remains active (meanin' *'til ye device be rebooted*).
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
@@ -32,11 +32,11 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 1. Power off ye device
 1. Insert ye SD card into ye computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
+1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
 1. Copy `hbl.nsp` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Reinsert ye SD card into ye device
+1. Power on ye device
 
 #### Section II - PegaSwitch Configuration
 1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
