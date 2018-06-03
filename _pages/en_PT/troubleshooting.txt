@@ -1,27 +1,27 @@
 ---
-title: "Troubleshooting"
+title: "Troubleshootin'"
 ---
 
 {% include toc title="Page Treasure Map" %}
 
 ### Required Readin'
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+If ye be encounterin' issues, please look fer th' section relevant to ye 'n follow th' instructions.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+If ye still can't solve ye issue 'n need to reach out fer help, please come prepared wit' a detailed description 'o ye problem 'n what ye've tried.
 
 ## Error 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+'Tis error occurs when th' nx-hbmenu `.nro` be missin' from ye SD card.
 
 ### What Ye Need
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instructions
 
 1. Power off ye device
 1. Insert ye SD card into ye computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
+1. Reinsert ye SD card into ye device
+1. Power on ye device
