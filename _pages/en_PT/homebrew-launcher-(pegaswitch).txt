@@ -69,53 +69,53 @@ Note that ye gunna have to re-run 'tis section 'o th' exploit after each reboot 
 
 ##### Option i - Firmware Version 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Note that 'tis option be only applyin' to devices wit' firmware version 1.0.0; if ye have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Note that firmware 1.0.0 currently requires a Japanese copy 'o Puyo Puyo Tetris S in order to be connectin' to PegaSwitch fer th' first time. After that, an alternative method 'o connectin' to PegaSwitch gunna become available.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Ensure that ye firewall does not block incomin' connections to UDP port 53 or TCP ports 80 'n 8100
+1. Launch PegaSwitch in ye terminal/command prompt by typin' `sudo node start.js --webapplet`
+1. Launch Puyo Puyo Tetris S on ye device
+1. Press A, 'n then press R
+1. Press A 'n touch th' menu item at th' very bottom labelled "お問い合わせ先"
+1. Touch th' SEGA logo in th' bottom-left corner; 'tis gunna be launchin' th' webapplet 'n load th' PegaSwitch webpage.
+1. PegaSwitch on ye PC should be showin' that ye device has connected. It also gunna show ye device's firmware version 'n MAC address in th' prompt.
+1. In PegaSwitch on ye computer, type `evalfile usefulscripts/nsp.js`
+1. Press th' Home button to exit
+1. Launch th' Album applet
 1. If th' exploit was successful, th' Homebrew Launcher gunna launch
 
 ##### Option ii - Firmware Versions 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Note that 'tis option be only applyin' to devices wit' firmware versions 2.0.0 - 2.3.0; if ye have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Launch PegaSwitch in ye terminal/command prompt by typin' `sudo node start.js` 
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select ye current network
 1. Select "Connect to this Network"
 1. If th' DNS connection was successful, ye gunna be seein' th' message "Registration is required to use this network."
 1. Select "Next"
 1. The PegaSwitch webpage gunna load
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. PegaSwitch on ye PC should be showin' that ye device has connected. It also gunna show ye device's firmware version 'n MAC address in th' prompt.
 1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Press th' Home button to exit
+1. Launch th' Album applet
 1. If th' exploit was successful, th' Homebrew Launcher gunna launch 
 
 #### Section V - Fake News (Optional)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+As ye must re-run th' "Initial Installation" section 'o th' exploit after each reboot, ye probably desire a more convenient way 'o connectin' to PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Luckily, we got th' ability to install a fake entry into th' News applet (via an exploit dubbed "Fake News") which can make connectin' to PegaSwitch much easier.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Note that modifyin' system save data can **brick** ye device permanently if ye do not be careful! It be strongly recommended that ye avoid editin' th' `installFakeNews.js` script so that ye may avoid damagin' ye device.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. To begin th' process, connect ye device to PegaSwitch as in Section III
+1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` 'n be waitin' fer it to finish
+1. Reboot ye device, 'n ye should see a PegaSwitch news entry
+1. To trigger Fake News, start PegaSwitch on ye PC wit' `sudo node start.js --webapplet`. Then select th' Fake News entry on ye device, 'n tap to open th' "video"
 
 ___
 
@@ -134,7 +134,7 @@ Ye can now launch th' Homebrew Launcher by launchin' th' Album application from 
 Ye gunna now be unable to launch retail cartridge 'n eShop games (*'til ye device be rebooted*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Ye gunna be needin' to re-run `evalfile usefulscripts/nsp.js` wit' PegaSwitch (usin' any browser applet) after each reboot, in order to re-enable Homebrew Launcher access on ye device.
 {: .notice--warning}
 
 Fer regular homebrew 'n development progress summaries, ye can be checkin' th' [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
