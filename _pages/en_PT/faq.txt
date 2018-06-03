@@ -15,4 +15,4 @@ title: "FAQ"
 **A:** Yarr! SD cards above 64GB be formatted as exFAT by default, 'n th' Switch can be neither readin' nor writin' exFAT without installin' a special exFAT System Update. Unfortunately, if ye be on an old firmware, ye gunna be unable to install 'tis update separate from th' actual device firmware. Ye can get around 'tis by usin' a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format th' SD card as FAT32. 
 
 <a name="faq_movesd" />**Q:** *How do I be movin' to a new SD card at th' end 'o 'tis?*    
-**A:** Just copy all the files to the new SD card. 
+**A:** Jus' copy all th' files to th' new SD card. 
