@@ -1,5 +1,5 @@
 ---
-title: "Site Navigation" #
+title: "Site Treasure Map" #
 layout: single-no-ads
 sitemap: false
 ---
@@ -9,7 +9,7 @@ sitemap: false
 
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
-+ [Blocking Updates](blocking-updates)
++ [Blockin' Updates](blocking-updates)
 + [Game Card Update](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -17,7 +17,7 @@ sitemap: false
 {% capture notice-2 %}
 **All**
 
-+ [Blocking Updates](blocking-updates)
++ [Blockin' Updates](blocking-updates)
 + [Credits](credits)
 + [Development (libtransistor)](development-(libtransistor))
 + [Donations](donations)
