@@ -8,7 +8,7 @@ title: "تطوير الـHomebrew"
 
 في الوقت الراهن الأداة الوحيدة لإيجاد الثغرات في جهاز ننتيندو سويتش والتي تم إصدارها للعامة هي بيج سويتش PegaSwitch،والتي تم تطويرها من قبل فريق ري سوتشد ReSwitched.
 
-إذا كنت مهتم بالتعاون مع أعضاء ري سويتشد ReSwitched بتطوير الـHomebrew، تفقد [ReSwitched on Discord](https://discord.gg/ZdqEhed).
+إذا كنت مهتم بالتعاون مع أعضاء ري سويتشد ReSwitched بتطوير الـHomebrew، تفقد [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 إذا كنت مهتم بالتعاون مع أعضاء سويتش برو SwitchBrew بتطوير الـHomebrew، تفقد #switchdev في EFnet.

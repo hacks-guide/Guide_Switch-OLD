@@ -8,7 +8,7 @@ title: "Développement de Homebrews"
 
 Actuellement, le toolkit d'exploitation public principalement utilisé pour la Switch est PegaSwitch, développé par ReSwitched.
 
-Si vous avez envie de collaborer avec les membres de ReSwitched au le développement de homebrews, passez voir [ReSwitched sur Discord](https://discord.gg/ZdqEhed).
+Si vous avez envie de travailler avec les membres de ReSwitched sur le développement de homebrews, passez voir [ReSwitched sur Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Si vous avez envie de collaborer avec les membres de SwitchBrew au développement de homebrews, passez voir #switchdev sur EFNet.

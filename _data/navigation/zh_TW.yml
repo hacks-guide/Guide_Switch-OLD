@@ -23,7 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: 若需英語支援，請於 <a href="https://discord.gg/ZdqEhed">Discord 上的 ReSwitched 伺服器</a>發問。
+    title: 若需英語支援，請於 <a href="https://discord.gg/DThbZ7z">Discord 上的 ReSwitched 伺服器</a>發問。
   - 
     title: 如果你喜歡本教學，我很樂意接受<a href="donations">捐贈</a>。
 footer:
@@ -50,11 +50,11 @@ sidebar_pages:
     title: 透過遊戲卡帶更新
     url: game-card-update
   - 
-    title: Homebrew Launcher (PegaSwitch)
+    title: Homebrew Launcher (透過 PegaSwitch)
     url: homebrew-launcher-(pegaswitch)
   - 
-    title: Homebrew Launcher (Installer)
+    title: Homebrew Launcher (透過安裝程式)
     url: homebrew-launcher-(installer)
   - 
-    title: Multiple Options
+    title: 多項選擇
     url: multiple-options

@@ -9,10 +9,10 @@ title: "الأسئلة الشائعة"
 **الجواب:** من أبعد الاحتمالات أن تتلف جهازك أو ما يطلق عليه بـBricking من خلال تشغيل الـ Homebrew أو ثغرة Fusée Gelée. لكن، تعديل ملفات النظام System savedata و الحصول على امتيازات عالية من خلال ثغرة Fusée Gelée من إمكانها أن تتلف brick جهازك اذا استعملتها بشكل خطأ. تأكد أن المصدر موثوق قبل تشغل أي scripts باستخدام PegaSwitch، أو تشغيل ملفات NROs باستخدام مشغل الـ Homebrew، و خصوصاً تثبيت الـ payloads باستخدام ثغرة Fusée Gelée! تشغيل الـ homebrews أو تثبيت الـ payloads من مصادر غير موثوقة قد تؤدي إلى تلف brick جهازك نهائياً.
 
 <a name="faq_4gbsd" />**سؤال** *هل يمكنني تهكير جهازي باستخدام ذاكرة خارجية SD Card ذات حجم 4GB (أو أقل)؟*    
-**A:** This is possible if all you want to do is run the Homebrew Launcher; however, an SD card of at least 64GB is required if running Custom Firmware like the upcoming Atmosphère, as a Switch emuNAND will take up 32GB.
+**الجواب:** نعم هذا ممكن إذا كان هدفك هو تشغيل مشغل الـ Homebrew; لكن، تحتاج بطاقة ذاكرة خارجية SD card ذات حجم 64GB على الأقل لتشغيل التحديثات المعدلة CFW مثل Atmosphère والذي سيصدر قريباً، وذلك لان الـ emuNAND لأجهزة السويتش تتطلب 32GB من حجم الذاكرة.
 
 <a name="faq_exfatsd" />**سؤال** *جهازي يطلب تحديث نظام التشغيل لكي تعمل ذاكرتي الخارجية SD Card، هل أستطيع تجنب التحديث؟*    
-**A:** Yes; SD cards above 64GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if you are not on the latest firmware you will not be able to install this update independently of updating the actual device firmware. You can get around this by using a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format the SD card as FAT32. 
+**الجواب:** نعم تستطيع تجنب تحديث نظامك، جميع الذواكر ذات حجم 64GB أو أكبر تكون مهيئه بصيغة exFAT من الأساس، وأجهزة السويتش لا تستطيع تشغيل هذه الصيغة بدون تثبيت تحديث النظام لتشغيل صيغة exFAT. لسوء الحظ، إذا لم تكن على أخر تحديث صادر للجهاز فلن تتمكن من تثبيت هذا التحديث دون تحديث نظام التشغيل معه. يمكنك تجنب استخدام صيغة exFAT وذلك باستخدام برنامج [guiformat] (http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) لتهيئه ذاكرتك الخارجية SD card لصيغة FAT32 والتي تعمل بدورها على جميع الأجهزه. 
 
 **سؤال:** *كيف يمكنني الانتقال إلى ذاكرة SD جديدة في نهاية هذا الدليل؟*    
 **الجواب:** فقط انسخ جميع الملفات الى الذاكرة الخارجية SD card الجديدة. 

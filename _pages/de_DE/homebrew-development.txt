@@ -8,7 +8,7 @@ title: "Homebrew Entwicklung"
 
 Zur Zeit ist das am meisten genutzte öffentliche Exploitationtoolkit für die Switch PegaSwitch, entwickelt von ReSwitched.
 
-Wenn du Interesse hast, mit den ReSwitched Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch auf ihrem [Reswitched Discord](https://discord.gg/ZdqEhed) vorbei.
+If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Wenn du Interesse hast, mit den SwitchBrew Mitgliedern bei deiner Homebrew Entwicklung zusammenzuarbeiten, schau doch bei #switchdev auf EFnet vorbei.

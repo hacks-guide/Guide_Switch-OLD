@@ -17,9 +17,6 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
-L'attuale exploit per homebrew ha l'effetto collaterale di corrompere il Database dei Mii della console dopo l'installazione iniziale. Anche se l'effetto è innocuo, provocherà la perdita di ogni Mii creato dagli utenti.
-{: .notice--warning}
-
 ### Cosa serve
 
 * **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)

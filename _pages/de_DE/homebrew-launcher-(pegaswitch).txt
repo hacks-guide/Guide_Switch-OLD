@@ -17,9 +17,6 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
 {: .notice--info}
 
-Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Datenbank deines Gerätes bei der ersten Installation korrupt wird. Obwohl dieser Effekt harmlos ist, er wird alle benutzererstellten Miis löschen.
-{: .notice--warning}
-
 ### Was du benötigst
 
 * **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
@@ -29,9 +26,9 @@ Beachte das der derzeitige Homebrewexploit den Nebenwirkung hat, das die Mii Dat
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
-### Anleitung
+### Instructions
 
-#### Abschnitt I - Vorbereitungen
+#### Section I - Prep Work
 
 1. Schalte das Gerät aus
 1. Stecke deine SD Karte in den Computer
@@ -63,12 +60,12 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 1. Setze "DNS-Einstellungen" auf "Manuell"
 1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
   + This is usually in the format of `192.168.1.XXX`
-1. Speichere die Einstellungen
+1. Save the network settings
 1. Verlasse die Systemeinstellungen
 
 #### Section IV - Initial Installation
 
-Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
+Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
 ##### Option i - Firmware Version 1.0.0
 
