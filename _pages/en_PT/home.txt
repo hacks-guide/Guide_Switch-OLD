@@ -58,7 +58,7 @@ If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought 
 + Th' scope 'o device modification be limited fer most homebrew right now, meanin' there be little chance 'o data loss or console damage when usin' popular homebrew applications.
 + 'Tis guide gunna work on all Switch devices on firmwares from 1.0.0 to 3.0.0. All other versions be planned fer future CFW support. Instructions be included fer blockin' updates on devices wit' firmware >=3.0.1.
 + Ye gunna be needin' a microSD card fer ye device. It should be formatted as FAT32 'n [MBR, not GPT](http://www.howtogeek.com/245610/) (most microSD cards gunna be formatted 'tis way by default). 
-+ If your Switch won't read your larger than 32GB micro SD card without a System Update, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 with an Allocation Unit Size of 32K (32768).
++ If ye Switch be unable to read ye larger-than-32GB microSD card without a System Update, ye can be usin' [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 wit' an Allocation Unit Size 'o 32K (32768).
 
 ___
 
