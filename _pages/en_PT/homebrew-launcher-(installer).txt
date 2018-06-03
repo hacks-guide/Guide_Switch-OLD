@@ -6,20 +6,20 @@ title: "Homebrew Launcher (Installer)"
 
 ### Required Readin'
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Th' Homebrew Launcher be "installed" to ye device as 'o late through a browser exploit. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+After th' initial installation process be completed, a secondary exploit must be run afterward which gunna be allowin' ye access to th' Homebrew Launcher through th' Album application. 'Tis be lastin' *'til ye device be rebooted*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+After a reboot, ye gunna need to be re-runnin' 'tis secondary exploit in order to re-enable Homebrew Launcher access on ye device. Additionally, note that 'tis secondary exploit gunna also prevent ye from playin' retail games fer as long as it remains active (meanin' *'til ye device be rebooted*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought analogous to a "semi-untethered jailbreak".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Note that th' current homebrew exploit has th' side-effect 'o corruptin' ye device's Mii Database upon initial installation. While 'tis effect be mostly harmless, any user-created Miis gunna be lost.
 {: .notice--warning}
 
 ### What ye need
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instructions
 
@@ -27,10 +27,10 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 
 1. Power off ye device
 1. Insert ye SD card into ye computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
+1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Reinsert ye SD card into ye device
+1. Power on ye device
 
 #### Section II - DNS Configuration
 
