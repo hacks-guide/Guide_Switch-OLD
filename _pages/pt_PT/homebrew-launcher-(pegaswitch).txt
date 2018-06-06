@@ -61,7 +61,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 1. Definir "DNS Primário" e "DNS Secundário" do endereço IP apresentado pelo PegaSwitch
   + Isto habitualmente está no formato de `192.168.1.XXX`
 1. Guardar as configurações de rede
-1. Sai das Definições do Sistema
+1. Sai das Definições da Consola
 
 #### Secção IV - instalação Inicial
 
