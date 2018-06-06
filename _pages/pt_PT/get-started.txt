@@ -14,7 +14,7 @@ Antes de começar, os utilizadores de Windows deveriam ativar a opção para rev
 Antes de começar, poderás querer verificar o teu cartão SD por erros usando o [H2testw (Windows)](h2testw-(windows)), o [F3 (Linux)](f3-(linux)), ou o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Seleciona a página apropriada para a tua versão do diagrama abaixo. Nota que os campos "de" e "para" são inclusivos. Isto significa que, por exemplo, a linha "de 1.0.0 para 3.0.0" inclui 1.0.0, 3.0.0, e todas a versões entre elas.
+Seleciona a página apropriada para a tua versão do diagrama abaixo. Nota que os campos "de" e "para" são inclusivos. Isto significa que, por exemplo, a linha "de 1.0.0 até 3.0.0" inclui 1.0.0, 3.0.0, e todas a versões entre elas.
 
 A versão da tua consola pode ser encontrada sobre o separador do menu Atualização do Sistema da aplicação Definições.
 
