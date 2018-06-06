@@ -137,8 +137,8 @@ Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eS
 Precisarás de voltar a executar `evalfile usefulscripts/nsp.js` com o PegaSwitch (usando qualquer applet do navegador) após cada reinício de forma a reativar o acesso ao Homebrew Launcher na tua consola.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Para ver os sumários do homebrew habitual e o progresso de desenvolvimento, consulta o blogue [ReSwitched Weekly](https://reswitchedweekly.github.io/) regularmente.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Para informações em contribuir para o desenvolvimento de homebrew como desenvolvedor, consulta a página [Desenvolvimento de Homebrew](homebrew-development).
 {: .notice--primary}
