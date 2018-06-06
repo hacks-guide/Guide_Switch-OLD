@@ -16,7 +16,7 @@ Antes de começar, poderás querer verificar o teu cartão SD por erros usando o
 
 Seleciona a página apropriada para a tua versão do diagrama abaixo. Nota que os campos "de" e "para" são inclusivos. Isto significa que, por exemplo, a linha "de 1.0.0 até 3.0.0" inclui 1.0.0, 3.0.0, e todas a versões entre elas.
 
-A versão da tua consola pode ser encontrada sobre o separador do menu Atualização do Sistema da aplicação Definições.
+A versão da tua consola pode ser encontrada sobre o menu Atualização do Sistema no separador Sistema da aplicação Definições.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
@@ -25,7 +25,7 @@ A versão da tua consola pode ser encontrada sobre o separador do menu Atualiza�
 
 Nota que a consola poderá não exibir a versão do sistema se uma atualização transferida está a aguardar por uma instalação.
 
-Se for esse o caso na tua consola, podes ver a tua versão de Recuperação / Mode de Manuntenção ao ligares a tua consola enquanto primes (Power) + (Volume +) + (Volume -).
+Se esse for o caso na tua consola, podes ver a tua versão em Modo de Recuperação / Manutenção ao ligares a tua consola enquanto primes (Power) + (Volume +) + (Volume -).
 
 {% endcapture %}
 
