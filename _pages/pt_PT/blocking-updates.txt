@@ -21,7 +21,7 @@ Adicionalmente, nós entramos em Recuperação / Modo de Manutenção e eliminam
 Nota que estes servidores DNS precisarão de ser definidos em cada rede que conectares a tua consola para ela poder bloquear as atualizações!
 {: .notice--warning}
 
-1. Launch System Settings
+1. Abre as Definições da Consola
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
   + Isto é indicado por uma marca verde verificada ao lado da rede
