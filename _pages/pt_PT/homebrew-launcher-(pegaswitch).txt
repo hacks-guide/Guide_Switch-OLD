@@ -120,21 +120,21 @@ Nota que modificar os dados guardados do sistema pode **brickar** a tua consola 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom numero limitado de aplicações.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Poderás encontrar aplicações disponíveis no [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks no reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew no GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Para instalar aplicações homebrew, simplesmente copia o ficheiro homebrew `.nro` para a pasta `/switch/` no teu cartão SD.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Podes agora lançar o Homebrew Launcher ao iniciar a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Precisarás de voltar a executar `evalfile usefulscripts/nsp.js` com o PegaSwitch (usando qualquer applet do navegador) após cada reinício de forma a reativar o acesso ao Homebrew Launcher na tua consola.
 {: .notice--warning}
 
 For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
