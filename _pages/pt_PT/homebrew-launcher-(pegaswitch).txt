@@ -100,16 +100,16 @@ Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0
 1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal.
 1. Executa `evalfile usefulscripts/nsp.js`
 1. Prime o botão Home para sair
-1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch 
+1. Abre a applet Álbum
+1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir 
 
-#### Section V - Fake News (Optional)
+#### Secção V - Noticias Falsas (Opcional)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Como tens que voltar a executar a secção da "Instalação Inicial" da vulnerabilidade após cada reinício, seria ideal se houvesse uma maneira mais conveniente de conectar ao PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Felizmente, nós podemos instalar uma entrada falsa na applet Notícias (a vulnerabilidade "Fake News") o que poderá conectar ao PegaSwitch significativamente mais fácil.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Nota que modificar os dados guardados do sistema pode **brickar** a tua consola permanentemente se não tiveres cuidado! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
 {: .notice--warning}
 
 1. In order to do so, connect your device to PegaSwitch as in Section III
