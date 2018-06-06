@@ -28,7 +28,7 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 1. Abrir as Definições da Consola
 1. Navegar para o `Modo de Avião`
 1. Ativar o Modo de Avião
-1. Sai das Definições do Sistema
+1. Sai das Definições da Consola
 
 #### Secção II - Apagando os Dados de Atualização
 
@@ -49,7 +49,7 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 1. Abre as Definições da Consola
 1. Navega para o `Modo de Avião`
 1. Desativa o Modo de Avião
-1. Sai das Definições do Sistema
+1. Sai das Definições da Consola
 
 ___
 
