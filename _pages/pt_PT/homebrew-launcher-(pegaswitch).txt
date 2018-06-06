@@ -69,7 +69,7 @@ Nota que terás de voltar a executar esta secção da vulnerabilidade após cada
 
 ##### Opção i - Versão do Firmware 1.0.0
 
-Nota que esta opção só se aplica a dispositivos com a versão do firmware 1.0.0; se tiveres a versões 2.0.0 - 2.3.0, desloca-te até à "Opção ii - Versões do Firmware 2.0.0 - 2.3.0".
+Nota que esta opção só se aplica a dispositivos com a versão do firmware 1.0.0; se tiveres as versões 2.0.0 - 2.3.0, desloca-te até à "Opção ii - Versões do Firmware 2.0.0 - 2.3.0".
 
 Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tetris S de forma a conectar com o PegaSwitch pela primeira vez. Depois disso, um método alternativo de conectar ao PegaSwitch tornará-se disponível.
 {: .notice--info}
@@ -80,7 +80,7 @@ Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tet
 1. Prime A e depois prime R
 1. Prime A e toca no item do menu mais abaixo rotulado "お問い合わせ先"
 1. Toca no logótipo da SEGA no canto inferior esquerdo; isto irá abrir a webapplet e carregar a página web do PegaSwitch.
-1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal.
+1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal/linha de comandos.
 1. Dentro do PegaSwitch no teu computador, digita `evalfile usefulscripts/nsp.js`
 1. Prime o botão Home para sair
 1. Abre a applet Álbum
@@ -97,7 +97,7 @@ Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0
 1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
 1. Seleciona "Seguinte"
 1. A página web do PegaSwitch irá carregar
-1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal.
+1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal/linha de comandos.
 1. Executa `evalfile usefulscripts/nsp.js`
 1. Prime o botão Home para sair
 1. Abre a applet Álbum
