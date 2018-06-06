@@ -10,7 +10,7 @@ header:
 excerpt: "Um guia completo para o homebrew da Switch <br /> e desenvolvimento de homebrew.<br />"
 ---
 
-Para guias completos de homebrew e firmware personalizados para outros dispositivos, consulta [Hacks.Guide](https://hacks.guide).
+Para guias completos de homebrew e custom firmware para outras consolas, consulta [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
