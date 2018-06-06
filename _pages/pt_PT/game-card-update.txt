@@ -30,7 +30,7 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 1. Ativar o Modo de Avião
 1. Sai das Definições do Sistema
 
-#### Secção II - Apagando os Dados de Utilização
+#### Secção II - Apagando os Dados de Atualização
 
 1. Desliga a tua consola
 1. Liga a tua consola mantendo premidos os botões (Power) + (Volume +) + (Volume -)
@@ -38,20 +38,20 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 1. Quaisquer dados transferidos de atualização foram apagados do teu sistema simplesmente por teres entrado neste menu
 1. Prime (Power) para desligar a tua consola
 
-#### Section III - Game Card Update
+#### Secção III - Atualização do Cartão de Jogo
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Insere o teu cartão de jogo Pokkén Tournament DX na tua consola
+1. Tentar abrir o jogo
+1. Atualiza quando for pedido
 
-#### Section IV - Disable Airplane Mode
+#### Secção IV - Desativa o Modo de Avião
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
+1. Abre as Definições da Consola
+1. Navega para o `Modo de Avião`
+1. Desativa o Modo de Avião
 1. Sai das Definições do Sistema
 
 ___
 
-### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
+### Continua para o [Homebrew Launcher (Instalador)](homebrew-launcher-(installer))
 {: .notice--primary}
