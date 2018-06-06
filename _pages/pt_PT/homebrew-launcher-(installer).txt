@@ -46,7 +46,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
 1. Save the network settings
-1. Sai das Definições do Sistema
+1. Sai das Definições da Consola
 
 #### Section III - Initial Installation
 
