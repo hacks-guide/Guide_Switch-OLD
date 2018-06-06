@@ -90,16 +90,16 @@ Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tet
 
 Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0.0 - 2.3.0; se tiveres a versão 1.0.0, desloca-te até à "Opção i - Versões do Firmware 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Inicia o PegaSwitch na tua linha de comandos/terminal ao digitar `sudo node start.js` 
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
+1. Seleciona "Conectar a esta Rede"
+1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
+1. Seleciona "Seguinte"
+1. A página web do PegaSwitch irá carregar
 1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
+1. Executa `evalfile usefulscripts/nsp.js`
+1. Prime o botão Home para sair
 1. Launch the Album applet
 1. If the exploit was successful, the Homebrew Launcher will launch 
 
