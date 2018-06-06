@@ -15,8 +15,8 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 ### O que precisas
 
 * Uma revisão original do cartão de jogo de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Revisões originais deste cartão de jogo contêm 3.0.0; elas têm um circuito verde imprimido e um número de série a terminar em **00** (vê a imagem abaixo)
-  + Revisões mais novas deste cartão de jogo contêm 3.0.1; elas têm um circuito preto imprimido e um número de série a terminar em **001** (*evita usar estas para atualizar!*)
+  + As revisões originais deste cartão de jogo contêm 3.0.0; elas têm um circuito verde imprimido e um número de série a terminar em **00** (vê a imagem abaixo)
+  + As revisões mais novas deste cartão de jogo contêm 3.0.1; elas têm um circuito preto imprimido e um número de série a terminar em **001** (*evita usar estas para atualizar!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
