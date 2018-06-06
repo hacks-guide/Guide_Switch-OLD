@@ -37,7 +37,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
 {: .notice--info}
 
-1. Launch System Settings
+1. Abre as Definições da Consola
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
   + Isto é indicado por uma marca verde verificada ao lado da rede
