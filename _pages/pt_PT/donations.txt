@@ -1,5 +1,5 @@
 ---
-title: "Donations" #
+title: "Donativos" #
 layout: single-no-ads
 ---
 
