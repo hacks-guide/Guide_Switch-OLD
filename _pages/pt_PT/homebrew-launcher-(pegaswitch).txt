@@ -2,9 +2,9 @@
 title: "Homebrew Launcher (PegaSwitch)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
 On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
@@ -26,7 +26,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
-### Instructions
+### Instruções
 
 #### Section I - Prep Work
 
@@ -53,7 +53,7 @@ Note that these DNS servers will need to be set on each network you connect your
 {: .notice--info}
 
 1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
+1. Navega até `Internet` -> `Definições da Internet`
 1. Select your current network
   + This is signified by a green check mark next to the network
 1. Select "Change Settings"
@@ -91,7 +91,7 @@ Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris 
 Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
 1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
-1. Navigate to `Internet` -> `Internet Settings`
+1. Navega até `Internet` -> `Definições da Internet`
 1. Select your current network
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
