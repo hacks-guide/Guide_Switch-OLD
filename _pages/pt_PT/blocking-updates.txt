@@ -12,7 +12,7 @@ Para garantir o acesso futuro, definimos o DNS da tua rede atual para um servido
 
 Se estiveres na versão do firmware 5.0.2 e desejares continuar a utilizar os serviços online com as atualizações bloqueadas, poderás fazê-lo desde que a versão 5.0.2 seja a mais recente (porque somente a versão do firmware mais recente é que tem permissão para aceder aos serviços online). Para isto funcionar, o único requerimento é que te tenhas conectado aos serviços online pelo menos uma vez antes de seguires estas instruções.
 
-Adicionalmente, nós entramos em Recuperação / Modo de Manutenção e eliminamos quaisquer dados de atualização que possam já ter sido transferidos.
+Adicionalmente, nós entramos no Modo de Recuperação / Manutenção e eliminamos quaisquer dados de atualização que possam já ter sido transferidos.
 
 ### Instruções
 
@@ -30,7 +30,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 1. Define o "DNS Primário" para `104.236.106.125`
 1. Define o "DNS Secundário" para `62.210.147.20`
 1. Guarda as definições de rede
-1. Sai das Definições do Sistema
+1. Sai das Definições da Consola
 
 #### Secção II - Apagando os Dados de Utilização
 
