@@ -1,20 +1,20 @@
 ---
-title: "Blocking Updates"
+title: "Bloquear Atualizações"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Atualmente, o homebrew está apenas disponível para as versões de firmware até 3.0.0, mas futuro homebrew e apoio para CFW está planeado para todas as versões até 5.0.2.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Para garantir o acesso futuro, definimos o DNS da tua rede atual para um servidor (hospedado pelo ReSwitched) que bloqueia pedidos para o servidor de atualização da Nintendo.
 
 If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
 Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
 
-### Instructions
+### Instruções
 
 #### Section I - DNS Configuration
 
@@ -22,17 +22,17 @@ Note that these DNS servers will need to be set on each network you connect your
 {: .notice--warning}
 
 1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
+1. Navega até `Internet` -> `Definições da Internet`
 1. Select your current network
   + This is signified by a green check mark next to the network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. Define o "DNS Primário" para `104.236.106.125`
+1. Define o "DNS Secundário" para `62.210.147.20`
 1. Save the network settings
 1. Exit System Settings
 
-#### Section II - Deleting Update Data
+#### Secção II - Apagando os Dados de Utilização
 
 1. Power off your device
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
@@ -42,5 +42,5 @@ Note that these DNS servers will need to be set on each network you connect your
 
 ___
 
-Updates are now blocked on your device for the configured network.
+As atualizações estão agora bloqueadas na tua consola para a rede configurada.
 {: .notice--success}
