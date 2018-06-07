@@ -8,7 +8,7 @@ title: "Desarrollo de Homebrew"
 
 Actualmente, el set de herramientas público de explotación utilizado para la Switch es PegaSwitch, desarrollado por ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
+Si estás interesado en colaborar con el equipo de ReSwitched en el desarrollo de homebrew, echa un vistazo al [servidor de Discord de ReSwitched](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Si estás interesado en colaborar con el equipo de SwitchBrew en el desarrollo de homebrew, echa un vistazo a #switchdev en EFnet.

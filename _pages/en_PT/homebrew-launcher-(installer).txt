@@ -6,35 +6,35 @@ title: "Homebrew Launcher (Installer)"
 
 ### Required Readin'
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Th' Homebrew Launcher be "installed" to ye device as 'o late through a browser exploit. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+After th' initial installation process be completed, a secondary exploit must be run afterward which gunna be allowin' ye access to th' Homebrew Launcher through th' Album application. 'Tis be lastin' *'til ye device be rebooted*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+After a reboot, ye gunna need to be re-runnin' 'tis secondary exploit in order to re-enable Homebrew Launcher access on ye device. Additionally, note that 'tis secondary exploit gunna also prevent ye from playin' retail games fer as long as it remains active (meanin' *'til ye device be rebooted*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+If ye be familiar wit' "jailbreaks" fer iOS devices, 'tis idea could be thought analogous to a "semi-untethered jailbreak".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Note that th' current homebrew exploit has th' side-effect 'o corruptin' ye device's Mii Database upon initial installation. While 'tis effect be mostly harmless, any user-created Miis gunna be lost.
 {: .notice--warning}
 
 ### What ye need
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Set th' sails (prep work)
 
 1. Power off ye device
 1. Insert ye SD card into ye computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
+1. Create a folder named `switch` on th' root 'o ye SD card if it does not already exist
+1. Reinsert ye SD card into ye device
+1. Power on ye device
 
 #### Section II - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Note that these DNS servers gunna need to be set on each network ye device connects to, in order fer it to be able to trigger th' exploit.
 {: .notice--info}
 
 1. Launch System Settin's
@@ -53,82 +53,82 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select ye current network
 1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. If th' DNS connection was successful, ye gunna be seein' th' message "Registration is required to use this network."
 1. Select "Next"
-1. The Homebrew Launcher webpage will load
+1. Th' Homebrew Launcher webpage gunna load
 1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. The PegaSwitch webpage gunna load
+1. If th' exploit was successful, ye gunna be seein' th' error `2000-1337`
+  + If ye get stuck on th' PegaSwitch page without seein' th' error, reboot ye device 'n try performin' th' connection test again
+1. Reboot ye device
+1. When prompted about Mii database corruption, select "OK" to be rebootin' ye device again
 
-#### Section IV - Running the Homebrew Launcher
+#### Section IV - Runnin' th' Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Note that ye gunna have to re-run 'tis section 'o th' exploit after each reboot in order to re-enable access to th' Homebrew Launcher.
 
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select ye current network
 1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. If th' DNS connection was successful, ye gunna be seein' th' message "Registration is required to use this network."
 1. Select "Next"
-1. The Homebrew Launcher webpage will load
+1. Th' Homebrew Launcher webpage gunna load
 1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. If th' exploit was successful, ye gunna receive a popup askin' ye to exit
+1. Return to th' home menu
+1. Launch th' Album application
+1. If th' exploit was successful, th' Homebrew Launcher gunna launch
 
 #### Section V - Alternative Browser Applets (Optional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+As ye must re-run th' "Run section 'o th' exploit after each reboot, ye probably desire a more convenient way 'o launchin' th' browser than th' connection test.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Luckily, there actually be [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on th' Switch, 'n any 'o them can be used to trigger th' browser exploit.
 
-Two convenient methods for launching a browser are listed below:
+Two convenient methods fer launchin' a browser be listed below:
 
 ##### eShop Sign In Prompt
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+To use 'tis method, create a second account on ye device. Do not connect it to a Nintendo Account.
 
 1. Launch Nintendo eShop
-1. Select the second account
+1. Select th' second account
 1. Select "Sign In and link"
-1. The browser applet will launch
+1. Th' browser applet gunna launch
 
 ##### Game Update Prompt
 
-To use this method, you must have at least one game on your home screen.
+To use 'tis method, ye must have at least one game on ye home screen.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Note that, if ye were not connected to th' correct DNS servers, 'tis method would be *updatin'* ye device. 'Tis be dangerous!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Press (+) wit' any game highlighted
+1. In th' "Software Update" tab, select "Via the Internet"
+1. Th' browser applet gunna launch
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Note that, currently, homebrew development be in a very early state wit' a very limited number 'o applications.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Ye can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+To be installin' homebrew applications, simply copy th' homebrew `.nro` file to th' `/switch/` folder on ye SD card.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Ye can now launch th' Homebrew Launcher by launchin' th' Album application from ye device's home menu (*'til ye device be rebooted*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Ye gunna now be unable to launch retail cartridge 'n eShop games (*'til ye device be rebooted*).
 {: .notice--warning}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Ye gunna be needin' to re-run th' "Run" step 'o th' exploit (usin' any browser applet) after each reboot, in order to re-enable Homebrew Launcher access on ye device.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Fer regular homebrew 'n development progress summaries, ye can be checkin' th' [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Fer information on contributin' to homebrew development as a developer, check out th' [Homebrew Development](homebrew-development) page.
 {: .notice--primary}
