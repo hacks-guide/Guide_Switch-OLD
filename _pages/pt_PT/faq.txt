@@ -1,18 +1,18 @@
 ---
-title: "FAQ"
+title: "Perguntas Frequentes"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
-**A:** Yes. All currently released Switches will eventually be hackable with Fusée Gelée. See [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) for more information. However, it is unknown if the "mariko" hardware revision soon to release to the market will be vulnerable.
+<a name="faq_latestfw" />**Q:** *Eu estou na versão mais recente do sistema. A minha consola é hackeável?*    
+**A:** Sim. Todas as Switches lançadas até agora irão eventualmente ser hackeáveis com o Fusée Gelée. Vê [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) para mais informações. Contudo, é desconhecido se a revisão de hardware "mariko", prestes a ser lançada no mercado, será vulnerável.
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricking via simply running the Homebrew Launcher or Fusée Gelée is highly unlikely. However, modifying System savedata and highly privileged exploits like Fusée Gelée can easily brick your system if done incorrectly. Only run PegaSwitch scripts, Homebrew Launcher NROs, and especially Fusée Gelée payloads from trusted sources! Running untrusted homebrew payloads has the potential to brick your console permanently.
+<a name="faq_risky" />**Q:** *O quão arriscado é hackear a minha consola?*    
+**A:** O brickeamento por simplesmente executar o Homebrew Launcher ou Fusée Gelée é altamente improvável. Contudo, modificar os dados guardados do Sistema e vulnerabilidades altamente privilegiadas como o Fusée Gelée podem facilmente brickar o teu sistema se tiver sido feito incorretamente. Executa só scripts PegaSwitch, Homebrew Launcher NROs, e especialmente payloads do Fusée Gelée de fontes seguras! Executar payloads de homebrew não confiáveis, tem o potencial de brickar a tua consola permanentemente.
 
-<a name="faq_4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** This is possible if all you want to do is run the Homebrew Launcher; however, an SD card of at least 64GB is required if running Custom Firmware like the upcoming Atmosphère, as a Switch emuNAND will take up 32GB.
+<a name="faq_4gbsd" />**Q:** *Posso fazer isto com um cartão SD de 4GB (ou mais pequeno)?*    
+**A:** Isto é possível se tudo o que quiseres fazer é executar o Homebrew Launcher; porém, um cartão SD de pelo menos 64GB é obrigatório se executares um Custom Firmware como o iminente Atmosphère, porque um emuNAND da Switch ocupará até 32GB.
 
-<a name="faq_exfatsd" />**Q:** *My Switch claims I need a System Update to use my SD card, can I get around this?*    
-**A:** Yes; SD cards above 64GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if you are not on the latest firmware you will not be able to install this update independently of updating the actual device firmware. You can get around this by using a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format the SD card as FAT32. 
+<a name="faq_exfatsd" />**Q:** *A minha Switch declara que eu preciso de uma Atualização do Sistema para usar o meu cartão SD, posso contornar isto?*    
+**A:** Sim; cartões acima dos 64GB vêm formatados como exFAT por omissão, e a Switch não pode usar cartões exFAT sem instalar a Atualização de Sistema exFAT. Infelizmente, se não estiveres no ultimo firmware não poderás instalar esta atualização independentemente de atualizar o firmware da consola atual. Podes contornar isto ao usar uma ferramenta como a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) para formatar o cartão SD como FAT32. 
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card. 
+<a name="faq_movesd" />**Q:** *Como é que eu me desloco para um novo cartão SD no fim disto?*    
+**A:** Simplesmente copia todos os ficheiros para o novo cartão SD. 

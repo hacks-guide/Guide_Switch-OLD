@@ -1,134 +1,134 @@
 ---
-title: "Homebrew Launcher (Installer)"
+title: "Homebrew Launcher (Instalador)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+O Homebrew Launcher está atualmente "instalado" na tu consola através de uma vulnerabilidade do navegador. 
 
-After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
+Após o processo inicial da instalação for concluído, uma vulnerabilidade secundária deverá ser executada que te permitirá aceder ao Homebrew Launcher através da aplicação Álbum *até que a tua consola seja reiniciada*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+Depois de um reinício, terás que voltar a executar esta vulnerabilidade secundária de forma a reativar o acesso ao Homebrew Launcher na tua consola. Adicionalmente, nota que esta vulnerabilidade secundária também te impede que jogues jogos de retalho enquanto estiver ativa (*até a tua consola ser reiniciada*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Se estiveres familiarizado com o "jailbreaking" de dispositivos iOS, esta ideia poderia ser considerada análoga a um "semi-untethered jailbreak".
 
-Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
+Nota que a vulnerabilidade do homebrew atual tem o efeito secundário de corromper a Base de Dados Mii da tua consola sobre a instalação inicial. Apesar deste efeito ser inofensivo, ele resultará na perda de quaisquer Miis criados pelo utilizador.
 {: .notice--warning}
 
-### What you need
+### O que precisas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* A ultima versão do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Instruções
 
-#### Section I - Prep Work
+#### Secção I - Trabalho Preparatório
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Desliga a tua consola
+1. Insere o teu cartão SD no teu computador
+1. Copia o `hbmenu.nro` do arquivo nx-hbmenu `.zip` para a raiz do teu cartão SD
+1. Cria uma pasta com o nome `switch` na raíz do teu cartão SD se ainda não existir
+1. Reinsere o cartão SD na tua consola
+1. Liga a tua consola
 
-#### Section II - DNS Configuration
+#### Secção II - Configuração do DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Nota que estes servidores DNS precisarão de ser definidos em cada rede que conectares a tua consola para ela poder acionar a vulnerabilidade.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Abre as Definições da Consola
+1. Navega até `Internet` -> `Definições da Internet`
+1. Seleciona a tua rede atual
+  + Isto é indicado por uma marca verde verificada ao lado da rede
+1. Seleciona "Alterar Configurações"
+1. Define "Definições do DNS" para "Manual"
+1. Define "DNS Primário" para `104.236.106.125`
+1. Define "DNS Secundário" para `62.210.147.20`
+1. Guarda as configurações da rede
+1. Sai das Definições da Consola
 
-#### Section III - Initial Installation
+#### Secção III - Instalação Inicial
 
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
-1. When prompted about Mii database corruption, select "OK" to reboot your device again
+1. Navega até `Internet` -> `Definições da Internet`
+1. Seleciona a tua rede atual
+1. Seleciona "Conectar a esta Rede"
+1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
+1. Seleciona "Seguinte"
+1. A página web do Homebrew Launcher irá carregar
+1. Seleciona "Install"
+1. A página web do PegaSwitch irá carregar
+1. Se a vulnerabilidade tiver sucesso, verás o erro `2000-1337`
+  + Se ficares preso na página do PegaSwitch sem ver o erro, reinicia a tua consola e tenta efetuar o teste de conexão outra vez
+1. Reinicia a tua consola
+1. Quando alertado sobre a corrupção da base de dados Mii, seleciona "OK" para reiniciares a tua consola outra vez
 
-#### Section IV - Running the Homebrew Launcher
+#### Secção IV - Executando o Homebrew Launcher
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Nota que terás de voltar a executar esta secção da vulnerabilidade após cada reinício de forma a reativar o acesso ao Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Run"
-1. If the exploit was successful, you will receive a popup asking you to exit
-1. Return to the home menu
-1. Launch the Album application
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Navega até `Internet` -> `Definições da Internet`
+1. Seleciona a tua rede atual
+1. Seleciona "Conectar a esta Rede"
+1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
+1. Seleciona "Seguinte"
+1. A página web do Homebrew Launcher irá carregar
+1. Seleciona "Run"
+1. Se a vulnerabilidade tiver sucesso, irás receber um pop-up a pedir-te para sair
+1. Voltar ao menu home
+1. Abrir a aplicação Álbum
+1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir
 
-#### Section V - Alternative Browser Applets (Optional)
+#### Secção V - Applets de Navegador Alternativas (Opcional)
 
-As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
+Como terás que voltar a executar a secção "Run" da vulnerabilidade após cada reinício, seria ideal se houvesse uma maneira mais conveniente de abrir o navegador do que o teste de conexão.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
+Felizmente, por acaso há [múltiplas](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) applets de navegador na Switch, e qualquer uma pode ser usada para acionar a vulnerabilidade do navegador.
 
-Two convenient methods for launching a browser are listed below:
+Dois métodos convenientes para abrir um navegador estão listados abaixo:
 
-##### eShop Sign In Prompt
+##### Janela de Inicio de Sessão da eShop
 
-To use this method, create a second account on your device. Do not connect it to a Nintendo Account.
+Para utilizar este método, cria uma segunda conta na tua consola. Não a vincules a uma Conta Nintendo.
 
-1. Launch Nintendo eShop
-1. Select the second account
-1. Select "Sign In and link"
-1. The browser applet will launch
+1. Abrir a Nintendo eShop
+1. Seleciona a segunda conta
+1. Seleciona "Iniciar sessão e vincular"
+1. A applet de navegador irá iniciar
 
-##### Game Update Prompt
+##### Janela de Atualização de Jogo
 
-To use this method, you must have at least one game on your home screen.
+Para utilizar este método, necessitas de ter pelo menos um jogo no teu ecrã home.
 
-Note that, if you were not connected to the correct DNS servers, this method would *update* your device. It is dangerous!
+Nota que, se não estiveres conectado aos servidores DNS, este método poderia *atualizar* a tua consola. É perigoso!
 {: .notice--danger}
 
-1. Press (+) with any game highlighted
-1. In the "Software Update" tab, select "Via the Internet"
-1. The browser applet will launch
+1. Prime (+) com qualquer jogo realçado
+1. No separador "Atualização do Software", seleciona "A partir da Internet"
+1. A applet de navegador irá iniciar
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom numero limitado de aplicações.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Poderás encontrar aplicações disponíveis na [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks no reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew no GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Para instalar aplicações homebrew, simplesmente copia o ficheiro homebrew `.nro` para a pasta `/switch/` no teu cartão SD.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Podes agora lançar o Homebrew Launcher por iniciar a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
 {: .notice--warning}
 
-You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Precisarás de voltar a executar o passo "Run" da vulnerabilidade (usando qualquer applet de navegador) após cada reinício de forma a reativar o acesso ao Homebrew Launcher na tua consola.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Para ver os sumários do homebrew habitual e o progresso de desenvolvimento, consulta o blogue [ReSwitched Weekly](https://reswitchedweekly.github.io/) regularmente.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Para informações em contribuir para o desenvolvimento de homebrew como desenvolvedor, consulta a página [Desenvolvimento de Homebrew](homebrew-development).
 {: .notice--primary}

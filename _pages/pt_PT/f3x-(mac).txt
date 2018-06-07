@@ -2,36 +2,36 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-This is an add-on section for checking your SD card for errors using F3X.
+Isto é uma secção adicional para verificar o teu cartão SD por erros usando o F3X.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Dependendo do tamanho do teu cartão SD e da velocidade do teu computador, este processo poderá demorar muitas horas!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Esta página é só para utilizadores de Mac. Se não estiveres em Mac, consulta as páginas [H2testw (windows)](h2testw-(windows)) ou [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### O Que Precisas
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* A ultima versão do [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
-### Instructions
+### Instruções
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Descomprime o arquivo F3X `.zip`
+1. Insere o teu cartão SD no teu computador
+1. Executa a aplicação F3X
+1. Seleciona o teu cartão SD
+1. Prime "Start Test"
+1. Espera até que o processo esteja completo.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
+Se o teste mostrar o resultado `Success! Your card is ok!` o teu cartão SD está em condições e podes apagar todos os ficheiros `.h2w` no teu cartão SD
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Se o teste mostrar outros resultados, o teu cartão SD poderá estar corrompido ou danificado e poderás ter que o substituir!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Voltar a [Começar](get-started)
 {: .notice--primary}

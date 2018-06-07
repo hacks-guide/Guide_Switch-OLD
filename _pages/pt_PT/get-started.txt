@@ -1,37 +1,37 @@
 ---
-title: "Get Started"
+title: "Começar"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-Different device versions will require different steps to achieve the current end goal of Homebrew. This page will help you find where to start for your device.
+Versões diferentes da consola irão exigir etapas diferentes para atingir o objetivo final atual do Homebrew. Está página irá ajudar-te a encontrar onde começar para a tua consola.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Antes de começar, os utilizadores de Windows deveriam ativar a opção para revelar as extensões de ficheiros usando [Extensões de Ficheiro (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Antes de começar, poderás querer verificar o teu cartão SD por erros usando o [H2testw (Windows)](h2testw-(windows)), o [F3 (Linux)](f3-(linux)), ou o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.0.0 to 3.0.0" row includes 1.0.0, 3.0.0, and all versions in-between.
+Seleciona a página apropriada para a tua versão do diagrama abaixo. Nota que os campos "de" e "para" são inclusivos. Isto significa que, por exemplo, a linha "de 1.0.0 até 3.0.0" inclui 1.0.0, 3.0.0, e todas a versões entre elas.
 
-Your device version can be found under the System Update menu in the System tab of the Settings application.
+A versão da tua consola pode ser encontrada sobre o menu Atualização do Sistema no separador Sistema da aplicação Definições.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
 {% capture notice %}
 
-Note that the device may not display the system version if a downloaded update is pending installation.
+Nota que a consola poderá não exibir a versão do sistema se uma atualização transferida está a aguardar por uma instalação.
 
-If that is the case on your device, you can view your version from Recovery / Maintenance Mode by powering on your device while holding (Power) + (Volume Up) + (Volume Down).
+Se esse for o caso na tua consola, podes ver a tua versão em Modo de Recuperação / Manutenção ao ligares a tua consola enquanto primes (Power) + (Volume +) + (Volume -).
 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-### Version Table
+### Tabela de Versões
 
 <table>
   <colgroup>
@@ -41,8 +41,8 @@ If that is the case on your device, you can view your version from Recovery / Ma
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">De</th>
+      <th style="text-align: center; font-weight: bold;">Para</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
@@ -55,12 +55,12 @@ If that is the case on your device, you can view your version from Recovery / Ma
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Instalador)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>
       <td style="text-align: center; font-weight: bold;">5.0.2</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">Aguarda pelo CFW -- <a href="blocking-updates">Bloquear Atualizações</a></td>
     </tr>
   </tbody>
 </table>

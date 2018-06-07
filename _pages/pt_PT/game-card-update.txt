@@ -1,57 +1,57 @@
 ---
-title: "Game Card Update"
+title: "Atualização do Cartão de Jogo"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+Todos os cartões de jogo contêm uma cópia da versão do firmware necessária para jogá-lo, permitindo a qualquer um numa versão mais baixa atualizar para essa versão e jogar o jogo. (mesmo sem uma conexão à internet).
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+Nós podemos tomar a vantagem disto ao usar um jogo que contenha uma versão específica de forma a instalar uma versão mais recente do firmware (3.0.0) sem atualizar até à ultima disponível. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualizações online ao usar o modo de avião e entramos em Modo de Recuperação / Manutenção para apagar quaisquer dados de atualização que poderiam ter sido já transferidos.
 
-### What you need
+### O que precisas
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* Uma revisão original do cartão de jogo de [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
+  + As revisões originais deste cartão de jogo contêm 3.0.0; elas têm um circuito verde imprimido e um número de série a terminar em **00** (vê a imagem abaixo)
+  + As revisões mais novas deste cartão de jogo contêm 3.0.1; elas têm um circuito preto imprimido e um número de série a terminar em **001** (*evita usar estas para atualizar!*)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
-### Instructions
+### Instruções
 
-#### Section I - Enable Airplane Mode
+#### Secção I - Ativar o Modo de Avião
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. Exit System Settings
+1. Abrir as Definições da Consola
+1. Navegar para o `Modo de Avião`
+1. Ativar o Modo de Avião
+1. Sai das Definições da Consola
 
-#### Section II - Deleting Update Data
+#### Secção II - Apagando os Dados de Atualização
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Desliga a tua consola
+1. Liga a tua consola mantendo premidos os botões (Power) + (Volume +) + (Volume -)
+1. Não seleciones nenhuma das opções
+1. Quaisquer dados transferidos de atualização foram apagados do teu sistema simplesmente por teres entrado neste menu
+1. Prime (Power) para desligar a tua consola
 
-#### Section III - Game Card Update
+#### Secção III - Atualização do Cartão de Jogo
 
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
+1. Insere o teu cartão de jogo Pokkén Tournament DX na tua consola
+1. Tentar abrir o jogo
+1. Atualiza quando for pedido
 
-#### Section IV - Disable Airplane Mode
+#### Secção IV - Desativa o Modo de Avião
 
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
-1. Exit System Settings
+1. Abre as Definições da Consola
+1. Navega para o `Modo de Avião`
+1. Desativa o Modo de Avião
+1. Sai das Definições da Consola
 
 ___
 
-### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
+### Continua para o [Homebrew Launcher (Instalador)](homebrew-launcher-(installer))
 {: .notice--primary}

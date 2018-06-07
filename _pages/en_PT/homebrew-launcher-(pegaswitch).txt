@@ -6,50 +6,50 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 ### Required Readin'
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+On firmwares 1.0.0 - 2.3.0, th' Homebrew Launcher currently be "installed" to ye device usin' a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+'Tis gunna be allowin' ye to access th' Homebrew Launcher through th' Album application, *but only 'til ye device be rebooted.* After it be rebooted, ye gotta be *rerunnin' th' script* to restore Homebrew Launcher functionality. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+After a reboot, ye gunna need to be re-runnin' 'tis secondary exploit in order to re-enable Homebrew Launcher access on ye device. Additionally, note that 'tis secondary exploit gunna also prevent ye from playin' retail games fer as long as it remains active (meanin' *'til ye device be rebooted*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+If ye be familiar wit' iOS devices' "jailbreaking", 'tis idea could be thought analogous to a "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Note that although these instructions work fine on firmware version 3.0.0, it be far easier instead fer 3.0.0 users to be followin' [Homebrew Launcher (Installer)](homebrew-launcher-(installer)).
 {: .notice--info}
 
 ### What ye need
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* **Firmware 1.0.0:** Th' 1.0.0 release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*th' latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest version 'o [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* Th' latest version 'o [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Set th' sails (prep work)
 
 1. Power off ye device
 1. Insert ye SD card into ye computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Copy `hbl.nsp` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Copy `hbmenu.nro` from th' nx-hbmenu `.zip` to th' root 'o ye SD card
+1. Copy `hbl.nsp` to th' root 'o ye SD card
+1. Create a folder named `switch` on th' root 'o ye SD card if it does not already exist
+1. Reinsert ye SD card into ye device
+1. Power on ye device
 
 #### Section II - PegaSwitch Configuration
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. After downloadin' th' latest version 'o PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
+1. Start cmd/terminal, 'n `cd` to th' PegaSwitch folder
+1. Run `npm install`; 'tis gunna be installin' th' node modules that PegaSwitch depends on
+1. Start PegaSwitch by runnin' th' command correspondin' to ye operatin' system
+  + **Linux/macOS:** Run `sudo node start.js` 'n make note 'o th' IP address it displays
+  + **Windows:** Run `node start.js` 'n make note 'o th' IP address it displays
+1. Press Ctrl+C twice to exit PegaSwitch
 
 #### Section III - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Note that these DNS servers gunna need to be set on each network ye device connects to, in order fer it to be able to trigger th' exploit.
 {: .notice--info}
 
 1. Launch System Settin's
@@ -58,87 +58,87 @@ Note that these DNS servers will need to be set on each network you connect your
   + 'Tis be signified by a green check mark next to th' network
 1. Select "Change Settings"
 1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Set "Primary DNS" 'n "Secondary DNS" to th' IP address displayed by PegaSwitch
+  + 'Tis usually be takin' th' form 'o `192.168.1.XXX`
 1. Save th' network settin's
 1. Exit System Settin's
 
 #### Section IV - Initial Installation
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Note that ye gunna have to re-run 'tis section 'o th' exploit after each reboot in order to re-enable access to th' Homebrew Launcher.
 
 ##### Option i - Firmware Version 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Note that 'tis option be only applyin' to devices wit' firmware version 1.0.0; if ye have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Note that firmware 1.0.0 currently requires a Japanese copy 'o Puyo Puyo Tetris S in order to be connectin' to PegaSwitch fer th' first time. After that, an alternative method 'o connectin' to PegaSwitch gunna become available.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Ensure that ye firewall does not block incomin' connections to UDP port 53 or TCP ports 80 'n 8100
+1. Launch PegaSwitch in ye terminal/command prompt by typin' `sudo node start.js --webapplet`
+1. Launch Puyo Puyo Tetris S on ye device
+1. Press A, 'n then press R
+1. Press A 'n touch th' menu item at th' very bottom labelled "お問い合わせ先"
+1. Touch th' SEGA logo in th' bottom-left corner; 'tis gunna be launchin' th' webapplet 'n load th' PegaSwitch webpage.
+1. PegaSwitch on ye PC should be showin' that ye device has connected. It also gunna show ye device's firmware version 'n MAC address in th' prompt.
+1. In PegaSwitch on ye computer, type `evalfile usefulscripts/nsp.js`
+1. Press th' Home button to exit
+1. Launch th' Album applet
+1. If th' exploit was successful, th' Homebrew Launcher gunna launch
 
 ##### Option ii - Firmware Versions 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Note that 'tis option be only applyin' to devices wit' firmware versions 2.0.0 - 2.3.0; if ye have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Launch PegaSwitch in ye terminal/command prompt by typin' `sudo node start.js` 
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select ye current network
 1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. If th' DNS connection was successful, ye gunna be seein' th' message "Registration is required to use this network."
 1. Select "Next"
-1. The PegaSwitch webpage will load
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. The PegaSwitch webpage gunna load
+1. PegaSwitch on ye PC should be showin' that ye device has connected. It also gunna show ye device's firmware version 'n MAC address in th' prompt.
 1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch 
+1. Press th' Home button to exit
+1. Launch th' Album applet
+1. If th' exploit was successful, th' Homebrew Launcher gunna launch 
 
 #### Section V - Fake News (Optional)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+As ye must re-run th' "Initial Installation" section 'o th' exploit after each reboot, ye probably desire a more convenient way 'o connectin' to PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Luckily, we got th' ability to install a fake entry into th' News applet (via an exploit dubbed "Fake News") which can make connectin' to PegaSwitch much easier.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Note that modifyin' system save data can **brick** ye device permanently if ye do not be careful! It be strongly recommended that ye avoid editin' th' `installFakeNews.js` script so that ye may avoid damagin' ye device.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. To begin th' process, connect ye device to PegaSwitch as in Section III
+1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` 'n be waitin' fer it to finish
+1. Reboot ye device, 'n ye should see a PegaSwitch news entry
+1. To trigger Fake News, start PegaSwitch on ye PC wit' `sudo node start.js --webapplet`. Then select th' Fake News entry on ye device, 'n tap to open th' "video"
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Note that, currently, homebrew development be in a very early state wit' a very limited number 'o applications.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Ye can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+To be installin' homebrew applications, simply copy th' homebrew `.nro` file to th' `/switch/` folder on ye SD card.
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Ye can now launch th' Homebrew Launcher by launchin' th' Album application from ye device's home menu (*'til ye device be rebooted*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Ye gunna now be unable to launch retail cartridge 'n eShop games (*'til ye device be rebooted*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Ye gunna be needin' to re-run `evalfile usefulscripts/nsp.js` wit' PegaSwitch (usin' any browser applet) after each reboot, in order to re-enable Homebrew Launcher access on ye device.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Fer regular homebrew 'n development progress summaries, ye can be checkin' th' [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Fer information on contributin' to homebrew development as a developer, check out th' [Homebrew Development](homebrew-development) page.
 {: .notice--primary}

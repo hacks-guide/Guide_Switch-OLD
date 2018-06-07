@@ -1,5 +1,5 @@
 ---
-title: "Site Navigation" #
+title: "Site Treasure Map" #
 layout: single-no-ads
 sitemap: false
 ---
@@ -9,7 +9,7 @@ sitemap: false
 
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
-+ [Blocking Updates](blocking-updates)
++ [Blockin' Updates](blocking-updates)
 + [Game Card Update](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -17,10 +17,10 @@ sitemap: false
 {% capture notice-2 %}
 **All**
 
-+ [Blocking Updates](blocking-updates)
++ [Blockin' Updates](blocking-updates)
 + [Credits](credits)
 + [Development (libtransistor)](development-(libtransistor))
-+ [Donations](donations)
++ [Gimme Ye Gold](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
@@ -28,11 +28,11 @@ sitemap: false
 + [Game Card Update](game-card-update)
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Home](/en_PT/)
 + [Homebrew Development](homebrew-development)
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
-+ [Troubleshooting](troubleshooting)
++ [Troubleshootin'](troubleshooting)
 + [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
