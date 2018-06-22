@@ -14,7 +14,7 @@ Halaman ini hanya untuk pengguna Linux. Jika Anda tidak berada di Linux, periksa
 
 ### Apa yang Anda Butuhkan
 
-* Versi terbaru dari [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instruksi
 
