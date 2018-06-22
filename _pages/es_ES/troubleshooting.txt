@@ -16,7 +16,7 @@ Este error ocurre cuando el archivo nx-hbmenu `.nro` no se encuentra en tu tarje
 
 ### Qué necesitas
 
-* La última versión de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* La última versión de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instrucciones
 

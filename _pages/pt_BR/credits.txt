@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Créditos"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Um agradecimento especial para todos [os tradutores](https://crowdin.com/project/switch-guide) por serem espetaculares!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Se me esqueci de ti aqui, contacta-me e adicionarei o teu nome.
 
 {% capture notice-1 %}
 

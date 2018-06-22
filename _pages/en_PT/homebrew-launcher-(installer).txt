@@ -19,7 +19,7 @@ Note that th' current homebrew exploit has th' side-effect 'o corruptin' ye devi
 
 ### What ye need
 
-* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instructions
 

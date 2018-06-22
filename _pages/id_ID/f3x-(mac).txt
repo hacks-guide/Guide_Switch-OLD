@@ -14,7 +14,7 @@ Halaman ini hanya untuk pengguna Mac. Jika Anda bukan pengguna Mac, lihat halama
 
 ### Apa yang Anda Butuhkan
 
-* Perilisan terbaru dari [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instruksi
 

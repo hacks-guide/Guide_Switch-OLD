@@ -19,8 +19,8 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 
 # # # ما تحتاجه
 
-* **تحديث النظام رقم 1.0.0:** الإصدار رقم 1.0.0 من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*أخر أصدار من nx-hbmenu لا يعمل حالياً على تحديث النظام رقم 1.0.0*)
-* **تحديث النظام رقم 2.0.0 إلى 2.3.0:** أخر أصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 * أخر أصدار من [PegaSwitch] (https://github.com/reswitched/PegaSwitch)
 * أخر أصدار من [node.js] (https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}

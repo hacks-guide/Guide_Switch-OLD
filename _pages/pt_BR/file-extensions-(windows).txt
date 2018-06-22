@@ -1,34 +1,34 @@
 ---
-title: "File Extensions (Windows)"
+title: "Extensões de Ficheiro (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
+Esta é uma secção extra para desativar o comportamento padrão do Windows de ocultar as extensões de ficheiros.
 
-This will make it easier for you to find the referenced files in the rest of this guide.
+Isto fará com que seja mais fácil para ti encontrares os ficheiros referidos no resto deste guia.
 
-### Instructions
+### Instruções
 
 #### Windows 10 / 8.1 / 8
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
-1. Click the "View" option on the ribbon menu 
-1. Check the box labeled "File name extensions"
+1. Abre o Explorador de Ficheiros, abrindo um diretório qualquer, tal como o diretório do teu Cartão SD
+1. Clica na opção "Ver" no menu com separadores (parte superior da janela) 
+1. Verifica o quadrado com a etiqueta "Extensões de nome do ficheiro"
 
     ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
 #### Windows 7
 
-1. Open the start menu by clicking on it or using the Windows key
-1. Search for "Folder Options" and select the corresponding result
+1. Abre o menu inicial ao clicar nele ou usando a tecla Windows
+1. Procura por "Opções de Pastas" e seleciona o resultado correspondente
 
     ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
     {: .notice--info}
 
-1. Click the "View" option at the top of the Folder Options menu
-1. Uncheck the box labeled "Hide extensions for known file types"
+1. Clica na opção "Ver" na parte superior do menu das Opções de Pasta
+1. Desmarca o quadrado com a etiqueta "Ocultar extensões para tipos de ficheiro conhecidos"
 
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}

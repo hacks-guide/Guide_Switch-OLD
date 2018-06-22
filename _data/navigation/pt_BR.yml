@@ -1,60 +1,60 @@
 ---
 main:
   - 
-    title: Home
+    title: Início
     url: /
   - 
-    title: FAQ
+    title: Perguntas Frequentes
     url: faq
   - 
-    title: Donations
+    title: Donativos
     url: donations
   - 
-    title: Credits
+    title: Créditos
     url: credits
   - 
-    title: Troubleshooting
+    title: Resolução de Problemas
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: Desenvolvimento de Homebrew
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: Navegação do Site
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/DThbZ7z">ReSwitched on Discord</a>.
+    title: Para apoio em Inglês, pergunta por ajuda em <a href="https://discord.gg/DThbZ7z">ReSwitched no Discord</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Se estiveres grato por este guia, aceito <a href="donations">Donativos</a>.
 footer:
   - 
-    title: Source
+    title: Fonte
   - 
-    title: Site Navigation
+    title: Navegação do Site
   - 
-    title: Why Ads?
+    title: Porquê Anúncios?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progresso Geral
 sidebar_pages:
   - 
-    title: Home
+    title: Início
     url: /
   - 
-    title: Get Started
+    title: Começar
     url: get-started
   - 
-    title: Blocking Updates
+    title: Bloquear Atualizações
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: Atualização do Cartão de Jogo
     url: game-card-update
   - 
     title: Homebrew Launcher (PegaSwitch)
     url: homebrew-launcher-(pegaswitch)
   - 
-    title: Homebrew Launcher (Installer)
+    title: Homebrew Launcher (Instalador)
     url: homebrew-launcher-(installer)
   - 
-    title: Multiple Options
+    title: Várias Opções
     url: multiple-options

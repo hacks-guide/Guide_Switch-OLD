@@ -19,7 +19,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 
 ### What you need
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### 操作步骤
 

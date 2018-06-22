@@ -19,7 +19,7 @@ title: "مشغل الـHomebrew (المثبت)"
 
 # # # ما تحتاجه
 
-* أحدث إصدار من [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest)[target="_blank]
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### التعليمات
 
