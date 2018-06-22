@@ -16,7 +16,7 @@ If ye still can't solve ye issue 'n need to reach out fer help, please come prep
 
 ### What Ye Need
 
-* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* Th' latest release 'o [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instructions
 

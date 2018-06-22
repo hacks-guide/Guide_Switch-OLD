@@ -1,66 +1,66 @@
 ---
 layout: splash
-title: "Switch Hacks Guide" #
+title: "Guia de Hacks para a Switch" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Switch homebrew <br /> and homebrew development.<br />"
+excerpt: "Um guia completo para o homebrew da Switch <br /> e desenvolvimento de homebrew.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Para guias completos de homebrew e custom firmware para outras consolas, consulta [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Lê cuidadosamente todas as páginas introdutórias (incluindo esta!) antes de proceder.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/switch-guide) to help to keep these translations up to date.
+Este guia está disponível noutras linguagens!
+Clica no ícone <i class="fa fa-language" aria-hidden="true"></i> na parte superior direita da página para mudar a linguagem.    
+Alternativamente, clica [aqui](https://crowdin.com/project/switch-guide) para ajudar a manter estas traduções atualizadas.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## O que é Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) normalmente refere-se a software que não é autorizado pela Nintendo. Isto inclui ferramentas de homebrew, aplicações, jogos e emuladores.
 
-If your device is on firmware version 2.0.0 - 3.0.0, running homebrew on your device is 100% free using just the system browser. Lower firmware versions can update to 3.0.0 with the use of a game card. Higher firmware versions can block future updates in order to assure access to future exploits.
-If your device is on firmware version 1.0.0, you can run homebrew via a copy of the Japanese version of Puyo Puyo Tetris S. 
+Se a tua consola estiver na versão do firmware 2.0.0-3.0.0, executar homebrew na tua consola é 100% gratuito usando apenas o navegador do sistema. Versões de firmware mais baixas podem atualizar para 3.0.0 com o uso de um cartão de jogo. Versões de firmware mais elevadas podem bloquear atualizações futuras de forma a assegurar acesso a futuras vulnerabilidades.
+Se a tua consola estiver na versão de firmware 1.0.0, podes executar homebrew através de uma cópia da versão japonesa do Puyo Puyo Tetris S. 
 
 
-## What is Custom Firmware?
+## O que é Custom Firmware?
 
-When released, **Custom Firmware** ("CFW") will enable you to use more advanced hacks that userland homebrew can't easily do. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Quando for lançado, o **Custom Firmware** ("CFW") vai-te permitir o uso de hacks mais avançados do que o homebrew a "nível do utilizador" não pode fazer tão facilmente. Está atualmente em desenvolvimento, e tem uma data de lançamento prevista para junho de 2018. Para mais detalhes, vê [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+Adicionalmente, dependendo do tempo de disponibilidade de desenvolvimento, é possível que dispositivos na versão 1.0.0 possam ver um lançamento antecipado de CFW devido a uma vulnerabilidade exclusivamente de software que não está presente em versões posteriores.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+Se a tua consola estiver na versão do firmware 1.0.0 e estiveres interessado em acesso a CFW antecipado, a tua melhor opção atual é seguir esta página do guia [Bloquear Atualizações](blocking-updates), pega numa cópia japonesa do [Puyo Puyo Tetris S](http://amzn.to/2GCBhvf) (o que será necessário para o Custom Firmware antecipado), e esperar pacientemente por um lançamento de CFW.
 {: .notice--info}
 
-If your device is on a firmware version >=3.0.1, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page and wait patiently for a CFW release.
+Se a tua consola estiver na versão do firmware >=3.0.1, a tua melhor opção atual é seguir a página [Bloquear Atualizações](blocking-updates) deste guia e esperar pacientemente por um lançamento de um CFW.
 {: .notice--info}
 
-## What does this guide install?
+## O que é que este guia instala?
 
-This guide currently enables access to the Homebrew Launcher via a browser exploit, though "installed" is not a particularly good description. This is because the exploit must be re-run after every reboot in order to re-enable Homebrew Launcher access.
+Este guia, no momento presente, ativa o acesso ao Homebrew Launcher a partir da vulnerabilidade do navegador, embora "instalado" não é particularmente uma boa descrição. Isto é porque a vulnerabilidade tem que ser novamente executada após cada reinício a fim de reativar o acesso ao Homebrew Launcher.
 
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+Se estiveres familiarizado com o "jailbreaking" de dispositivos iOS, esta ideia poderia ser considerada análoga a um "semi-untethered jailbreak".
 
-## What do I need to know before starting?
+## O que é que eu preciso de saber antes de começar?
 
-+ While Switch hacks are constantly progressing, they are not yet in a very user-friendly state. As such, this guide may require some technical understanding in order to troubleshoot any issues which may come up.
-+ The scope of device modification is limited for most current homebrew, meaning there is little chance of data loss or console damage when using popular homebrew applications.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
-+ You will need a micro SD card for your device. It should be formatted as FAT32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If your Switch won't read your larger than 32GB micro SD card without a System Update, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 with an Allocation Unit Size of 32K (32768).
++ Apesar dos hacks da Switch estarem constantemente a progredir, eles ainda não estão num estado de fácil utilização. Como tal, este guia poderá requerer algum conhecimento técnico de forma a resolver quaisquer problemas que possam surgir.
++ O âmbito da modificação de dispositivos está limitado para a maioria do homebrew atual, o que significa que há uma pequena hipótese de perda de dados ou dano à consola ao usar aplicações homebrew populares.
++ Este guia irá funcionar em todos as consolas Switch nos firmwares desde 1.0.0 até 3.0.0, com todas as outras versões a terem um apoio futuro planeado para CFW. Há umas instruções incluídas para bloquear atualizações em dispositivos com versões do firmware >=3.0.1.
++ Vais precisar de um cartão micro SD para a tua consola. Deveria ser formatado como FAT32 e [MBR, não GPT](http://www.howtogeek.com/245610/) (a maioria dos cartões micro SD irão ser formatados desta maneira por omissão). 
++ Se a tua Switch não ler o teu cartão micro SD maior que 32GB sem uma Atualização do Sistema, podes usar o [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) no Windows para o formatar como FAT32 com um Tamanho da Unidade de Atribuição de 32KB (32768).
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continuar para [Começar](get-started)
 {: .notice--primary}

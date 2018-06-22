@@ -16,7 +16,7 @@ Kesalahan ini terjadi saat nx-hbmenu `.nro` tidak ditemukan pada kartu SD Anda.
 
 ### Apa yang Anda Butuhkan
 
-* Perilisan terbaru dari [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instruksi
 

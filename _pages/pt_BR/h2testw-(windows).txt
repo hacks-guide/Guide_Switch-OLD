@@ -2,39 +2,39 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-This is an add-on section for checking your SD card for errors using h2testw.
+Isto é uma secção extra para verificares se o teu Cartão SD tem erros utilizando o h2testw.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Dependendo do tamanho do teu cartão SD e da velocidade do teu computador, este processo poderá demorar muitas horas!
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+Esta página é só para utilizadores de Windows. Se não estiveres no Windows, consulta as páginas [F3 (linux)](f3-(linux)) ou [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### O Que Precisas
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* A versão mais recente do [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### Instruções
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. Copia o `h2testw.exe` do arquivo h2testw `.zip` para o teu ambiente de trabalho
+1. Insere o teu cartão SD no teu computador
+1. Executa o `h2testw.exe`
+1. Seleciona "English"
+1. Clica "Select target"
+1. Seleciona a letra do volume do teu cartão SD
+1. Certifica-te de que "all available space" está selecionado
+1. Clica "Write + Verify"
+1. Espera até que o processo esteja completo
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
+Se o teste mostrar os resultados `Test finished without errors`, o teu Cartão SD está em condições e podes eliminar todos os ficheiros `.h2w` no teu cartão SD
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Se o teste mostrar outros resultados, o teu cartão SD poderá estar corrompido ou danificado e poderás ter que o substituir!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Voltar a [Começar](get-started)
 {: .notice--primary}

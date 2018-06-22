@@ -14,7 +14,7 @@ Dependin' on th' size 'o ye SD card 'n th' speed 'o ye computer, 'tis process ca
 
 ### What Ye Need
 
-* Th' latest version 'o [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* Th' latest version 'o [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instructions
 

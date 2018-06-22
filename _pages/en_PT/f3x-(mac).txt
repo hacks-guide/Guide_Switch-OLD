@@ -14,7 +14,7 @@ Dependin' on th' size 'o ye SD card 'n th' speed 'o ye computer, 'tis process ca
 
 ### What Ye Need
 
-* Th' latest release 'o [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* Th' latest release 'o [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instructions
 

@@ -14,8 +14,7 @@ title: "F3X (Mac)"
 
 ### ما تحتاجه
 
-* أحدث إصدار من [F3X]
-(https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### التعليمات
 

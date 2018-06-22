@@ -19,7 +19,7 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 
 ### 必備項目
 
-* 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### 操作說明
 

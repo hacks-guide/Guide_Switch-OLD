@@ -19,7 +19,7 @@ Perhatikan bahwa penggunaan homebrew exploit saat ini memiliki efek samping untu
 
 ### Apa yang Anda butuhkan
 
-* Perilisan terbaru dari [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instruksi
 
