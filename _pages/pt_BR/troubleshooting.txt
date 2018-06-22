@@ -1,27 +1,27 @@
 ---
-title: "Troubleshooting"
+title: "Resolução de Problemas"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdos" %}
 
-### Required Reading
+### Leitura Obrigatória
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+Se encontrares problemas, por favor procura pela secção relevante para ti e segue as instruções.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Se ainda não conseguires resolver o teu problema e precisares de ajuda, por favor solicita ajuda com uma descrição detalhada do teu problema e do que tentaste.
 
-## Error 2347-0003
+## Erro 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Este erro ocorre quando o ficheiro nx-hbmenu `.nro` não foi encontrado no teu cartão SD.
 
-### What You Need
+### O Que Precisas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
-### Instructions
+### Instruções
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Desliga a tua consola
+1. Insere o teu cartão SD no teu computador
+1. Copia o `hbmenu.nro` do arquivo nx-hbmenu `.zip` para a raiz do teu cartão SD
+1. Reinsere o cartão SD na tua consola
+1. Liga a tua consola
