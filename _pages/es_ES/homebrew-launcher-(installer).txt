@@ -19,7 +19,7 @@ Ten en cuenta que el actual exploit de homebrew tiene el efecto secundario de co
 
 ### Qué necesitas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* La última versión de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instrucciones
 
