@@ -19,7 +19,7 @@ Nota que a vulnerabilidade do homebrew atual tem o efeito secundário de corromp
 
 ### O que precisas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* A ultima versão do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instruções
 
