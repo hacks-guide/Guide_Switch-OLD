@@ -19,8 +19,8 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 ### Ce aveți nevoie
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0){:target="_blank"} (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 * The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
 * The latest version of [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
