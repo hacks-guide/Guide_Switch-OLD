@@ -14,7 +14,7 @@ Deze pagina is alleen voor Mac-gebruikers. Als uw geen Mac gebruikt, zie dan de 
 
 ### Wat u nodig zult hebben
 
-* De nieuwste versie van [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instructies
 
