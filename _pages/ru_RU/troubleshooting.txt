@@ -16,7 +16,7 @@ title: "Проблемы и их решения"
 
 ### Что понадобится
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Свежая версия [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Инструкция
 
