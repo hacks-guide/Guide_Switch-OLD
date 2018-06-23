@@ -19,8 +19,8 @@ Homebrew Launcher будет доступен для запуска через �
 
 ### Что понадобится
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* **Прошивка 1.0.0:** Версия v1.0.0 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*последняя версия nx-hbmenu на данный момент падает на 1.0.0*)
+* **Прошивка 2.0.0 - 2.3.0:** Свежая версия [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 * Свежая версия [PegaSwitch](https://github.com/reswitched/PegaSwitch)
 * Свежая версия [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}

@@ -28,7 +28,7 @@ sitemap: false
 + [Mise à jour par cartouche](game-card-update)
 + [Pour commencer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Accueil](/)
++ [Home](/fr_FR/)
 + [Développement de Homebrews](homebrew-development)
 + [Homebrew Launcher (Installeur)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
