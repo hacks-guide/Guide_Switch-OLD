@@ -19,7 +19,7 @@ Notez que cet exploit a l'effet secondaire de corrompre la base de données de M
 
 ### Ce que vous avez besoin
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* La dernière version de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instructions
 
