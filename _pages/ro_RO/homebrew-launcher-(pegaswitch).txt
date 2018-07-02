@@ -39,8 +39,9 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. Porniți consola
 
 #### Section II - PegaSwitch Configuration
+
 1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start cmd/terminal and `cd` to the PegaSwitch folder
+1. Start CMD / Terminal and `cd` to the PegaSwitch folder
 1. Run `npm install`; this will install the node modules that PegaSwitch depends on
 1. Start PegaSwitch by running the command corresponding to your operating system
   + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
