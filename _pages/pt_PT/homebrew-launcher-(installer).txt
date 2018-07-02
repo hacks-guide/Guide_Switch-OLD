@@ -66,6 +66,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 #### Secção IV - Executando o Homebrew Launcher
 
 Nota que terás de voltar a executar esta secção da vulnerabilidade após cada reinício de forma a reativar o acesso ao Homebrew Launcher.
+{: .notice--info}
 
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual

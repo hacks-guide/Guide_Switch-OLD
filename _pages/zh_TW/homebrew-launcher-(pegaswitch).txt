@@ -19,8 +19,8 @@ title: "Homebrew Launcher (透過 PegaSwitch)"
 
 ### 必備項目
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* **適用於韌體版本 1.0.0:** 1.0.0 版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*目前最新版的 nx-hbmenu 將會於持有版本 1.0.0 的主機中當機*)
+* **適用於韌體版本 2.0.0 - 2.3.0:** 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 * 最新版的 [PegaSwitch](https://github.com/reswitched/PegaSwitch)
 * 最新版的 [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
@@ -31,14 +31,15 @@ title: "Homebrew Launcher (透過 PegaSwitch)"
 #### 第一節 — 準備工作
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
 1. 複製 `hbl.nsp` 到 SD 卡根目錄中
 1. 在 SD 卡的根目錄底下建立一個新資料夾 `switch`
-1. 將 SD 卡插回裝置中
+1. 將 SD 卡插回至主機中
 1. 啟動您的主機
 
 #### 第二節 — PegaSwitch 設置
+
 1. 在下載最新版的 PegaSwitch 後，將 `nsp.js` 複製至 `PegaSwitch/usefulscripts` 資料夾中
 1. 啟動您系統的終端機或命令提示字元 (cmd) 並瀏覽 (透過 `cd` 指令) 至 PegaSwitch 資料夾中
 1. 運行 `npm install`；這將會安裝 PegaSwitch 所需的 node 模組

@@ -39,8 +39,9 @@ title: "مشغل الـHomebrew (PegaSwitch)"
 1. شغل الجهاز الخاص بك
 
 ### القسم الثاني - إعداد PegaSwitch
+
 1. بعد تحميلك لأخر نسخة من PegaSwitch، أنسخ الملف `nsp.js` إلى المجلد `PegaSwitch/usefulscripts`
-1. شغل cmd/موجه الاوامر و `cd` إلى ملف PegaSwitch (وذلك بإدخال cd ثم أدخل cd pegaswitch في موجه الأوامر cmd)
+1. Start CMD / Terminal and `cd` to the PegaSwitch folder
 1. أدخل `npm install`; هذا الأمر سيثبت وحدات node والتي يعتمد عليها PegaSwitch
 1. شغل PegaSwitch وذلك بإدخال الأمر المناسب لنظام تشغيلك
   + **Linux/macOS:** أدخل `sudo node start.js` وأحفظ رقم عنوان الـIP الظاهر على شاشتك

@@ -16,7 +16,7 @@ Este erro ocorre quando o ficheiro nx-hbmenu `.nro` não foi encontrado no teu c
 
 ### O Que Precisas
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* A ultima versão do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instruções
 

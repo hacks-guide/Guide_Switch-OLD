@@ -66,6 +66,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 #### Secțiunea IV - Pornind Homebrew Launcher-ul
 
 Țineți cont că va trebui să refaceți această secțiune a exploit-ului după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
+{: .notice--info}
 
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi

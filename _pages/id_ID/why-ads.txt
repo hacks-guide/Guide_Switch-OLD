@@ -1,6 +1,6 @@
 ---
 judul: "Why Ads?" #
-tata letak: single-no-ads
+layout: single-no-ads
 ---
 
 Proyek ini merupakan bentuk dari ratusan demi ratusan jam kerja yang konstan.

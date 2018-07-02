@@ -66,6 +66,7 @@ Perhatikan bahwa server DNS ini perlu diatur pada setiap jaringan yang menghubun
 #### Bagian IV - Menjalankan Homebrew Launcher
 
 Perhatikan bahwa Anda harus menjalankan kembali bagian exploit ini setelah setiap kali reboot agar mengaktifkan kembali akses ke Homebrew Launcher.
+{: .notice--info}
 
 1. Arahkan ke `Internet` -> `Internet Settings`
 1. Pilih jaringan Anda saat ini

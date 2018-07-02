@@ -66,6 +66,7 @@ Note that these DNS servers gunna need to be set on each network ye device conne
 #### Section IV - Runnin' th' Homebrew Launcher
 
 Note that ye gunna have to re-run 'tis section 'o th' exploit after each reboot in order to re-enable access to th' Homebrew Launcher.
+{: .notice--info}
 
 1. Navigate to `Internet` -> `Internet Settings`
 1. Select ye current network

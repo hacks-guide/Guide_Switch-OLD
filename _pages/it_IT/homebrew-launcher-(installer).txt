@@ -66,6 +66,7 @@ Per poter innescare l'exploit, questi server DNS devono essere impostati su tutt
 #### Sezione IV - Avviare l'Homebrew Launcher
 
 Dovrai ri-eseguire questa parte dell'exploit ad ogni riavvio per poter accedere all'Homebrew Launcher.
+{: .notice--info}
 
 1. Seleziona `Internet` -> `Impostazioni Internet`
 1. Seleziona la rete internet alla quale sei connesso
