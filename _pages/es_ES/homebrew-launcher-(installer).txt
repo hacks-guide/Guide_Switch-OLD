@@ -66,6 +66,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
 Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
+{: .notice--info}
 
 1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
