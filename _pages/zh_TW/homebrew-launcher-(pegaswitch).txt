@@ -39,8 +39,9 @@ title: "Homebrew Launcher (透過 PegaSwitch)"
 1. 啟動您的主機
 
 #### 第二節 — PegaSwitch 設置
+
 1. 在下載最新版的 PegaSwitch 後，將 `nsp.js` 複製至 `PegaSwitch/usefulscripts` 資料夾中
-1. 啟動您系統的終端機或命令提示字元 (cmd) 並瀏覽 (透過 `cd` 指令) 至 PegaSwitch 資料夾中
+1. Start CMD / Terminal and `cd` to the PegaSwitch folder
 1. 運行 `npm install`；這將會安裝 PegaSwitch 所需的 node 模組
 1. 請使用相對應您作業系統的指令以啟動 PegaSwitch
   + **Linux/macOS:** 運行 `sudo node start.js` 並記下其顯示的 IP 位址
