@@ -66,6 +66,7 @@ Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous con
 #### Section IV - Lancer l'Homebrew Launcher
 
 Notez que vous devrez répéter ces étapes après chaque redémarrage de la console pour avoir de nouveau accès à l'Homebrew Launcher.
+{: .notice--info}
 
 1. Allez dans `Internet` -> `Paramètres Internet`
 1. Sélectionnez votre réseau actuel
