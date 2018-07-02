@@ -66,6 +66,7 @@ Beachte das diese DNS Server auf allen Netzwerken gesetzt werden müssen auf den
 #### Abschnitt IV - Starten des Homebrew Launchers
 
 Beachte das du diesen Abschnitt des Exploits nach jedem Neustart neustarten musst um Zugang zum Homebrew Launcher zu erhalten.
+{: .notice--info}
 
 1. Navigiere zu `Internet` -> `Interneteinstellungen`
 1. Wähle dein aktuelles Netzwerk
