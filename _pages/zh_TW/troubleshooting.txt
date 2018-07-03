@@ -16,12 +16,12 @@ title: "疑難排解"
 
 ### 必備項目
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### 操作說明
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
-1. 將 SD 卡插回裝置中
+1. 將 SD 卡插回至主機中
 1. 啟動您的主機
