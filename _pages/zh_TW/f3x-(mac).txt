@@ -14,12 +14,12 @@ title: "F3X (Mac)"
 
 ### 必備項目
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* 最新版的 [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### 操作說明
 
 1. 解壓 F3X `.zip` 壓縮檔
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 開啟 F3X
 1. 選擇您的 SD 卡
 1. 按下『開始測試 (Start Test)』
