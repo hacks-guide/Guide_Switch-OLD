@@ -19,17 +19,17 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 
 ### 必備項目
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* 最新版的 [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### 操作說明
 
 #### 第一節 — 準備工作
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 解壓 nx-hbmenu `.zip` 內的 `hbmenu.nro` 到 SD 卡的根目錄底下
 1. 在 SD 卡的根目錄底下建立一個新資料夾 `switch`
-1. 將 SD 卡插回裝置中
+1. 將 SD 卡插回至主機中
 1. 啟動您的主機
 
 #### 第二節 — DNS 設置
@@ -61,7 +61,7 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
   + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
 1. 重新啟動您的主機
-1. 當提示 Mii 資料庫損壞的可能性時，按下『OK』以重啟您的裝置。
+1. 當提示 Mii 資料庫損壞的可能性時，按下『OK』以重啟您的主機。
 
 #### 第四節 — 啟動 Homebrew Launcher
 
