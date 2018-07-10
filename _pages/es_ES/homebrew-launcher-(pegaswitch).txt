@@ -39,6 +39,7 @@ Ten en cuenta que, si bien estas instrucciones funcionan también en la versión
 1. Enciende tu consola
 
 #### Sección II - Configuración de PegaSwitch
+
 1. Luego de descargar la última versión de PegaSwitch, copia `nsp.js` dentro de `PegaSwitch/usefulscripts`
 1. Inicia la ventana de comandos y usa el comando `cd` para ir a la carpeta de PegaSwitch
 1. Ejecuta `npm install`; esto instalará todas las dependencias de módulos de node para PegaSwitch

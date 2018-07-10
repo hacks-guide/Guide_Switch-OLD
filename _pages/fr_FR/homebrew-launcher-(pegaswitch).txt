@@ -39,6 +39,7 @@ Notez que, même si ces instructions marchent aussi sur le firmware 3.0.0, il se
 1. Allumez votre console
 
 #### Section II - Configuration de PegaSwitch
+
 1. Après avoir téléchargé la dernière version de PegaSwitch, copiez `nsp.js` vers `PegaSwitch/usefulscripts`
 1. Lancer un terminal/invite de commandes et `cd` vers le dossier de PegaSwitch
 1. Lancez `npm install` ; ceci va installer les modules node dont PegaSwitch dépend

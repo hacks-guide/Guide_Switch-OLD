@@ -2,7 +2,7 @@
 title: "常見問題 FAQ"
 ---
 
-<a name="faq_latestfw" />**Q:** *我的主機目前搭載最新版的系統。* 這樣可以改機嗎？*    
+<a name="faq_latestfw" />**Q:** *我目前裝的系統為最新版本。 這樣可以改機嗎？*    
 **A:** 可以的！ 目前所有已推出的 Switch 主機都將能透過 Fusée Gelée 改機。 欲了解詳情，請見 [ktemkin 的 Fusée Gelée 常見問題](https://www.ktemkin.com/faq-fusee-gelee/)頁面。 不過，我們目前不曉得任天堂即將推出新的『mariko』版本 Switch 是否會受到影響。
 
 <a name="faq_risky" />**Q:** *改機風險多高？*    
