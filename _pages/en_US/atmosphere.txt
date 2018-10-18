@@ -31,7 +31,7 @@ At this moment Atmosphère is on a pre-release stage, so many bugs can be in.
 Note If you don't want HBL you don't need to do that.
 {: .notice--info}
 
-1. Download Those files (to add)
+1. Download Those [files](https://github.com/thomleg50/Guide_Switch/raw/master/_data/to%20extract%20on%20sd%20root.rar)
 1. Extract archive and send all files to SD.
 1. If it's good, launch (fusee-primary.bin).
 1. Select "Album"
