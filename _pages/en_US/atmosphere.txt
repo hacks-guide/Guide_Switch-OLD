@@ -1,0 +1,50 @@
+---
+title: "Atmosphère (install and launch)"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+Note this will not install anything to the nand, the process will be on SD-only.
+At this moment Atmosphère is on a pre-release stage, so many bugs can be in.
+{: .notice--warning}
+
+### What you need
+
+* A way of launch the payload (fusee-primary.bin)
+* The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/latest)
+
+### Instructions
+
+#### Section I - Prep Work
+
+1. Power off your device
+1. Insert your SD card into your computer
+1. Extract latest release of Atmosphere and copy "atmosphere" folder to SD Root.
+1. Reinsert your SD card into your device.
+1. Power your Switch in RCM and launch (fusee-primary.bin) with your payload launcher.
+1. You will see logo of loading and after Atmosphère bootlogo.
+
+#### Section II - HBL Configuration
+
+Note If you don't want HBL you don't need to do that.
+{: .notice--info}
+
+1. Download Those files (to add)
+1. Extract archive and send all files to SD.
+1. If it's good, launch (fusee-primary.bin).
+1. Select "Album"
+1. If you followed instruction properly it will work, if not do again the process.
+1. You got HBL working !
+
+#### Section + - Found new homebrews 
+
+You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+
+To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+
+___
+
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+{: .notice--success}
