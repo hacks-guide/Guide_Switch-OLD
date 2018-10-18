@@ -7,6 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Popular**
 
++ [Atmosphère (Install and Run)](atmosphere)
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Blocking Updates](blocking-updates)
