@@ -35,7 +35,7 @@ Adicionalmente, ingresamos al modo de mantenimiento / recuperación y borramos c
 #### Sección II - Borrar datos de actualización
 
 1. Apaga tu consola
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. Enciende tu consola manteniendo presionado los botones (Power) + (Volume Up) + (Volume Down)
 1. No selecciones ninguna de las opciones
 1. Cualquier actualización descargada ha sido eliminada tan solo por entrar a este menú
 1. Presiona (Power) para apagar tu consola
