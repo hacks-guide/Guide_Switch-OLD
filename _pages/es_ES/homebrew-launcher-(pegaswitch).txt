@@ -104,7 +104,7 @@ Ten en cuenta que esta opción sólo es aplicable a consolas en versiones de fir
 1. Inicia el applet Álbum
 1. Si el exploit fue exitoso, iniciará el Homebrew Launcher 
 
-#### Sección V - Noticias falsas (opcional)
+#### Sección V - Fake News (opcional)
 
 Ya que debes volver a ejecutar la sección "Instalación inicial" del exploit después de cada reinicio, sería ideal si hubiese una forma más conveniente de conectarse a PegaSwitch.
 
