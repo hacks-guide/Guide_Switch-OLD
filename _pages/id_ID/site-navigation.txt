@@ -1,6 +1,6 @@
 ---
 judul: "Site Navigation" #
-tata letak: single-no-ads
+layout: single-no-ads
 sitemap: false
 ---
 

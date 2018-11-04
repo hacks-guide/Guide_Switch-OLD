@@ -41,7 +41,7 @@ Nota que, apesar destas instruções também funcionarem na versão do firmware 
 #### Secção II - Configuração do PegaSwitch
 
 1. Depois de transferires a ultima versão do PegaSwitch, copia o `nsp.js` para `PegaSwitch/usefulscripts`
-1. Start CMD / Terminal and `cd` to the PegaSwitch folder
+1. Inicia o CMD / Terminal e escreve `cd` para ir à pasta do PegaSwitch
 1. Executa o `npm install`; isto irá instalar os módulos node dos quais o PegaSwitch depende
 1. Inicia o PegaSwitch executando o comando correspondente ao teu sistema operativo
   + **Linux/macOS:** Executa `sudo node start.js` e toma nota do endereço IP que revela

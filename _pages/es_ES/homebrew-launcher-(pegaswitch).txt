@@ -104,11 +104,11 @@ Ten en cuenta que esta opción sólo es aplicable a consolas en versiones de fir
 1. Inicia el applet Álbum
 1. Si el exploit fue exitoso, iniciará el Homebrew Launcher 
 
-#### Sección V - Noticias falsas (opcional)
+#### Sección V - Fake News (opcional)
 
 Ya que debes volver a ejecutar la sección "Instalación inicial" del exploit después de cada reinicio, sería ideal si hubiese una forma más conveniente de conectarse a PegaSwitch.
 
-Afortunadamente, podemos instalar una entrada falsa en el applet de Noticias (el exploit de "Noticias falsas") y que puede facilitar en gran medida la conexión a PegaSwitch.
+Afortunadamente, podemos instalar una entrada falsa en el applet de Noticias (el exploit "Fake News") y que puede facilitar en gran medida la conexión a PegaSwitch.
 
 ¡Ten en cuenta que modificar los datos de guardado del sistema podrían **inutilizar** tu consola permanentemente si no tienes cuidado! Es altamente recomendado evitar modificar el script `installFakeNews.js` para evitar dañar tu consola.
 {: .notice--warning}
@@ -116,7 +116,7 @@ Afortunadamente, podemos instalar una entrada falsa en el applet de Noticias (el
 1. Para ello, conecta tu consola a PegaSwitch como en la sección III
 1. Una vez conectado a PegaSwitch, ejecuta 'evalfile usefulscripts/installFakeNews.js' y espera que termine
 1. Reinicia tu consola, deberías ver una entrada de PegaSwitch en las noticias
-1. Para activar el exploit de noticias falsas, inicia PegaSwitch en tu PC con `sudo node start.js --webapplet`, selecciona la entrada falsa en las noticias y pulsa para abrir el "video"
+1. Para activar Fake News, inicia PegaSwitch en tu PC con `sudo node start.js --webapplet`, selecciona la entrada falsa en las noticias y pulsa para abrir el "video"
 
 ___
 
