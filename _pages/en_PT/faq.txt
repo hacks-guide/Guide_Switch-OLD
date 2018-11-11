@@ -12,7 +12,7 @@ title: "FAQ"
 **A:** 'Tis indeed be possible, if all ye wanna be doin' is runnin' th' Homebrew Launcher. However, an SD card 'o at least 64GB be required if ye wanna be runnin' Custom Firmware, like th' upcomin' Atmosphère; th' Switch emuNAND involved gunna be takin' up 32GB.
 
 <a name="faq_exfatsd" />**Q:** *Me Switch be tellin' me I need a System Update fer th' use 'o me SD card. Be there a workaround?*    
-**A:** Yarr! SD cards above 64GB be formatted as exFAT by default, 'n th' Switch can be neither readin' nor writin' exFAT without installin' a special exFAT System Update. Unfortunately, if ye be on an old firmware, ye gunna be unable to install 'tis update separate from th' actual device firmware. Ye can get around 'tis by usin' a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format th' SD card as FAT32. 
+**A:** Yes; SD cards above 32GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if ye be on an old firmware, ye gunna be unable to install 'tis update separate from th' actual device firmware. Ye can get around 'tis by usin' a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format th' SD card as FAT32. 
 
 <a name="faq_movesd" />**Q:** *How do I be movin' to a new SD card at th' end 'o 'tis?*    
 **A:** Jus' copy all th' files to th' new SD card. 
