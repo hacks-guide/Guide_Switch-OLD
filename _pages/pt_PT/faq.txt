@@ -12,7 +12,7 @@ title: "Perguntas Frequentes"
 **A:** Isto é possível se tudo o que quiseres fazer é executar o Homebrew Launcher; porém, um cartão SD de pelo menos 64GB é obrigatório se executares um Custom Firmware como o iminente Atmosphère, porque um emuNAND da Switch ocupará até 32GB.
 
 <a name="faq_exfatsd" />**Q:** *A minha Switch declara que eu preciso de uma Atualização do Sistema para usar o meu cartão SD, posso contornar isto?*    
-**A:** Sim; cartões acima dos 64GB vêm formatados como exFAT por omissão, e a Switch não pode usar cartões exFAT sem instalar a Atualização de Sistema exFAT. Infelizmente, se não estiveres no ultimo firmware não poderás instalar esta atualização independentemente de atualizar o firmware da consola atual. Podes contornar isto ao usar uma ferramenta como a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) para formatar o cartão SD como FAT32. 
+**A:** Yes; SD cards above 32GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Infelizmente, se não estiveres no ultimo firmware não poderás instalar esta atualização independentemente de atualizar o firmware da consola atual. Podes contornar isto ao usar uma ferramenta como a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) para formatar o cartão SD como FAT32. 
 
 <a name="faq_movesd" />**Q:** *Como é que eu me desloco para um novo cartão SD no fim disto?*    
 **A:** Simplesmente copia todos os ficheiros para o novo cartão SD. 
