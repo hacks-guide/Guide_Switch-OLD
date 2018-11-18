@@ -30,7 +30,7 @@ footer:
   - 
     title: Κώδικας
   - 
-    title: Πλοήγηση Iστοτόπου
+    title: Site Navigation
   - 
     title: Γιατί βλέπω διαφημίσεις;
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Συνολική πρόοδος
 sidebar_pages:
   - 
-    title: Αρχική
+    title: Home
     url: /
   - 
     title: Ας αρχίσουμε
