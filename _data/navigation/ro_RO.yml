@@ -30,7 +30,7 @@ footer:
   - 
     title: Codul sursă
   - 
-    title: Navigarea pe site
+    title: Site Navigation
   - 
     title: De ce sunt reclame?
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Progres total
 sidebar_pages:
   - 
-    title: Acasă
+    title: Home
     url: /
   - 
     title: Începeți
