@@ -30,7 +30,7 @@ footer:
   - 
     title: Sumber
   - 
-    title: Navigasi Situs
+    title: Site Navigation
   - 
     title: Mengapa Iklan?
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Kemajuan secara keseluruhan
 sidebar_pages:
   - 
-    title: Beranda
+    title: Home
     url: /
   - 
     title: Memulai
