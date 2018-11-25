@@ -8,7 +8,7 @@ title: "Dezvoltarea Homebrew-ului"
 
 În prezent, setul de unelte publice majore de exploit utilizate pentru Switch este PegaSwitch, dezvoltat de ReSwitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
+Dacă sunteţi interesat în a colabora cu membrii ReSwitched pentru dezvoltarea aplicațiilor homebrew, vedeți [ReSwitched pe Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
 Dacă sunteţi interesat de colaborarea cu membrii SwitchBrew pentru dezvoltarea de homebrew, vedeți #switchdev pe EFnet.
@@ -37,5 +37,5 @@ Biblioteca libtransistor este dezvoltat de ReSwitched şi compilat pe stack-ul L
 
 Codul poate fi lansat pe PC folosind emulatorul Mephisto, sau pe conosola dumneavoastră folosind Homebrew Launcher sau ACE Loader.
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+Continuați la [Dezvoltare (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) pe Reswitched Weekly
 {: .notice--primary}
