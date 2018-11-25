@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Installer)"
+title: "Homebrew Launcher (Instalator)"
 ---
 
 {% include toc title="Cuprins" %}
@@ -19,7 +19,7 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 ### Ce aveți nevoie
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Cea mai recentă versiune de [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instrucțiuni
 
