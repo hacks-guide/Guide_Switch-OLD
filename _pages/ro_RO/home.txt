@@ -30,17 +30,17 @@ Opțional, apăsați [aici](https://crowdin.com/project/switch-guide) pentru a a
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-If your device is on firmware version 2.0.0 - 3.0.0, running homebrew on your device is 100% free using just the system browser. Versiunile de firmware inferioare pot actualiza la 3.0.0 cu ajutorul unui card de joc. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
-If your device is on firmware version 1.0.0, you can run homebrew via a copy of the Japanese version of Puyo Puyo Tetris S. 
+În cazul în care consola dumneavoastră are versiunea 2.0.0-3.0.0, pornind homebrew pe consolă este 100% gratis folosind doar browserul de sistem. Versiunile de firmware inferioare pot actualiza la 3.0.0 cu ajutorul unui card de joc. Versiunile de firmware superioare pot bloca actualizările viitoare pentru a asigura accesul la exploit-uri viitoare.
+În cazul în care consola dumneavoastră are versiunea 1.0.0, puteți porni homebrew printr-o copie japoneză de Puyo Puyo Tetris S. 
 
 
 ## Ce este Custom Firmware?
 
-Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. It is currently in development, and has a release scheduled for June 2018. For more details, see [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
+Când va fi lansat, **Custom Firmware** ("CFW") vă va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. Este în prezent în dezvoltare, şi are o lansare programată pentru iunie 2018. Pentru mai multe detalii, vedeți [FAQ: Fusée Gelée](http://www.ktemkin.com/faq-fusee-gelee/).
 
-Additionally, depending on available development time, it is possible that devices on firmware version 1.0.0 may see an earlier release of CFW due to a software-only vulnerability which is not present on later firmware versions.
+În plus, în funcție de timpul de dezvoltare disponibil, este posibil că consolele de pe versiunea de firmware 1.0.0 să poată vedea o versiune anterioară a CFW-ului din cauza unei vulnerabilități exclusive a software-ului, care nu este prezentă pe versiunile ulterioare de firmware.
 
-If your device is on firmware version 1.0.0 and you are interested in early CFW access, your best current option is to follow this guide's [Blocking Updates](blocking-updates) page, pick up a Japanese copy of [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (which will be required for early 1.0.0 Custom Firmware), and wait patiently for a CFW release.
+În cazul în care consola este pe versiunea de firmware 1.0.0 și sunteți interesat în acces prematur la CFW, cea mai bună opțiune este să urmați pagina despre [bloacrea actualizărilor](blocking-updates), să obțineți o copie japoneză de [Puyo Puyo Tetris](http://amzn.to/2GCBhvf) (care va fi necesar pentru firmware prematur personalizat pe 1.0.0), și să aștepați pentru lansarea de CFW.
 {: .notice--info}
 
 În cazul în care consola este pe o versiune de firmware >=3.0.1, cea mai bună opțiune este de a urma pagina despre [Blocarea Actualizărilor](blocking-updates) de pe acest ghid și să așteptați cu răbdare ca un CFW să fie disponibil.
@@ -56,9 +56,9 @@ Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, aceast�
 
 + Deși hack-urile pentru Switch progresează constant, ele nu sunt într-o stare folositoare pentru utilizatori. Ca atare, acest ghid poate solicita anumite cunoștințe tehnice pentru a depana orice problemă care poate apărea.
 + Scopul modificării consolei este limitat momentan pentru aplicațiile homebrew, ceea ce înseamnă că șansele de pierdere a datelor sau de stricare a consolei sunt mici atunci când folosiți aplicații homebrew de la surse populare.
-+ This guide will work on all Switch devices on firmwares from 1.0.0 to 3.0.0, with all other versions having planned future support for CFW. Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
-+ Aveți nevoie de un card micro SD pentru consola dumneavoastră. It should be formatted as FAT32 and [MBR, not GPT](http://www.howtogeek.com/245610/) (most micro SD cards will be formatted this way by default). 
-+ If your Switch won't read your larger than 32GB micro SD card without a System Update, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) on Windows to format it as FAT32 with an Allocation Unit Size of 32K (32768).
++ Acest ghid va funcționa pe toate consolele Nintendo Switch cu firmware de la 1.0.0 până la 3.0.0, cu toate celelalte versiuni fiind planificate pentru suport pe viitor la CFW. Instrucţiunile sunt incluse pentru blocarea actualizărilor pe console cu versiunile de firmware >=3.0.1.
++ Aveți nevoie de un card micro SD pentru consola dumneavoastră. Ar trebui să fie formatat în FAT32 şi [MBR, nu GPT](http://www.howtogeek.com/245610/) (cele mai multe carduri micro SD vor fi formatate în acest fel în mod implicit). 
++ În cazul în care consola dumneavoastră nu citește carduri microSD mai mari de 32GB fără o actualizare de sistem, puteți folosi [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) pe Windows pentru a formata ca FAT32 cu Spațiu de Alocare pentru Unitate de 32K (32768).
 
 ___
 

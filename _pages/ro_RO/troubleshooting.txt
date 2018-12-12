@@ -16,7 +16,7 @@ Această eroare apare când fișierul nx-hbmenu`.nro` nu este găsit pe cardul S
 
 ### Ce aveți nevoie
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Cea mai recentă versiune de [nx-hbmenu] (https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Instrucțiuni
 

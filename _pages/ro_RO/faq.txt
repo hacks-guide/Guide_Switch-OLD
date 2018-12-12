@@ -2,17 +2,17 @@
 title: "Întrebări frecvente"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
-**A:** Yes. All currently released Switches will eventually be hackable with Fusée Gelée. See [ktemkin's Fusée Gelée FAQ](https://www.ktemkin.com/faq-fusee-gelee/) for more information. However, it is unknown if the "mariko" hardware revision soon to release to the market will be vulnerable.
+<a name="faq_latestfw" />**Î:** *Am consola actualizată la zi. Este consola mea modabilă?*    
+**R:** Da. Toate consolele lansate în prezent vor putea fi modate cu Fusée Gelée. Vedeți [FAQ-ul de ktemkin despre Fusée Gelée](https://www.ktemkin.com/faq-fusee-gelee/) pentru mai multe informaţii. Cu toate acestea, nu se știe dacă revizia de hardware "mariko" care are să fie lansată curând pe piață va fi vulnerabilă.
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricking via simply running the Homebrew Launcher or Fusée Gelée is highly unlikely. However, modifying System savedata and highly privileged exploits like Fusée Gelée can easily brick your system if done incorrectly. Only run PegaSwitch scripts, Homebrew Launcher NROs, and especially Fusée Gelée payloads from trusted sources! Running untrusted homebrew payloads has the potential to brick your console permanently.
+<a name="faq_risky" />**Î:** *Cât de riscant este să îmi fac modare la consolă?*    
+**R:** A face brick doar pornind Homebrew Launcher sau Fusée Gelée este foarte puțin probabil. Cu toate acestea, modificarea datelor de salvare a sistemului și pornind exploit-uri cu privilegiu înalt ca Fusée Gelée poate face brick foarte ușor la sistemul dumneavoastră dacă sunt făcute incorect. Porniți doar script-uri de PegaSwitch, NRO-uri de Homebrew Launcher, și în mod special payload-uri de Fusée Gelée de la surse de încredere! Pornind payload-uri neautorizate de homebrew au potențialul de a face consola neutilizabilă permanent.
 
-<a name="faq_4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** This is possible if all you want to do is run the Homebrew Launcher; however, an SD card of at least 64GB is required if running Custom Firmware like the upcoming Atmosphère, as a Switch emuNAND will take up 32GB.
+<a name="faq_4gbsd" />**Î:** *Pot face asta cu un card SD de 4GB (sau mai mic)?*    
+**R:** Acest lurcu este posibil dacă tot ce vreți să faceți este să porniți Homebrew Launcher; totuși, un card SD de cel puțin 64GB este necesar pentru a porni custom firmware precum Atmosphere, de vreme ce un emuNAND de Switch va ocupa doar 32GB.
 
-<a name="faq_exfatsd" />**Q:** *My Switch claims I need a System Update to use my SD card, can I get around this?*    
-**A:** Yes; SD cards above 32GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. Unfortunately, if you are not on the latest firmware you will not be able to install this update independently of updating the actual device firmware. You can get around this by using a tool like [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format the SD card as FAT32. 
+<a name="faq_exfatsd" />**Î** *Consola îmi cere să actualizez sistemul pentru a folosi cardul SD, cum sar peste asta?*    
+**R:** Da; Cardurile SD mai mari de 32GB vin formatate ca exFAT în mod implicit, şi Switch-ul nu poate folosi carduri de exFAT fără a instala Actualizarea de sistem pentru asemenea format. Din păcate, dacă nu sunteţi pe cel mai recent firmware nu veți putea instala această actualizare independent de actualizarea actuală de consolă. Puteți rezolva această problemă folosind o unealtă precum [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) pentru a formata cardul SD ca FAT32. 
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card. 
+<a name="faq_movesd" />**Î:** *Cum pot face transferul la un nou card SD la final?*    
+**R:** Copiați toate fișierele pe noul card SD. 

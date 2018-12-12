@@ -14,7 +14,7 @@ Consolele cu versiuni diferite vor necesita pași diferiți pentru a ajunge la s
 Înainte să începeți, este de dorit să vă verificați cardul SD pentru erori folosind [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), sau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Alegeți pagina corespunzătore versiunii dumneavoastră din tabelul de mai jos. Țineți cont cum câmpurile "de la" și "până la" sunt inclusiv. This means that, for example, the "from 1.0.0 to 3.0.0" row includes 1.0.0, 3.0.0, and all versions in-between.
+Alegeți pagina corespunzătore versiunii dumneavoastră din tabelul de mai jos. Țineți cont cum câmpurile "de la" și "până la" sunt inclusiv. Asta înseamnă că, de exemplu, rândul "de la 1.0.0 până la 3.0.0" cuprinde 1.0.0, 3.0.0, și toate versiunile intermediare.
 
 Versiunea consolei dumneavoastră poate fi găsit sub meniul System Update, în fila System al aplicației Settings.
 
@@ -50,12 +50,12 @@ Dacă este cazul pe consolă, puteți vedea versiunea din Recovery / Maintenance
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
+      <td style="text-align: center; font-weight: bold;"> <a href="homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwtitch)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(installer)">Homebrew Launcher (Installer)</a></td>
+      <td style="text-align: center; font-weight: bold;"> <a href="homebrew-launcher-(installer)">Homebrew Launcher (Instalator)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.1</td>

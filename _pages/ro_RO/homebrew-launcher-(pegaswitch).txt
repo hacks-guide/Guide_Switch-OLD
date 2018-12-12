@@ -6,23 +6,23 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 ### Lectură obligatorie
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+Pe firmware 1.0.0 - 2.3.0, Homebrew Launcher- ul este în prezent "instalat" pe consola dumneavoastră printr-un script pornit prin [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+Aceasta va permite să accesați Homebrew Launcher prin aplicația Album *până când dispozitivul este repornit*, după care trebuie să *reporniți script-ul* pentru a restaura funcționalitatea Homebrew Launcher-ului. 
 
 După o repornire, va trebui să relansați exploit-ul secundar pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră. În plus, țineți cont că acest exploit secundar de asemenea vă va preveni din a juca jocuri de pe piață atâta timp cât rămâne activ (*până când consola este repornită*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Dacă sunteţi familiarizaţi cu "jailbreaking-ul" pe un dispozitiv iOS, această metodă ar putea fi considerată similară cu un "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Țineți cont că, în timp ce aceste instrucțiuni merg de asemenea pe versiunea de firmware 3.0.0, ar fi mult mai ușor doar să urmați [Homebrew Launcher (Instalator)](homebrew-launcher-(installer)) pentru aceea versiune de firmware.
 {: .notice--info}
 
 ### Ce aveți nevoie
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* **Firmware 1.0.0:** Versiunea 1.0.0 de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*ultimul nx-hbmenu nu funcționează pe 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** Cea mai recentă versiune de [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Cea mai recentă versiune de [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* Cea mai recentă versiune de [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
@@ -33,22 +33,22 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. Închideți consola
 1. Introduceți cardul SD în calculator
 1. Copiați `hbmenu.nro` de la nx-hbmenu `.zip` pe rădăcina cardului SD
-1. Copy `hbl.nsp` to the root of your SD card
+1. Copiați `hbl.nsp` în rădăcina cardului SD
 1. Creați un folder numit `switch` în rădăcina cardului SD dacă nu există deja
 1. Reintroduceţi cardul SD în consola dumneavoastră
 1. Porniți consola
 
-#### Section II - PegaSwitch Configuration
+#### Secțiunea II - Configurare PegaSwitch
 
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start CMD / Terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. După ce ați descărcat ultima versiune de PegaSwitch, copiați `nsp.js` către `PegaSwitch/usefulscripts`
+1. Porniți CMD / Terminal și folosi comanda`cd`către folderul PegaSwitch
+1. Executaţi `npm install`; acesta va instala toate modulele node de care depinde PegaSwitch
+1. Porniți PegaSwitch pornind comenzile corespunzătoare pentru sistemul dumneavoastră de operare
+  + **Linux/macOS:** Porniți`sudo node start.js`și țineți cont de adresa IP care este afișată
+  + **Windows:** Porniți`node start.js`și țineți cont de adresa IP care este afișată
+1. Ieșiți din PegaSwitch apăsând Ctrl+C de două ori
 
-#### Section III - DNS Configuration
+#### Secțiunea III - Configurare DNS
 
 Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea declanșa exploit-ul.
 {: .notice--info}
@@ -59,64 +59,64 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
   + Aceasta este simbolizată de o bifă verde alături de reţea
 1. Selectați "Change Settings"
 1. Setați "DNS Settings" la "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Setați "Primary DNS" și "Secondary DNS" către adresa IP afișată de PegaSwitch
+  + Acesta este de obicei sub forma de `192.168.1.XXX`
 1. Salvați setările de reţea
 1. Ieșiți din System Settings
 
-#### Section IV - Initial Installation
+### Secţiunea IV - Instalarea inițială
 
 Țineți cont că va trebui să refaceți această secțiune a exploit-ului după fiecare repornire pentru a reactiva accesul la Homebrew Launcher.
 
-##### Option i - Firmware Version 1.0.0
+#### Opţiunea i - Versiunea de firmware 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Țineți cont că această opţiune se aplică numai dispozitivelor cu versiunea de firmware 1.0.0; dacă aveţi versiunile de firmware 2.0.0 - 2.3.0, vedeți mai jos la "Opţiune ii - Versiuni de firmware 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Țineți cont că versiunea de firmware 1.0.0 în prezent are nevoie de o copie japoneză de Puyo Puyo Tetris S pentru a se putea conecta la PegaSwitch pentru prima oară. După aceea, o metodă alternativă de conectare la PegaSwitch va deveni disponibilă.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Asigurați-vă că firewall-ul nu blochează conexiunile primite în portul UDP 53 sau porturile TCP 80 și 8100
+1. Lansați PegaSwitch în fereastra de comenzi tastând `sudo node start.js --webapplet`
+1. Lansați Puyo Puyo Tetris S pe consolă
+1. Apăsaţi A şi apoi apăsaţi R
+1. Apăsaţi A şi atingeți opțiunea cea mai de jos care scrie "お問い合わせ先"
+1. Atingeţi sigla SEGA în colţul din stânga jos; acest lucru va lansa webapplet-ul şi încărcați pagina de web PegaSwitch.
+1. PegaSwitch pe PC ar trebui să arate că dispozitivul este conectat şi că afișează versiunea de firmware și adresa MAC pe fereastră.
+1. În PegaSwitch pe calculator, tastați `evalfile usefulscripts/nsp.js`
+1. Apăsaţi butonul Home pentru a ieşi
+1. Lansați applet-ul Album
 1. Dacă exploit-ul a avut succes, Homebrew Launcher-ul va porni
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+##### Opțiunea ii - Versiunile de firmware 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Țineți cont că această opţiune se aplică numai dispozitivelor cu versiunile de firmware 2.0.0 - 2.3.0; dacă aveţi versiunea de firmware 1.0.0, vedeți mai jos la "Opţiune i - Versiune de firmware 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Lansați PegaSwitch în fereastra de comenzi tastând `sudo node start.js` 
 1. Navigaţi spre `Internet` -> `Internet Settings`
 1. Selectaţi-vă reţeaua Wi-Fi
 1. Selectaţi "Connect to this Network"
 1. În cazul în care conexiunea DNS a fost cu succes, veţi vedea mesajul "Registration is required to use this network."
 1. Selectați "Next"
 1. Pagina web PegaSwitch se va încărca
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. PegaSwitch pe PC ar trebui să arate că dispozitivul este conectat şi că afișează versiunea de firmware și adresa MAC pe fereastră.
+1. Porniți `evalfile usefulscripts/nsp.js`
+1. Apăsaţi butonul Home pentru a ieşi
+1. Lansați applet-ul Album
 1. Dacă exploit-ul a avut succes, Homebrew Launcher-ul va porni 
 
-#### Section V - Fake News (Optional)
+#### Secţiunea V - Fake News (opţional)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Cum trebuie să executaţi din nou secţiunea "Instalarea inițială" al exploit-ului după fiecare repornire, ar fi ideal dacă ar exista o modalitate mai convenabilă de a se conecta la PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Din fericire, putem instala o intrare falsă în applet-ul News (exploit-ul "Fake News") care poate face conectarea la PegaSwitch în mod semnificativ mai uşor.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Țineți cont că modificarea datelor de salvare de sistem pot face **brick** consolei permanent dacă nu aveți grijă! Este foarte recomandat pentru să evitați editarea script-ul `installFakeNews.js` pentru a evita deteriorarea aparatului.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. Pentru a face acest lucru, conectați dispozitivul la PegaSwitch ca în Secțiunea III
+1. Odată conectat la PegaSwitch, pormiți `evalfile usefulscripts/installFakeNews.js` şi aşteptaţi ca aceasta să termine
+1. Reporniţi consola şi ar trebui să vedeţi o intrare de ştiri PegaSwitch
+1. Pentru a declanşa Fake News, începeți PegaSwitch pe calculator cu `sudo node start.js --webapplet` şi apoi selectaţi intrarea Fake News pe dispozitiv şi atingeţi pentru a deschide "video"
 
 ___
 
@@ -135,7 +135,7 @@ Acum puteţi porni Homebrew Launcher prin lansarea aplicației Album de pe meniu
 Acuma nu puteți porni jocuri de pe piață sau jocuri eShop (*până când consola va fi repornită*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Va trebui să reporniți `evalfile usefulscripts/nsp.js`cu PegaSwitch (folosind orice applet de browser) după fiecare repornire pentru a reactiva accesul la Homebrew Launcher pe consola dumneavoastră.
 {: .notice--warning}
 
 Pentru rezumate despre progresul în homebrew și în dezvoltare, vedeți blog-ul [ReSwitched Weekly](https://reswitchedweekly.github.io/) în mod regulat.
