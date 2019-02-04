@@ -28,7 +28,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 ### Οδηγίες
 
-#### Section I - Prep Work
+#### Ενότητα I - Προετοιμασία
 
 1. Απενεργοποιήστε την κονσόλα σας
 1. Εισάγετε την κάρτα SD στον υπολογιστή σας
