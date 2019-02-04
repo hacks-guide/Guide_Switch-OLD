@@ -35,8 +35,8 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Copy `hbl.nsp` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
+1. Ενεργοποιήστε τη συσκευή σας
 
 #### Section II - PegaSwitch Configuration
 
