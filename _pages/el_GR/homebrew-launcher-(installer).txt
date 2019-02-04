@@ -2,7 +2,7 @@
 title: "Homebrew Launcher (Installer)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
 ### Απαραίτητη Ανάγνωση
 
