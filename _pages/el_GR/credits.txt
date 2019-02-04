@@ -5,7 +5,7 @@ title: "Συντελεστές"
 **Ευχαριστώ ιδιαίτερα όλους τους [μεταφραστές](https://crowdin.com/project/switch-guide) για την ανεκτίμητη βοήθειά τους!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Εάν σας ξέχασα, επικοινωνήστε μαζί μου ώστε να προσθέσω το όνομά σας.
 
 {% capture notice-1 %}
 
