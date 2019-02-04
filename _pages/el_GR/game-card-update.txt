@@ -2,7 +2,7 @@
 title: "Game Card Update"
 ---
 
-{% include toc title="Πίνακας Περιεχομένων" %}
+{% include toc title="Table of Contents" %}
 
 ### Απαραίτητη Ανάγνωση
 
@@ -25,18 +25,18 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section I - Enable Airplane Mode
 
-1. Launch System Settings
+1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
 1. Navigate to `Airplane Mode`
 1. Enable Airplane Mode
-1. Exit System Settings
+1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
-#### Section II - Deleting Update Data
+#### Ενότητα II - Διαγραφή Δεδομένων Ενημέρωσης
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Απενεργοποιήστε την κονσόλα σας
+1. Ενεργοποιήστε της κρατώντας πατημένα τα κουμπιά (Power) + (Volume Up) + (Volume Down)
+1. Μην επιλέξετε καμία από τις επιλογές
+1. Τυχόν δεδομένα ενημέρωσης έχουν τώρα διαγραφεί από την είσοδό σας σε αυτό το μενού
+1. Πατήστε το (Power) για να απενεργοποιήσετε την κονσόλα
 
 #### Section III - Game Card Update
 
@@ -46,10 +46,10 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section IV - Disable Airplane Mode
 
-1. Launch System Settings
+1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
 1. Navigate to `Airplane Mode`
 1. Disable Airplane Mode
-1. Exit System Settings
+1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
 ___
 
