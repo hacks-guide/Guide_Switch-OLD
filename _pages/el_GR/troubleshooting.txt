@@ -2,9 +2,9 @@
 title: "Troubleshooting"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
-### Required Reading
+### Απαραίτητη Ανάγνωση
 
 If you encounter issues, please look for the section relevant to you and follow the instructions.
 
@@ -18,7 +18,7 @@ This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
-### Instructions
+### Οδηγίες
 
 1. Power off your device
 1. Insert your SD card into your computer
