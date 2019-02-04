@@ -23,14 +23,14 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/DThbZ7z">ReSwitched on Discord</a>.
+    title: Για υποστήριξη στα Αγγλικά, ζητήστε βοήθεια στο <a href="https://discord.gg/DThbZ7z">ReSwitched στο Discord</a>.
   - 
     title: Εάν σας βοηθήσε αυτός ο οδηγός, μπορείτε να κάνετε μια <a href="donations">Δωρεά</a>.
 footer:
   - 
     title: Κώδικας
   - 
-    title: Site Navigation
+    title: Πλοήγηση Iστοτόπου
   - 
     title: Γιατί βλέπω διαφημίσεις;
 sidebar_title:
@@ -38,7 +38,7 @@ sidebar_title:
     title: Συνολική πρόοδος
 sidebar_pages:
   - 
-    title: Home
+    title: Αρχική
     url: /
   - 
     title: Ας αρχίσουμε
@@ -47,14 +47,14 @@ sidebar_pages:
     title: Αποκλεισμός ενημερώσεων
     url: blocking-updates
   - 
-    title: Ενημέρωση μέσω Kασέτας Παιχνιδιού
+    title: Ενημέρωση Kασέτας Παιχνιδιού
     url: game-card-update
   - 
     title: Homebrew Launcher (PegaSwitch)
     url: homebrew-launcher-(pegaswitch)
   - 
-    title: Homebrew Launcher (Installer)
+    title: Homebrew Launcher (πρόγραμμα εγκατάστασης)
     url: homebrew-launcher-(installer)
   - 
-    title: Multiple Options
+    title: Πολλαπλές Επιλογές
     url: multiple-options
