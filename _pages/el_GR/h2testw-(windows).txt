@@ -8,11 +8,11 @@ title: "H2testw (Windows)"
 
 This is an add-on section for checking your SD card for errors using h2testw.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Ανάλογα με το μέγεθος της κάρτας SD και την ταχύτητα του υπολογιστή σας, αυτή η διαδικασία ενδέχεται να διαρκέσει αρκετές ώρες!
 
 This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
 
-### What You Need
+### Τι χρειάζεστε
 
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
@@ -33,8 +33,8 @@ ___
 If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Εάν το τεστ δείξει κάποιο άλλο αποτέλεσμα, η κάρτα SD σας μπορεί να είναι κατεστραμμένη και ίσως χρειάζεται αντικατάσταση!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Επιστροφή στο [Ας αρχίσουμε](get-started)
 {: .notice--primary}
