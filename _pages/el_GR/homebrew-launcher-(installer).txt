@@ -1,16 +1,16 @@
 ---
-title: "Homebrew Launcher (Installer)"
+τίτλος: "Εκκινητής Homebrew (Installer)"
 ---
 
 {% include toc title="Πίνακας Περιεχομένων" %}
 
 ### Απαραίτητη Ανάγνωση
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+Το Homebrew Launcher "εγκαθίσταται" στην συσκευή σας δια μέσου ενός exploit του φυλλομετρητή. 
 
 After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+Μετά από μια επανεκκίνηση, θα πρέπει να εκτελέσετε εκ νέου αυτήν τη δευτερεύουσα εκμετάλλευση (exploit), προκειμένου να ενεργοποιήσετε εκ νέου την πρόσβαση του Homebrew Launcher στη συσκευή σας. Επιπλέον, σημειώστε ότι αυτή η δευτερεύουσα εκμετάλλευση θα σας εμποδίσει επίσης να παίζετε παιχνίδια λιανικής για όσο διάστημα παραμένει ενεργό (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
