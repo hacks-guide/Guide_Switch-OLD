@@ -2,9 +2,9 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
-### Required Reading
+### Απαραίτητη Ανάγνωση
 
 This is an add-on section for checking your SD card for errors using F3.
 
@@ -16,7 +16,7 @@ This page is for Linux users only. If you are not on Linux, check out the [H2tes
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
-### Instructions
+### Οδηγίες
 
 1. Unzip the f3 `.zip` file
 1. `cd` into the f3 directory
