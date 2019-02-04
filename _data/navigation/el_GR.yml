@@ -47,7 +47,7 @@ sidebar_pages:
     title: Αποκλεισμός ενημερώσεων
     url: blocking-updates
   - 
-    title: Ενημέρωση Kασέτας Παιχνιδιού
+    title: Ενημέρωση μέσω Kασέτας Παιχνιδιού
     url: game-card-update
   - 
     title: Homebrew Launcher (PegaSwitch)
