@@ -85,7 +85,7 @@ Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris 
 1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
 1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher
 
 ##### Option ii - Firmware Versions 2.0.0 - 2.3.0
 
@@ -102,7 +102,7 @@ Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0;
 1. Run `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
 1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch 
+1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher 
 
 #### Section V - Fake News (Optional)
 
