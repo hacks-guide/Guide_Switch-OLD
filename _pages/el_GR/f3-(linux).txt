@@ -2,7 +2,7 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Πίνακας Περιεχομένων" %}
+{% include toc title="Table of Contents" %}
 
 ### Απαραίτητη Ανάγνωση
 
