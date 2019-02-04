@@ -26,7 +26,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 #### Section I - Prep Work
 
 1. Απενεργοποιήστε την κονσόλα σας
-1. Insert your SD card into your computer
+1. Εισάγετε την κάρτα SD στον υπολογιστή σας
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
 1. Reinsert your SD card into your device
