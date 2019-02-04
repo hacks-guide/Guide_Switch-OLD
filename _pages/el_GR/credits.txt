@@ -1,8 +1,8 @@
 ---
-title: "Credits"
+title: "Συντελεστές"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/switch-guide) for being awesome!**
+**Ευχαριστώ ιδιαίτερα όλους τους [μεταφραστές](https://crowdin.com/project/switch-guide) για την ανεκτίμητη βοήθειά τους!**
 {: .notice--primary}
 
 If I forgot you here, contact me and I'll add your name.
