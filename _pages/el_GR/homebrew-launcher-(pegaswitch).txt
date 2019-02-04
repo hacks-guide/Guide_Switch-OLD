@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (PegaSwitch)"
+title: "Εκκινητής Homebrew (PegaSwitch)"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -32,9 +32,9 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 1. Απενεργοποιήστε την κονσόλα σας
 1. Εισάγετε την κάρτα SD στον υπολογιστή σας
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
+1. Αντιγράψτε το αρχείο `hbmenu.nro` από το nx-hbmenu `.zip` στην κάρτα SD
 1. Copy `hbl.nsp` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
+1. Δημιουργήστε ένα φάκελο με την ονομασία `switch` στην κάρτα SD, αν δεν υπάρχει ήδη
 1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
 1. Ενεργοποιήστε τη συσκευή σας
 
@@ -66,7 +66,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 
 #### Section IV - Initial Installation
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Σημειώστε πως θα πρέπει να ξανά-πραγματοποιείτε αυτήν την ενότητα του exploit μετά από κάθε επανεκκίνηση για να έχετε πρόσβαση στο Homebrew Launcher.
 
 ##### Option i - Firmware Version 1.0.0
 
@@ -95,7 +95,7 @@ Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0;
 1. Πηγαίνετε στο `Internet` -> `Internet Settings`
 1. Επιλέξτε το τρέχον δίκτυό σας
 1. Επιλέξτε "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. Εάν η σύνδεση DNS ήταν επιτυχής, θα εμφανιστεί το μήνυμα "Registration is required to use this network."
 1. Επιλέξτε "Next"
 1. Τώρα θα φορτώσει η ιστοσελίδα του PegaSwitch
 1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
@@ -125,14 +125,14 @@ ___
 
 Μπορείτε να βρείτε εφαρμογές στο [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), στο [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), ή στο [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Για να εγκαταστήσετε εφαρμογές homebrew, απλά αντιγράψτε το αρχείο `.nro` στον φάκελο με το όνομα `/switch/` (που βρίσκεται στην κάρτα SD).
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Τώρα μπορείτε να ξεκινήσετε το Homebrew εκκινώντας την εφαρμογή Album από το αρχικό μενού της συσκευής σας (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Τώρα δεν θα μπορείτε να ξεκινήσετε παιχνίδια κασετών λιανικής ή eShop (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--warning}
 
 You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
