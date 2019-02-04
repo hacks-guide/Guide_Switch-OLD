@@ -17,7 +17,7 @@ If you are familiar with iOS device "jailbreaking", this idea could be considere
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
 
-### What you need
+### Τι χρειάζεστε
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
