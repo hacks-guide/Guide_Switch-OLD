@@ -1,12 +1,12 @@
 ---
-title: "Homebrew Development"
+title: "Ανάπτυξη για Homebrew"
 ---
 
 {% include toc title="Πίνακας Περιεχομένων" %}
 
 ### Απαραίτητη Ανάγνωση
 
-Currently, the major public exploitation toolkit used for the Switch is PegaSwitch, developed by ReSwitched.
+Αυτήν την στιγμή, ένα μεγάλο toolkit που χρησιμοποιείται για το Switch είναι το PegaSwitch, το οποίο ανέπτυξαν οι ReSweitched.
 
 If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
