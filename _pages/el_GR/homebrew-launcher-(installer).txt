@@ -32,9 +32,9 @@ After the initial installation process is completed, a secondary exploit must th
 1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
 1. Ενεργοποιήστε τη συσκευή σας
 
-#### Section II - DNS Configuration
+#### Ενότητα II - Ρύθμιση του DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Σημειώστε πως θα πρέπει να ρυθμίζετε τους διακομιστές DNS ξεχωριστά για κάθε δίκτυο ώστε να εκτελέσετε το exploit.
 {: .notice--info}
 
 1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
@@ -48,19 +48,19 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Αποθηκεύστε τις αλλαγές
 1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
-#### Section III - Initial Installation
+#### Ενότητα III - Αρχική Εγκατάσταση
 
 1. Πηγαίνετε στο `Internet` -> `Internet Settings`
 1. Επιλέξτε το τρέχον δίκτυό σας
-1. Select "Connect to this Network"
+1. Επιλέξτε "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
-1. Select "Install"
-1. The PegaSwitch webpage will load
-1. If the exploit was successful, you will see the error `2000-1337`
-  + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
-1. Reboot your device
+1. Επιλέξτε "Next"
+1. Θα φορτώσει η ιστοσελίδα του Homebrew Launcher
+1. Επιλέξτε "Install"
+1. Τώρα θα φορτώσει η ιστοσελίδα του PegaSwitch
+1. Εάν το exploit τερματίστηκε με επιτυχία, θα δείτε το σφάλμα `2000-1337`
+  + Εάν κολλήσατε στην σελίδα του PegaSwitch χωρίς να δείτε κάποιο σφάλμα, επανεκκινήστε την συσκευή σας και εκτελέστε ξανά το "Connection Test"
+1. Επανεκκινήστε τη συσκευή σας
 1. When prompted about Mii database corruption, select "OK" to reboot your device again
 
 #### Section IV - Running the Homebrew Launcher
@@ -70,10 +70,10 @@ Note that you will have to re-run this section of the exploit after each reboot 
 
 1. Πηγαίνετε στο `Internet` -> `Internet Settings`
 1. Επιλέξτε το τρέχον δίκτυό σας
-1. Select "Connect to this Network"
+1. Επιλέξτε "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The Homebrew Launcher webpage will load
+1. Επιλέξτε "Next"
+1. Θα φορτώσει η ιστοσελίδα του Homebrew Launcher
 1. Select "Run"
 1. If the exploit was successful, you will receive a popup asking you to exit
 1. Return to the home menu
