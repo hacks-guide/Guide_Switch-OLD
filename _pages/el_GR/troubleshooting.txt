@@ -1,27 +1,27 @@
 ---
-title: "Troubleshooting"
+title: "Αντιμετώπιση Προβλημάτων"
 ---
 
 {% include toc title="Πίνακας Περιεχομένων" %}
 
 ### Απαραίτητη Ανάγνωση
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+Εάν αντιμετωπίζετε κάποιο πρόβλημα μπορείτε να ψάξετε στην ανάλογη ενότητα για βοήθεια.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Εάν παρόλα αυτά δεν καταφέρατε να λύσετε το πρόβλημά σας, παρακαλείσθε να έρθετε με μία αναλυτική περιγραφή του προβλήματος, συμπεριλαμβανομένων και των βημάτων που λάβατε στην προσπάθειά σας να το διευθετήσετε.
 
-## Error 2347-0003
+## Σφάλμα 2347-0003
 
-This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
+Αυτό το σφάλμα εμφανίζεται όταν το αρχείο nx-hbmenu `.nro` απουσιάζει από την κάρτα SD.
 
 ### Τι χρειάζεστε
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Την τελευταία έκδοση του [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### Οδηγίες
 
 1. Απενεργοποιήστε την κονσόλα σας
 1. Εισάγετε την κάρτα SD στον υπολογιστή σας
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Αντιγράψτε το αρχείο `hbmenu.nro` από το nx-hbmenu `.zip` στην κάρτα SD
+1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
 1. Power on your device
