@@ -8,34 +8,34 @@ title: "Ανάπτυξη για Homebrew"
 
 Αυτήν την στιγμή, ένα μεγάλο toolkit που χρησιμοποιείται για το Switch είναι το PegaSwitch, το οποίο ανέπτυξαν οι ReSweitched.
 
-If you are interested in collaborating with ReSwitched members on Homebrew Development, check out [ReSwitched on Discord](https://discord.gg/DThbZ7z).
+Εάν σας ενδιαφέρει η συνεργασία με μέλη των ReSwitched πάνω στην Ανάπτυξη του Homebrew πηγαίνετε στο [ReSwitched στο Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
-If you are interested in collaborating with SwitchBrew members on Homebrew Development, check out #switchdev on EFnet.
+Εάν σας ενδιαφέρει η συνεργασία με μέλη των SwitchBrew πάνω στην Ανάπτυξη του Homebrew πηγαίνετε στο #switchdev στο EFnet.
 {: .notice--success}
 
-### Libraries
+### Βιβλιοθήκες
 
-Currently, there are two major libraries used for developing Switch homebrew.
+Αυτήν την στιγμή υπάρχουν δύο μεγάλες βιβλιοθήκες που χρησιμοποιούνται για την ανάπτυξη του homebrew του Switch.
 
 ___
 
-#### Development (libnx)
+#### Ανάπτυξη (libnx)
 
-The libnx library is developed by SwitchBrew and built on the devkitA64 toolchain.
+Η βιβλιοθήκη libnx έχει αναπτυχθεί από τους SwitchBrew και είναι βασισμένη στο devkitA64 toolchain.
 
-Binaries can be run on your device using the Homebrew Launcher.
+Τα αρχεία μπορούν να εκτελεστούν στην συσκευή σας μέσα από το Homebrew Launcher.
 
-Continue to [Setting up Development Environment](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) on SwitchBrew
+Συνέχεια στο [Δημιουργία ενός Περιβάλλοντος Ανάπτυξης](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) στους SwitchBrew
 {: .notice--primary}
 
 ___
 
-#### Development (libtransistor)
+#### Ανάπτυξη (libtransistor)
 
-The libtransistor library is developed by ReSwitched and built on the LLVM / Clang stack.
+Η βιβλιοθήκη libtransistor έχει αναπτυχθεί από τους ReSwitched και είναι βασισμένη στο LLVM / Clang stack.
 
-Binaries can be run on your PC using the Mephisto emulator, or on your device using either the Homebrew Launcher or ACE Loader.
+Τα αρχεία μπορούν να εκτελεστούν στον Η/Υ με την χρήση του Mephisto ή στην συσκευή σας χρησιμοποιώντας είτε το Homebrew Launcher είτε το ACE Loader.
 
-Continue to [Development (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) on Reswitched Weekly
+Συνεχίστε στην επιλογή [Ανάπτυξη (libtransistor)](https://reswitchedweekly.github.io/Development-Setup/) στο Reswitched Weekly
 {: .notice--primary}
