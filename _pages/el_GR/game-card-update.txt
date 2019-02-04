@@ -10,7 +10,7 @@ title: "Ενημέρωση Κασέτας Παιχνιδιού"
 
 Μπορούμε να το εκμεταλλευτούμε αυτό χρησιμοποιώντας μια κασέτα που περιέχει την έκδοση που επιθυμούμε (3.0.0) χωρίς έτσι να πραγματοποιηθεί ενημέρωση στην πιο πρόσφατη έκδοση. 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+Πριν πραγματοποιήσετε μια τέτοιου είδους ενημέρωση, αποκλείουμε τις ενημερώσεις μέσω διαδικτύου χρησιμοποιώντας την λειτουργία πτήσης και μπαίνουμε στη λειτουργία Recovery / Maintenance για να διαγράψουμε τυχόν ληφθέντα αρχεία ενημέρωσης.
 
 ### Τι χρειάζεστε
 
@@ -48,10 +48,10 @@ Before performing the game card update, we block online updates by using airplan
 
 1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
 1. Πηγαίνετε στην επιλογή `Airplane Mode`
-1. Disable Airplane Mode
+1. Απενεργοποιήστε την Λειτουργία Πτήσης
 1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
 ___
 
-### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
+### Συνεχίστε με το [Homebrew Launcher (Installer)](homebrew-launcher- (installer))
 {: .notice--primary}
