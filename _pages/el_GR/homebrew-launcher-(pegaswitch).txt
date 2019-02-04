@@ -4,7 +4,7 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Απαραίτητη Ανάγνωση
 
 On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
@@ -26,7 +26,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
-### Instructions
+### Οδηγίες
 
 #### Section I - Prep Work
 
