@@ -33,6 +33,6 @@ sitemap: false
 + [Εκκινητής Homebrew (Installer)](homebrew-launcher-(installer))
 + [Εκκινητής Homebrew (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Αντιμετώπιση Προβλημάτων](troubleshooting)
-+ [Why Ads?](why-ads)
++ [Γιατί βλέπω διαφημίσεις;](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
