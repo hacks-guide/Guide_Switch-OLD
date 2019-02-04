@@ -2,7 +2,7 @@
 title: "Εκκινητής Homebrew (PegaSwitch)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
 ### Απαραίτητη Ανάγνωση
 
@@ -38,7 +38,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
 1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
 1. Ενεργοποιήστε τη συσκευή σας
 
-#### Section II - PegaSwitch Configuration
+#### Ενότητα II - Ρύθμιση του PegaSwitch
 
 1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
 1. Start CMD / Terminal and `cd` to the PegaSwitch folder
@@ -48,7 +48,7 @@ Note that, while these instructions also work on firmware version 3.0.0, it woul
   + **Windows:** Run `node start.js` and make note of the IP address it displays
 1. Exit PegaSwitch by inputting Ctrl+C twice
 
-#### Section III - DNS Configuration
+#### Ενότητα IIΙ - Ρύθμιση του DNS
 
 Σημειώστε πως θα πρέπει να ρυθμίζετε τους διακομιστές DNS ξεχωριστά για κάθε δίκτυο ώστε να εκτελέσετε το exploit.
 {: .notice--info}
