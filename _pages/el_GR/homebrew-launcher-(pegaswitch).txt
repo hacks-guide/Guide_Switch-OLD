@@ -82,41 +82,41 @@ title: "Homebrew Launcher (PegaSwitch)"
 1. Πιέστε το κουμπί A και αγγίξτε στο μενού το πιο κάτω στοιχείο με την ονομασία «お問い合わせ先»
 1. Αγγίξτε το λογότυπο SEGA στην κάτω αριστερή γωνία. Αυτό θα ξεκινήσει το webapplet και θα φορτώσει την ιστοσελίδα του PegaSwitch.
 1. Το PegaSwitch στον υπολογιστή σας θα πρέπει να δείχνει ότι η συσκευή σας έχει συνδεθεί και να εμφανίζει την έκδοση του λογισμικού της και τη διεύθυνση MAC της στη γραμμή εντολών.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Στο PegaSwitch στον υπολογιστή σας, πληκτρολογήστε την εντολή `evalfile usefulscripts/nsp.js`
+1. Πιέστε το κουμπί Home για έξοδο
+1. Εκκινήστε την εφαρμογή Album
 1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+##### Επιλογή ii - Εκδόσεις Λογισμικού 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Σημειώστε ότι αυτή η επιλογή ισχύει μόνο για συσκευές με έκδοση λογισμικού 2.0.0 - 2.3.0. Αν έχετε έκδοση λογισμικού 1.0.0, μεταβείτε στο "Επιλογή i - Έκδοση Λογισμικού 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
+1. Εκκινήστε το PegaSwitch στη γραμμή εντολών/τερματικού σας πληκτρολογώντας την εντολή `sudo node start.js` 
 1. Πηγαίνετε στο `Internet` -> `Internet Settings`
 1. Επιλέξτε το τρέχον δίκτυό σας
 1. Επιλέξτε "Connect to this Network"
 1. Εάν η σύνδεση DNS ήταν επιτυχής, θα εμφανιστεί το μήνυμα "Registration is required to use this network."
 1. Επιλέξτε "Next"
 1. Τώρα θα φορτώσει η ιστοσελίδα του PegaSwitch
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
+1. Το PegaSwitch στον υπολογιστή σας θα πρέπει να δείχνει ότι η συσκευή σας έχει συνδεθεί και να εμφανίζει την έκδοση του λογισμικού της και τη διεύθυνση MAC της στη γραμμή εντολών.
+1. Εκτελέστε την εντολή `evalfile usefulscripts/nsp.js`
+1. Πιέστε το κουμπί Home για έξοδο
+1. Εκκινήστε την εφαρμογή Album
 1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher 
 
-#### Section V - Fake News (Optional)
+#### Ενότητα V - Fake News (Προαιρετικό)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Καθώς πρέπει να επαναλαμβάνεται η ενότητα "Αρχική Εγκατάσταση" μετά από κάθε επανεκκίνηση, θα ήταν ιδανικό αν υπήρχε ένας πιο βολικός τρόπος σύνδεσης στο PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Ευτυχώς, μπορούμε να εγκαταστήσουμε μία ψεύτικη καταχώριση στην εφαρμογή News (το exploit "Fake News") η οποία μπορεί να κάνει τη σύνδεση στο PegaSwitch σημαντικά ευκολότερη.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Έχετε υπόψη ότι η αλλοίωση δεδομένων του συστήματος μπορεί να **brickάρει** την συσκευή μόνιμα αν δεν είστε προσεκτικοί! Είναι προτεινόμενη η αποφυγή αλλοίωσης του script `installFakeNews.js` ώστε να αποφευχθεί τυχούσα βλάβη στη συσκευή.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. Για να γίνει αυτό, συνδέστε την συσκευή σας στο PegaSwitch όπως στην Ενότητα ΙΙΙ
+1. Αφότου συνδεθείτε στο PegaSwitch, εκτελέστε την εντολή `evalfile usefulscripts/installFakeNews.js` και περιμένετε να τελειώσει τη διαδικασία
+1. Επανεκκινήστε τη συσκευή και θα πρέπει να δείτε μία καταχώρηση νέων PegaSwitch
+1. Για να χρησιμοποιήσετε το Fake News, τρέξτε το PegaSwitch στον υπολογιστή σας με την εκτέλεση της εντολής `sudo node start.js --webapplet` και μετά επιλέξτε την καταχώρηση Fake News στη συσκευή και πατήστε να ανοίξετε το "βίντεο"
 
 ___
 
@@ -135,7 +135,7 @@ ___
 Τώρα δεν θα μπορείτε να ξεκινήσετε παιχνίδια κασετών λιανικής ή από το eShop (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Θα πρέπει να ξανατρέξετε το παραπάνω μέρος του exploit (χρησιμοποιώντας οποιαδήποτε εφαρμογή περιηγητή) μετά από κάθε επανεκκίνηση ώστε να μπορείτε να χρησιμοποιείτε το Homebrew Launcher.
 {: .notice--warning}
 
 Μπορείτε να ελέγχετε τακτικά για νέα που αφορούν το homebrew στο [Εβδομαδιαίο Blog των ReSwitched](https://reswitchedweekly.github.io/).
