@@ -10,13 +10,13 @@ main:
     title: Δωρεές
     url: donations
   - 
-    title: Συντελεστές
+    title: Ευχαριστίες
     url: credits
   - 
     title: Αντιμετώπιση Προβλημάτων
     url: troubleshooting
   - 
-    title: Ανάπτυξη για Homebrew
+    title: Ανάπτυξη Homebrew
     url: homebrew-development
   - 
     title: Πλοήγηση Iστοτόπου
@@ -35,7 +35,7 @@ footer:
     title: Γιατί βλέπω διαφημίσεις;
 sidebar_title:
   - 
-    title: Συνολική πρόοδος
+    title: Συνολική Πρόοδος
 sidebar_pages:
   - 
     title: Αρχική
@@ -44,16 +44,16 @@ sidebar_pages:
     title: Ας αρχίσουμε
     url: get-started
   - 
-    title: Αποκλεισμός ενημερώσεων
+    title: Αποκλεισμός Ενημερώσεων
     url: blocking-updates
   - 
-    title: Ενημέρωση μέσω Kασέτας Παιχνιδιού
+    title: Ενημέρωση Kασέτας Παιχνιδιού
     url: game-card-update
   - 
     title: Homebrew Launcher (PegaSwitch)
     url: homebrew-launcher-(pegaswitch)
   - 
-    title: Homebrew Launcher (πρόγραμμα εγκατάστασης)
+    title: Homebrew Launcher (Installer)
     url: homebrew-launcher-(installer)
   - 
     title: Πολλαπλές Επιλογές
