@@ -53,5 +53,5 @@ title: "Ενημέρωση μέσω Κασέτας Παιχνιδιού"
 
 ___
 
-### Συνεχίστε με το [Homebrew Launcher (Installer)](homebrew-launcher- (installer))
+### Συνεχίστε με το [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 {: .notice--primary}
