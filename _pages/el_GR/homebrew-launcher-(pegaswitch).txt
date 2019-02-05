@@ -40,13 +40,13 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 #### Ενότητα II - Ρύθμιση του PegaSwitch
 
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start CMD / Terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. Αφού κατεβάσετε την τελευταία έκδοση του PegaSwitch, αντιγράψτε το αρχείο `nsp.js` στον φάκελο `PegaSwitch/usefulscripts`
+1. Ξεκινήστε το CMD / Terminal και μεταβείτε στο φάκελο του PegaSwitch χρησιμοποιώντας την εντολή `cd`
+1. Εκτελέστε `npm install`, αυτό θα εγκαταστήσει τις μονάδες node από τις οποίες εξαρτάται το PegaSwitch
+1. Ξεκινήστε το PegaSwitch εκτελώντας την εντολή που αντιστοιχεί στο λειτουργικό σας σύστημα
+  + **Linux/macOS:** Εκτελέστε την εντολή `sudo node start.js` και σημειώστε την IP διεύθυνση που θα εμφανιστεί
+  + **Windows:** Εκτελέστε την εντολή `node start.js` και σημειώστε την IP διεύθυνση που θα εμφανιστεί
+1. Βγείτε από το PegaSwitch πατώντας δύο φορές Ctrl+C
 
 #### Ενότητα IIΙ - Ρύθμιση του DNS
 
@@ -59,29 +59,29 @@ title: "Homebrew Launcher (PegaSwitch)"
   + Αυτό υποδηλώνεται από ένα πράσινο check δίπλα στο δίκτυο
 1. Επιλέξτε "Change Settings"
 1. Ρυθμίστε το "DNS Settings" σε "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
+1. Ορίστε το "Primary DNS" και το "Secondary DNS" στη διεύθυνση IP που εμφανίζεται από το PegaSwitch
+  + Αυτή είναι συνήθως της μορφής `192.168.1.XXX`
 1. Αποθηκεύστε τις αλλαγές
 1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
-#### Section IV - Initial Installation
+#### Ενότητα IV - Αρχική Εγκατάσταση
 
 Σημειώστε πως θα πρέπει να ξανά-πραγματοποιείτε αυτήν την ενότητα του exploit μετά από κάθε επανεκκίνηση για να έχετε πρόσβαση στο Homebrew Launcher.
 
-##### Option i - Firmware Version 1.0.0
+##### Επιλογή i - Έκδοση Λογισμικού 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Σημειώστε ότι αυτή η επιλογή ισχύει μόνο για συσκευές με έκδοση firmware 1.0.0, αν έχετε εκδόσεις λογισμικού 2.0.0 - 2.3.0, μετακινηθείτε προς τα κάτω στην επιλογή "Επιλογή ii - Εκδόσεις Λογισμικού 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Σημειώστε ότι το firmware 1.0.0 απαιτεί επί του παρόντος ένα ιαπωνικό αντίγραφο του Puyo Puyo Tetris S για να συνδεθεί για πρώτη φορά με το PegaSwitch. Μετά από την πρώτη σύνδεση, θα γίνει διαθέσιμη μια εναλλακτική μέθοδος σύνδεσης στο PegaSwitch.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
+1. Βεβαιωθείτε ότι το τείχος προστασίας δεν αποκλείει τις εισερχόμενες συνδέσεις σε θύρα UDP 53 ή θύρες TCP 80 και 8100
+1. Εκκινήστε το PegaSwitch στη γραμμή εντολών/τερματικού σας πληκτρολογώντας την εντολή `sudo node start.js --webapplet`
+1. Εκκινήστε το Puyo Puyo Tetris S στη συσκευή σας
+1. Πιέστε το κουμπί A και, στη συνέχεια, πιέστε το κουμπί R
+1. Πιέστε το κουμπί A και αγγίξτε στο μενού το πιο κάτω στοιχείο με την ονομασία «お問い合わせ先»
+1. Αγγίξτε το λογότυπο SEGA στην κάτω αριστερή γωνία. Αυτό θα ξεκινήσει το webapplet και θα φορτώσει την ιστοσελίδα του PegaSwitch.
+1. Το PegaSwitch στον υπολογιστή σας θα πρέπει να δείχνει ότι η συσκευή σας έχει συνδεθεί και να εμφανίζει την έκδοση του λογισμικού της και τη διεύθυνση MAC της στη γραμμή εντολών.
 1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
 1. Press the Home button to exit
 1. Launch the Album applet
