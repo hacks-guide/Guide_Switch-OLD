@@ -6,12 +6,12 @@ title: "Ανάπτυξη για Homebrew"
 
 ### Απαραίτητη Ανάγνωση
 
-Αυτήν την στιγμή, ένα μεγάλο toolkit που χρησιμοποιείται για το Switch είναι το PegaSwitch, το οποίο ανέπτυξαν οι ReSweitched.
+Αυτήν την στιγμή, ένα μεγάλο toolkit που χρησιμοποιείται για το Switch είναι το PegaSwitch, το οποίο ανέπτυξαν οι ReSwitched.
 
 Εάν σας ενδιαφέρει η συνεργασία με μέλη των ReSwitched πάνω στην Ανάπτυξη του Homebrew πηγαίνετε στο [ReSwitched στο Discord](https://discord.gg/DThbZ7z).
 {: .notice--success}
 
-Εάν σας ενδιαφέρει η συνεργασία με μέλη των SwitchBrew πάνω στην Ανάπτυξη του Homebrew πηγαίνετε στο #switchdev στο EFnet.
+Εάν σας ενδιαφέρει η συνεργασία με μέλη των SwitchBrew πάνω στην ανάπτυξη του Homebrew πηγαίνετε στο #switchdev στο EFnet.
 {: .notice--success}
 
 ### Βιβλιοθήκες
