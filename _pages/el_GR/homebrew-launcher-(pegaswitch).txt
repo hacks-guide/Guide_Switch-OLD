@@ -10,7 +10,7 @@ On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to yo
 
 This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
 
-Μετά από μια επανεκκίνηση, θα πρέπει να εκτελέσετε εκ νέου αυτήν τη δευτερεύουσα εκμετάλλευση (exploit), προκειμένου να ενεργοποιήσετε εκ νέου την πρόσβαση του Homebrew Launcher στη συσκευή σας. Επιπλέον, σημειώστε ότι αυτή η δευτερεύουσα εκμετάλλευση θα σας εμποδίσει επίσης να παίζετε παιχνίδια λιανικής για όσο διάστημα παραμένει ενεργό (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
+Μετά από μια επανεκκίνηση, θα πρέπει να εκτελέσετε εκ νέου αυτό το δευτερεύον exploit, προκειμένου να ενεργοποιήσετε εκ νέου την πρόσβαση του Homebrew Launcher στη συσκευή σας. Επιπλέον, σημειώστε ότι αυτό το δευτερεύον exploit θα σας εμποδίσει να παίζετε παιχνίδια λιανικής για όσο διάστημα παραμένει ενεργό (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
  
 If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
 
