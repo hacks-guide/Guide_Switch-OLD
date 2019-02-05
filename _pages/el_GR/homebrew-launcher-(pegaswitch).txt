@@ -132,7 +132,7 @@ ___
 Τώρα μπορείτε να ξεκινήσετε το Homebrew εκκινώντας την εφαρμογή Album από το αρχικό μενού της συσκευής σας (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--success}
 
-Τώρα δεν θα μπορείτε να ξεκινήσετε παιχνίδια κασετών λιανικής ή eShop (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
+Τώρα δεν θα μπορείτε να ξεκινήσετε παιχνίδια κασετών λιανικής ή από το eShop (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--warning}
 
 You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
@@ -141,5 +141,5 @@ You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using a
 Μπορείτε να ελέγχετε τακτικά για νέα που αφορούν το homebrew στο [Εβδομαδιαίο Blog των ReSwitched](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-Εάν θέλετε να συνεισφέρετε στην ανάπτυξη του Homebrew ως προγραμματιστής, μπορείτε να μεταβείτε στη σελίδα [Ανάπτυξης για Homebrew](homebrew-development).
+Εάν θέλετε να συνεισφέρετε στην ανάπτυξη του homebrew ως προγραμματιστής, μπορείτε να μεταβείτε στη σελίδα [Ανάπτυξης Homebrew](homebrew-development).
 {: .notice--primary}
