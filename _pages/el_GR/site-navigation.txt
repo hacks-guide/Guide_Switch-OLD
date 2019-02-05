@@ -7,10 +7,10 @@ sitemap: false
 {% capture notice-1 %}
 **Δημοφιλή**
 
-+ [Εκκινητής Homebrew (Installer)](homebrew-launcher-(installer))
-+ [Εκκινητής Homebrew (PegaSwitch)](homebrew-launcher-(pegaswitch))
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Αποκλεισμός Ενημερώσεων](blocking-updates)
-+ [Ενημέρωση μέσω κασέτας παιχνιδιού](game-card-update)
++ [Ενημέρωση μέσω Κασέτας Παιχνιδιού](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
@@ -24,14 +24,14 @@ sitemap: false
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [Συχνές Ερωτήσεις](faq)
-+ [Επεκτάσεις αρχείων (Windows)](file-extensions-(windows))
++ [Επεκτάσεις Αρχείων (Windows)](file-extensions-(windows))
 + [Ενημέρωση μέσω Κασέτας Παιχνιδιού](game-card-update)
 + [Ας αρχίσουμε](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/el_GR/)
 + [Ανάπτυξη Homebrew](homebrew-development)
-+ [Εκκινητής Homebrew (Installer)](homebrew-launcher-(installer))
-+ [Εκκινητής Homebrew (PegaSwitch)](homebrew-launcher-(pegaswitch))
++ [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
++ [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Αντιμετώπιση Προβλημάτων](troubleshooting)
 + [Γιατί βλέπω διαφημίσεις;](why-ads)
 {% endcapture %}
