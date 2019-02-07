@@ -1,5 +1,5 @@
 ---
-title: "Ανάπτυξη για Homebrew"
+title: "Ανάπτυξη Homebrew"
 ---
 
 {% include toc title="Πίνακας Περιεχομένων" %}
