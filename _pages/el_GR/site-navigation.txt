@@ -18,12 +18,12 @@ sitemap: false
 **Όλα**
 
 + [Αποκλεισμός Ενημερώσεων](blocking-updates)
-+ [Ευχαριστίες](credits)
++ [Credits](credits)
 + [Ανάπτυξη (libtransistor)](development-(libtransistor))
-+ [Δωρεές](donations)
++ [Donations](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [Συχνές Ερωτήσεις](faq)
++ [FAQ](faq)
 + [Επεκτάσεις Αρχείων (Windows)](file-extensions-(windows))
 + [Ενημέρωση μέσω Κασέτας Παιχνιδιού](game-card-update)
 + [Ας αρχίσουμε](get-started)
