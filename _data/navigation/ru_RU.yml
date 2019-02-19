@@ -23,9 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: Для поддержки на английском языке обратитесь за помощью на сервер <a href="https://discord.gg/DThbZ7z">ReSwitched в Discord</a>.
-  - 
-    title: Если вам помогло или просто понравилось это руководство, то я принимаю <a href="donations">пожертвования</a>.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://reddit.com/r/SwitchHacks">/r/SwitchHacks on Reddit</a> for more up-to-date information.
 footer:
   - 
     title: Исходный код
