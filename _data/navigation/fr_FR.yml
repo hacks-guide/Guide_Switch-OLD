@@ -23,9 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: Pour un support en Anglais, demandez de l'aide sur le <a href="https://discord.gg/DThbZ7z">Discord de ReSwitched</a>.
-  - 
-    title: Si vous appréciez ce guide, j'accepte les <a href="donations">Donations</a>.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://reddit.com/r/SwitchHacks">/r/SwitchHacks on Reddit</a> for more up-to-date information.
 footer:
   - 
     title: Source
