@@ -23,7 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: Ce guide est actuellement obsolète (et l'a été depuis un certain temps) car je suis extrêmement occupé par mes cours ces jours-ci. Il sera mis à jour dès que je le pourrai, mais jusque-là référez-vous au <a href="https://reddit.com/r/SwitchHacks">subreddit /r/SwitchHacks</a> pour des informations plus à jour.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
 footer:
   - 
     title: Source
