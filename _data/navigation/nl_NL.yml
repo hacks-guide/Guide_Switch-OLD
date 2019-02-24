@@ -23,7 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://reddit.com/r/SwitchHacks">/r/SwitchHacks on Reddit</a> for more up-to-date information.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
 footer:
   - 
     title: Broncode
