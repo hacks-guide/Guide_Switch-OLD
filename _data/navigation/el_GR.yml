@@ -10,41 +10,41 @@ main:
     title: Δωρεές
     url: donations
   - 
-    title: Συντελεστές
+    title: Ευχαριστίες
     url: credits
   - 
     title: Αντιμετώπιση Προβλημάτων
     url: troubleshooting
   - 
-    title: Ανάπτυξη για Homebrew
+    title: Ανάπτυξη Homebrew
     url: homebrew-development
   - 
     title: Πλοήγηση Iστοτόπου
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/DThbZ7z">ReSwitched on Discord</a>.
-  - 
-    title: Εάν σας βοηθήσε αυτός ο οδηγός, μπορείτε να κάνετε μια <a href="donations">Δωρεά</a>.
+    title: Αυτός ο οδηγός είναι σήμερα ξεπερασμένος (και υπήρξε για κάποιο χρονικό διάστημα) καθώς είμαι εξαιρετικά απασχολημένος με τα μαθήματά μου αυτές τις μέρες. Θα ενημερωθεί αμέσως μόλις είμαι σε θέση, αλλά μέχρι τότε δείτε <a href="https://nh-server.github.io/switch-guide/">/r/SwitchHacks στο Reddit</a> για πιο ενημερωμένες πληροφορίες.
 footer:
   - 
     title: Κώδικας
   - 
-    title: Site Navigation
+    title: Πλοήγηση Iστοτόπου
   - 
     title: Γιατί βλέπω διαφημίσεις;
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
-    title: Συνολική πρόοδος
+    title: Συνολική Πρόοδος
 sidebar_pages:
   - 
-    title: Home
+    title: Αρχική
     url: /
   - 
     title: Ας αρχίσουμε
     url: get-started
   - 
-    title: Αποκλεισμός ενημερώσεων
+    title: Αποκλεισμός Ενημερώσεων
     url: blocking-updates
   - 
     title: Ενημέρωση μέσω Kασέτας Παιχνιδιού
@@ -56,5 +56,5 @@ sidebar_pages:
     title: Homebrew Launcher (Installer)
     url: homebrew-launcher-(installer)
   - 
-    title: Multiple Options
+    title: Πολλαπλές Επιλογές
     url: multiple-options
