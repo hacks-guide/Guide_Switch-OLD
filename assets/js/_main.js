@@ -114,7 +114,7 @@ $(document).ready(function(){
   var sidebar_hidden_pages = ["404", "credits", "development-(libtransistor)", "donations",
                               "f3-(linux)", "f3x-(mac)", "faq", "file-extensions-(windows)", "get-started",
                               "h2testw-(windows)", "homebrew-development", "site-navigation", "troubleshooting",
-                              "why-ads"];
+                              "why-ads", "privacy-policy"];
 
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
