@@ -23,9 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/DThbZ7z">Discord de ReSwitched</a>.
-  - 
-    title: Si aprecias esta guía, acepto <a href="donations">donaciones</a>.
+    title: Esta guía se encuentra desactualizada (y lo ha estado ya por un tiempo) debido a que estos tiempos he estado demasiado ocupado con mis estudios. Será actualizada tan pronto como pueda, pero hasta entonces ve a <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> (en Inglés) para obtener información más actualizada.
 footer:
   - 
     title: Código fuente
@@ -33,6 +31,8 @@ footer:
     title: Navegación del sitio
   - 
     title: '¿Por qué anuncios?'
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progreso total
