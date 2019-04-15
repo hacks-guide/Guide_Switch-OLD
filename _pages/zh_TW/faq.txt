@@ -12,7 +12,7 @@ title: "常見問題 FAQ"
 **A:** 如果您只想要運行 Homebrew Launcher，這是沒問題的；不過若您想要運行自製韌體 (如即將推出的『Atmosphère』)，您需要至少 64GB 的 SD 卡。Switch 的 emuNAND 至少需要 32GB 的空間。
 
 <a name="faq_exfatsd" />**Q:** *我的 Switch 提到我需要進行系統更新才能使用我的SD卡，我可以解決這個問題嗎？*    
-**A:** Yes; SD cards above 32GB come formatted as exFAT by default, and the Switch cannot use exFAT cards without installing the exFAT System Update. 不幸的是，如果您目前並不是使用最新的系統韌體，您將無法再不更新系統韌體的狀況下安裝此更新。 您可以透過像是 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 這類的工具將 SD 卡格式化為 FAT32 來解決這問題。 
+**A:** 是; 預設情況下，32GB 以上的 SD 卡將被格式化為exFAT，如果不安裝 exFAT 系統更新，Switch 將無法使用 exFAT 格式的卡。 不幸的是，如果您目前並不是使用最新的系統韌體，您將無法再不更新系統韌體的狀況下安裝此更新。 您可以透過像是 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 這類的工具將 SD 卡格式化為 FAT32 來解決這問題。 
 
 <a name="faq_movesd" />**Q:** *改機後，我該如何更換新的 SD 卡？*    
 **A:** 從舊的 SD 卡將所有檔案複製到新的 SD 卡中即可。 
