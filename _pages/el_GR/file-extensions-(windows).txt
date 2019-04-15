@@ -1,37 +1,37 @@
 ---
-title: "File Extensions (Windows)"
+title: "Επεκτάσεις Αρχείων (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
+Αυτό είναι ένα πρόσθετο τμήμα για την κατάργηση της προκαθορισμένης συμπεριφοράς των Windows να έχει κρυφές τις επεκτάσεις ονόματος αρχείων.
 
-This will make it easier for you to find the referenced files in the rest of this guide.
+Αυτό θα καταστήσει ευκολότερο για εσάς να βρείτε τα αναφερόμενα αρχεία στη συνέχεια του οδηγού.
 
-### Instructions
+### Οδηγίες
 
 #### Windows 10 / 8.1 / 8
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
-1. Click the "View" option on the ribbon menu 
-1. Check the box labeled "File name extensions"
+1. Εκκινήστε τον Εξερευνητή Αρχείων ανοίγοντας οποιοδήποτε κατάλογο περιεχομένων, όπως αυτόν της κάρτας SD
+1. Κάντε κλικ στην επιλογή "Προβολή" στο μενού κορδέλα 
+1. Επιλέξτε το κουτί με την ένδειξη "Επεκτάσεις ονόματος αρχείων"
 
     ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
 #### Windows 7
 
-1. Open the start menu by clicking on it or using the Windows key
-1. Search for "Folder Options" and select the corresponding result
+1. Ανοίξτε το μενού έναρξης κάνοντας κλικ σε αυτό ή χρησιμοποιώντας το πλήκτρο των Windows
+1. Κάντε αναζήτηση για "Επιλογές Φακέλων" και επιλέξτε το αντίστοιχο αποτέλεσμα
 
     ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
     {: .notice--info}
 
-1. Click the "View" option at the top of the Folder Options menu
-1. Uncheck the box labeled "Hide extensions for known file types"
+1. Κάντε click στην επιλογή "Προβολή" στο πάνω μέρος του μενού Επιλογές Φακέλων
+1. Αποεπιλέξτε το κουτί με την ένδειξη "Απόκρυψη επεκτάσεων για γνωστούς τύπους αρχείων"
 
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
 
-### Return to [Get Started](get-started)
+### Επιστροφή στο [Ας αρχίσουμε](get-started)
 {: .notice--primary}
