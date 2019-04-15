@@ -1,38 +1,38 @@
 ---
-title: "Site Navigation" #
+title: "Πλοήγηση Ιστοτόπου" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Δημοφιλή**
 
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
-+ [Blocking Updates](blocking-updates)
-+ [Game Card Update](game-card-update)
++ [Αποκλεισμός Ενημερώσεων](blocking-updates)
++ [Ενημέρωση μέσω Κασέτας Παιχνιδιού](game-card-update)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**All**
+**Όλα**
 
-+ [Blocking Updates](blocking-updates)
++ [Αποκλεισμός Ενημερώσεων](blocking-updates)
 + [Credits](credits)
-+ [Development (libtransistor)](development-(libtransistor))
++ [Ανάπτυξη (libtransistor)](development-(libtransistor))
 + [Donations](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Game Card Update](game-card-update)
-+ [Get Started](get-started)
++ [Επεκτάσεις Αρχείων (Windows)](file-extensions-(windows))
++ [Ενημέρωση μέσω Κασέτας Παιχνιδιού](game-card-update)
++ [Ας αρχίσουμε](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
-+ [Homebrew Development](homebrew-development)
++ [Home](/el_GR/)
++ [Ανάπτυξη Homebrew](homebrew-development)
 + [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
 + [Homebrew Launcher (PegaSwitch)](homebrew-launcher-(pegaswitch))
 + [Troubleshooting](troubleshooting)
-+ [Why Ads?](why-ads)
++ [Γιατί βλέπω διαφημίσεις;](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
