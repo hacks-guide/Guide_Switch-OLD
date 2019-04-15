@@ -23,9 +23,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: 若需英語支援，請於 <a href="https://discord.gg/DThbZ7z">Discord 上的 ReSwitched 伺服器</a>發問。
-  - 
-    title: 如果你喜歡本教學，我很樂意接受<a href="donations">捐贈</a>。
+    title: 此手冊礙於個人課業因素一段時間沒更新了，可以的話我將盡快更新此內容。在這之前，請見 <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a>。
 footer:
   - 
     title: 本站原始碼
@@ -33,6 +31,8 @@ footer:
     title: 網站導覽
   - 
     title: 為什麼會有廣告?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: 整體進度
