@@ -1,5 +1,5 @@
 ---
-title: "Donations" #
+title: "Δωρεές" #
 layout: single-no-ads
 ---
 
