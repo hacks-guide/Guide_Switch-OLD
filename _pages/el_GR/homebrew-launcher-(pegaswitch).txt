@@ -2,144 +2,144 @@
 title: "Homebrew Launcher (PegaSwitch)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
-### Required Reading
+### Απαραίτητη Ανάγνωση
 
-On firmwares 1.0.0 - 2.3.0, the Homebrew Launcher is currently "installed" to your device through a script ran through [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+Στα firmwares 1.0.0 - 2.3.0, το Homebrew Launcher είναι επί του παρόντος "εγκατεστημένο" στη συσκευή σας μέσω ενός script που τρέχει μέσω του [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
-This will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*, after which you must *rerun the script* to restore Homebrew Launcher functionality. 
+Αυτό θα σας επιτρέψει να έχετε πρόσβαση στο Homebrew Launcher μέσω της εφαρμογής Album *μέχρι να γίνει επανεκκίνηση της συσκευής σας*, μετά από την οποία θα πρέπει *να επανεκκινήσετε το script* για να επαναφέρετε τη λειτουργικότητα του Homebrew Launcher. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+Μετά από μια επανεκκίνηση, θα πρέπει να εκτελέσετε εκ νέου αυτό το δευτερεύον exploit, προκειμένου να ενεργοποιήσετε εκ νέου την πρόσβαση του Homebrew Launcher στη συσκευή σας. Επιπλέον, σημειώστε ότι αυτό το δευτερεύον exploit θα σας εμποδίσει να παίζετε παιχνίδια λιανικής για όσο διάστημα παραμένει ενεργό (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
  
-If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "tethered jailbreak".
+Εάν είστε εξοικειωμένοι με τον όρο "jailbreaking" στις iOS συσκευές, η παραπάνω διαδικασία θα μπορούσε να θεωρηθεί ανάλογη ενός "tethered jailbreak".
 
-Note that, while these instructions also work on firmware version 3.0.0, it would be far easier to instead follow [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) for that firmware version.
+Σημειώστε ότι, παρόλο που αυτές οι οδηγίες λειτουργούν και για την έκδοση 3.0.0 του λογισμικού, θα ήταν πολύ πιο εύκολο να ακολουθήσετε το [Homebrew Launcher (Installer)](homebrew-launcher-(installer)) για αυτήν την έκδοση λογισμικού.
 {: .notice--info}
 
-### What you need
+### Τι χρειάζεστε
 
-* **Firmware 1.0.0:** The 1.0.0 release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*the latest nx-hbmenu currently crashes on 1.0.0*)
-* **Firmware 2.0.0 - 2.3.0:** The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
-* The latest version of [PegaSwitch](https://github.com/reswitched/PegaSwitch)
-* The latest version of [node.js](https://nodejs.org/en/)
+* ** Firmware 1.0.0:** Την έκδοση 1.0.0 του [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*το τελευταίο nx-hbmenu επί του παρόντος crashάρει σε 1.0.0*)
+* **Firmware 2.0.0 - 2.3.0:** Την τελευταία έκδοση του [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* Την πιο πρόσφατη έκδοση του [PegaSwitch](https://github.com/reswitched/PegaSwitch)
+* Την τελευταία έκδοση του [node.js](https://nodejs.org/en/)
 * [hbl.nsp]({{ "/images/hbl.nsp" | absolute_url }}){:download}
 * [nsp.js]({{ "/images/nsp.js" | absolute_url }}){:download}
 
-### Instructions
+### Οδηγίες
 
-#### Section I - Prep Work
+#### Ενότητα I - Προετοιμασία
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
-1. Copy `hbl.nsp` to the root of your SD card
-1. Create a folder named `switch` on the root of your SD card if it does not already exist
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Απενεργοποιήστε την κονσόλα σας
+1. Εισάγετε την κάρτα SD στον υπολογιστή σας
+1. Αντιγράψτε το αρχείο `hbmenu.nro` από το nx-hbmenu `.zip` στην κάρτα SD
+1. Αντιγράψτε το αρχείο `hbl.nsp` στην κάρτα SD
+1. Δημιουργήστε ένα φάκελο με την ονομασία `switch` στην κάρτα SD, αν δεν υπάρχει ήδη
+1. Τοποθετήστε ξανά την κάρτα SD στην κονσόλα σας
+1. Ενεργοποιήστε τη συσκευή σας
 
-#### Section II - PegaSwitch Configuration
+#### Ενότητα II - Ρύθμιση του PegaSwitch
 
-1. After downloading the latest version of PegaSwitch, copy `nsp.js` to `PegaSwitch/usefulscripts`
-1. Start CMD / Terminal and `cd` to the PegaSwitch folder
-1. Run `npm install`; this will install the node modules that PegaSwitch depends on
-1. Start PegaSwitch by running the command corresponding to your operating system
-  + **Linux/macOS:** Run `sudo node start.js` and make note of the IP address it displays
-  + **Windows:** Run `node start.js` and make note of the IP address it displays
-1. Exit PegaSwitch by inputting Ctrl+C twice
+1. Αφού κατεβάσετε την τελευταία έκδοση του PegaSwitch, αντιγράψτε το αρχείο `nsp.js` στον φάκελο `PegaSwitch/usefulscripts`
+1. Ξεκινήστε το CMD / Terminal και μεταβείτε στο φάκελο του PegaSwitch χρησιμοποιώντας την εντολή `cd`
+1. Εκτελέστε `npm install`, αυτό θα εγκαταστήσει τις μονάδες node από τις οποίες εξαρτάται το PegaSwitch
+1. Ξεκινήστε το PegaSwitch εκτελώντας την εντολή που αντιστοιχεί στο λειτουργικό σας σύστημα
+  + **Linux/macOS:** Εκτελέστε την εντολή `sudo node start.js` και σημειώστε την IP διεύθυνση που θα εμφανιστεί
+  + **Windows:** Εκτελέστε την εντολή `node start.js` και σημειώστε την IP διεύθυνση που θα εμφανιστεί
+1. Βγείτε από το PegaSwitch πατώντας δύο φορές Ctrl+C
 
-#### Section III - DNS Configuration
+#### Ενότητα IIΙ - Ρύθμιση του DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to in order for it to be able to trigger the exploit.
+Σημειώστε πως θα πρέπει να ρυθμίζετε τους διακομιστές DNS ξεχωριστά για κάθε δίκτυο ώστε να εκτελέσετε το exploit.
 {: .notice--info}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
-  + This is usually in the format of `192.168.1.XXX`
-1. Save the network settings
-1. Exit System Settings
+1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
+1. Πηγαίνετε στο `Internet` -> `Internet Settings`
+1. Επιλέξτε το τρέχον δίκτυό σας
+  + Αυτό υποδηλώνεται από ένα πράσινο check δίπλα στο δίκτυο
+1. Επιλέξτε "Change Settings"
+1. Ρυθμίστε το "DNS Settings" σε "Manual"
+1. Ορίστε το "Primary DNS" και το "Secondary DNS" στη διεύθυνση IP που εμφανίζεται από το PegaSwitch
+  + Αυτή είναι συνήθως της μορφής `192.168.1.XXX`
+1. Αποθηκεύστε τις αλλαγές
+1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
-#### Section IV - Initial Installation
+#### Ενότητα IV - Αρχική Εγκατάσταση
 
-Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
+Σημειώστε πως θα πρέπει να ξανά-πραγματοποιείτε αυτήν την ενότητα του exploit μετά από κάθε επανεκκίνηση για να έχετε πρόσβαση στο Homebrew Launcher.
 
-##### Option i - Firmware Version 1.0.0
+##### Επιλογή i - Έκδοση Λογισμικού 1.0.0
 
-Note that this option only applies devices with firmware version 1.0.0; if you have firmware versions 2.0.0 - 2.3.0, scroll down to "Option ii - Firmware Versions 2.0.0 - 2.3.0".
+Σημειώστε ότι αυτή η επιλογή ισχύει μόνο για συσκευές με έκδοση firmware 1.0.0, αν έχετε εκδόσεις λογισμικού 2.0.0 - 2.3.0, μετακινηθείτε προς τα κάτω στην επιλογή "Επιλογή ii - Εκδόσεις Λογισμικού 2.0.0 - 2.3.0".
 
-Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris S in order to connect to PegaSwitch for the first time. After that, an alternative method of connecting to PegaSwitch will become available.
+Σημειώστε ότι το firmware 1.0.0 απαιτεί επί του παρόντος ένα ιαπωνικό αντίγραφο του Puyo Puyo Tetris S για να συνδεθεί για πρώτη φορά με το PegaSwitch. Μετά από την πρώτη σύνδεση, θα γίνει διαθέσιμη μια εναλλακτική μέθοδος σύνδεσης στο PegaSwitch.
 {: .notice--info}
 
-1. Ensure your firewall does not block incoming connections to UDP port 53 or TCP ports 80 and 8100
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
-1. Press A and then press R
-1. Press A and touch the bottom-most menu item labelled "お問い合わせ先"
-1. Touch the SEGA logo in the bottom-left corner; this will launch the webapplet and load the PegaSwitch webpage.
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. In PegaSwitch on your computer, type `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch
+1. Βεβαιωθείτε ότι το τείχος προστασίας δεν αποκλείει τις εισερχόμενες συνδέσεις σε θύρα UDP 53 ή θύρες TCP 80 και 8100
+1. Εκκινήστε το PegaSwitch στη γραμμή εντολών/τερματικού σας πληκτρολογώντας την εντολή `sudo node start.js --webapplet`
+1. Εκκινήστε το Puyo Puyo Tetris S στη συσκευή σας
+1. Πιέστε το κουμπί A και, στη συνέχεια, πιέστε το κουμπί R
+1. Πιέστε το κουμπί A και αγγίξτε στο μενού το πιο κάτω στοιχείο με την ονομασία «お問い合わせ先»
+1. Αγγίξτε το λογότυπο SEGA στην κάτω αριστερή γωνία. Αυτό θα ξεκινήσει το webapplet και θα φορτώσει την ιστοσελίδα του PegaSwitch.
+1. Το PegaSwitch στον υπολογιστή σας θα πρέπει να δείχνει ότι η συσκευή σας έχει συνδεθεί και να εμφανίζει την έκδοση του λογισμικού της και τη διεύθυνση MAC της στη γραμμή εντολών.
+1. Στο PegaSwitch στον υπολογιστή σας, πληκτρολογήστε την εντολή `evalfile usefulscripts/nsp.js`
+1. Πιέστε το κουμπί Home για έξοδο
+1. Εκκινήστε την εφαρμογή Album
+1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher
 
-##### Option ii - Firmware Versions 2.0.0 - 2.3.0
+##### Επιλογή ii - Εκδόσεις Λογισμικού 2.0.0 - 2.3.0
 
-Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
+Σημειώστε ότι αυτή η επιλογή ισχύει μόνο για συσκευές με έκδοση λογισμικού 2.0.0 - 2.3.0. Αν έχετε έκδοση λογισμικού 1.0.0, μεταβείτε στο "Επιλογή i - Έκδοση Λογισμικού 1.0.0".
 
-1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-1. Select "Connect to this Network"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
-1. Select "Next"
-1. The PegaSwitch webpage will load
-1. PegaSwitch on your PC should show that your device has connected and show its firmware version and MAC address in the prompt.
-1. Run `evalfile usefulscripts/nsp.js`
-1. Press the Home button to exit
-1. Launch the Album applet
-1. If the exploit was successful, the Homebrew Launcher will launch 
+1. Εκκινήστε το PegaSwitch στη γραμμή εντολών/τερματικού σας πληκτρολογώντας την εντολή `sudo node start.js` 
+1. Πηγαίνετε στο `Internet` -> `Internet Settings`
+1. Επιλέξτε το τρέχον δίκτυό σας
+1. Επιλέξτε "Connect to this Network"
+1. Εάν η σύνδεση DNS ήταν επιτυχής, θα εμφανιστεί το μήνυμα "Registration is required to use this network."
+1. Επιλέξτε "Next"
+1. Τώρα θα φορτώσει η ιστοσελίδα του PegaSwitch
+1. Το PegaSwitch στον υπολογιστή σας θα πρέπει να δείχνει ότι η συσκευή σας έχει συνδεθεί και να εμφανίζει την έκδοση του λογισμικού της και τη διεύθυνση MAC της στη γραμμή εντολών.
+1. Εκτελέστε την εντολή `evalfile usefulscripts/nsp.js`
+1. Πιέστε το κουμπί Home για έξοδο
+1. Εκκινήστε την εφαρμογή Album
+1. Εάν το exploit εκτελέστηκε επιτυχώς, θα έχετε εισέλθει στο Homebrew Launcher 
 
-#### Section V - Fake News (Optional)
+#### Ενότητα V - Fake News (Προαιρετικό)
 
-As you must re-run the "Initial Installation" section of the exploit after each reboot, it would be ideal if there was a more convenient way of connecting to PegaSwitch.
+Καθώς πρέπει να επαναλαμβάνεται η ενότητα "Αρχική Εγκατάσταση" μετά από κάθε επανεκκίνηση, θα ήταν ιδανικό αν υπήρχε ένας πιο βολικός τρόπος σύνδεσης στο PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Ευτυχώς, μπορούμε να εγκαταστήσουμε μία ψεύτικη καταχώριση στην εφαρμογή News (το exploit "Fake News") η οποία μπορεί να κάνει τη σύνδεση στο PegaSwitch σημαντικά ευκολότερη.
 
-Note that modifying system save data can **brick** your device permanently if you are not careful! It is highly recommended to avoid editing the `installFakeNews.js` script to avoid damaging your device.
+Έχετε υπόψη ότι η αλλοίωση δεδομένων του συστήματος μπορεί να **brickάρει** την συσκευή μόνιμα αν δεν είστε προσεκτικοί! Είναι προτεινόμενη η αποφυγή αλλοίωσης του script `installFakeNews.js` ώστε να αποφευχθεί τυχούσα βλάβη στη συσκευή.
 {: .notice--warning}
 
-1. In order to do so, connect your device to PegaSwitch as in Section III
-1. Once connected to PegaSwitch, run `evalfile usefulscripts/installFakeNews.js` and wait for it to finish
-1. Reboot your device and you should see a PegaSwitch news entry
-1. To trigger Fake News, start PegaSwitch on your PC with `sudo node start.js --webapplet` and then select the Fake News entry on your device and tap to open the "video"
+1. Για να γίνει αυτό, συνδέστε την συσκευή σας στο PegaSwitch όπως στην Ενότητα ΙΙΙ
+1. Αφότου συνδεθείτε στο PegaSwitch, εκτελέστε την εντολή `evalfile usefulscripts/installFakeNews.js` και περιμένετε να τελειώσει τη διαδικασία
+1. Επανεκκινήστε τη συσκευή και θα πρέπει να δείτε μία καταχώρηση νέων PegaSwitch
+1. Για να χρησιμοποιήσετε το Fake News, τρέξτε το PegaSwitch στον υπολογιστή σας με την εκτέλεση της εντολής `sudo node start.js --webapplet` και μετά επιλέξτε την καταχώρηση Fake News στη συσκευή και πατήστε να ανοίξετε το "βίντεο"
 
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Σημειώστε πως, αυτήν την στιγμή, η ανάπτυξη σε homebrew βρίσκεται σε πολύ πρώιμο στάδιο και επομένως υπάρχουν πολύ λίγες διαθέσιμες εφαρμογές.
 
-You can find available applications on [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), or [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
+Μπορείτε να βρείτε εφαρμογές στο [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), στο [/r/SwitchHacks on reddit](https://www.reddit.com/r/SwitchHacks/), ή στο [Switch Homebrew on GBAtemp](https://gbatemp.net/forums/285/).
 
-To install homebrew applications, simply copy the homebrew `.nro` file to the `/switch/` folder on your SD card.
+Για να εγκαταστήσετε εφαρμογές homebrew, απλά αντιγράψτε το αρχείο `.nro` στον φάκελο με το όνομα `/switch/` (που βρίσκεται στην κάρτα SD).
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Τώρα μπορείτε να ξεκινήσετε το Homebrew εκκινώντας την εφαρμογή Album από το αρχικό μενού της συσκευής σας (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Τώρα δεν θα μπορείτε να ξεκινήσετε παιχνίδια κασετών λιανικής ή από το eShop (*μέχρι να γίνει επανεκκίνηση της συσκευής σας*).
 {: .notice--warning}
 
-You will need to re-run `evalfile usefulscripts/nsp.js` with PegaSwitch (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
+Θα πρέπει να ξανατρέξετε το παραπάνω μέρος του exploit (χρησιμοποιώντας οποιαδήποτε εφαρμογή περιηγητή) μετά από κάθε επανεκκίνηση ώστε να μπορείτε να χρησιμοποιείτε το Homebrew Launcher.
 {: .notice--warning}
 
-For regular homebrew and development progress summaries, check the [ReSwitched Weekly](https://reswitchedweekly.github.io/) blog regularly.
+Μπορείτε να ελέγχετε τακτικά για νέα που αφορούν το homebrew στο [Εβδομαδιαίο Blog των ReSwitched](https://reswitchedweekly.github.io/).
 {: .notice--primary}
 
-For information on contributing to homebrew development as a developer, check out the [Homebrew Development](homebrew-development) page.
+Εάν θέλετε να συνεισφέρετε στην ανάπτυξη του homebrew ως προγραμματιστής, μπορείτε να μεταβείτε στη σελίδα [Ανάπτυξης Homebrew](homebrew-development).
 {: .notice--primary}
