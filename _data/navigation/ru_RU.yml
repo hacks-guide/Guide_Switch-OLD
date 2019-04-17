@@ -21,6 +21,9 @@ main:
   - 
     title: Навигация по сайту
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
     title: Это руководство в настоящее время устарело (и было таким некоторое время), поскольку я очень занят учебой в эти дни. Оно будет обновлено как только я смогу, но до тех пор смотрите <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> для более актуальной информации.
