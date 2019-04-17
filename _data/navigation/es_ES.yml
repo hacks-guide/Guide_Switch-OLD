@@ -21,6 +21,9 @@ main:
   - 
     title: Navegación del sitio
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
     title: Esta guía se encuentra desactualizada (y lo ha estado ya por un tiempo) debido a que estos tiempos he estado demasiado ocupado con mis estudios. Será actualizada tan pronto como pueda, pero hasta entonces ve a <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> (en Inglés) para obtener información más actualizada.
