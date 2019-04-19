@@ -11,11 +11,11 @@ layout: single-no-ads
 
 'Tis site may embed external content (which might include, yet not be limited to, videos, images, 'n articles). When embedded content from another website be present, th' web browser behaves by th' same rules in accessin' both th' embedded content 'n th' other website itself.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+On account 'o 'tis, external websites wit' their content embedded in 'tis site may collect data concernin' ye. They may use cookies. They may embed additional third-party content wit' trackin'. 'N finally, they may monitor ye interaction wit' their embedded content, which might include trackin' ye interaction if ye be logged into an account on that website.
 
 ### Analytics
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+'Tis site has Google Analytics added fer analysis 'n monitorin' 'o site traffic. Additionally, 'tis site be hosted on GitHub Pages. GitHub Pages may collect data concernin' ye. It may use cookies. It may embed additional third-party content wit' trackin'. 'N finally, it may monitor ye interaction wit' 'tis site. Fer more information concernin' GitHub Pages 'n its relation to user privacy, ye oughtta read th' [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
 
 ### Information Collected
 
