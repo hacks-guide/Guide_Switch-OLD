@@ -5,11 +5,11 @@ layout: single-no-ads
 
 ### Cookies
 
-This site utilizes cookies in order to fascilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+'Tis site makes use 'o cookies in order to make it easier fer users to be routed through th' instructions 'o th' guide. Specifically, cookies power th' overall progress display on a page's sidebar fer simpler user navigation throughout th' site.
 
 ### Embedded Content From Other Websites
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+'Tis site may embed external content (which might include, yet not be limited to, videos, images, 'n articles). When embedded content from another website be present, th' web browser behaves by th' same rules in accessin' both th' embedded content 'n th' other website itself.
 
 These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
 
