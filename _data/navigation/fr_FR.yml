@@ -21,11 +21,12 @@ main:
   - 
     title: Index du site
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: Pour un support en Anglais, demandez de l'aide sur le <a href="https://discord.gg/DThbZ7z">Discord de ReSwitched</a>.
-  - 
-    title: Si vous appréciez ce guide, j'accepte les <a href="donations">Donations</a>.
+    title: Ce guide est actuellement obsolète (et l'a été depuis un certain temps) car je suis extrêmement occupé par mes cours ces jours-ci. Il sera mis à jour dès que je le pourrai, mais jusque-là référez-vous à <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> pour des informations plus à jour.
 footer:
   - 
     title: Source
@@ -33,6 +34,8 @@ footer:
     title: Index du site
   - 
     title: Pourquoi des pubs ?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progression globale

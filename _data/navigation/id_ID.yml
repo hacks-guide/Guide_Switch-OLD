@@ -21,11 +21,12 @@ main:
   - 
     title: Navigasi Situs
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/DThbZ7z">ReSwitched on Discord</a>.
-  - 
-    title: Jika Anda menghargai panduan ini, saya menerimanya <a href="donations">Donasi</a>.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
 footer:
   - 
     title: Sumber
@@ -33,6 +34,8 @@ footer:
     title: Site Navigation
   - 
     title: Mengapa Iklan?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Kemajuan secara keseluruhan

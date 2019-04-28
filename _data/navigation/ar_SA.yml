@@ -21,11 +21,12 @@ main:
   - 
     title: التنقل في الموقع
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: للدعم باللغة الإنجليزية، أطلب المساعدة في <a href="https://discord.gg/DThbZ7z"> ReSwitched على موقع Discord</a>.
-  - 
-    title: إذا أعجبك الشرح، أنا أقبل التبرعات <a href="donations">التبرعات</a>.
+    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
 footer:
   - 
     title: المصدر
@@ -33,6 +34,8 @@ footer:
     title: Site Navigation
   - 
     title: لماذا الإعلانات؟
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: التقدم العام

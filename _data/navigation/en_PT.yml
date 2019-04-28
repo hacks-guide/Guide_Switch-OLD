@@ -21,18 +21,21 @@ main:
   - 
     title: Site Treasure Map
     url: site-navigation
+top:
+  - 
+    title: '''Tis website be usin'' cookies in order to display ye progress through th'' guide on th'' sidebar. Cookies also be used fer enhancin'' ''tis site in other ways.'
 bottom:
   - 
-    title: Fer support in th' English 'o landlubbers, be askin' fer help at <a href="https://discord.gg/DThbZ7z">ReSwitched on Discord</a>.
-  - 
-    title: If ye be appreciatin' 'tis guide, ye can feel free to <a href="donations">Gimme Ye Gold</a>.
+    title: '''Tis guide currently be out ''o date, ''n it has been ''tis way fer quite some time. ''Tis be a result ''o me bein'' extremely busy wit'' me courses as ''o late. ''Tis guide gunna be updated straightaway when I''ve th'' ability, but ''til then ye oughtta follow th'' <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> (only in th'' English ''o landlubbers) fer more updated instruction.'
 footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: Site Treasure Map
   - 
     title: Why Ads?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Overall Progress

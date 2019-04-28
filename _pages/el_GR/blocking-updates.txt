@@ -1,46 +1,46 @@
 ---
-title: "Blocking Updates"
+title: "Αποκλεισμός Ενημερώσεων"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Πίνακας Περιεχομένων" %}
 
-### Required Reading
+### Απαραίτητη Ανάγνωση
 
-Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+Επί του παρόντος, το homebrew είναι διαθέσιμο μόνο για εκδόσεις λογισμικού έως και 3.0.0, αλλά η μελλοντική υποστήριξη homebrew και CFW έχει προγραμματιστεί για όλες τις εκδόσεις έως και 5.0.2.
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+Για να εγγυηθούμε την μελλοντική συμβατότητα, ρυθμίζουμε το DNS του δικτύου σας σε έναν διακομιστή (που παρέχετε από τους ReSwitched), ο οποίος παρεμποδίζει της ενημερώσεις συστήματος.
 
-If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+Εάν χρησιμοποιείτε έκδοση firmware 5.0.2 και επιθυμείτε να συνεχίσετε να χρησιμοποιείτε τις online υπηρεσίες με μπλοκαρισμένες ενημερώσεις, μπορείτε να το κάνετε για όσο χρονικό διάστημα η 5.0.2 είναι η τελευταία έκδοση (δεδομένου ότι επιτρέπεται μόνο η πιο πρόσφατη έκδοση λογισμικού για πρόσβαση σε υπηρεσίες online). Για να λειτουργήσει αυτό, η μόνη απαίτηση είναι ότι πρέπει να έχετε συνδεθεί με τις υπηρεσίες online τουλάχιστον μία φορά πριν ακολουθήσετε αυτές τις οδηγίες.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+Επιπλέον, ενεργοποιούμε την λειτουργία Recovery / Maintenance και διαγράφουμε τυχόν δεδομένα που μπορεί να έχουν ληφθεί.
 
-### Instructions
+### Οδηγίες
 
-#### Section I - DNS Configuration
+#### Ενότητα I - Ρύθμιση του DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Σημειώστε πως θα πρέπει να ρυθμίσετε ξανά τους διακομιστές DNS κάθε φορά που συνδέεστε σε διαφορετικό δίκτυο ώστε να παρεμποδίζονται οι ενημερώσεις!
 {: .notice--warning}
 
-1. Launch System Settings
-1. Navigate to `Internet` -> `Internet Settings`
-1. Select your current network
-  + This is signified by a green check mark next to the network
-1. Select "Change Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
-1. Save the network settings
-1. Exit System Settings
+1. Μεταβείτε στις Ρυθμίσεις του Συστήματος
+1. Πηγαίνετε στο `Internet` -> `Internet Settings`
+1. Επιλέξτε το τρέχον δίκτυό σας
+  + Αυτό υποδηλώνεται από ένα πράσινο check δίπλα στο δίκτυο
+1. Επιλέξτε "Change Settings"
+1. Ρυθμίστε το "DNS Settings" σε "Manual"
+1. Ορίστε το "Primary DNS" σε `104.236.106.125`
+1. Ορίστε το "Secondary DNS" σε `62.210.147.20`
+1. Αποθηκεύστε τις αλλαγές
+1. Βγείτε από τις Ρυθμίσεις του Συστήματος
 
-#### Section II - Deleting Update Data
+#### Ενότητα II - Διαγραφή Δεδομένων Ενημέρωσης
 
-1. Power off your device
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. Do not select any of the options
-1. Any downloaded update data has been deleted from your system just by entering this menu
-1. Press (Power) to power off your device
+1. Απενεργοποιήστε την κονσόλα σας
+1. Ενεργοποιήστε την κρατώντας πατημένα τα κουμπιά (Power) + (Volume Up) + (Volume Down)
+1. Μην επιλέξετε καμία από τις επιλογές
+1. Τυχόν ληφθέντα δεδομένα ενημέρωσης έχουν τώρα διαγραφεί από την είσοδό σας σε αυτό το μενού
+1. Πατήστε το (Power) για να απενεργοποιήσετε την κονσόλα
 
 ___
 
-Updates are now blocked on your device for the configured network.
+Πλέον οι ενημερώσεις παρεμποδίζονται για το συγκεκριμένο δίκτυο.
 {: .notice--success}
