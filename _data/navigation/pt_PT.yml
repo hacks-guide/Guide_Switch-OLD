@@ -26,7 +26,7 @@ top:
     title: Este website utiliza cookies para mostrar, na barra lateral, o progresso atual do guia e otimizar o site doutras maneiras.
 bottom:
   - 
-    title: Este guia está atualmente desatualizado (e há já por algum tempo) porque estou extremamente ocupado com as aulas. Ele será atualizado assim que eu estiver disponível, mas até lá vê o<a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> para mais informações atualizadas.
+    title: Este guia está atualmente desatualizado (e há já por algum tempo) porque estou extremamente ocupado com as aulas. Será atualizado assim que eu estiver disponível, mas até lá vê o <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> para mais informações atualizadas.
 footer:
   - 
     title: Fonte
