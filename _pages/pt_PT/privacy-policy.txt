@@ -19,16 +19,16 @@ Este site usa o Google Analytics para monitorar e analisar tráfego. Este site �
 
 ### Informação Recolhida
 
-Este site não recolhe informação pessoal. This site may collect usage information in order to analyze interest in content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Este site não recolhe informação pessoal. Este site poderá recolher informações de uso de forma a analisar interesses em conteúdo e fornecer a anunciantes com informação numa base agregada. Nenhuma informação pessoal identificável é partilhada com empresas de anúncios de terceiros.
 
-Google (as a third party advertisement vendor) uses cookies to serve ads on this site. The use of DART cookies by Google allows them to serve advertisements to visitors based on their visits to this site as well as other sites. To opt-out of DART cookies, see the [Google Advertising Privacy Policy](http://www.google.com/policies/technologies/ads/).
+A Google (como uma empresa de anúncios de terceiros) utiliza cookies para fornecer anúncios neste site. O uso de cookies DART pela Google permite-lhes fornecer publicidade aos visitantes baseados nas suas visitas a este site bem como doutros sites. Para excluíres os cookies DART, vê a [Google Advertising Privacy Policy](http://www.google.com/policies/technologies/ads/).
 
-Other third-party advertising servers or networks may also use cookies to track user activity on this site to measure advertising effectiveness or for other reasons provided in their privacy policies. This site has no access or control over any cookies which may be used by third-party advertisers.
+Outros servidores ou redes de publicidade de terceiros poderão também usar cookies para seguir a atividade do utilizador neste site para medir a eficácia da publicidade ou por outras razões indicadas nas suas políticas de privacidade. Este site não tem acesso ou controlo sobre quaisquer cookies que possam ser usados por anunciantes de terceiros.
 
-### Third-Party Websites
+### Sítios Web de Terceiros
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Este site poderá usar hiperligações para outros sites para referência ou uso dos utilizadores. Este site não é responsável pela política de privacidade doutros sites. Os utilizadores devem estar cientes que a política de privacidade doutros sítios web poderá ser diferente da deste.
 
-### Changes to Privacy Policy
+### Alterações à Política de Privacidade
 
-The contents of this Privacy Policy may be altered at any time and for any reason. For questions regarding this site's Privacy policy, contact [plailect@gmail.com](mailto:plailect@gmail.com).
+Os conteúdos desta Política de Privacidade poderão ser alteradas em qualquer altura e por qualquer motivo. Para questões relacionadas com a Política de Privacidade deste site, contacta [plailect@gmail.com](mailto:plailect@gmail.com).
