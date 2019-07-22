@@ -14,14 +14,14 @@ If you still cannot solve your issue and need to reach out for help, please come
 
 This error occurs when the nx-hbmenu `.nro` is not found on your SD card.
 
-### What You Need
+### 准备工作
 
 * The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### 操作步骤
 
-1. 关闭你的设备电源
-1. Insert your SD card into your computer
+1. 将设备关机
+1. 将 SD 卡插入电脑
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
