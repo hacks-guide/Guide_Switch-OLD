@@ -25,7 +25,7 @@ Note that the current homebrew exploit has the side-effect of corrupting your de
 
 #### Section I - Prep Work
 
-1. 关闭你的设备电源
+1. 将设备关机
 1. Insert your SD card into your computer
 1. Copy `hbmenu.nro` from the nx-hbmenu `.zip` to the root of your SD card
 1. Create a folder named `switch` on the root of your SD card if it does not already exist
@@ -41,8 +41,8 @@ Note that these DNS servers will need to be set on each network you connect your
 1. 进入到 `互联网(Internet)` -> `互联网设置(Internet Settings)`
 1. 选择你当前的网络
   + 已连接的网络旁边会有绿色的标记
-1. 选择 "Change Settings"
-1. 找到 "DNS Settings" 将他设置为 "Manual"
+1. 选择 “更改设置(Change Settings)”
+1. 找到 “DNS设置(DNS Settings)” 将他设置为 “手动(Manual)”
 1. Set "Primary DNS" to `104.236.106.125`
 1. Set "Secondary DNS" to `62.210.147.20`
 1. 保存网络设置
