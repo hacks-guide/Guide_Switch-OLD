@@ -6,52 +6,52 @@ title: "游戏卡带升级"
 
 ### 重要事项
 
-All game cards contain a copy of the required firmware version to play it, allowing anyone on a lower version to update to that version and play the game (even without an internet connection).
+所有的游戏卡带都带有一份游玩它需要的固件版本，使得低于这个系统版本要求的主机可以在没有网络的情况下，也可以使用卡带升级到所需要的固件版本。
 
-We can take advantage of this by using a game containing a specific version in order to install a more recent firmware version (3.0.0) without updating all the way to the latest available. 
+我们可以利用这个特性使用包含（3.0.0）固件的游戏来升级，而无需直接更新到最新的系统固件。 
 
-Before performing the game card update, we block online updates by using airplane mode and enter Recovery / Maintenance Mode to delete any update data which may have already been downloaded.
+在执行游戏卡带更新之前，我们要使用飞行模式来阻止自动在线更新，然后进入还原 / 恢复模式 来删除可能已经下载好的更新包数据。
 
-### What you need
+### 准备工作
 
-* An original revision game card of [Pokkén Tournament DX](https://amzn.to/2F9nsF3)
-  + Original revisions of this game card contain 3.0.0; they have a green printed circuit board and a serial ending in **000** (see image below)
-  + Newer revisions of this game card contain 3.0.1; they have a black printed circuit board and a serial ending in **001** (*avoid using these to update!*)
+* 原版[宝可拳](https://amzn.to/2F9nsF3) (Pokkén Tournament DX) 游戏卡 
+  + 游戏卡的原始版本包含 3.0.0 的系统更新；它的电路板是绿色的，且序列号为 **000** 结尾 （如下图）
+  + 较新版本的游戏卡包含 3.0.1 的系统更新；它的电路板是黑色的，且序列号结尾为 **001** (*请尽量不要使用这个更新系统! *)
 
 ![]({{ "/images/screenshots/pokken-game-card.png" | absolute_url }}){:height="148px" width="203px"}
 {: .notice--info}
 
 ### 操作步骤
 
-#### Section I - Enable Airplane Mode
-
-1. Launch System Settings
-1. Navigate to `Airplane Mode`
-1. Enable Airplane Mode
-1. 退出系统设置
-
-#### Section II - Deleting Update Data
-
-1. 将设备关机
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
-1. 不要选择任何选项
-1. 只要进入该菜单，所有已下载的更新数据都会从你的系统中删除
-1. Press (Power) to power off your device
-
-#### Section III - Game Card Update
-
-1. Insert your Pokkén Tournament DX game card into your device
-1. Attempt to launch the game
-1. Update when prompted
-
-#### Section IV - Disable Airplane Mode
+第一步 — 开启飞行模式
 
 1. 启动系统设置
-1. Navigate to `Airplane Mode`
-1. Disable Airplane Mode
+1. 移动至 `飞行模式(Airplane Mode)`
+1. 开启飞行模式
+1. 退出系统设置
+
+#### 第二步 — 删除升级数据
+
+1. 将设备关机
+1. 使用组合键 “电源键”  + “音量加” + “音量减”来开机
+1. 不要选择任何选项
+1. 只要进入该菜单，所有已下载的更新数据都会从你的系统中删除
+1. 长按“电源键”关闭你的设备
+
+#### 第三步 — 游戏卡带更新
+
+1. 插入你的宝可拳游戏卡带。
+1. 尝试运行游戏
+1. 出现提示时，选择开始更新
+
+#### 第四步 — 禁用飞行模式
+
+1. 启动系统设置
+1. 移动至 `飞行模式(Airplane Mode)`
+1. 关闭飞行模式
 1. 退出系统设置
 
 ___
 
-### Continue to [Homebrew Launcher (Installer)](homebrew-launcher-(installer))
+### 继续至  [启动 Homebrew Launcher (通过安装程序)](homebrew-launcher-(installer))
 {: .notice--primary}
