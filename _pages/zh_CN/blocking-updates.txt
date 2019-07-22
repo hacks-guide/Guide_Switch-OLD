@@ -6,13 +6,13 @@ title: "阻止更新"
 
 ### 重要事项
 
-Currently, homebrew is only available for firmware versions up to 3.0.0, but future homebrew and CFW support is planned for all versions up to 5.0.2.
+目前，自制程序只能在最高为 3.0.0 的系统版本中运行，但是未来的自制程序和自制固件将会支持 5.0.2 的系统版本。
 
 In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
 
 If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
 
-Additionally, we enter Recovery / Maintenance Mode and delete any update data which may have already been downloaded.
+此外，我们将会进入还原 / 维护模式并删除任何可能已下载的更新数据。
 
 ### 操作步骤
 
@@ -22,10 +22,9 @@ Note that these DNS servers will need to be set on each network you connect your
 {: .notice--warning}
 
 1. 启动系统设置
-1. 进入到 `Internet` -> `Internet Settings`
-1. 选择当前网络
-  +  这个网络将有绿色的标记
-
+1. 进入到 `互联网(Internet)` -> `互联网设置(Internet Settings)`
+1. 选择你当前的网络
+  + 已连接的网络旁边会有绿色的标记
 1. 选择 "Change Settings"
 1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. Set "Primary DNS" to `104.236.106.125`
