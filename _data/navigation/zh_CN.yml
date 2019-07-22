@@ -44,20 +44,20 @@ sidebar_pages:
     title: 主页
     url: /
   - 
-    title: Get Started
+    title: 新手入门
     url: get-started
   - 
-    title: Blocking Updates
+    title: 阻止更新
     url: blocking-updates
   - 
-    title: Game Card Update
+    title: 使用游戏卡带升级
     url: game-card-update
   - 
-    title: Homebrew Launcher (PegaSwitch)
+    title: 启动 Homebrew Luancher (通过 PegaSwitch)
     url: homebrew-launcher-(pegaswitch)
   - 
-    title: Homebrew Launcher (Installer)
+    title: 启动 Homebrew Launcher（通过安装程序）
     url: homebrew-launcher-(installer)
   - 
-    title: Multiple Options
+    title: 多个选项
     url: multiple-options
