@@ -1,5 +1,5 @@
 ---
-title: "Game Card Update"
+title: "游戏卡带升级"
 ---
 
 {% include toc title="目录内容" %}
