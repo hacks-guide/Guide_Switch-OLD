@@ -8,39 +8,39 @@ title: "阻止更新"
 
 目前，自制程序只能在最高为 3.0.0 的系统版本中运行，但是未来的自制程序和自制固件将会支持 5.0.2 的系统版本。
 
-In order to guarantee future access, we set your current network's DNS to a server (hosted by ReSwitched) which blocks requests to Nintendo's Switch update server.
+为了以后都可以继续使用自制程序，你需要将一个屏蔽了任天堂 Switch 升级服务器的DNS服务器（由 ReSwitched 提供）设为你的DNS服务器。
 
-If you are on firmware version 5.0.2 and wish to continue to use online services with updates blocked, you can do so for as long as 5.0.2 is the latest version (as only the latest firmware version is permitted to access online services). For this to work, the only requirement is that you must have connected to online services at least once before following these instructions.
+如果你的固件版本已经是 5.0.2，并且希望禁用更新后仍可使用在线服务，那么只有在最新版本还是 5.0.2 的时候你才能使用（因为只有最新版本的固件才可以使用在线服务）。 为此在进行这些操作前，唯一的要求是你至少使用过一次在线服务。
 
 此外，我们将会进入还原 / 维护模式并删除任何可能已下载的更新数据。
 
 ### 操作步骤
 
-#### Section I - DNS Configuration
+#### 第一部分 — 配置 DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+请注意，你需要在连接设备的每个网络上都设置一遍 DNS 以阻止更新！
 {: .notice--warning}
 
 1. 启动系统设置
 1. 进入到 `互联网(Internet)` -> `互联网设置(Internet Settings)`
 1. 选择你当前的网络
   + 已连接的网络旁边会有绿色的标记
-1. 选择 "Change Settings"
-1. 找到 "DNS Settings" 将他设置为 "Manual"
-1. Set "Primary DNS" to `104.236.106.125`
-1. Set "Secondary DNS" to `62.210.147.20`
+1. 选择 “更改设置(Change Settings)”
+1. 找到 “DNS设置(DNS Settings)” 将他设置为 “手动(Manual)”
+1. 将 “主DNS(Primary DNS)” 设置为 `104.236.106.125`
+1. 将 “备用DNS(Secondary DNS)” 设为 `62.210.147.20`
 1. 保存网络设置
 1. 退出系统设置
 
-#### 第二部分 - 删除升级数据
+#### 第二部分 — 删除升级数据
 
-1. 关闭你的设备电源
-1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
+1. 将设备关机
+1. 按住『电源键』+『音量加』+『音量减』来开机
 1. 不要选择任何选项
-1. 只要进入该菜单，所有已下载的更新数据都会从你的系统重删除
-1. 长按电源键关机
+1. 只要进入该菜单，所有已下载的更新数据都会从你的系统中删除
+1. 长按“电源键”关机
 
 ___
 
-Updates are now blocked on your device for the configured network.
+现在你的设备上应该已经屏蔽升级了
 {: .notice--success}
