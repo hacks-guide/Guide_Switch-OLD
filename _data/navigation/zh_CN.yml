@@ -1,47 +1,47 @@
 ---
 main:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
-    title: FAQ
+    title: 常见问题
     url: faq
   - 
-    title: Donations
+    title: 捐赠
     url: donations
   - 
-    title: Credits
+    title: 致谢
     url: credits
   - 
-    title: Troubleshooting
+    title: 问题排查
     url: troubleshooting
   - 
-    title: Homebrew Development
+    title: 自制程序开发
     url: homebrew-development
   - 
-    title: Site Navigation
+    title: 网站导航
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: 本网站利用cookies在侧边栏上显示当前的操作进度并改善此站点的使用体验。
 bottom:
   - 
-    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
+    title: 此手册由于个人学业，已经过期有一段时间了，如果时间允许的话，我将尽快更新此内容。在这之前，请见<a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> 查询有关最新的消息。
 footer:
   - 
-    title: Source
+    title: 本站源码
   - 
-    title: Site Navigation
+    title: 网站导航
   - 
-    title: Why Ads?
+    title: 为什么会有广告？
   - 
-    title: Privacy Policy
+    title: 隐私政策
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 总进度
 sidebar_pages:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
     title: Get Started
