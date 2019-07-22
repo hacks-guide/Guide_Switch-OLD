@@ -32,10 +32,10 @@ Before performing the game card update, we block online updates by using airplan
 
 #### Section II - Deleting Update Data
 
-1. 关闭你的设备电源
+1. 将设备关机
 1. Power on your device while holding (Power) + (Volume Up) + (Volume Down)
 1. 不要选择任何选项
-1. 只要进入该菜单，所有已下载的更新数据都会从你的系统重删除
+1. 只要进入该菜单，所有已下载的更新数据都会从你的系统中删除
 1. Press (Power) to power off your device
 
 #### Section III - Game Card Update
