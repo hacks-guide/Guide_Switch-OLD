@@ -54,10 +54,9 @@ Note that these DNS servers will need to be set on each network you connect your
 {: .notice--info}
 
 1. 启动系统设置
-1. 进入到 `Internet` -> `Internet Settings`
-1. 选择当前网络
-  +  这个网络将有绿色的标记
-
+1. 进入到 `互联网(Internet)` -> `互联网设置(Internet Settings)`
+1. 选择你当前的网络
+  + 已连接的网络旁边会有绿色的标记
 1. 选择 "Change Settings"
 1. 找到 "DNS Settings" 将他设置为 "Manual"
 1. Set "Primary DNS" and "Secondary DNS" to the IP address displayed by PegaSwitch
@@ -93,8 +92,8 @@ Note that firmware 1.0.0 currently requires a Japanese copy of Puyo Puyo Tetris 
 Note that this option only applies devices with firmware versions 2.0.0 - 2.3.0; if you have firmware version 1.0.0, scroll up to "Option i - Firmware Versions 1.0.0".
 
 1. Launch PegaSwitch in your command/terminal prompt by typing `sudo node start.js` 
-1. 进入到 `Internet` -> `Internet Settings`
-1. 选择当前网络
+1. 进入到 `互联网(Internet)` -> `互联网设置(Internet Settings)`
+1. 选择你当前的网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Select "Next"
