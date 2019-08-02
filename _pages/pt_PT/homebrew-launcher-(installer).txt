@@ -119,7 +119,7 @@ Para instalar aplicações homebrew, simplesmente copia o ficheiro homebrew `.nr
 
 ___
 
-Podes agora lançar o Homebrew Launcher por iniciar a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
 {: .notice--success}
 
 Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
