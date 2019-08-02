@@ -6,11 +6,11 @@ title: "Homebrew Launcher (Instalador)"
 
 ### Leitura Obrigatória
 
-The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
+O Homebrew Launcher está atualmente "instalado" na tua consola através duma vulnerabilidade do navegador. 
 
 Após o processo inicial da instalação for concluído, uma vulnerabilidade secundária deverá ser executada que te permitirá aceder ao Homebrew Launcher através da aplicação Álbum *até que a tua consola seja reiniciada*. 
 
-After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Adicionalmente, nota que esta vulnerabilidade secundária também te impede que jogues jogos de retalho enquanto estiver ativa (*até a tua consola ser reiniciada*).
+Após um reinício, terás que voltar a executar esta vulnerabilidade secundária de forma a reativar o acesso ao Homebrew Launcher na tua consola. Adicionalmente, nota que esta vulnerabilidade secundária também te impede que jogues jogos de retalho enquanto estiver ativa (*até a tua consola ser reiniciada*).
  
 Se estiveres familiarizado com o "jailbreaking" de dispositivos iOS, esta ideia poderia ser considerada análoga a um "semi-untethered jailbreak".
 
@@ -119,7 +119,7 @@ Para instalar aplicações homebrew, simplesmente copia o ficheiro homebrew `.nr
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
+Podes agora executar o Homebrew Launcher iniciando a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
 Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
