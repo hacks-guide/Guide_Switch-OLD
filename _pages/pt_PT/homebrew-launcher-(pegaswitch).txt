@@ -77,7 +77,7 @@ Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tet
 
 1. Assegura-te de que a tua firewall não bloqueia nenhumas conexões de entrada à porta UDP 53 ou às portas TCP 80 e 8100
 1. Inicia o PegaSwitch na tua linha de comandos/terminal ao digitar `sudo node start.js --webapplet`
-1. Launch Puyo Puyo Tetris S on your device
+1. Abre o Puyo Puyo Tetris S na tua consola
 1. Prime A e depois prime R
 1. Prime A e toca no item do menu mais abaixo rotulado "お問い合わせ先"
 1. Toca no logótipo da SEGA no canto inferior esquerdo; isto irá abrir a webapplet e carregar a página web do PegaSwitch.
@@ -115,7 +115,7 @@ Nota que modificar os dados guardados do sistema pode **brickar** a tua consola 
 
 1. De forma a fazê-lo, conecta a tua consola ao PegaSwitch como na Secção III
 1. Uma vez conectado ao PegaSwitch, executa `evalfile usefulscripts/installFakeNews.js` e espera que ele termine
-1. Reboot your device and you should see a PegaSwitch news entry
+1. Reinicia a tua consola e deverás ver uma entrada de notícias do PegaSwitch
 1. Para acionar o Fake News, inicia o PegaSwitch no teu PC com `sudo node start.js --webapplet` e depois seleciona a entrada Fake News na tua consola e toca para abrires o "vídeo"
 
 ___
@@ -129,7 +129,7 @@ Para instalar aplicações homebrew, simplesmente copia o ficheiro homebrew `.nr
 
 ___
 
-Podes agora lançar o Homebrew Launcher ao iniciar a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
+Podes agora executar o Homebrew Launcher ao iniciar a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
 Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
