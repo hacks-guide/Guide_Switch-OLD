@@ -6,7 +6,7 @@ title: "Começar"
 
 ### Leitura Obrigatória
 
-Versões diferentes da consola irão exigir etapas diferentes para atingir o objetivo final atual do Homebrew. Está página irá ajudar-te a encontrar onde começar para a tua consola.
+Versões diferentes da consola irão exigir etapas diferentes para atingir o objetivo final atual do Homebrew. This page will help you find where to start for your device.
 
 Antes de começar, os utilizadores de Windows deveriam ativar a opção para revelar as extensões de ficheiros usando [Extensões de Ficheiro (Windows)](file-extensions-(windows))!
 {: .notice--info}
