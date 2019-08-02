@@ -56,8 +56,8 @@ Se estiveres familiarizado com o "jailbreaking" de dispositivos iOS, esta ideia 
 
 + Apesar dos hacks da Switch estarem constantemente a progredir, eles ainda não estão num estado de fácil utilização. Como tal, este guia poderá requerer algum conhecimento técnico de forma a resolver quaisquer problemas que possam surgir.
 + O âmbito da modificação de dispositivos está limitado para a maioria do homebrew atual, o que significa que há uma pequena hipótese de perda de dados ou dano à consola ao usar aplicações homebrew populares.
-+ Este guia irá funcionar em todos as consolas Switch nos firmwares desde 1.0.0 até 3.0.0, com todas as outras versões a terem um apoio futuro planeado para CFW. Há umas instruções incluídas para bloquear atualizações em dispositivos com versões do firmware >=3.0.1.
-+ Vais precisar de um cartão micro SD para a tua consola. Deveria ser formatado como FAT32 e [MBR, não GPT](http://www.howtogeek.com/245610/) (a maioria dos cartões micro SD irão ser formatados desta maneira por omissão). 
++ Este guia irá funcionar em todos as consolas Switch nos firmwares desde 1.0.0 até 3.0.0, com todas as outras versões a terem um apoio futuro planeado para CFW. Instructions are included for blocking updates on devices with firmware versions >=3.0.1.
++ You will need a micro SD card for your device. Deveria ser formatado como FAT32 e [MBR, não GPT](http://www.howtogeek.com/245610/) (a maioria dos cartões micro SD irão ser formatados desta maneira por omissão). 
 + Se a tua Switch não ler o teu cartão micro SD maior que 32GB sem uma Atualização do Sistema, podes usar o [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) no Windows para o formatar como FAT32 com um Tamanho da Unidade de Atribuição de 32KB (32768).
 
 ___
