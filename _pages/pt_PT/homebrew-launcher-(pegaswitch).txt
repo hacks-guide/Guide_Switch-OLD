@@ -6,11 +6,11 @@ title: "Homebrew Launcher (PegaSwitch)"
 
 ### Leitura Obrigatória
 
-Nos firmwares 1.0.0 - 2.3.0, o Homebrew Launcher está atualmente "instalado" na tua consola através de um script executado através do [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
+Nos firmwares 1.0.0 - 2.3.0, o Homebrew Launcher está atualmente "instalado" na tua consola através dum script executado através do [PegaSwitch](https://github.com/ReSwitched/PegaSwitch). 
 
 Isto permitir-te-á aceder ao Homebrew Launcher através da aplicação Álbum *até a tua consola reiniciar*, depois na qual terás que *voltar a executar o script* para restaurar a funcionalidade do Homebrew Launcher. 
 
-Depois de um reinício, terás que voltar a executar esta vulnerabilidade secundária de forma a reativar o acesso ao Homebrew Launcher na tua consola. Adicionalmente, nota que esta vulnerabilidade secundária também impede-te que jogues jogos de retalho enquanto estiver ativa (*até a tua consola ser reiniciada*).
+Depois dum reinício, terás que voltar a executar esta vulnerabilidade secundária de forma a reativar o acesso ao Homebrew Launcher na tua consola. Adicionalmente, nota que esta vulnerabilidade secundária também impede-te que jogues jogos de retalho enquanto estiver ativa (*até a tua consola ser reiniciada*).
  
 Se estiveres familiarizado com o "jailbreaking" de dispositivos iOS, esta ideia poderia ser considerada análoga a um "tethered jailbreak".
 
