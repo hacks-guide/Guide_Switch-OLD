@@ -23,7 +23,7 @@ Esta página é só para utilizadores de Windows. Se não estiveres no Windows, 
 1. Executa o `h2testw.exe`
 1. Seleciona "English"
 1. Clica "Select target"
-1. Seleciona a letra do volume do teu cartão SD
+1. Seleciona a letra do dispositivo do teu cartão SD
 1. Certifica-te de que "all available space" está selecionado
 1. Clica "Write + Verify"
 1. Espera até que o processo esteja completo
