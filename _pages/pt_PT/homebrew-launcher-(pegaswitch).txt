@@ -19,7 +19,7 @@ Nota que, apesar destas instruções também funcionarem na versão do firmware 
 
 ### O que precisas
 
-* **Firmware 1.0.0:** A versão 1.0.0 do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*o nx-hbmenu mais recente atualmente arrebenta na 1.0.0*)
+* **Firmware 1.0.0:** A versão 1.0.0 do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/tag/v1.0.0) (*o nx-hbmenu mais recente atualmente não funciona na versão 1.0.0*)
 * **Firmware 2.0.0 - 2.3.0:** A ultima versão do [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
 * A ultima versão do [PegaSwitch](https://github.com/reswitched/PegaSwitch)
 * A ultima versão do [node.js](https://nodejs.org/en/)
@@ -41,7 +41,7 @@ Nota que, apesar destas instruções também funcionarem na versão do firmware 
 #### Secção II - Configuração do PegaSwitch
 
 1. Depois de transferires a ultima versão do PegaSwitch, copia o `nsp.js` para `PegaSwitch/usefulscripts`
-1. Inicia o CMD / Terminal e escreve `cd` para ir à pasta do PegaSwitch
+1. Start CMD / Terminal and `cd` to the PegaSwitch folder
 1. Executa o `npm install`; isto irá instalar os módulos node dos quais o PegaSwitch depende
 1. Inicia o PegaSwitch executando o comando correspondente ao teu sistema operativo
   + **Linux/macOS:** Executa `sudo node start.js` e toma nota do endereço IP que revela
@@ -76,13 +76,13 @@ Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tet
 {: .notice--info}
 
 1. Assegura-te de que a tua firewall não bloqueia nenhumas conexões de entrada à porta UDP 53 ou às portas TCP 80 e 8100
-1. Inicia o PegaSwitch na tua linha de comandos/terminal ao digitar `sudo node start.js --webapplet`
+1. Inicia o PegaSwitch na tua linha de comandos ao escrever `sudo node start.js --webapplet`
 1. Abre o Puyo Puyo Tetris S na tua consola
 1. Prime A e depois prime R
 1. Prime A e toca no item do menu mais abaixo rotulado "お問い合わせ先"
 1. Toca no logótipo da SEGA no canto inferior esquerdo; isto irá abrir a webapplet e carregar a página web do PegaSwitch.
-1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal/linha de comandos.
-1. Dentro do PegaSwitch no teu computador, digita `evalfile usefulscripts/nsp.js`
+1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC na linha de comandos.
+1. Dentro do PegaSwitch no teu computador, escreve `evalfile usefulscripts/nsp.js`
 1. Prime o botão Home para sair
 1. Abre a applet Álbum
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir
@@ -91,24 +91,24 @@ Nota que o firmware 1.0.0 atualmente requer uma cópia japonesa do Puyo Puyo Tet
 
 Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0.0 - 2.3.0; se tiveres a versão 1.0.0, desloca-te até à "Opção i - Versões do Firmware 1.0.0".
 
-1. Inicia o PegaSwitch na tua linha de comandos/terminal ao digitar `sudo node start.js` 
+1. Inicia o PegaSwitch na tua linha de comandos ao escrever `sudo node start.js` 
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
 1. Seleciona "Conectar a esta Rede"
 1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
 1. Seleciona "Seguinte"
 1. A página web do PegaSwitch irá carregar
-1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC no terminal/linha de comandos.
+1. O PegaSwitch no teu PC deveria mostrar que a tua consola se conectou e também revelar a versão do firmware e o endereço MAC na linha de comandos.
 1. Executa `evalfile usefulscripts/nsp.js`
 1. Prime o botão Home para sair
 1. Abre a applet Álbum
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir 
 
-#### Secção V - Noticias Falsas (Opcional)
+#### Secção V - Notícias Falsas (Opcional)
 
 Como tens que voltar a executar a secção da "Instalação Inicial" da vulnerabilidade após cada reinício, seria ideal se houvesse uma maneira mais conveniente de conectar ao PegaSwitch.
 
-Felizmente, nós podemos instalar uma entrada falsa na applet Notícias (a vulnerabilidade "Fake News") o que poderá conectar ao PegaSwitch significativamente mais fácil.
+Felizmente, podemos instalar uma entrada falsa na applet Notícias (a vulnerabilidade "Fake News") o que poderá conectar ao PegaSwitch significativamente mais fácil.
 
 Nota que modificar os dados guardados do sistema pode **brickar** a tua consola permanentemente se não tiveres cuidado! É altamente recomendado evitar editar o script `installFakeNews.js` para evitar danificar a tua consola.
 {: .notice--warning}
@@ -121,7 +121,7 @@ Nota que modificar os dados guardados do sistema pode **brickar** a tua consola 
 ___
 
 
-Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom numero limitado de aplicações.
+Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom número limitado de aplicações.
 
 Poderás encontrar aplicações disponíveis no [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks no reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew no GBAtemp](https://gbatemp.net/forums/285/).
 
