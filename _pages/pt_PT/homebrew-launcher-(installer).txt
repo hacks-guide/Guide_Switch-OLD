@@ -53,7 +53,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
 1. Seleciona "Conectar a esta Rede"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é necessário para usar esta rede."
 1. Seleciona "Seguinte"
 1. A página web do Homebrew Launcher irá carregar
 1. Seleciona "Install"
@@ -71,13 +71,13 @@ Nota que terás de voltar a executar esta secção da vulnerabilidade após cada
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
 1. Seleciona "Conectar a esta Rede"
-1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
+1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é necessário para usar esta rede."
 1. Seleciona "Seguinte"
 1. A página web do Homebrew Launcher irá carregar
 1. Seleciona "Run"
 1. Se a vulnerabilidade tiver sucesso, irás receber um pop-up a pedir-te para sair
-1. Return to the home menu
-1. Launch the Album application
+1. Volta ao menu home
+1. Abre a aplicação Álbum
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir
 
 #### Secção V - Applets de Navegador Alternativas (Opcional)
@@ -92,7 +92,7 @@ Dois métodos convenientes para abrir um navegador estão listados abaixo:
 
 Para utilizar este método, cria uma segunda conta na tua consola. Não a vincules a uma Conta Nintendo.
 
-1. Launch Nintendo eShop
+1. Abre a Nintendo eShop
 1. Seleciona a segunda conta
 1. Seleciona "Iniciar sessão e vincular"
 1. A applet de navegador irá iniciar
@@ -111,7 +111,7 @@ Nota que, se não estiveres conectado aos servidores DNS, este método poderia *
 ___
 
 
-Note that, currently, homebrew development is in a very early state with a very limited number of applications.
+Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom número limitado de aplicações.
 
 Poderás encontrar aplicações disponíveis na [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks no reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew no GBAtemp](https://gbatemp.net/forums/285/).
 
@@ -122,7 +122,7 @@ ___
 Podes agora executar o Homebrew Launcher iniciando a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
-You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+Tu agora ficarás incapaz de abrir cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
 {: .notice--warning}
 
 Precisarás de voltar a executar o passo "Run" da vulnerabilidade (usando qualquer applet de navegador) após cada reinício de forma a reativar o acesso ao Homebrew Launcher na tua consola.
