@@ -20,7 +20,7 @@ Lê cuidadosamente todas as páginas introdutórias (incluindo esta!) antes de p
 
 {% capture notice-1 %}
 Este guia está disponível noutras linguagens!
-Clica no ícone <i class="fa fa-language" aria-hidden="true"></i> na parte superior direita da página para mudar a linguagem.    
+Clica no ícone <i class="fa fa-language" aria-hidden="true"></i> na parte superior direita da página para mudar o idioma.    
 Alternativamente, clica [aqui](https://crowdin.com/project/switch-guide) para ajudar a manter estas traduções atualizadas.
 {% endcapture %}
 
@@ -30,8 +30,8 @@ Alternativamente, clica [aqui](https://crowdin.com/project/switch-guide) para aj
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) normalmente refere-se a software que não é autorizado pela Nintendo. Isto inclui ferramentas de homebrew, aplicações, jogos e emuladores.
 
-Se a tua consola estiver na versão do firmware 2.0.0-3.0.0, executar homebrew na tua consola é 100% gratuito usando apenas o navegador do sistema. Versões de firmware mais baixas podem atualizar para 3.0.0 com o uso de um cartão de jogo. Versões de firmware mais elevadas podem bloquear atualizações futuras de forma a assegurar acesso a futuras vulnerabilidades.
-Se a tua consola estiver na versão de firmware 1.0.0, podes executar homebrew através de uma cópia da versão japonesa do Puyo Puyo Tetris S. 
+Se a tua consola estiver na versão do firmware 2.0.0-3.0.0, executar homebrew na tua consola é 100% gratuito usando apenas o navegador do sistema. Versões de firmware mais baixas podem atualizar para 3.0.0 com o uso dum cartão de jogo. Versões de firmware mais elevadas podem bloquear atualizações futuras de forma a assegurar acesso a futuras vulnerabilidades.
+Se a tua consola estiver na versão de firmware 1.0.0, podes executar homebrew através duma cópia da versão japonesa do Puyo Puyo Tetris S. 
 
 
 ## O que é Custom Firmware?
@@ -43,7 +43,7 @@ Adicionalmente, dependendo do tempo de disponibilidade de desenvolvimento, é po
 Se a tua consola estiver na versão do firmware 1.0.0 e estiveres interessado em acesso a CFW antecipado, a tua melhor opção atual é seguir esta página do guia [Bloquear Atualizações](blocking-updates), pega numa cópia japonesa do [Puyo Puyo Tetris S](http://amzn.to/2GCBhvf) (o que será necessário para o Custom Firmware antecipado), e esperar pacientemente por um lançamento de CFW.
 {: .notice--info}
 
-Se a tua consola estiver na versão do firmware >=3.0.1, a tua melhor opção atual é seguir a página [Bloquear Atualizações](blocking-updates) deste guia e esperar pacientemente por um lançamento de um CFW.
+Se a tua consola estiver na versão do firmware superior ou igual a 3.0.1, a tua melhor opção atual é seguir a página [Bloquear Atualizações](blocking-updates) deste guia e esperar pacientemente por um lançamento de um CFW.
 {: .notice--info}
 
 ## O que é que este guia instala?
