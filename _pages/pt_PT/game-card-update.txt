@@ -26,8 +26,8 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 #### Secção I - Ativar o Modo de Avião
 
 1. Abrir as Definições da Consola
-1. Navegar para o `Modo de Avião`
-1. Ativar o Modo de Avião
+1. Navega até ao `Modo de Avião`
+1. Ativa o Modo de Avião
 1. Sai das Definições da Consola
 
 #### Secção II - Apagando os Dados de Atualização
