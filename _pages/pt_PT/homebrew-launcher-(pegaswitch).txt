@@ -41,7 +41,7 @@ Nota que, apesar destas instruções também funcionarem na versão do firmware 
 #### Secção II - Configuração do PegaSwitch
 
 1. Depois de transferires a ultima versão do PegaSwitch, copia o `nsp.js` para `PegaSwitch/usefulscripts`
-1. Start CMD / Terminal and `cd` to the PegaSwitch folder
+1. Abre a linha de comandos e escreve `cd` para ir à pasta do PegaSwitch
 1. Executa o `npm install`; isto irá instalar os módulos node dos quais o PegaSwitch depende
 1. Inicia o PegaSwitch executando o comando correspondente ao teu sistema operativo
   + **Linux/macOS:** Executa `sudo node start.js` e toma nota do endereço IP que revela
@@ -104,11 +104,11 @@ Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0
 1. Abre a applet Álbum
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir 
 
-#### Secção V - Notícias Falsas (Opcional)
+#### Section V - Fake News (Optional)
 
 Como tens que voltar a executar a secção da "Instalação Inicial" da vulnerabilidade após cada reinício, seria ideal se houvesse uma maneira mais conveniente de conectar ao PegaSwitch.
 
-Felizmente, podemos instalar uma entrada falsa na applet Notícias (a vulnerabilidade "Fake News") o que poderá conectar ao PegaSwitch significativamente mais fácil.
+Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
 
 Nota que modificar os dados guardados do sistema pode **brickar** a tua consola permanentemente se não tiveres cuidado! É altamente recomendado evitar editar o script `installFakeNews.js` para evitar danificar a tua consola.
 {: .notice--warning}
