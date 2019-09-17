@@ -53,7 +53,7 @@ Nota que estes servidores DNS precisarão de ser definidos em cada rede que cone
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
 1. Seleciona "Conectar a esta Rede"
-1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
+1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Seleciona "Seguinte"
 1. A página web do Homebrew Launcher irá carregar
 1. Seleciona "Install"
@@ -71,13 +71,13 @@ Nota que terás de voltar a executar esta secção da vulnerabilidade após cada
 1. Navega até `Internet` -> `Definições da Internet`
 1. Seleciona a tua rede atual
 1. Seleciona "Conectar a esta Rede"
-1. Se a conexão por DNS tiver sucesso, verás a mensagem "O registo é obrigatório para usar esta rede."
+1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
 1. Seleciona "Seguinte"
 1. A página web do Homebrew Launcher irá carregar
 1. Seleciona "Run"
 1. Se a vulnerabilidade tiver sucesso, irás receber um pop-up a pedir-te para sair
-1. Voltar ao menu home
-1. Abrir a aplicação Álbum
+1. Return to the home menu
+1. Launch the Album application
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir
 
 #### Secção V - Applets de Navegador Alternativas (Opcional)
