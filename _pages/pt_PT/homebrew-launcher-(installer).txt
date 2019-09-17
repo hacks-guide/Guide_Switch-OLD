@@ -92,7 +92,7 @@ Dois métodos convenientes para abrir um navegador estão listados abaixo:
 
 Para utilizar este método, cria uma segunda conta na tua consola. Não a vincules a uma Conta Nintendo.
 
-1. Abrir a Nintendo eShop
+1. Launch Nintendo eShop
 1. Seleciona a segunda conta
 1. Seleciona "Iniciar sessão e vincular"
 1. A applet de navegador irá iniciar
@@ -111,7 +111,7 @@ Nota que, se não estiveres conectado aos servidores DNS, este método poderia *
 ___
 
 
-Nota que, atualmente, o desenvolvimento de homebrew está num estado muito prematuro com um bom numero limitado de aplicações.
+Note that, currently, homebrew development is in a very early state with a very limited number of applications.
 
 Poderás encontrar aplicações disponíveis na [switchbrew](http://switchbrew.org/index.php?title=Homebrew_Applications), [/r/SwitchHacks no reddit](https://www.reddit.com/r/SwitchHacks/), ou [Switch Homebrew no GBAtemp](https://gbatemp.net/forums/285/).
 
@@ -122,7 +122,7 @@ ___
 Podes agora executar o Homebrew Launcher iniciando a aplicação Álbum do menu home da tua consola (*até que a tua consola seja reiniciada*).
 {: .notice--success}
 
-Tu agora ficarás incapaz de executar cartões de jogo de retalho ou jogos da eShop (*até que a tua consola seja reiniciada*).
+You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
 {: .notice--warning}
 
 Precisarás de voltar a executar o passo "Run" da vulnerabilidade (usando qualquer applet de navegador) após cada reinício de forma a reativar o acesso ao Homebrew Launcher na tua consola.
