@@ -104,11 +104,11 @@ Nota que esta opção só se aplica a dispositivos com a versão do firmware 2.0
 1. Abre a applet Álbum
 1. Se a exploração da vulnerabilidade foi bem sucedida, o Homebrew Launcher irá abrir 
 
-#### Section V - Fake News (Optional)
+#### Secção V - Fake News (Opcional)
 
 Como tens que voltar a executar a secção da "Instalação Inicial" da vulnerabilidade após cada reinício, seria ideal se houvesse uma maneira mais conveniente de conectar ao PegaSwitch.
 
-Fortunately, we can install a fake entry into the News applet (the "Fake News" exploit) which can make connecting to PegaSwitch significantly easier.
+Felizmente, podemos instalar uma entrada falsa na applet Notícias (a vulnerabilidade Fake News) o que poderá conectar ao PegaSwitch significativamente mais fácil.
 
 Nota que modificar os dados guardados do sistema pode **brickar** a tua consola permanentemente se não tiveres cuidado! É altamente recomendado evitar editar o script `installFakeNews.js` para evitar danificar a tua consola.
 {: .notice--warning}
