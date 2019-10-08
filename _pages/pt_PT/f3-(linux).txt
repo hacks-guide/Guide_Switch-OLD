@@ -20,7 +20,7 @@ Esta página é só para utilizadores de Linux. Se não estiveres em Linux, cons
 
 1. Descomprime o arquivo f3 `.zip`
 1. `cd` para o diretório f3
-1. Executa `make` para compilar o F3
+1. Executa o `make` para compilar o F3
 1. Insere o teu cartão SD no teu computador
 1. Monta o teu cartão SD
 1. Executa `./f3write <o ponto de montagem do teu cartão SD>`
@@ -52,7 +52,7 @@ Esta página é só para utilizadores de Linux. Se não estiveres em Linux, cons
 
 ___
 
-Se o teste mostrar o resultado `Data LOST: 0.00 Byte (0 sectors)`, o teu cartão SD está em condições e podes apagar todos os ficheiros `.h2w` no teu cartão SD
+Se o teste mostrar o resultado `Data LOST: 0.00 Byte (0 sectors)`, o teu cartão SD está em condições e podes apagar todos os ficheiros `.h2w` do teu cartão SD
 {: .notice--success}
 
 Se o teste mostrar outros resultados, o teu cartão SD poderá estar corrompido ou danificado e poderás ter que o substituir!
