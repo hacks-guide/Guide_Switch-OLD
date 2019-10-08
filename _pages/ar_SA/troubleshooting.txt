@@ -16,7 +16,8 @@ title: "إستكشاف الأخطاء وإصلاحها"
 
 ### ما تحتاجة
 
-* The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest)
+* أحدث إصدار من [nx-hbmenu]
+(https://github.com/switchbrew/nx-hbmenu/releases/latest)
 
 ### التعليمات
 
