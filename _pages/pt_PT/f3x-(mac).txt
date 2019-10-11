@@ -27,7 +27,7 @@ Esta página é só para utilizadores de Mac. Se não estiveres em Mac, consulta
 
 ___
 
-Se o teste mostrar o resultado `Success! Your card is ok!` o teu cartão SD está em condições e podes apagar todos os ficheiros `.h2w` no teu cartão SD
+Se o teste mostrar o resultado `Success! Your card is ok!` o teu cartão SD está em condições e podes apagar todos os ficheiros `.h2w` do teu cartão SD
 {: .notice--success}
 
 Se o teste mostrar outros resultados, o teu cartão SD poderá estar corrompido ou danificado e poderás ter que o substituir!

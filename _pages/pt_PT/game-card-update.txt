@@ -26,8 +26,8 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 #### Secção I - Ativar o Modo de Avião
 
 1. Abrir as Definições da Consola
-1. Navegar para o `Modo de Avião`
-1. Ativar o Modo de Avião
+1. Navega até ao `Modo de Avião`
+1. Ativa o Modo de Avião
 1. Sai das Definições da Consola
 
 #### Secção II - Apagando os Dados de Atualização
@@ -41,13 +41,13 @@ Antes de realizar a atualização do cartão de jogo, nós bloqueamos as atualiz
 #### Secção III - Atualização do Cartão de Jogo
 
 1. Insere o teu cartão de jogo Pokkén Tournament DX na tua consola
-1. Tentar abrir o jogo
+1. Tenta abrir o jogo
 1. Atualiza quando for pedido
 
-#### Secção IV - Desativa o Modo de Avião
+#### Secção IV - Desativar o Modo de Avião
 
 1. Abre as Definições da Consola
-1. Navega para o `Modo de Avião`
+1. Navega até ao `Modo de Avião`
 1. Desativa o Modo de Avião
 1. Sai das Definições da Consola
 

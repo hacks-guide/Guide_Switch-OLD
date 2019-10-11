@@ -23,25 +23,25 @@ main:
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: يستخدم موقع الويب هذا ملفات تعريف الارتباط لعرض تقدم الدليل الحالي على الشريط الجانبي وتحسين الموقع بطريقة أخرى.
 bottom:
   - 
-    title: This guide is currently outdated (and has been for some time) as I am extremely busy with classes these days. It will be updated as soon as I am able, but until then see <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a> for more up-to-date information.
+    title: هذا الدليل عفا عليه الزمن حاليًا (وقد كان لبعض الوقت) لأنني مشغول جدًا بالفصول الدراسية هذه الأيام. سيتم تحديثه بمجرد أن أكون قادرًا ، ولكن حتى ذلك الحين انظر <a href="https://nh-server.github.io/switch-guide/">NH Switch Guide</a>لمزيد من المعلومات الحديثة.
 footer:
   - 
     title: المصدر
   - 
-    title: Site Navigation
+    title: التنقل في الموقع
   - 
     title: لماذا الإعلانات؟
   - 
-    title: Privacy Policy
+    title: سياسة الخصوصية
 sidebar_title:
   - 
     title: التقدم العام
 sidebar_pages:
   - 
-    title: Home
+    title: الصفحة الرئيسية
     url: /
   - 
     title: أبدأ
